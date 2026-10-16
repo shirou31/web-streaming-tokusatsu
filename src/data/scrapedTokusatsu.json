@@ -1,0 +1,1442 @@
+{
+  "metadata": {
+    "generatedAt": "2026-10-16T15:21:52.946Z",
+    "totalEpisodes": 25,
+    "primarySource": "TokusatsuIndo & Sawidago Network",
+    "targetFormat": "Tokuflix REST Schema 01/02 Standard",
+    "status": "success"
+  },
+  "episodes": [
+    {
+      "id": "scraped_prod_kr_myth_ep1",
+      "productionId": "prod_kr_myth",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider My-Th",
+      "title": "Kamen Rider My-Th Episode 1 Sub Indo",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-my-th-episode-1-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://www.tokusatsuindo.com/wp-content/uploads/2026/10/myte.png",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjU3Nn0.34cbdb590d92216e28710bb8fe1ddaab5d39e57c19e7220397be3396e815baa4",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (Direct Embed)",
+          "embedUrl": "https://gdplayer.to/x/?NzJOYjhnRHpPclhadE5FNytEWWFmOHVtMzA5S2lEUjhrRTI5SS9zSFlVaS82M0FLY2FPcU52UjhvZ2hpOWQvV0poUFAxalUrY0ttYkdEVjh4V1Y3Vnp3QnVOT2xpbUdQRDl6eHh4M3BHaXk0UWFINDgyYzlNVXZVL2dVZWNEUVlYUWxiV0l1OGJzK3dHMm9ubGY3dlpRNWxDMDhVMzRTQkY5ZHFoNjI3T2t1NFBVeTFnVmNiVGgvTXVrb0dSZE9vQytHOEtnMUlpS1crSVJZQldOOWoralVMTGxlc0l4ZTdYaXBkNFNrVDZKZm5IV0huRnA4V3EveG5OTEE0SjhYaw,,",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "directUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_4",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/preview",
+          "directUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-10-16T15:21:01.829Z"
+    },
+    {
+      "id": "scraped_prod_kr_myth_ep2",
+      "productionId": "prod_kr_myth",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider My-Th",
+      "title": "Kamen Rider My-Th Episode 2 Sub Indo",
+      "episodeNumber": 2,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-my-th-episode-2-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://www.tokusatsuindo.com/wp-content/uploads/2026/10/myte.png",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1CSjNuGkfCn6HKNuZchWqGgY3ctZp2iYU/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1zGnPJNBb5VtTQymXXftdL45szwQOjq0t/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjU3OX0.3951fa515cbb6614f5e816df63ad2855fba970fadafb906f3fa80e6085b75619",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (Direct Embed)",
+          "embedUrl": "https://gdplayer.to/x/?T1M5bjhBNk0xTjQveXVVbVlHNnNxNUNydUY0WVJqRFVLT2dENmdyVk5paVlidkRLd1pISjd0M2FQWXA1YUgxbEV1MlZyenYyR0ZYVXdBRTltQjB1bXR4ajVDVHFUNG1lZWNWTWdmbWI4Y1JTNXBMclduWCs0UjBoQzZPbnhUMm1kbzNGWXdjYXBnRkdhSDliYzV2cmtiMWhYbXNVd2FxSENOQ3RKWGVndDZQRFM2REFCVG1lMUJNNnhTRTEwSGoyWFVyOGEzd1UrR0Q4OFI5ZzdOOXNxaGhWcXg3ZTdtUTBhN1dRMWlvUTNYcHN4bExjSUtBdDdIT2dpbHI3anh3Zg,,",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1CSjNuGkfCn6HKNuZchWqGgY3ctZp2iYU/preview",
+          "directUrl": "https://drive.google.com/file/d/1CSjNuGkfCn6HKNuZchWqGgY3ctZp2iYU/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_4",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1zGnPJNBb5VtTQymXXftdL45szwQOjq0t/preview",
+          "directUrl": "https://drive.google.com/file/d/1zGnPJNBb5VtTQymXXftdL45szwQOjq0t/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-10-16T15:21:04.366Z"
+    },
+    {
+      "id": "scraped_prod_kr_myth_ep3",
+      "productionId": "prod_kr_myth",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider My-Th",
+      "title": "Kamen Rider My-Th Episode 3 Sub Indo",
+      "episodeNumber": 3,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-my-th-episode-3-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://www.tokusatsuindo.com/wp-content/uploads/2026/10/myte.png",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1KqW9EFubZiycj5mKRTUecVnx8jhbL041/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1PIvHthzR3KGUn5QJxylsUGH2De69evJz/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjU4MX0.97a2d27ea395f69dd86916e94b4359604e6c35f03c3d4e7344f2aa336d28e6cf",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (Direct Embed)",
+          "embedUrl": "//gdriveplayer.to/embed2.php?link=n9%252FsCnVImf%252F8tV5ThramFAczVU3SrtFQFqMWa%252B6ynhsI%252FQ8sTy2ywnCirCXVE3JCGvJQKi5%252Fv1rxDnxRtnSXaQtVydlwfVjMi2%252FIhXmzJF2ZXoFLIcZV0UjaO%252BbACwEIOgrb%252B%252BaNPeLrW%252B%252Bji0zRe%252B%252F8TXLMG76goGCyslVw%252Bp9rm4vG%252Fux8%252FcRJt4QOKzX10dEvMLHZsjZC%252BMqWJIKHIpVuRAGLThPlYwv1Bwnyk8kVhQnO5Lyp92XDnZxO4TmxkcgvWRGCb0MOwqGlV3894hpi%252FJ0A52ymqRALumLD4s2DHStFTcKzTfioggtfoUFlCXXTsu7zkVhpfQluWSlYLM",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1KqW9EFubZiycj5mKRTUecVnx8jhbL041/preview",
+          "directUrl": "https://drive.google.com/file/d/1KqW9EFubZiycj5mKRTUecVnx8jhbL041/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_4",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1PIvHthzR3KGUn5QJxylsUGH2De69evJz/preview",
+          "directUrl": "https://drive.google.com/file/d/1PIvHthzR3KGUn5QJxylsUGH2De69evJz/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-10-16T15:21:06.573Z"
+    },
+    {
+      "id": "scraped_prod_kr_myth_ep4",
+      "productionId": "prod_kr_myth",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider My-Th",
+      "title": "Kamen Rider My-Th Episode 4 Sub Indo",
+      "episodeNumber": 4,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-my-th-episode-4-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://www.tokusatsuindo.com/wp-content/uploads/2026/10/myte.png",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1PGS4o6c-SryzKHjpZKqSuv1Ib7pJn-eR/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1vlJP5cMCqHag8V47HsN9i73qHJAR8dhS/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjU4M30.d3b40a4100e69e2ef5cfcacc9fa77a2eb17527f59aa997375a853d16ced64798",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (Direct Embed)",
+          "embedUrl": "https://gdplayer.to/x/?MWhodUxEZFNRd3VvZ2tzeXpoZWppWitkYnhhRXBrKzlqY0sxckhReDNYc0dIVjZkUDdzeTBWMlNKNWVXSlFqVmhEak56ZFBXTzhDakpNdU9qQ1VBME9KRDM1WEx2VFJiRDhHemlrZlBqOFQvWFhiM3dKTGxBYi9kTlRQUDM0NTQ0MklnT3RqT2Zza3B6ZlJOTlhubWk2WkZPOHhSNG0yY2VDeUQyMForbVpWQUtzSkJySkJBdmtBNHlEdG9RRkdFVFFmMjltRVhDVlVUL2g0eFZBcjVVb0MwOCt6ZWZxVE1XeEN4RnJCVmxUcUsybGI5ZzhabGdBekttRnR6YzJ3Zw,,",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1PGS4o6c-SryzKHjpZKqSuv1Ib7pJn-eR/preview",
+          "directUrl": "https://drive.google.com/file/d/1PGS4o6c-SryzKHjpZKqSuv1Ib7pJn-eR/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_4",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1vlJP5cMCqHag8V47HsN9i73qHJAR8dhS/preview",
+          "directUrl": "https://drive.google.com/file/d/1vlJP5cMCqHag8V47HsN9i73qHJAR8dhS/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-10-16T15:21:08.057Z"
+    },
+    {
+      "id": "scraped_prod_kr_myth_ep5",
+      "productionId": "prod_kr_myth",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider My-Th",
+      "title": "Kamen Rider My-Th Episode 5 Sub Indo",
+      "episodeNumber": 5,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-my-th-episode-5-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://www.tokusatsuindo.com/wp-content/uploads/2026/10/myte.png",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/19vc0cDIV9lRLBysVCaOJiyGzBB6_3qn_/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1nAwgUVmLVBcx-OQU87w16d8WcNEqJs6p/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjU4NX0.6669be00d7e0e09133cfb0ce4ac319ea470ec9b19f2815d921a0d93495a44d8e",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (Direct Embed)",
+          "embedUrl": "https://gdplayer.to/x/?MVhoNEg3bmtvRlUwMkJxckh0M05ZVEFMdlV4c09McWN3anM1SnJKMlRnSlpybURCSS9KRXpxQ3NaVmJaeTY2ZHJKTXpWbFc3S05Icmx1SDRyWDBxREpiWk5iNFNraURHQ3lZOXpENXhGVjZ6eGZuaHZ5b2dyaVJqdWVaWTFLd1lYT3owaThuWk8wZVVBZWNiOTNISjhnPT0,",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/19vc0cDIV9lRLBysVCaOJiyGzBB6_3qn_/preview",
+          "directUrl": "https://drive.google.com/file/d/19vc0cDIV9lRLBysVCaOJiyGzBB6_3qn_/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_4",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1nAwgUVmLVBcx-OQU87w16d8WcNEqJs6p/preview",
+          "directUrl": "https://drive.google.com/file/d/1nAwgUVmLVBcx-OQU87w16d8WcNEqJs6p/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-10-16T15:21:09.992Z"
+    },
+    {
+      "id": "scraped_prod_kr_myth_ep6",
+      "productionId": "prod_kr_myth",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider My-Th",
+      "title": "Kamen Rider My-Th Episode 6 Sub Indo",
+      "episodeNumber": 6,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-my-th-episode-6-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://www.tokusatsuindo.com/wp-content/uploads/2026/10/myte.png",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/16_6X43XVFsW5MCz-qpSCA6sUbNb-XX7j/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/10lPEQRTmbZBKibKPXsIGGRAv6FeLB3OG/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjU4N30.8847a4f2c4b99533e4b4303b93a9a97b7bd514ae3feae64b554a564af5a0cd54",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (Direct Embed)",
+          "embedUrl": "https://gdplayer.to/x/?L0pPQ3BPam5VYldzZExCcnNZSElMcWxJN1FTaEE2SWFLVVhMMjZSZjFiZ3FsNTh4NmFlbFFqWlhCRS9KZzBRdGs5cFFwU3VEU1htN3ZBOVYvdEtKanJjRE5MNnd0cEtCRlpnbng3dmljaG9WZ3Y5M2tleTA4V0xMMURBS3NyK0szVmpjdFFuMDlmNCsrZnBwRmpOZzFnPT0,",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/16_6X43XVFsW5MCz-qpSCA6sUbNb-XX7j/preview",
+          "directUrl": "https://drive.google.com/file/d/16_6X43XVFsW5MCz-qpSCA6sUbNb-XX7j/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_4",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/10lPEQRTmbZBKibKPXsIGGRAv6FeLB3OG/preview",
+          "directUrl": "https://drive.google.com/file/d/10lPEQRTmbZBKibKPXsIGGRAv6FeLB3OG/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-10-16T15:21:12.496Z"
+    },
+    {
+      "id": "scraped_prod_kr_gavv_ep50",
+      "productionId": "prod_kr_gavv",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Gavv",
+      "title": "Kamen Rider Gavv Episode 50 (Final)",
+      "episodeNumber": 50,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-gavv-episode-50-sub-indonesia-final/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1gzEkki2HVb1tmWg0YqAAPSPZt3HBfW3i/view?usp=drivesdk",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/19PsZ7CvSwxJyuDmGjDAelm-hMfuZvN4f/view?usp=drivesdk",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6Mjg1fQ.9ac3c143c6cb807a8e2346425724a54afb9bef4f988091a8859b3653640ac3a3",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1gzEkki2HVb1tmWg0YqAAPSPZt3HBfW3i/preview",
+          "directUrl": "https://drive.google.com/file/d/1gzEkki2HVb1tmWg0YqAAPSPZt3HBfW3i/view?usp=drivesdk",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/19PsZ7CvSwxJyuDmGjDAelm-hMfuZvN4f/preview",
+          "directUrl": "https://drive.google.com/file/d/19PsZ7CvSwxJyuDmGjDAelm-hMfuZvN4f/view?usp=drivesdk",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-10-16T15:21:14.551Z"
+    },
+    {
+      "id": "scraped_prod_kr_gavv_ep49",
+      "productionId": "prod_kr_gavv",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Gavv",
+      "title": "Kamen Rider Gavv Episode 49",
+      "episodeNumber": 49,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-gavv-episode-49-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://www.tokusatsuindo.com/wp-content/uploads/2024/09/gavv.png",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1dkQPDIviq0KDKwiaIeAL47UYAY4bE_LV/view?usp=drivesdk",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1oL_v7Npce6-9QYOntoKT994V8jLdT8zs/view?usp=drivesdk",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6Mjg2fQ.b9e07698cdedefb41e50f94ccc35022dace5566a88e33f0a8448518a4fa0f8bf",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1dkQPDIviq0KDKwiaIeAL47UYAY4bE_LV/preview",
+          "directUrl": "https://drive.google.com/file/d/1dkQPDIviq0KDKwiaIeAL47UYAY4bE_LV/view?usp=drivesdk",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1oL_v7Npce6-9QYOntoKT994V8jLdT8zs/preview",
+          "directUrl": "https://drive.google.com/file/d/1oL_v7Npce6-9QYOntoKT994V8jLdT8zs/view?usp=drivesdk",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-10-16T15:21:16.176Z"
+    },
+    {
+      "id": "scraped_prod_kr_gavv_movie_ep52",
+      "productionId": "prod_kr_gavv_movie",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Gavv",
+      "title": "Kamen Rider Gavv: The Candy House Invaders (Movie)",
+      "episodeNumber": 52,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "movie",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-gavv-the-candy-house-invaders-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1e8WfB7LGeocf_HzCWJsRN_jm0EP75bXY/view?usp=drivesdk",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1dqp4Bv1WvHtNwdr5LnJdyDpOaOdyuaaN/view?usp=drivesdk",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6Mjh9.1102f22b81a25b4cce811bdc80be4d24bc7b61a55243bde319b202382d0148b0",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1e8WfB7LGeocf_HzCWJsRN_jm0EP75bXY/preview",
+          "directUrl": "https://drive.google.com/file/d/1e8WfB7LGeocf_HzCWJsRN_jm0EP75bXY/view?usp=drivesdk",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1dqp4Bv1WvHtNwdr5LnJdyDpOaOdyuaaN/preview",
+          "directUrl": "https://drive.google.com/file/d/1dqp4Bv1WvHtNwdr5LnJdyDpOaOdyuaaN/view?usp=drivesdk",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-10-16T15:21:18.338Z"
+    },
+    {
+      "id": "scraped_prod_kr_gavv_special_ep51",
+      "productionId": "prod_kr_gavv_special",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Gavv",
+      "title": "Kamen Rider Gavv: Guilty Parfait (Special)",
+      "episodeNumber": 51,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "movie",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-gavv-guilty-parfait-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://www.tokusatsuindo.com/wp-content/uploads/2024/09/gavv.png",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1hoobr3vNVZVvPUC15DAg4TrY0h_Gs_3w/view?usp=drivesdk",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1IsWtLqCG7vnzdwm_qtYYhMD1WadI-sFf/view?usp=drivesdk",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6MzB9.cce026a46aeb42338cdedf0efe6ae67c2a9df5a513a334b5f48c50b514366416",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6MzB9.cce026a46aeb42338cdedf0efe6ae67c2a9df5a513a334b5f48c50b514366416",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1hoobr3vNVZVvPUC15DAg4TrY0h_Gs_3w/preview",
+          "directUrl": "https://drive.google.com/file/d/1hoobr3vNVZVvPUC15DAg4TrY0h_Gs_3w/view?usp=drivesdk",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_4",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1IsWtLqCG7vnzdwm_qtYYhMD1WadI-sFf/preview",
+          "directUrl": "https://drive.google.com/file/d/1IsWtLqCG7vnzdwm_qtYYhMD1WadI-sFf/view?usp=drivesdk",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-10-16T15:21:19.867Z"
+    },
+    {
+      "id": "scraped_prod_ss_boonboomger_ep1",
+      "productionId": "prod_ss_boonboomger",
+      "franchise": "Super Sentai",
+      "seriesTitle": "Bakuage Sentai Boonboomger",
+      "title": "Bakuage Sentai Boonboomger Episode 1 Sub Indo",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/bakuage-sentai-boonboomger-episode-1-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/yNabCz32woEXgrcvRS8ASH55s3G.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1QPSCFSBkSqd7faB-S-w7_wY0W1JdS9q7/preview",
+      "driveDownloadUrl2": null,
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDQ4N30.af1103dcbf7de25cfc3e7ebd4d57365d0dc96ae131d3e660b5f1f320960e99a6",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1QPSCFSBkSqd7faB-S-w7_wY0W1JdS9q7/preview",
+          "directUrl": "https://drive.google.com/file/d/1QPSCFSBkSqd7faB-S-w7_wY0W1JdS9q7/preview",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-10-16T15:21:22.087Z"
+    },
+    {
+      "id": "scraped_prod_ss_boonboomger_movie_ep51",
+      "productionId": "prod_ss_boonboomger_movie",
+      "franchise": "Super Sentai",
+      "seriesTitle": "Bakuage Sentai Boonboomger",
+      "title": "Bakuage Sentai Boonboomger: Gekijoboon! (Movie)",
+      "episodeNumber": 51,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "movie",
+      "sourceUrl": "https://www.tokusatsuindo.com/bakuage-sentai-boonboomger-gekijoboon-promise-the-circuit-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/yNabCz32woEXgrcvRS8ASH55s3G.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1ZxpUwcgiwvnyTbRcD3NBps9kprKYJgYu/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1SlY3DGTS7QE2yXYePYZPLQSvQzI-pMwM/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NzAyfQ.622d856eb5a9c50983fc82a89ee45ec36d48305da89c72d44313d942bee7f6a2",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1ZxpUwcgiwvnyTbRcD3NBps9kprKYJgYu/preview",
+          "directUrl": "https://drive.google.com/file/d/1ZxpUwcgiwvnyTbRcD3NBps9kprKYJgYu/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1SlY3DGTS7QE2yXYePYZPLQSvQzI-pMwM/preview",
+          "directUrl": "https://drive.google.com/file/d/1SlY3DGTS7QE2yXYePYZPLQSvQzI-pMwM/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-10-16T15:21:23.678Z"
+    },
+    {
+      "id": "scraped_prod_ss_boonboomger_spec_ep52",
+      "productionId": "prod_ss_boonboomger_spec",
+      "franchise": "Super Sentai",
+      "seriesTitle": "Bakuage Sentai Boonboomger",
+      "title": "No.1 Sentai Gozyuger vs Boonboomger (Special)",
+      "episodeNumber": 52,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "movie",
+      "sourceUrl": "https://www.tokusatsuindo.com/no-1-sentai-gozyuger-vs-boonboomger-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://www.tokusatsuindo.com/wp-content/uploads/2025/02/goz-1.png",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1DwdRgxh55Uds6qNsKdDLyF93rVVnoDVA/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1ke9cFNRxREZ616SnAsk-n6euf7RdkKgq/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6Njk4fQ.f6bd1862afb0a720f901fbe6a53684c969c35cbba395b27d21c2481f2ee6dcab",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (Direct Embed)",
+          "embedUrl": "https://drive.google.com/file/d/1ke9cFNRxREZ616SnAsk-n6euf7RdkKgq/preview",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1DwdRgxh55Uds6qNsKdDLyF93rVVnoDVA/preview",
+          "directUrl": "https://drive.google.com/file/d/1DwdRgxh55Uds6qNsKdDLyF93rVVnoDVA/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_4",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1ke9cFNRxREZ616SnAsk-n6euf7RdkKgq/preview",
+          "directUrl": "https://drive.google.com/file/d/1ke9cFNRxREZ616SnAsk-n6euf7RdkKgq/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-10-16T15:21:25.293Z"
+    },
+    {
+      "id": "scraped_prod_kr_kuuga_ep1",
+      "productionId": "prod_kr_kuuga",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Kuuga",
+      "title": "Kamen Rider Kuuga Episode 1: Revival Sub Indo",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Heisei",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-kuuga-episode-1-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3J5rPQtETWuEyY9BPr2Lt7FGg7x.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1-z5lMeGtMBeM1PrPOGMrKUnbH0stt4RT/preview",
+      "driveDownloadUrl2": null,
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6MTg3OH0.9993850270aa789b3522a2a2b7c83949c32b0cd1b0e4593b3cce89115240ab0f",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1-z5lMeGtMBeM1PrPOGMrKUnbH0stt4RT/preview",
+          "directUrl": "https://drive.google.com/file/d/1-z5lMeGtMBeM1PrPOGMrKUnbH0stt4RT/preview",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-10-16T15:21:26.811Z"
+    },
+    {
+      "id": "scraped_prod_kr_kuuga_spec_ep50",
+      "productionId": "prod_kr_kuuga_spec",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Kuuga",
+      "title": "Kamen Rider Kuuga: Special Chapter (Movie/Special)",
+      "episodeNumber": 50,
+      "seasonNumber": 1,
+      "era": "Heisei",
+      "contentType": "movie",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-kuuga-special-chapter-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3J5rPQtETWuEyY9BPr2Lt7FGg7x.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1GR2QRdZZ83231NJg5TOkR8FfeSFQWWGt/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1axZylZ00oI6WxRRMVvHfgfTiFRzLfQ8B/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NTU4fQ.05f6b2ec65516f7f06075b2b0f4c8201ba33ff176e82ec786d2c4939b52f788a",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1GR2QRdZZ83231NJg5TOkR8FfeSFQWWGt/preview",
+          "directUrl": "https://drive.google.com/file/d/1GR2QRdZZ83231NJg5TOkR8FfeSFQWWGt/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1axZylZ00oI6WxRRMVvHfgfTiFRzLfQ8B/preview",
+          "directUrl": "https://drive.google.com/file/d/1axZylZ00oI6WxRRMVvHfgfTiFRzLfQ8B/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-10-16T15:21:28.391Z"
+    },
+    {
+      "id": "scraped_prod_kr_agito_ep1",
+      "productionId": "prod_kr_agito",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Agito",
+      "title": "Kamen Rider Agito Episode 1: Awakening Sub Indo",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Heisei",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-agito-episode-1-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://www.tokusatsuindo.com/wp-content/uploads/2018/02/agito23.png",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1SuqTkd5NqwyK_a3kKsP2GDLvWrDePMVY/preview",
+      "driveDownloadUrl2": null,
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6Mjc4Mn0.17e4849f9f983fc9b976d73cfbd1129fd8b8ac06f0512e1544c03419ef289d9b",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1SuqTkd5NqwyK_a3kKsP2GDLvWrDePMVY/preview",
+          "directUrl": "https://drive.google.com/file/d/1SuqTkd5NqwyK_a3kKsP2GDLvWrDePMVY/preview",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-10-16T15:21:29.900Z"
+    },
+    {
+      "id": "scraped_prod_kr_agito_spec_ep52",
+      "productionId": "prod_kr_agito_spec",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Agito",
+      "title": "Kamen Rider Agito: Psychic War (Movie/Special)",
+      "episodeNumber": 52,
+      "seasonNumber": 1,
+      "era": "Heisei",
+      "contentType": "movie",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-agito-psychic-war-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://www.tokusatsuindo.com/wp-content/uploads/2018/02/agito23.png",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1emDgkA6z--jTUs8617QDwOEmO5tMu-9o/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1Jyyc087h3aVqZpTh02cgQIE21xV-l4rM/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjU3OH0.14ecc056e908f6c827c7358b2e83419498613e89439015700b36debd452a0dc0",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (Direct Embed)",
+          "embedUrl": "https://gdplayer.to/x/?SjEwL1hiVmdRYWtPa1VFUWtUWlJwazJFTEFZVHlxNlZrNWwwY1FucHlIU0RMYUM0aUplWlhCdkdiM3VweXBRdDNjeVMyMXNqUE9URUVmbTVuZFdsMDNOWGl1bWZJRVJQYWhFanY2UkhVTFlBTEYyQmhBN0w4OFBLV1U0T2NZRlNpTmkrV1pKRHczR1dmUjJmbUZhWHBkZkllNFZhUkUxak5ZN2JjaktIbWNSME1SWmhsTjF2ejNPdm9Obis2NWo3Nlo2REwwZEhuV0krY1QrYUdSbjk5YWFxK1BIRy8xNEhwTXVlUG1WTFZ1WnFtSGkwYXNWOTVudWJ3UUp4c09iSA,,",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1emDgkA6z--jTUs8617QDwOEmO5tMu-9o/preview",
+          "directUrl": "https://drive.google.com/file/d/1emDgkA6z--jTUs8617QDwOEmO5tMu-9o/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_4",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1Jyyc087h3aVqZpTh02cgQIE21xV-l4rM/preview",
+          "directUrl": "https://drive.google.com/file/d/1Jyyc087h3aVqZpTh02cgQIE21xV-l4rM/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-10-16T15:21:31.452Z"
+    },
+    {
+      "id": "scraped_prod_kr_w_eternal_ep1",
+      "productionId": "prod_kr_w_eternal",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider W",
+      "title": "Kamen Rider W Returns: Kamen Rider Eternal (Movie)",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Heisei",
+      "contentType": "movie",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-w-returns-kamen-rider-eternal-movie-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "/posters/poster_eternal.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1Ff9_Gx1N3qae7VnK-BTgRIWPHo-5KRK7/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1B5T41TfvtQqNxEn8gX6y_F3n1WWTUOor/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjMzfQ.6d98a62eb86eca2a0cb0b74d6f50c8cdf104c62ced8902fbf320d3aacbc5335e",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1Ff9_Gx1N3qae7VnK-BTgRIWPHo-5KRK7/preview",
+          "directUrl": "https://drive.google.com/file/d/1Ff9_Gx1N3qae7VnK-BTgRIWPHo-5KRK7/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1B5T41TfvtQqNxEn8gX6y_F3n1WWTUOor/preview",
+          "directUrl": "https://drive.google.com/file/d/1B5T41TfvtQqNxEn8gX6y_F3n1WWTUOor/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-10-16T15:21:32.958Z"
+    },
+    {
+      "id": "scraped_prod_kr_build_rogue_ep1",
+      "productionId": "prod_kr_build_rogue",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Build",
+      "title": "Hyper Battle DVD: Kamen Rider Prime Rogue (Special)",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Heisei",
+      "contentType": "movie",
+      "sourceUrl": "https://www.tokusatsuindo.com/hyper-battle-dvd-kamen-rider-prime-rogue-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/kiXsuX5qAFUxHvf9BM7MPadFq62.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1ZIJFAfAu-YpLIDDnPUyoZEt_v3EImVLt/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1ggW7yOjYWONqcVADpcgjw2stvJAWdGEQ/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjcwfQ.a8646c8df15672709221be074771c1931d5251a043cfb0a52793a90c1371e197",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1ZIJFAfAu-YpLIDDnPUyoZEt_v3EImVLt/preview",
+          "directUrl": "https://drive.google.com/file/d/1ZIJFAfAu-YpLIDDnPUyoZEt_v3EImVLt/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1ggW7yOjYWONqcVADpcgjw2stvJAWdGEQ/preview",
+          "directUrl": "https://drive.google.com/file/d/1ggW7yOjYWONqcVADpcgjw2stvJAWdGEQ/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-10-16T15:21:34.531Z"
+    },
+    {
+      "id": "scraped_prod_ss_ten_gokaiger_ep1",
+      "productionId": "prod_ss_ten_gokaiger",
+      "franchise": "Super Sentai",
+      "seriesTitle": "Kaizoku Sentai Gokaiger",
+      "title": "Kaizoku Sentai: Ten Gokaiger (Movie Sub Indo)",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Heisei",
+      "contentType": "movie",
+      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-ten-gokaiger-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "/posters/poster_ten_gokaiger.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xg6TazTEgBG4QkQCht4OolOMAqBD_dD-/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1Mg-L_rMKFgZPjmMrH-e_vPcSSdz9ZDak/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6MTM3NH0.3f46df30ecd2d60e0ee6f782b3640cf713d30aadb442cd3e5f6d63f766180725",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1xg6TazTEgBG4QkQCht4OolOMAqBD_dD-/preview",
+          "directUrl": "https://drive.google.com/file/d/1xg6TazTEgBG4QkQCht4OolOMAqBD_dD-/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1Mg-L_rMKFgZPjmMrH-e_vPcSSdz9ZDak/preview",
+          "directUrl": "https://drive.google.com/file/d/1Mg-L_rMKFgZPjmMrH-e_vPcSSdz9ZDak/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-10-16T15:21:36.493Z"
+    },
+    {
+      "id": "scraped_prod_ultra_tiga_dyna_movie_ep1",
+      "productionId": "prod_ultra_tiga_dyna_movie",
+      "franchise": "Ultraman",
+      "seriesTitle": "Ultraman Tiga & Dyna",
+      "title": "Ultraman Tiga & Ultraman Dyna: Warriors of the Star of Light (Movie)",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Heisei",
+      "contentType": "movie",
+      "sourceUrl": "https://www.tokusatsuindo.com/ultraman-tiga-ultraman-dyna-warriors-of-the-star-of-light-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/twq2EahjRaUB6B8wjf7ddrCmLhJ.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1BZ1UzLzP6y_nHRSwayQHvHvC6K-XX2pc/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1qhFLCb5S-nvPcaHSeQUNnhEBQ_KamFbX/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NzQ2fQ.e66a505ce7cd7ec06dd804684aaf1f0849460f1bb1479b63acc9c63699487bf4",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1BZ1UzLzP6y_nHRSwayQHvHvC6K-XX2pc/preview",
+          "directUrl": "https://drive.google.com/file/d/1BZ1UzLzP6y_nHRSwayQHvHvC6K-XX2pc/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1qhFLCb5S-nvPcaHSeQUNnhEBQ_KamFbX/preview",
+          "directUrl": "https://drive.google.com/file/d/1qhFLCb5S-nvPcaHSeQUNnhEBQ_KamFbX/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-10-16T15:21:38.429Z"
+    },
+    {
+      "id": "scraped_prod_ultra_tiga_gaiden_ep2",
+      "productionId": "prod_ultra_tiga_gaiden",
+      "franchise": "Ultraman",
+      "seriesTitle": "Ultraman Tiga",
+      "title": "Ultraman Tiga Gaiden: Revival of the Ancient Giant (Movie)",
+      "episodeNumber": 2,
+      "seasonNumber": 1,
+      "era": "Heisei",
+      "contentType": "movie",
+      "sourceUrl": "https://www.tokusatsuindo.com/ultraman-tiga-gaiden-revival-of-the-ancient-giant-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/twq2EahjRaUB6B8wjf7ddrCmLhJ.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1waH4yY4Pc8SFZ9ra9Aa1VRwMke1FVilM/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1MzeCBu1AYM30ikpGRfBvgiseHG3yphBA/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NzYzfQ.bbc1e8b10fd72bb269682593048bb7dbc68ca6fbb2c723d3173f0d7ccaa0fa9b",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1waH4yY4Pc8SFZ9ra9Aa1VRwMke1FVilM/preview",
+          "directUrl": "https://drive.google.com/file/d/1waH4yY4Pc8SFZ9ra9Aa1VRwMke1FVilM/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1MzeCBu1AYM30ikpGRfBvgiseHG3yphBA/preview",
+          "directUrl": "https://drive.google.com/file/d/1MzeCBu1AYM30ikpGRfBvgiseHG3yphBA/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-10-16T15:21:40.942Z"
+    },
+    {
+      "id": "scraped_prod_ultra_arc_movie_ep1",
+      "productionId": "prod_ultra_arc_movie",
+      "franchise": "Ultraman",
+      "seriesTitle": "Ultraman Arc",
+      "title": "Ultraman Arc The Movie: The Clash of Light and Evil Sub Indo",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "movie",
+      "sourceUrl": "https://www.tokusatsuindo.com/ultraman-arc-the-movie-the-clash-of-light-and-evil-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/twq2EahjRaUB6B8wjf7ddrCmLhJ.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1clDL6J5vp7UR_Qj6SnObraIuDSO8vTps/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1JdObPEt4jFipiWHu_bi5oOy-IHdlW1xA/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NzMxfQ.e42b9f3d4f9d1b27aac28cefe21635284477340f4a922cd68e33d1184cf90f29",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1clDL6J5vp7UR_Qj6SnObraIuDSO8vTps/preview",
+          "directUrl": "https://drive.google.com/file/d/1clDL6J5vp7UR_Qj6SnObraIuDSO8vTps/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1JdObPEt4jFipiWHu_bi5oOy-IHdlW1xA/preview",
+          "directUrl": "https://drive.google.com/file/d/1JdObPEt4jFipiWHu_bi5oOy-IHdlW1xA/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-10-16T15:21:43.919Z"
+    },
+    {
+      "id": "scraped_prod_garo_taiga_ep1",
+      "productionId": "prod_garo_taiga",
+      "franchise": "Metal Hero & Others",
+      "seriesTitle": "GARO Series",
+      "title": "GARO: Taiga Sub Indonesia (Special)",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "movie",
+      "sourceUrl": "https://www.tokusatsuindo.com/garo-taiga-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://www.tokusatsuindo.com/wp-content/uploads/2026/05/taiga.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1Z7sSJuLQyujgHhcv30nNbiDnhNG3BIIJ/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1DU1Ds7DqTm9V0NJQgqF8XVZuQyZdXoP1/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6Nzc4fQ.4ec532518f3cbb5ab894e66ee56d61820b100e71fa11432128e9c4a777d41f4c",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (Direct Embed)",
+          "embedUrl": "https://drive.google.com/file/d/1DU1Ds7DqTm9V0NJQgqF8XVZuQyZdXoP1/preview",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1Z7sSJuLQyujgHhcv30nNbiDnhNG3BIIJ/preview",
+          "directUrl": "https://drive.google.com/file/d/1Z7sSJuLQyujgHhcv30nNbiDnhNG3BIIJ/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_4",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1DU1Ds7DqTm9V0NJQgqF8XVZuQyZdXoP1/preview",
+          "directUrl": "https://drive.google.com/file/d/1DU1Ds7DqTm9V0NJQgqF8XVZuQyZdXoP1/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-10-16T15:21:50.417Z"
+    },
+    {
+      "id": "scraped_prod_garo_red_requiem_ep2",
+      "productionId": "prod_garo_red_requiem",
+      "franchise": "Metal Hero & Others",
+      "seriesTitle": "GARO Series",
+      "title": "GARO: Red Requiem Movie Sub Indo",
+      "episodeNumber": 2,
+      "seasonNumber": 1,
+      "era": "Heisei",
+      "contentType": "movie",
+      "sourceUrl": "https://www.tokusatsuindo.com/garo-movie-red-requiem-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/pp7Dh7jwTX1mo7gRYLdYOnwPkfm.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1sg-BRYsGbEFdCYoyt-TQCkpd7daOt9ov/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1C_hKMU_PnYH-3zbylCprGDJClvJhrNr-/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6Nzk0fQ.954dd34f5a9c1e0620b14a700e3e2502a6ced44cd43c47dc1850ae0e7aa779d5",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1sg-BRYsGbEFdCYoyt-TQCkpd7daOt9ov/preview",
+          "directUrl": "https://drive.google.com/file/d/1sg-BRYsGbEFdCYoyt-TQCkpd7daOt9ov/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1C_hKMU_PnYH-3zbylCprGDJClvJhrNr-/preview",
+          "directUrl": "https://drive.google.com/file/d/1C_hKMU_PnYH-3zbylCprGDJClvJhrNr-/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-10-16T15:21:52.946Z"
+    }
+  ]
+}
