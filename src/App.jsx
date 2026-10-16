@@ -10,6 +10,8 @@ import ApiExplorerModal from './components/ApiExplorerModal';
 import ApiKeyModal from './components/ApiKeyModal';
 import WatchlistModal from './components/WatchlistModal';
 import ScraperModal from './components/ScraperModal';
+import InstallAppModal from './components/InstallAppModal';
+import MobileInstallBanner from './components/MobileInstallBanner';
 import Footer from './components/Footer';
 
 // API Services implementing 02_API_SPECIFICATION.md
@@ -224,6 +226,7 @@ export default function App() {
   const [watchlistModalOpen, setWatchlistModalOpen] = useState(false);
   const [specsModalOpen, setSpecsModalOpen] = useState(false);
   const [scraperModalOpen, setScraperModalOpen] = useState(false);
+  const [installModalOpen, setInstallModalOpen] = useState(false);
 
   // User Stored Data
   const [bookmarks, setBookmarks] = useState([]);
@@ -423,12 +426,16 @@ export default function App() {
         onOpenWatchlist={() => setWatchlistModalOpen(true)}
         onOpenSpecs={() => setSpecsModalOpen(true)}
         onOpenScraper={() => setScraperModalOpen(true)}
+        onOpenInstallModal={() => setInstallModalOpen(true)}
         scrapedCount={scrapedReleases.length}
         watchlistCount={bookmarks.length}
         hasTmdbKey={Boolean(apiKey)}
         theme={theme}
         onToggleTheme={handleToggleTheme}
       />
+
+      {/* Floating Mobile Install Prompt Banner */}
+      <MobileInstallBanner onOpenInstallModal={() => setInstallModalOpen(true)} />
 
       {/* Mobile Horizontal Swipeable Franchise Rail */}
       <MobileFranchiseBar
@@ -916,6 +923,12 @@ export default function App() {
           }}
         />
       )}
+
+      {/* 7. Install Mobile App Modal (PWA & APK Android) */}
+      <InstallAppModal
+        isOpen={installModalOpen}
+        onClose={() => setInstallModalOpen(false)}
+      />
 
       {/* Floating Desktop Device Simulator Switch */}
       <div className="desktop-device-toggle-bar">

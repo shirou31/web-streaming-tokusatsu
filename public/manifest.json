@@ -1,0 +1,55 @@
+{
+  "name": "TOKUFLIX — Streaming Tokusatsu Indonesia",
+  "short_name": "TOKUFLIX",
+  "description": "Nonton streaming serial dan film Tokusatsu Subtitle Indonesia terlengkap: Kamen Rider, Super Sentai, Ultraman, Garo & Kaiju.",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#050811",
+  "theme_color": "#050811",
+  "categories": ["entertainment", "movies", "video"],
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/maskable-icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Kamen Rider",
+      "short_name": "Rider",
+      "description": "Nonton serial Kamen Rider",
+      "url": "/?franchise=kamen-rider",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Super Sentai",
+      "short_name": "Sentai",
+      "description": "Nonton serial Super Sentai",
+      "url": "/?franchise=super-sentai",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Ultraman",
+      "short_name": "Ultraman",
+      "description": "Nonton serial Ultraman",
+      "url": "/?franchise=ultraman",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}

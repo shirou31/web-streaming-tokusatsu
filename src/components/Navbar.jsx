@@ -14,7 +14,8 @@ import {
   Tv,
   Terminal,
   Sun,
-  Moon
+  Moon,
+  Smartphone
 } from 'lucide-react';
 
 export default function Navbar({ 
@@ -26,6 +27,7 @@ export default function Navbar({
   onOpenWatchlist, 
   onOpenSpecs,
   onOpenScraper,
+  onOpenInstallModal,
   scrapedCount = 11,
   watchlistCount, 
   hasTmdbKey,
@@ -207,6 +209,26 @@ export default function Navbar({
 
           <div className="mobile-drawer-section-title">FITUR & AKSES</div>
           <div className="mobile-tools-list">
+            {/* Pasang Aplikasi Mobile */}
+            <button
+              className="mobile-tool-item highlight-mobile-install"
+              onClick={() => {
+                onOpenInstallModal?.();
+                setMobileMenuOpen(false);
+              }}
+              style={{
+                background: 'linear-gradient(135deg, rgba(255, 32, 78, 0.15) 0%, rgba(0, 242, 254, 0.15) 100%)',
+                border: '1px solid rgba(0, 242, 254, 0.4)'
+              }}
+            >
+              <Smartphone size={18} color="var(--accent-cyan)" />
+              <div className="tool-text-group">
+                <span className="tool-title" style={{ color: 'var(--accent-cyan)', fontWeight: 800 }}>📱 Pasang Aplikasi Mobile</span>
+                <span className="tool-desc">1-Klik PWA & File APK Android</span>
+              </div>
+              <span className="scraped-count-badge" style={{ background: 'var(--accent-red)', color: '#fff' }}>Baru</span>
+            </button>
+
             {/* Live Fansub Scraper */}
             <button
               className="mobile-tool-item"
