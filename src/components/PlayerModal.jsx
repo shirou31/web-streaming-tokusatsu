@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { 
   X, 
   Play, 
@@ -30,7 +30,8 @@ export default function PlayerModal({
   episodeId, 
   watchOrderSlug = null,
   onClose, 
-  onNavigateEpisode 
+  onNavigateEpisode,
+  onHistoryUpdated
 }) {
   const [streamData, setStreamData] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -45,6 +46,52 @@ export default function PlayerModal({
   const [showSkipIntro, setShowSkipIntro] = useState(false);
   const videoRef = useRef(null);
 
+  // Refs to avoid stale closures in timers and cleanup
+  const currentSecondsRef = useRef(0);
+  const isPlayingRef = useRef(true);
+  const streamDataRef = useRef(null);
+
+  useEffect(() => {
+    currentSecondsRef.current = currentSeconds;
+  }, [currentSeconds]);
+
+  useEffect(() => {
+    isPlayingRef.current = isPlaying;
+  }, [isPlaying]);
+
+  useEffect(() => {
+    streamDataRef.current = streamData;
+  }, [streamData]);
+
+  // Robust function to save real watch progress
+  const saveProgress = useCallback((secondsToSave, isCompleted = false) => {
+    const data = streamDataRef.current;
+    if (!data || !data.episode) return;
+    const ep = data.episode;
+    const prod = data.production || {};
+    const totalDuration = ep.duration_seconds || 1440;
+    const sec = typeof secondsToSave === 'number' ? secondsToSave : currentSecondsRef.current;
+    const progressSec = Math.max(0, Math.floor(sec));
+    const completed = isCompleted || (totalDuration > 0 && progressSec / totalDuration >= 0.92);
+
+    postUserHistory({
+      episode_id: ep.id,
+      production_id: prod.id,
+      series_title: prod.title || 'Serial Tokusatsu',
+      episode_title: ep.title || `Episode ${ep.episode_number || 1}`,
+      episode_number: ep.episode_number || 1,
+      poster_url: prod.backdrop_url || prod.poster_url || ep.thumbnail_url,
+      backdrop_url: prod.backdrop_url || prod.poster_url,
+      progress_seconds: progressSec,
+      duration_seconds: totalDuration,
+      is_completed: completed
+    });
+
+    if (onHistoryUpdated) {
+      onHistoryUpdated();
+    }
+  }, [onHistoryUpdated]);
+
   // Load stream payload according to GET /stream/:episode_id
   useEffect(() => {
     let isMounted = true;
@@ -53,9 +100,14 @@ export default function PlayerModal({
       const res = await getStreamPayload(episodeId, { watch_order: watchOrderSlug });
       if (isMounted && res.success) {
         setStreamData(res.data);
-        if (res.data.resume) {
-          setCurrentSeconds(res.data.resume.progress_seconds || 0);
-        }
+        streamDataRef.current = res.data;
+        const initialSec = res.data.resume?.progress_seconds || 5;
+        setCurrentSeconds(initialSec);
+        currentSecondsRef.current = initialSec;
+
+        // Segera simpan sesi menonton real ke riwayat
+        saveProgress(initialSec, false);
+
         if (res.data.subtitle_tracks && res.data.subtitle_tracks.length > 0) {
           setSelectedSubtitleId(res.data.subtitle_tracks[0].id);
         }
@@ -64,9 +116,9 @@ export default function PlayerModal({
     }
     load();
     return () => { isMounted = false; };
-  }, [episodeId, watchOrderSlug]);
+  }, [episodeId, watchOrderSlug, saveProgress]);
 
-  // Heartbeat progress tracking: Section 8.1 POST /user/history every 15s
+  // Heartbeat progress tracking: increment seconds every 1s when active
   useEffect(() => {
     if (!streamData) return;
     const interval = setInterval(() => {
@@ -81,20 +133,24 @@ export default function PlayerModal({
     return () => clearInterval(interval);
   }, [isPlaying, streamData]);
 
-  // Periodic autosave to backend every 15s
+  // Periodic autosave to storage/backend every 5s (reliable without reset loops)
   useEffect(() => {
-    if (!streamData || !streamData.episode) return;
+    if (!streamData) return;
     const saveTimer = setInterval(() => {
-      postUserHistory({
-        episode_id: streamData.episode.id,
-        progress_seconds: currentSeconds,
-        duration_seconds: streamData.episode.duration_seconds || 1440,
-        is_completed: currentSeconds / (streamData.episode.duration_seconds || 1440) >= 0.92
-      });
-    }, 15000);
+      if (isPlayingRef.current) {
+        saveProgress(currentSecondsRef.current, false);
+      }
+    }, 5000);
 
     return () => clearInterval(saveTimer);
-  }, [currentSeconds, streamData]);
+  }, [streamData, saveProgress]);
+
+  // Save progress automatically on player close / modal unmount
+  useEffect(() => {
+    return () => {
+      saveProgress(currentSecondsRef.current, false);
+    };
+  }, [saveProgress]);
 
   // Check skip markers (intro / outro)
   useEffect(() => {
@@ -113,9 +169,11 @@ export default function PlayerModal({
     if (streamData?.episode?.skip_markers?.intro_end_seconds) {
       const nextTime = streamData.episode.skip_markers.intro_end_seconds + 1;
       setCurrentSeconds(nextTime);
+      currentSecondsRef.current = nextTime;
       if (videoRef.current) {
         videoRef.current.currentTime = nextTime;
       }
+      saveProgress(nextTime, false);
       setShowSkipIntro(false);
     }
   };
@@ -124,9 +182,11 @@ export default function PlayerModal({
     const totalDuration = streamData?.episode?.duration_seconds || 1440;
     const targetSec = Math.floor(pct * totalDuration);
     setCurrentSeconds(targetSec);
+    currentSecondsRef.current = targetSec;
     if (videoRef.current) {
       videoRef.current.currentTime = targetSec;
     }
+    saveProgress(targetSec, false);
   };
 
   const togglePlay = () => {
@@ -137,9 +197,28 @@ export default function PlayerModal({
       } else {
         videoRef.current.pause();
         setIsPlaying(false);
+        saveProgress(currentSecondsRef.current, false);
       }
     } else {
-      setIsPlaying(!isPlaying);
+      setIsPlaying((prev) => {
+        const next = !prev;
+        if (!next) {
+          saveProgress(currentSecondsRef.current, false);
+        }
+        return next;
+      });
+    }
+  };
+
+  const handleClose = () => {
+    saveProgress(currentSecondsRef.current, false);
+    onClose();
+  };
+
+  const handleNavigate = (nextId) => {
+    saveProgress(currentSecondsRef.current, false);
+    if (onNavigateEpisode) {
+      onNavigateEpisode(nextId);
     }
   };
 
@@ -208,7 +287,7 @@ export default function PlayerModal({
   };
 
   return (
-    <div className="player-modal-backdrop" onClick={onClose}>
+    <div className="player-modal-backdrop" onClick={handleClose}>
       <div className="player-modal-card glass-panel" onClick={(e) => e.stopPropagation()}>
         {/* Header */}
         <div className="modal-header">
@@ -225,7 +304,7 @@ export default function PlayerModal({
               </span>
             )}
           </div>
-          <button id="close-player-modal-btn" className="close-btn" onClick={onClose}>
+          <button id="close-player-modal-btn" className="close-btn" onClick={handleClose}>
             <X size={20} />
           </button>
         </div>
@@ -312,12 +391,7 @@ export default function PlayerModal({
                     }}
                     onEnded={() => {
                       setIsPlaying(false);
-                      postUserHistory({
-                        episode_id: episode.id,
-                        progress_seconds: totalDuration,
-                        duration_seconds: totalDuration,
-                        is_completed: true
-                      });
+                      saveProgress(totalDuration, true);
                     }}
                   >
                     {subtitle_tracks && subtitle_tracks.map((sub) => (
@@ -627,7 +701,7 @@ export default function PlayerModal({
                 disabled={!navigation.previous_episode}
                 onClick={() => {
                   if (navigation.previous_episode) {
-                    onNavigateEpisode(navigation.previous_episode.episode_id);
+                    handleNavigate(navigation.previous_episode.episode_id);
                   }
                 }}
               >
@@ -639,7 +713,7 @@ export default function PlayerModal({
               {navigation.next_episode_chronological && (
                 <button
                   className="btn-primary"
-                  onClick={() => onNavigateEpisode(navigation.next_episode_chronological.episode_id)}
+                  onClick={() => handleNavigate(navigation.next_episode_chronological.episode_id)}
                 >
                   {navigation.next_episode_chronological.reason === 'watch_order_segment_boundary' ? (
                     <>

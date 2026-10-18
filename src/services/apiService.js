@@ -931,6 +931,14 @@ export const getStreamPayload = async (episodeId, { watch_order = null } = {}) =
   if (typeof episodeId === 'string' && (episodeId.startsWith('scraped_') || scraperService.getEpisodeById(episodeId))) {
     const scrapedPayload = scraperService.buildStreamPayload(episodeId);
     if (scrapedPayload) {
+      const history = getStoredHistory();
+      const epHist = history.find((h) => h.episode_id === episodeId);
+      scrapedPayload.resume = epHist ? {
+        progress_seconds: epHist.progress_seconds,
+        duration_seconds: epHist.duration_seconds,
+        is_completed: epHist.is_completed,
+        last_watched_at: epHist.last_watched_at
+      } : null;
       return makeResponse(scrapedPayload);
     }
   }
@@ -1258,26 +1266,46 @@ export const refreshStreamSource = async (sourceId) => {
 
 /**
  * 12. POST /api/v1/user/history
- * Autosave player position (called every 15s, on pause, or on leave)
+ * Autosave player position (real watch tracking with client-side persistence)
  */
-export const postUserHistory = async ({ episode_id, progress_seconds, duration_seconds, is_completed = false }) => {
+export const postUserHistory = async ({ 
+  episode_id, 
+  progress_seconds, 
+  duration_seconds, 
+  is_completed = false,
+  series_title,
+  episode_title,
+  episode_number,
+  poster_url,
+  backdrop_url,
+  production_id
+}) => {
   const ep = DB.episodes.find((e) => e.id === episode_id);
   const prod = ep ? DB.productions.find((p) => p.id === ep.production_id) : null;
+  const scrapedEp = !ep && typeof scraperService !== 'undefined' ? scraperService.getEpisodeById(episode_id) : null;
 
-  const completed = is_completed || (duration_seconds > 0 && progress_seconds / duration_seconds >= 0.92);
+  const totalDuration = duration_seconds || (ep ? ep.duration_seconds : 1440);
+  const completed = is_completed || (totalDuration > 0 && progress_seconds / totalDuration >= 0.92);
+
+  const resolvedSeriesTitle = series_title || (prod ? prod.title : (scrapedEp ? scrapedEp.seriesTitle : 'Serial Tokusatsu'));
+  const resolvedEpisodeTitle = episode_title || (ep ? ep.title : (scrapedEp ? scrapedEp.title : `Episode ${episode_number || 1}`));
+  const resolvedEpisodeNumber = episode_number || (ep ? ep.episode_number : (scrapedEp ? scrapedEp.episodeNumber : 1));
+  const resolvedPoster = backdrop_url || poster_url || (prod ? (prod.backdrop_url || prod.poster_url) : (scrapedEp ? scrapedEp.thumbnail : null));
+  const resolvedProductionId = production_id || (prod ? prod.id : (scrapedEp ? scrapedEp.productionId : 'unknown'));
 
   const history = getStoredHistory();
   const existingIdx = history.findIndex((h) => h.episode_id === episode_id);
 
   const record = {
     episode_id,
-    production_id: prod ? prod.id : 'unknown',
-    episode_number: ep ? ep.episode_number : 1,
-    episode_title: ep ? ep.title : 'Episode',
-    series_title: prod ? prod.title : 'Tokusatsu',
-    poster_url: prod ? prod.poster_url : null,
-    progress_seconds,
-    duration_seconds,
+    production_id: resolvedProductionId,
+    episode_number: resolvedEpisodeNumber,
+    episode_title: resolvedEpisodeTitle,
+    series_title: resolvedSeriesTitle,
+    poster_url: resolvedPoster,
+    backdrop_url: resolvedPoster,
+    progress_seconds: Math.round(progress_seconds || 0),
+    duration_seconds: Math.round(totalDuration),
     is_completed: completed,
     last_watched_at: new Date().toISOString()
   };
@@ -1293,14 +1321,14 @@ export const postUserHistory = async ({ episode_id, progress_seconds, duration_s
   // Background sync langsung dari browser ke API streaming jika Base URL aktif
   clientFetch('/user/history', {
     method: 'POST',
-    body: { episode_id, progress_seconds, duration_seconds, is_completed: completed }
+    body: { episode_id, progress_seconds: record.progress_seconds, duration_seconds: totalDuration, is_completed: completed }
   }).catch(() => {});
 
   return makeResponse({
     episode_id,
     production_id: record.production_id,
-    progress_seconds,
-    duration_seconds,
+    progress_seconds: record.progress_seconds,
+    duration_seconds: record.duration_seconds,
     is_completed: completed,
     last_watched_at: record.last_watched_at
   });
@@ -1333,7 +1361,8 @@ export const getUserHistory = async ({ production_id = null, completed = null, p
     production: {
       id: item.production_id,
       title: item.series_title,
-      poster_url: item.poster_url
+      poster_url: item.poster_url,
+      backdrop_url: item.backdrop_url || item.poster_url
     },
     progress_seconds: item.progress_seconds,
     duration_seconds: item.duration_seconds,
@@ -1363,6 +1392,15 @@ export const deleteUserHistory = async (episodeId) => {
   // Background sync langsung dari browser ke API streaming
   clientFetch(`/user/history/${episodeId}`, { method: 'DELETE' }).catch(() => {});
 
+  return { success: true, status: 204 };
+};
+
+/**
+ * 14b. DELETE /api/v1/user/history (Clear all history)
+ */
+export const clearAllUserHistory = async () => {
+  setStoredHistory([]);
+  clientFetch('/user/history', { method: 'DELETE' }).catch(() => {});
   return { success: true, status: 204 };
 };
 

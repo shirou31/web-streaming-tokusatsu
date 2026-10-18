@@ -22,6 +22,7 @@ import {
   deleteUserBookmark,
   getUserHistory,
   deleteUserHistory,
+  clearAllUserHistory,
   initializeCacheManager,
   getAuthSession,
   loginUser,
@@ -49,7 +50,9 @@ import {
   Zap,
   Flame,
   Clock,
-  Sparkles
+  Sparkles,
+  Trash2,
+  X
 } from 'lucide-react';
 
 // Real Tokusatsu Top 10 Masterpieces Definition
@@ -386,83 +389,78 @@ export default function App() {
     refreshUserData();
   };
 
-  // Launch Player
+  // Launch Player with robust series and scraped episode resolution
   const handlePlayEpisodeFromProduction = (production, episode = null, watchOrderSlug = null) => {
+    if (episode?.id) {
+      setPlayerEpisodeId(episode.id);
+      setPlayerWatchOrderSlug(watchOrderSlug);
+      return;
+    }
+
     if (production?.id && String(production.id).startsWith('tmdb-')) {
       setPlayerEpisodeId(production.id);
-    } else {
-      setPlayerEpisodeId(episode?.id || '0192a3f0-2222-7000-8000-000000000001');
+      setPlayerWatchOrderSlug(watchOrderSlug);
+      return;
     }
+
+    // Cari episode pertama produksi ini di DB
+    if (production?.id) {
+      const matchEp = DB.episodes.find((e) => e.production_id === production.id && e.is_published);
+      if (matchEp) {
+        setPlayerEpisodeId(matchEp.id);
+        setPlayerWatchOrderSlug(watchOrderSlug);
+        return;
+      }
+    }
+
+    // Cari episode scraper yang cocok
+    if (production?.slug || production?.title) {
+      const liveList = scraperService.getLiveFeed() || [];
+      const matchScraped = liveList.find((e) => 
+        (production.slug && e.productionId?.includes(production.slug)) || 
+        (production.title && e.seriesTitle?.toLowerCase().includes(production.title.toLowerCase()))
+      );
+      if (matchScraped) {
+        setPlayerEpisodeId(matchScraped.id);
+        setPlayerWatchOrderSlug(watchOrderSlug);
+        return;
+      }
+    }
+
+    setPlayerEpisodeId('0192a3f0-2222-7000-8000-000000000001');
     setPlayerWatchOrderSlug(watchOrderSlug);
   };
 
-  // 1. "Lanjutkan Menonton" (100% Real Tokusatsu Data)
+  // 1. "Lanjutkan Menonton" (100% Real User Watch History - Zero Dummy Fallback)
   const continueWatchingItems = useMemo(() => {
-    if (history.length > 0) {
-      return history.slice(0, 6).map((h, i) => {
-        const prod = h.production || {};
-        const pcts = [65, 82, 42, 90, 75, 50];
-        const pct = pcts[i % pcts.length];
-        return {
-          id: h.episode?.id || prod.id || `hist-${i}`,
-          title: prod.title || 'Serial Tokusatsu',
-          sub: `Ep ${h.episode?.episode_number || 1} · sisa ${Math.max(4, 25 - Math.round(pct * 0.25))} mnt`,
-          pct: `${pct}%`,
-          posterUrl: prod.backdrop_url || prod.poster_url || 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg',
-          production: prod,
-          episodeId: h.episode?.id
-        };
-      });
+    if (!history || history.length === 0) {
+      return [];
     }
 
-    // Default Real Ongoing Tokusatsu Episodes
-    return [
-      {
-        id: 'cw-gavv',
-        title: 'Kamen Rider Gavv',
-        sub: 'Ep 1 · sisa 18 mnt',
-        pct: '65%',
-        posterUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg',
-        slug: 'kamen-rider-gavv',
-        episodeId: '0192a3f0-2222-7000-8000-000000000001'
-      },
-      {
-        id: 'cw-boonboomger',
-        title: 'Bakuage Sentai Boonboomger',
-        sub: 'Ep 1 · sisa 12 mnt',
-        pct: '78%',
-        posterUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/yNabCz32woEXgrcvRS8ASH55s3G.jpg',
-        slug: 'bakuage-sentai-boonboomger',
-        episodeId: 'scraped_prod_boonboomger_ep1'
-      },
-      {
-        id: 'cw-arc',
-        title: 'Ultraman Arc',
-        sub: 'Ep 1 · sisa 21 mnt',
-        pct: '42%',
-        posterUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/twq2EahjRaUB6B8wjf7ddrCmLhJ.jpg',
-        slug: 'ultraman-arc',
-        episodeId: 'scraped_prod_ultraman_arc_ep1'
-      },
-      {
-        id: 'cw-myth',
-        title: 'Kamen Rider My-Th',
-        sub: 'Ep 1 · sisa 15 mnt',
-        pct: '85%',
-        posterUrl: 'https://www.tokusatsuindo.com/wp-content/uploads/2026/10/myte.png',
-        slug: 'kamen-rider-my-th',
-        episodeId: 'scraped_prod_kr_myth_ep1'
-      },
-      {
-        id: 'cw-geats',
-        title: 'Kamen Rider Geats',
-        sub: 'Ep 1 · sisa 5 mnt',
-        pct: '91%',
-        posterUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/kiXsuX5qAFUxHvf9BM7MPadFq62.jpg',
-        slug: 'kamen-rider-geats',
-        episodeId: '0192a3f0-2222-7000-8000-000000000001'
-      }
-    ];
+    return history.slice(0, 10).map((h, i) => {
+      const prod = h.production || {};
+      const ep = h.episode || {};
+      const progressSec = Math.max(0, h.progress_seconds || 0);
+      const durationSec = Math.max(1, h.duration_seconds || ep.duration_seconds || 1440);
+      const pctNumber = Math.min(100, Math.max(1, Math.round((progressSec / durationSec) * 100)));
+      const remainingMinutes = durationSec > progressSec 
+        ? Math.max(1, Math.round((durationSec - progressSec) / 60)) 
+        : 0;
+
+      return {
+        id: ep.id || h.episode_id || prod.id || `hist-${i}`,
+        episodeId: ep.id || h.episode_id,
+        productionId: prod.id || h.production_id,
+        title: prod.title || h.series_title || 'Serial Tokusatsu',
+        sub: `Ep ${ep.episode_number || h.episode_number || 1} · sisa ${remainingMinutes} mnt`,
+        pct: `${pctNumber}%`,
+        posterUrl: prod.backdrop_url || prod.poster_url || ep.thumbnail_url || h.poster_url || 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg',
+        production: prod,
+        progressSeconds: progressSec,
+        durationSeconds: durationSec,
+        isCompleted: h.is_completed
+      };
+    });
   }, [history]);
 
   // 2. "Top 10 Minggu Ini di Indonesia" (100% Real Tokusatsu Rankings 1..10)
@@ -646,7 +644,7 @@ export default function App() {
         </div>
       )}
 
-      {/* 3. Section: Lanjutkan Menonton (100% Real Playable Tokusatsu Episodes) */}
+      {/* 3. Section: Lanjutkan Menonton (100% Real Playable Tokusatsu Episodes & History Tracking) */}
       {!searchQuery && continueWatchingItems.length > 0 && (
         <section id="lanjut" aria-label="Lanjutkan Menonton" style={{ padding: '36px clamp(16px, 4vw, 56px) 0' }}>
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '16px', marginBottom: '8px' }}>
@@ -654,64 +652,136 @@ export default function App() {
               <span aria-hidden="true" style={{ width: '4px', height: '22px', borderRadius: '2px', background: '#E50914' }} />
               Lanjutkan Menonton
             </h2>
-            <a href="#jelajah" style={{ display: 'inline-flex', alignItems: 'center', gap: '4px', fontSize: '14px', fontWeight: 700, color: '#B8B8BC' }}>
-              Lihat semua
-              <ChevronRight size={16} />
-            </a>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
+              <button 
+                type="button" 
+                onClick={async () => {
+                  if (window.confirm('Bersihkan seluruh riwayat tontonan Anda?')) {
+                    await clearAllUserHistory();
+                    refreshUserData();
+                  }
+                }}
+                style={{ 
+                  background: 'none', 
+                  border: 'none', 
+                  color: '#8E8E93', 
+                  fontSize: '13px', 
+                  cursor: 'pointer', 
+                  display: 'inline-flex', 
+                  alignItems: 'center', 
+                  gap: '6px' 
+                }}
+                title="Hapus semua riwayat tontonan"
+              >
+                <Trash2 size={14} />
+                <span>Bersihkan Riwayat</span>
+              </button>
+              <a href="#jelajah" style={{ display: 'inline-flex', alignItems: 'center', gap: '4px', fontSize: '14px', fontWeight: 700, color: '#B8B8BC' }}>
+                Lihat semua
+                <ChevronRight size={16} />
+              </a>
+            </div>
           </div>
 
           <div className="scroller">
             {continueWatchingItems.map((c) => (
-              <button 
+              <div 
                 key={c.id} 
-                type="button" 
                 className="card" 
-                style={{ width: '320px', flex: '0 0 auto' }}
-                onClick={() => {
-                  if (c.episodeId) {
-                    setPlayerEpisodeId(c.episodeId);
-                  } else if (c.production) {
-                    handlePlayEpisodeFromProduction(c.production);
-                  } else {
-                    setDetailModalSlug(c.slug || 'kamen-rider-gavv');
-                  }
-                }}
+                style={{ width: '320px', flex: '0 0 auto', position: 'relative' }}
               >
-                <div 
-                  className="poster" 
-                  style={{ 
-                    width: '320px', 
-                    height: '180px', 
-                    position: 'relative',
-                    overflow: 'hidden',
-                    background: '#151518'
+                <button
+                  type="button"
+                  style={{ all: 'unset', width: '100%', cursor: 'pointer', display: 'block', textAlign: 'left' }}
+                  onClick={() => {
+                    if (c.episodeId) {
+                      setPlayerEpisodeId(c.episodeId);
+                    } else if (c.production) {
+                      handlePlayEpisodeFromProduction(c.production);
+                    } else {
+                      setDetailModalSlug(c.slug || 'kamen-rider-gavv');
+                    }
                   }}
                 >
-                  <img 
-                    src={c.posterUrl} 
-                    alt={c.title} 
-                    loading="lazy"
-                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                    onError={(e) => {
-                      e.currentTarget.src = 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg';
+                  <div 
+                    className="poster" 
+                    style={{ 
+                      width: '320px', 
+                      height: '180px', 
+                      position: 'relative',
+                      overflow: 'hidden',
+                      background: '#151518',
+                      borderRadius: '8px'
                     }}
-                  />
-                  <div style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, background: 'linear-gradient(0deg, rgba(0,0,0,.85), rgba(0,0,0,0) 60%)' }} />
-                  <div className="disp" style={{ position: 'absolute', left: '16px', right: '16px', bottom: '18px', fontSize: '22px', fontWeight: 800, lineHeight: 1.1, letterSpacing: '-.015em' }}>
-                    {c.title}
+                  >
+                    <img 
+                      src={c.posterUrl} 
+                      alt={c.title} 
+                      loading="lazy"
+                      style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                      onError={(e) => {
+                        e.currentTarget.src = 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg';
+                      }}
+                    />
+                    <div style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, background: 'linear-gradient(0deg, rgba(0,0,0,.85), rgba(0,0,0,0) 60%)' }} />
+                    <div className="disp" style={{ position: 'absolute', left: '16px', right: '48px', bottom: '18px', fontSize: '20px', fontWeight: 800, lineHeight: 1.1, letterSpacing: '-.015em', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                      {c.title}
+                    </div>
+                    {/* Red progress bar representing real watched seconds */}
+                    <div aria-hidden="true" style={{ position: 'absolute', left: 0, right: 0, bottom: 0, height: '5px', background: 'rgba(255,255,255,.28)' }}>
+                      <div style={{ height: '100%', background: '#E50914', width: c.pct }} />
+                    </div>
+                    <div className="ov">
+                      <span style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '54px', height: '54px', borderRadius: '50%', border: '2px solid #fff', background: 'rgba(0,0,0,.5)' }}>
+                        <Play size={24} fill="#fff" />
+                      </span>
+                    </div>
                   </div>
-                  {/* Red progress bar */}
-                  <div aria-hidden="true" style={{ position: 'absolute', left: 0, right: 0, bottom: 0, height: '5px', background: 'rgba(255,255,255,.28)' }}>
-                    <div style={{ height: '100%', background: '#E50914', width: c.pct }} />
+                  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginTop: '10px' }}>
+                    <div style={{ fontSize: '14px', color: '#9A9AA0' }}>{c.sub}</div>
+                    <div style={{ fontSize: '12px', color: '#E50914', fontWeight: 700 }}>{c.pct}</div>
                   </div>
-                  <div className="ov">
-                    <span style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '54px', height: '54px', borderRadius: '50%', border: '2px solid #fff', background: 'rgba(0,0,0,.5)' }}>
-                      <Play size={24} fill="#fff" />
-                    </span>
-                  </div>
-                </div>
-                <div style={{ fontSize: '14px', color: '#9A9AA0', marginTop: '10px' }}>{c.sub}</div>
-              </button>
+                </button>
+
+                {/* Tombol Hapus Riwayat Spesifik */}
+                <button
+                  type="button"
+                  onClick={async (e) => {
+                    e.stopPropagation();
+                    await deleteUserHistory(c.episodeId || c.id);
+                    refreshUserData();
+                  }}
+                  title="Hapus dari riwayat menonton"
+                  style={{
+                    position: 'absolute',
+                    top: '8px',
+                    right: '8px',
+                    width: '28px',
+                    height: '28px',
+                    borderRadius: '50%',
+                    background: 'rgba(0,0,0,0.7)',
+                    backdropFilter: 'blur(6px)',
+                    border: '1px solid rgba(255,255,255,0.2)',
+                    color: '#fff',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    cursor: 'pointer',
+                    zIndex: 5,
+                    transition: 'all 0.2s ease'
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.background = '#E50914';
+                    e.currentTarget.style.borderColor = '#E50914';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.background = 'rgba(0,0,0,0.7)';
+                    e.currentTarget.style.borderColor = 'rgba(255,255,255,0.2)';
+                  }}
+                >
+                  <X size={15} />
+                </button>
+              </div>
             ))}
           </div>
         </section>
@@ -1147,7 +1217,11 @@ export default function App() {
         <PlayerModal
           episodeId={playerEpisodeId}
           watchOrderSlug={playerWatchOrderSlug}
-          onClose={() => setPlayerEpisodeId(null)}
+          onClose={() => {
+            setPlayerEpisodeId(null);
+            refreshUserData();
+          }}
+          onHistoryUpdated={refreshUserData}
           onNavigateEpisode={(nextId) => setPlayerEpisodeId(nextId)}
         />
       )}
@@ -1191,8 +1265,8 @@ export default function App() {
             deleteUserBookmark(id);
             refreshUserData();
           }}
-          onClearHistory={() => {
-            history.forEach((h) => deleteUserHistory(h.episode?.id));
+          onClearHistory={async () => {
+            await clearAllUserHistory();
             refreshUserData();
           }}
           onClose={() => setWatchlistModalOpen(false)}
