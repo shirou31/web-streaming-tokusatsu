@@ -165,12 +165,21 @@ export async function clientFetch(endpoint, options = {}) {
   if (method === 'GET' && !skipCache && cacheTtlMs > 0) {
     const cached = getCacheItem(fullUrl, category, activeUserId);
     if (cached && cached.data) {
+      const ageMs = Math.max(0, getCurrentTime() - (cached.cachedAt || getCurrentTime()));
+      // Stale-While-Revalidate: revalidasi otomatis di latar belakang jika data sudah lebih dari 3 menit
+      const shouldRevalidate = options.revalidateInBackground || (ageMs > 3 * 60 * 1000);
+      if (shouldRevalidate && !inFlightRequests.has(cacheKey)) {
+        setTimeout(() => {
+          clientFetch(endpoint, { ...options, skipCache: true }).catch(() => {});
+        }, 150);
+      }
+
       return {
         ...cached.data,
         _fromCache: true,
         _cacheCategory: category,
         _cacheTier: cached.from,
-        _cacheAgeMs: Math.max(0, getCurrentTime() - (cached.cachedAt || getCurrentTime()))
+        _cacheAgeMs: ageMs
       };
     }
   }

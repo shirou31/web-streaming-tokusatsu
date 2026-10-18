@@ -83,9 +83,15 @@ export default function Footer({
               <Globe size={16} />
               <span>Bahasa Indonesia</span>
             </button>
-            <button type="button" className="footer-cache-badge" onClick={onOpenSpecs} title="Buka Smart Cache & Storage Audit">
-              <Database size={14} color="var(--accent-cyan)" />
-              <span>Smart Cache Aktif (48h TTL)</span>
+            <button 
+              type="button" 
+              className="footer-cache-badge" 
+              onClick={onOpenSpecs} 
+              title="Smart Cache 100% Otomatis: Auto-Purge, LRU Capacity Eviction, & 48-Hour Inactivity Auto-Cleanup"
+            >
+              <span className="live-dot-pulse" style={{ width: 8, height: 8, background: '#10b981', borderRadius: '50%', display: 'inline-block' }} />
+              <Database size={14} color="#10b981" />
+              <span>Smart Cache: 100% Otomatis Aktif</span>
             </button>
           </div>
 

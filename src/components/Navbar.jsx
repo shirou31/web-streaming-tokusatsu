@@ -160,17 +160,6 @@ export default function Navbar({
             <Search size={18} />
           </button>
 
-          {/* Smart Cache & API Dashboard Button */}
-          <button
-            type="button"
-            id="smart-cache-nav-btn"
-            className="nav-action-btn smart-cache-btn"
-            onClick={onOpenSpecs}
-            title="Smart Cache & API Inspector (48h Inactivity TTL, Storage Audit, Safe Logout)"
-          >
-            <Database size={17} color="var(--accent-cyan)" />
-            <span className="smart-cache-text">Smart Cache</span>
-          </button>
 
           {/* Notifications Bell */}
           <button 

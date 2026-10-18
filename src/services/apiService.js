@@ -26,7 +26,11 @@ import {
   resetTimeOffsetForTesting,
   getCurrentTime,
   getCacheItem,
-  setCacheItem
+  setCacheItem,
+  getAutoCacheStatus,
+  runAutoMaintenanceCycle,
+  cleanupDanglingData,
+  autoTrimStorageQuota
 } from './cacheManager.js';
 
 // Re-export configuration & cache helpers for UI components & DevTools testing
@@ -50,7 +54,11 @@ export {
   resetTimeOffsetForTesting,
   getCurrentTime,
   getCacheItem,
-  setCacheItem
+  setCacheItem,
+  getAutoCacheStatus,
+  runAutoMaintenanceCycle,
+  cleanupDanglingData,
+  autoTrimStorageQuota
 };
 
 // Helper Response Envelope

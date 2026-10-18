@@ -48,7 +48,9 @@ import {
   getAuthSession,
   loginUser,
   logoutUser,
-  setCacheItem
+  setCacheItem,
+  getAutoCacheStatus,
+  runAutoMaintenanceCycle
 } from '../services/apiService';
 
 export default function ApiExplorerModal({ onClose }) {
@@ -65,10 +67,11 @@ export default function ApiExplorerModal({ onClose }) {
 
   // Smart Cache Dashboard State
   const [cacheStats, setCacheStats] = useState(getCacheStats());
+  const [autoStatus, setAutoStatus] = useState(getAutoCacheStatus());
   const [authSession, setAuthSession] = useState(getAuthSession());
   const [simulatedHours, setSimulatedHours] = useState(0);
   const [operationLogs, setOperationLogs] = useState([
-    `[${new Date().toLocaleTimeString()}] Smart Cache Manager siap dipantau.`
+    `[${new Date().toLocaleTimeString()}] Smart Cache Autonomous Daemon AKTIF di latar belakang (Interval: 3 Menit).`
   ]);
 
   const addLog = (msg) => {
@@ -79,10 +82,22 @@ export default function ApiExplorerModal({ onClose }) {
     const session = getAuthSession();
     setAuthSession(session);
     setCacheStats(getCacheStats(session.user?.id));
+    setAutoStatus(getAutoCacheStatus());
   };
 
   useEffect(() => {
     refreshCacheData();
+
+    // Dengarkan auto-maintenance cycle ticks dari background daemon
+    const handleAutoTick = (e) => {
+      refreshCacheData();
+      if (e?.detail) {
+        addLog(`🤖 Background Auto-Cycle #${e.detail.runCount}: ${e.detail.cleanedExpired} expired, ${e.detail.cleanedDangling} dangling, ${e.detail.trimmedQuota} quota trimmed.`);
+      }
+    };
+
+    window.addEventListener('tokuflix:autocache_tick', handleAutoTick);
+    return () => window.removeEventListener('tokuflix:autocache_tick', handleAutoTick);
   }, []);
 
   const routes = [
@@ -191,6 +206,12 @@ export default function ApiExplorerModal({ onClose }) {
     refreshCacheData();
   };
 
+  const handleRunAutoMaintenance = () => {
+    const res = runAutoMaintenanceCycle();
+    addLog(`🤖 Autonomous Daemon Run: ${res.cleanedExpired} item expired dibersihkan, ${res.cleanedDangling} dangling storage keys dihapus, ${res.trimmedQuota} quota trimmed.`);
+    refreshCacheData();
+  };
+
   const handleSimulateFastForwardClock = () => {
     const offset = 49 * 60 * 60 * 1000; // 49 Jam ke depan
     setTimeOffsetForTesting(offset);
@@ -296,6 +317,43 @@ export default function ApiExplorerModal({ onClose }) {
             ==================================================================== */}
         {activeTab === 'cache' && (
           <div className="cache-dashboard-container">
+            {/* Autonomous Cache Engine Banner */}
+            <div className="autonomous-engine-banner">
+              <div className="banner-left">
+                <div className="pulse-indicator">
+                  <span className="live-dot-pulse"></span>
+                </div>
+                <div>
+                  <div className="banner-title">
+                    <strong>Smart Cache Autonomous Daemon: 100% Otomatis</strong>
+                    <span className="badge-auto-mode">Zero User Maintenance</span>
+                  </div>
+                  <p className="banner-desc">
+                    Engine berjalan mandiri di latar belakang browser (siklus per {autoStatus?.intervalMinutes || 3} menit). Otomatis membersihkan TTL kedaluwarsa, auto-trim kuota (&gt;3.5 MB), isolasi multi-tab, dan membersihkan data yatim tanpa perlu aksi manual dari penonton.
+                  </p>
+                </div>
+              </div>
+              <div className="banner-right">
+                <div className="auto-metric">
+                  <span className="auto-metric-label">STATUS DAEMON</span>
+                  <span className="auto-metric-val active">● Berjalan</span>
+                </div>
+                <div className="auto-metric">
+                  <span className="auto-metric-label">AUTO-RUNS</span>
+                  <span className="auto-metric-val">{autoStatus?.runCount || 0} Kali</span>
+                </div>
+                <button 
+                  id="btn-trigger-autonomous-cycle"
+                  className="btn-trigger-auto-cycle"
+                  onClick={handleRunAutoMaintenance}
+                  title="Jalankan simulasi siklus latar belakang secara langsung"
+                >
+                  <RefreshCw size={13} />
+                  <span>Tes Siklus Auto</span>
+                </button>
+              </div>
+            </div>
+
             {/* Top Stat Cards */}
             <div className="cache-stats-grid">
               <div className="cache-stat-card">
@@ -475,6 +533,14 @@ export default function ApiExplorerModal({ onClose }) {
                     <div>
                       <strong>enforceCacheLimits()</strong>
                       <span>Simulasi kuota penuh: jalankan LRU capacity eviction</span>
+                    </div>
+                  </button>
+
+                  <button className="btn-action-trigger auto-highlight" onClick={handleRunAutoMaintenance}>
+                    <Zap size={15} color="var(--accent-cyan)" />
+                    <div>
+                      <strong>runAutoMaintenanceCycle()</strong>
+                      <span>Eksekusi siklus daemon: Expired + Dangling Keys + Auto-Trim Quota</span>
                     </div>
                   </button>
                 </div>
@@ -744,6 +810,119 @@ export default function ApiExplorerModal({ onClose }) {
           padding: 20px 24px;
           gap: 20px;
         }
+
+        /* AUTONOMOUS ENGINE BANNER */
+        .autonomous-engine-banner {
+          background: linear-gradient(135deg, rgba(0, 242, 254, 0.08) 0%, rgba(16, 23, 38, 0.95) 50%, rgba(255, 32, 78, 0.06) 100%);
+          border: 1px solid rgba(0, 242, 254, 0.35);
+          border-radius: var(--radius-md);
+          padding: 16px 20px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 20px;
+          box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4), inset 0 0 20px rgba(0, 242, 254, 0.05);
+          flex-wrap: wrap;
+        }
+        .banner-left {
+          display: flex;
+          align-items: flex-start;
+          gap: 14px;
+          flex: 1;
+          min-width: 280px;
+        }
+        .pulse-indicator {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding-top: 3px;
+        }
+        .banner-title {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          flex-wrap: wrap;
+          margin-bottom: 4px;
+        }
+        .banner-title strong {
+          color: #ffffff;
+          font-size: 0.95rem;
+          letter-spacing: 0.02em;
+        }
+        .badge-auto-mode {
+          font-size: 0.72rem;
+          font-weight: 800;
+          color: #00f2fe;
+          background: rgba(0, 242, 254, 0.15);
+          border: 1px solid rgba(0, 242, 254, 0.4);
+          padding: 2px 10px;
+          border-radius: var(--radius-full);
+          text-transform: uppercase;
+        }
+        .banner-desc {
+          font-size: 0.78rem;
+          color: var(--text-secondary);
+          line-height: 1.45;
+          margin: 0;
+        }
+        .banner-right {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          flex-shrink: 0;
+          flex-wrap: wrap;
+        }
+        .auto-metric {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          background: rgba(0, 0, 0, 0.35);
+          border: 1px solid var(--border-subtle);
+          padding: 6px 12px;
+          border-radius: var(--radius-sm);
+        }
+        .auto-metric-label {
+          font-size: 0.65rem;
+          font-weight: 800;
+          color: var(--text-muted);
+          letter-spacing: 0.05em;
+        }
+        .auto-metric-val {
+          font-size: 0.85rem;
+          font-weight: 800;
+          color: #ffffff;
+        }
+        .auto-metric-val.active {
+          color: #10b981;
+        }
+        .btn-trigger-auto-cycle {
+          display: flex;
+          align-items: center;
+          gap: 6px;
+          background: rgba(0, 242, 254, 0.15);
+          border: 1px solid var(--accent-cyan);
+          color: #ffffff;
+          padding: 8px 14px;
+          border-radius: var(--radius-sm);
+          font-size: 0.78rem;
+          font-weight: 700;
+          cursor: pointer;
+          transition: all var(--transition-fast);
+        }
+        .btn-trigger-auto-cycle:hover {
+          background: var(--accent-cyan);
+          color: #000000;
+          box-shadow: 0 0 15px rgba(0, 242, 254, 0.4);
+        }
+        .btn-action-trigger.auto-highlight {
+          border-color: rgba(0, 242, 254, 0.4);
+          background: rgba(0, 242, 254, 0.06);
+        }
+        .btn-action-trigger.auto-highlight:hover {
+          background: rgba(0, 242, 254, 0.16);
+          border-color: var(--accent-cyan);
+        }
+
         .cache-stats-grid {
           display: grid;
           grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));

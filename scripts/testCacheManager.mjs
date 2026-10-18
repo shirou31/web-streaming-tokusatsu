@@ -18,7 +18,13 @@ import {
   resetTimeOffsetForTesting,
   getCurrentTime,
   getCacheItem,
-  setCacheItem
+  setCacheItem,
+  getAutoCacheStatus,
+  runAutoMaintenanceCycle,
+  cleanupDanglingData,
+  autoTrimStorageQuota,
+  startAutonomousCacheDaemon,
+  stopAutonomousCacheDaemon
 } from '../src/services/cacheManager.js';
 
 import {
@@ -385,6 +391,39 @@ async function runAllScenarios() {
   assert(retrievedBookmarks.length === 2, 10, 'Data bookmark permanen pengguna tetap 100% utuh');
   assert(retrievedHistory.length === 1, 10, 'Data progres riwayat tontonan tetap 100% utuh');
   assert(retrievedHistory[0].progress_seconds === 1240, 10, 'Nilai detik progres tontonan tidak berubah');
+
+  // =========================================================================
+  // SKENARIO 11: Autonomous Smart Cache Daemon & Background Self-Healing
+  // =========================================================================
+  console.log(`\n${colors.yellow}${colors.bold}▶ Skenario 11: Autonomous Smart Cache Engine & Background Self-Healing (100% Otomatis Tanpa User Manual Action)${colors.reset}`);
+
+  // 1. Uji cleanupDanglingData (Self-healing orphan keys)
+  localStorage.setItem('tokuflix_cache_dangling_orphan_test_1', JSON.stringify({ data: 'orphan1' }));
+  localStorage.setItem('tokuflix_cache_dangling_orphan_test_2', JSON.stringify({ data: 'orphan2' }));
+  assert(localStorage.getItem('tokuflix_cache_dangling_orphan_test_1') !== null, 11, 'Orphan key dummy terpasang di storage');
+
+  const danglingCleaned = cleanupDanglingData();
+  assert(danglingCleaned >= 2, 11, 'cleanupDanglingData mendeteksi dan menghapus semua orphan cache keys');
+  assert(localStorage.getItem('tokuflix_cache_dangling_orphan_test_1') === null, 11, 'Orphan key terbukti bersih dari localStorage');
+
+  // 2. Uji Status Daemon & Eksekusi Siklus Auto-Maintenance
+  const statusInitial = getAutoCacheStatus();
+  assert(statusInitial.intervalMinutes === 3, 11, 'Autonomous Daemon terkonfigurasi pada interval 3 menit');
+  assert(typeof statusInitial.runCount === 'number', 11, 'Metric runCount tersedia');
+
+  // Simulasikan siklus maintenance berkala yang berjalan otomatis
+  const autoResult = runAutoMaintenanceCycle();
+  assert(typeof autoResult.cleanedExpired === 'number', 11, 'Auto-cycle membersihkan item expired di latar belakang');
+  assert(typeof autoResult.cleanedDangling === 'number', 11, 'Auto-cycle membersihkan dangling storage di latar belakang');
+  assert(typeof autoResult.trimmedQuota === 'number', 11, 'Auto-cycle memvalidasi batas kuota storage secara mandiri');
+
+  const statusAfterCycle = getAutoCacheStatus();
+  assert(statusAfterCycle.runCount > statusInitial.runCount, 11, 'Counter auto-cycle bertambah setelah background cycle dieksekusi');
+
+  // 3. Uji autoTrimStorageQuota
+  setCacheItem('https://api.tokuflix.id/catalog/bulk_test', { items: new Array(50).fill('test') }, CACHE_CATEGORIES.PUBLIC);
+  const trimmed = autoTrimStorageQuota(0); // paksa trim dengan threshold 0 byte
+  assert(trimmed >= 1, 11, 'autoTrimStorageQuota berhasil membersihkan entri non-esensial saat storage mendekati batas limit');
 
   // =========================================================================
   // REKAP HASIL PENGUJIAN

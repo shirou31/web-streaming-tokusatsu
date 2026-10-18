@@ -603,6 +603,170 @@ export const getCacheStats = (activeUserId = null) => {
 };
 
 /* ==========================================================================
+   AUTONOMOUS BACKGROUND CACHE ENGINE (100% Zero-Maintenance for Users)
+   ========================================================================== */
+
+export const AUTO_CLEANUP_INTERVAL_MS = 3 * 60 * 1000; // 3 menit
+export const AUTO_QUOTA_ALERT_BYTES = 3.5 * 1024 * 1024; // 3.5MB safe quota limit
+
+let autoCleanupTimer = null;
+let autoCleanupsRun = 0;
+let lastAutoCleanupTimestamp = null;
+
+/**
+ * Pembersihan data yatim (dangling data keys tanpa manifest yang valid)
+ */
+export const cleanupDanglingData = () => {
+  let cleanedCount = 0;
+  try {
+    const keys = safeStorageKeys();
+    const activeDataKeys = new Set();
+
+    // Kumpulkan semua dataKey yang terdaftar di manifest aktif
+    for (const storageKey of keys) {
+      if (storageKey.startsWith(STORAGE_PREFIX) && storageKey.endsWith('_manifest')) {
+        const raw = safeGetItem(storageKey);
+        if (raw) {
+          try {
+            const manifest = JSON.parse(raw);
+            const dataPrefix = storageKey.replace('_manifest', '_data_');
+            for (const itemKey of Object.keys(manifest)) {
+              activeDataKeys.add(`${dataPrefix}${encodeURIComponent(itemKey)}`);
+            }
+          } catch {
+            // ignore
+          }
+        }
+      }
+    }
+
+    // Hapus dataKey/orphan key yang tidak memiliki manifest induk
+    for (const storageKey of keys) {
+      if (storageKey.startsWith(STORAGE_PREFIX)) {
+        // Abaikan manifest
+        if (storageKey.endsWith('_manifest')) {
+          continue;
+        }
+        if (!activeDataKeys.has(storageKey)) {
+          safeRemoveItem(storageKey);
+          cleanedCount++;
+        }
+      }
+    }
+  } catch (err) {
+    console.warn('[cacheManager] Gagal membersihkan dangling data:', err.message);
+  }
+  return cleanedCount;
+};
+
+/**
+ * Otomatis memangkas penggunaan kuota jika melebihi batas (default 3.5MB)
+ * untuk menjamin pengguna tidak pernah mengalami QuotaExceededError.
+ */
+export const autoTrimStorageQuota = (thresholdBytes = AUTO_QUOTA_ALERT_BYTES) => {
+  let trimmedCount = 0;
+  try {
+    const stats = getCacheStats();
+    if (stats.totalSizeBytes > thresholdBytes) {
+      trimmedCount += cleanupExpiredCache();
+      trimmedCount += cleanupDanglingData();
+      trimmedCount += enforceCacheLimits(true); // Aggressive trim
+    }
+  } catch (err) {
+    console.warn('[cacheManager] Gagal auto-trim storage quota:', err.message);
+  }
+  return trimmedCount;
+};
+
+/**
+ * Menjalankan satu siklus pemeliharaan cache mandiri secara otomatis
+ */
+export const runAutoMaintenanceCycle = (userId = null) => {
+  autoCleanupsRun++;
+  lastAutoCleanupTimestamp = getCurrentTime();
+
+  // 1. Bersihkan item kedaluwarsa (TTL)
+  const cleanedExpired = cleanupExpiredCache();
+
+  // 2. Bersihkan data yatim
+  const cleanedDangling = cleanupDanglingData();
+
+  // 3. Batasi entri per kategori
+  const evictedCount = enforceCacheLimits(false);
+
+  // 4. Periksa batas kuota keseluruhan
+  const trimmedQuota = autoTrimStorageQuota();
+
+  // 5. Catat aktivitas
+  recordUserActivity(userId);
+
+  if (typeof window !== 'undefined') {
+    try {
+      window.dispatchEvent(new CustomEvent('tokuflix:autocache_tick', {
+        detail: {
+          timestamp: lastAutoCleanupTimestamp,
+          cleanedExpired,
+          cleanedDangling,
+          trimmedQuota,
+          runCount: autoCleanupsRun,
+          totalCycles: autoCleanupsRun
+        }
+      }));
+    } catch {
+      // ignore
+    }
+  }
+
+  return {
+    cleanedExpired,
+    cleanedDangling,
+    evictedCount,
+    trimmedQuota,
+    totalCleaned: cleanedExpired + cleanedDangling + evictedCount + trimmedQuota
+  };
+};
+
+/**
+ * Memulai daemon pembersihan berkala di latar belakang
+ */
+export const startAutonomousCacheDaemon = (userId = null, intervalMs = AUTO_CLEANUP_INTERVAL_MS) => {
+  stopAutonomousCacheDaemon();
+  autoCleanupTimer = setInterval(() => {
+    runAutoMaintenanceCycle(userId);
+  }, intervalMs);
+};
+
+/**
+ * Menghentikan daemon pembersihan mandiri
+ */
+export const stopAutonomousCacheDaemon = () => {
+  if (autoCleanupTimer) {
+    clearInterval(autoCleanupTimer);
+    autoCleanupTimer = null;
+  }
+};
+
+/**
+ * Mengambil status kesehatan Smart Cache Autonomous Engine
+ */
+export const getAutoCacheStatus = (userId = null) => {
+  const stats = getCacheStats(userId);
+  return {
+    isAutonomous: true,
+    daemonActive: autoCleanupTimer !== null,
+    intervalMs: AUTO_CLEANUP_INTERVAL_MS,
+    intervalMinutes: Math.round(AUTO_CLEANUP_INTERVAL_MS / 60000),
+    runCount: autoCleanupsRun,
+    autoCleanupsRun,
+    lastAutoCleanup: lastAutoCleanupTimestamp,
+    totalCachedEntries: stats.totalEntries,
+    estimatedSizeBytes: stats.totalSizeBytes,
+    estimatedSizeMb: (stats.totalSizeBytes / 1024 / 1024).toFixed(3),
+    storageHealth: stats.totalSizeBytes > AUTO_QUOTA_ALERT_BYTES ? 'trimming' : 'optimal'
+  };
+};
+
+/* ==========================================================================
    INITIALIZATION & LIFECYCLE LISTENER
    ========================================================================== */
 
@@ -613,51 +777,61 @@ let isInitialized = false;
  * Memeriksa dan menyiapkan sistem cache saat aplikasi dibuka.
  * - Memeriksa apakah user tidak aktif selama > 48 jam dan membersihkan private cache yang kedaluwarsa.
  * - Menjalankan cleanupExpiredCache() untuk membuang entri basi.
- * - Memasang event listener visibilitychange dan pageshow untuk lifecycle cleanup.
+ * - Menyalakan Autonomous Background Daemon (3 menit) sehingga pengguna TIDAK PERLU buang cache manual.
+ * - Memasang event listener visibilitychange, pageshow, beforeunload, storage.
  */
 export const initializeCacheManager = (options = {}) => {
   const { activeUserId = null, force = false } = options;
 
   if (isInitialized && !force) {
     // Tetap jalankan periodic verification
-    cleanupExpiredCache();
-    recordUserActivity(activeUserId);
+    runAutoMaintenanceCycle(activeUserId);
     return;
   }
 
   isInitialized = true;
-  console.info('[cacheManager] Menginisialisasi Smart Cache Manager...');
+  console.info('[cacheManager] Menginisialisasi Smart Cache Manager (Mode Mandiri Otomatis)...');
 
   // 1. Periksa aturan 48 jam tidak aktif untuk pengguna yang sedang tersimpan
   if (isUserInactive48Hours(activeUserId)) {
-    console.warn('[cacheManager] Aktivitas terakhir melebihi 48 jam! Membersihkan private cache pengguna...');
+    console.warn('[cacheManager] Aktivitas terakhir melebihi 48 jam! Membersihkan private cache pengguna secara otomatis...');
     clearUserPrivateCache(activeUserId);
     cleanupSessionCache();
   }
 
-  // 2. Jalankan pembersihan item kedaluwarsa (TTL)
-  cleanupExpiredCache();
+  // 2. Jalankan siklus pembersihan awal
+  runAutoMaintenanceCycle(activeUserId);
 
-  // 3. Batasi kapasitas penyimpanan jika mendekati batas kuota
-  enforceCacheLimits();
+  // 3. Nyalakan daemon latar belakang mandiri (berulang otomatis)
+  startAutonomousCacheDaemon(activeUserId);
 
-  // 4. Catat waktu buka aplikasi sebagai aktivitas
-  recordUserActivity(activeUserId);
-
-  // 5. Lifecycle listener: Ketika halaman kembali aktif dari background / tab lain
+  // 4. Lifecycle listener: Tab menjadi aktif kembali
   if (typeof document !== 'undefined') {
     document.addEventListener('visibilitychange', () => {
       if (document.visibilityState === 'visible') {
-        recordUserActivity(activeUserId);
-        cleanupExpiredCache();
+        runAutoMaintenanceCycle(activeUserId);
       }
     });
   }
 
+  // 5. Lifecycle listener: Page di-restore dari bfcache / reload
   if (typeof window !== 'undefined') {
     window.addEventListener('pageshow', () => {
-      recordUserActivity(activeUserId);
-      cleanupExpiredCache();
+      runAutoMaintenanceCycle(activeUserId);
+    });
+
+    // 6. Lifecycle listener: Otomatis buang session cache saat tab ditutup
+    window.addEventListener('beforeunload', () => {
+      cleanupSessionCache();
+    });
+
+    // 7. Multi-Tab Sync: Bersihkan sesi di tab ini jika user logout di tab lain
+    window.addEventListener('storage', (e) => {
+      if (e.key === 'tokuflix_auth_token' && !e.newValue) {
+        clearUserPrivateCache(activeUserId);
+        cleanupSessionCache();
+      }
     });
   }
 };
+
