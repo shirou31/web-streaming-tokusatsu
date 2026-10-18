@@ -35,13 +35,52 @@ export default function HeroBanner({
 
   const heroAmbientBg = `radial-gradient(60% 80% at 75% 35%, hsla(${activeHue}, 80%, 38%, 0.42) 0%, transparent 72%), conic-gradient(from 198deg at 88% -8%, transparent 0deg, rgba(255,255,255,0.12) 16deg, transparent 34deg), linear-gradient(115deg, hsl(${activeHue}, 60%, 10%) 0%, #0B0B0C 68%)`;
 
-  const heroPosterArt = current.posterUrl || current.backdropUrl || `linear-gradient(145deg, hsl(${activeHue}, 70%, 35%) 0%, #0B0B0C 85%)`;
+  const currentBackdrop = current.backdropUrl || current.fallbackBackdrop || current.posterUrl;
+  const currentPoster = current.posterUrl || current.fallbackPoster || current.backdropUrl;
 
   return (
     <section id="beranda" className="sorot-hero-section" style={{ background: heroAmbientBg }}>
-      {/* Background Dim & Bottom Fade Layers */}
-      <div className="hero-overlay-dim" aria-hidden="true" />
-      <div className="hero-overlay-bottom" aria-hidden="true" />
+      {/* Dynamic Fullscreen Cinematic Backdrop Architecture */}
+      <div className="hero-backdrop-wrapper" aria-hidden="true">
+        {/* Glow Ambient Layer (Blurred Backdrop for OLED/HDR ambiance) */}
+        <div 
+          className="hero-backdrop-glow"
+          style={{ backgroundImage: `url(${currentBackdrop})` }}
+        />
+
+        {/* Sharp High-Definition Scene Backdrop */}
+        <img 
+          key={current.id || currentIndex}
+          src={currentBackdrop}
+          alt=""
+          className="hero-backdrop-scene"
+          onError={(e) => {
+            if (current.fallbackBackdrop && e.currentTarget.src !== current.fallbackBackdrop) {
+              e.currentTarget.src = current.fallbackBackdrop;
+            } else if (currentPoster && e.currentTarget.src !== currentPoster) {
+              e.currentTarget.src = currentPoster;
+            }
+          }}
+        />
+
+        {/* Cinematic Vignette Overlays */}
+        {/* 1. Left Gradient Mask: keeps text readable */}
+        <div className="hero-vignette-left" />
+
+        {/* 2. Bottom Fade to Content */}
+        <div className="hero-vignette-bottom" />
+
+        {/* 3. Top Navbar Shade */}
+        <div className="hero-vignette-top" />
+
+        {/* 4. Radial Spotlight Color Wash */}
+        <div 
+          className="hero-vignette-radial"
+          style={{
+            background: `radial-gradient(ellipse 70% 60% at 70% 30%, hsla(${activeHue}, 85%, 45%, 0.18) 0%, transparent 70%)`
+          }}
+        />
+      </div>
 
       {/* Floating 3D Tilted Poster (Hidden on small mobile) */}
       <div 
@@ -51,7 +90,7 @@ export default function HeroBanner({
         title={current.title}
       >
         <img 
-          src={current.posterUrl || current.fallbackPoster || current.backdropUrl} 
+          src={currentPoster} 
           alt={current.title} 
           className="tilted-poster-img"
           onError={(e) => {
@@ -163,48 +202,125 @@ export default function HeroBanner({
       <style>{`
         .sorot-hero-section {
           position: relative;
-          min-height: 720px;
+          min-height: 740px;
           display: flex;
           flex-direction: column;
           justify-content: flex-end;
           padding: 130px clamp(16px, 4vw, 56px) 56px;
           overflow: hidden;
+          background-color: #0B0B0C;
           transition: background 0.8s ease;
         }
 
-        .hero-overlay-dim {
+        /* DYNAMIC CINEMATIC BACKDROP */
+        .hero-backdrop-wrapper {
           position: absolute;
           inset: 0;
-          background: linear-gradient(90deg, rgba(11, 11, 12, 0.94) 0%, rgba(11, 11, 12, 0.6) 45%, rgba(11, 11, 12, 0) 78%);
+          z-index: 1;
+          overflow: hidden;
           pointer-events: none;
         }
-        .hero-overlay-bottom {
+
+        .hero-backdrop-glow {
+          position: absolute;
+          inset: -40px;
+          background-size: cover;
+          background-position: center 25%;
+          filter: blur(60px);
+          opacity: 0.42;
+          transform: scale(1.15);
+          transition: background-image 1.2s ease, opacity 0.8s ease;
+        }
+
+        .hero-backdrop-scene {
+          position: absolute;
+          inset: 0;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center 20%;
+          opacity: 0.88;
+          filter: contrast(1.08) saturate(1.18) brightness(0.9);
+          animation: heroKenBurns 22s ease-in-out infinite alternate;
+          transition: opacity 1s cubic-bezier(0.16, 1, 0.3, 1), transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        @keyframes heroKenBurns {
+          0% {
+            transform: scale(1.02) translate(0, 0);
+          }
+          50% {
+            transform: scale(1.07) translate(-1.5%, -1%);
+          }
+          100% {
+            transform: scale(1.03) translate(1%, 0.5%);
+          }
+        }
+
+        .hero-vignette-left {
+          position: absolute;
+          inset: 0;
+          background: linear-gradient(90deg, 
+            #0B0B0C 0%, 
+            rgba(11, 11, 12, 0.98) 28%, 
+            rgba(11, 11, 12, 0.82) 48%, 
+            rgba(11, 11, 12, 0.45) 72%, 
+            rgba(11, 11, 12, 0.65) 100%
+          );
+        }
+
+        .hero-vignette-bottom {
           position: absolute;
           left: 0;
           right: 0;
           bottom: 0;
-          height: 260px;
-          background: linear-gradient(0deg, #0B0B0C 0%, rgba(11, 11, 12, 0) 100%);
+          height: 360px;
+          background: linear-gradient(0deg, 
+            #0B0B0C 0%, 
+            rgba(11, 11, 12, 0.96) 30%, 
+            rgba(11, 11, 12, 0.6) 65%, 
+            rgba(11, 11, 12, 0) 100%
+          );
+        }
+
+        .hero-vignette-top {
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 0;
+          height: 200px;
+          background: linear-gradient(180deg, 
+            rgba(11, 11, 12, 0.95) 0%, 
+            rgba(11, 11, 12, 0.5) 50%, 
+            rgba(11, 11, 12, 0) 100%
+          );
+        }
+
+        .hero-vignette-radial {
+          position: absolute;
+          inset: 0;
+          mix-blend-mode: screen;
           pointer-events: none;
         }
 
+        /* 3D TILTED POSTER CARD */
         .hero-tilted-poster {
           position: absolute;
-          right: 30%;
-          top: 130px;
-          width: 270px;
-          height: 405px;
+          right: 28%;
+          top: 120px;
+          width: 280px;
+          height: 420px;
           border-radius: var(--radius-lg);
           transform: rotate(3deg);
-          box-shadow: 0 30px 80px rgba(0, 0, 0, 0.8), 0 0 40px rgba(229, 9, 20, 0.2);
+          box-shadow: 0 35px 90px rgba(0, 0, 0, 0.92), 0 0 50px rgba(229, 9, 20, 0.28), inset 0 0 0 1px rgba(255, 255, 255, 0.18);
           overflow: hidden;
           cursor: pointer;
           transition: transform var(--transition-bounce), box-shadow var(--transition-normal);
           z-index: 2;
         }
         .hero-tilted-poster:hover {
-          transform: rotate(0deg) scale(1.04) translateY(-8px);
-          box-shadow: 0 40px 100px rgba(0, 0, 0, 0.9), 0 0 50px rgba(229, 9, 20, 0.4);
+          transform: rotate(0deg) scale(1.05) translateY(-8px);
+          box-shadow: 0 45px 110px rgba(0, 0, 0, 0.95), 0 0 60px rgba(229, 9, 20, 0.45), inset 0 0 0 1px rgba(255, 255, 255, 0.3);
         }
         .tilted-poster-img {
           width: 100%;
@@ -214,7 +330,7 @@ export default function HeroBanner({
         .tilted-poster-shade {
           position: absolute;
           inset: 0;
-          background: linear-gradient(0deg, rgba(0, 0, 0, 0.82) 0%, rgba(0, 0, 0, 0) 58%);
+          background: linear-gradient(0deg, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0) 60%);
         }
         .tilted-poster-caption {
           position: absolute;
@@ -226,6 +342,7 @@ export default function HeroBanner({
           line-height: 1.05;
           letter-spacing: -0.02em;
           color: #FFFFFF;
+          text-shadow: 0 2px 10px rgba(0, 0, 0, 0.9);
         }
 
         .hero-content-grid {
@@ -265,6 +382,7 @@ export default function HeroBanner({
           letter-spacing: 0.12em;
           text-transform: uppercase;
           color: #F2F2F4;
+          text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
         }
 
         .hero-headline {
@@ -274,6 +392,7 @@ export default function HeroBanner({
           letter-spacing: -0.03em;
           margin-bottom: 16px;
           color: #FFFFFF;
+          text-shadow: 0 4px 28px rgba(0, 0, 0, 0.95), 0 2px 8px rgba(0, 0, 0, 0.85);
         }
 
         .hero-meta-strip {
@@ -284,6 +403,7 @@ export default function HeroBanner({
           font-size: 15px;
           color: #D2D2D6;
           margin-bottom: 18px;
+          text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
         }
         .hero-age-tag {
           padding: 2px 8px;
@@ -292,6 +412,8 @@ export default function HeroBanner({
           font-size: 13px;
           font-weight: 700;
           color: #FFFFFF;
+          background: rgba(0, 0, 0, 0.4);
+          backdrop-filter: blur(4px);
         }
         .meta-bullet {
           width: 4px;
@@ -306,9 +428,10 @@ export default function HeroBanner({
         .hero-description {
           font-size: 17px;
           line-height: 1.55;
-          color: #DADADD;
+          color: #E2E2E5;
           margin-bottom: 28px;
-          max-width: 540px;
+          max-width: 560px;
+          text-shadow: 0 2px 10px rgba(0, 0, 0, 0.9);
         }
 
         .hero-actions-row {
@@ -319,9 +442,11 @@ export default function HeroBanner({
         }
         .hero-play-btn {
           min-width: 140px;
+          box-shadow: 0 4px 20px rgba(255, 255, 255, 0.2);
         }
         .hero-info-btn {
           min-width: 190px;
+          backdrop-filter: blur(8px);
         }
 
         /* Right Column: "Sorotan Hari Ini" */
@@ -334,8 +459,9 @@ export default function HeroBanner({
           font-weight: 800;
           letter-spacing: 0.14em;
           text-transform: uppercase;
-          color: #B8B8BC;
+          color: #D4D4D8;
           margin-bottom: 10px;
+          text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
         }
         .spotlight-cards-stack {
           display: flex;
@@ -348,21 +474,22 @@ export default function HeroBanner({
           gap: 12px;
           padding: 8px;
           border-radius: var(--radius-md);
-          border: 1.5px solid rgba(255, 255, 255, 0.12);
-          background: rgba(18, 18, 20, 0.65);
-          backdrop-filter: blur(8px);
+          border: 1.5px solid rgba(255, 255, 255, 0.15);
+          background: rgba(14, 14, 18, 0.72);
+          backdrop-filter: blur(12px);
           cursor: pointer;
           text-align: left;
           transition: all var(--transition-fast);
         }
         .spotlight-mini-card:hover {
-          background: rgba(255, 255, 255, 0.1);
-          border-color: rgba(255, 255, 255, 0.3);
+          background: rgba(255, 255, 255, 0.14);
+          border-color: rgba(255, 255, 255, 0.4);
+          transform: translateX(4px);
         }
         .spotlight-mini-card.active {
           border-color: var(--accent-red);
-          background: rgba(229, 9, 20, 0.22);
-          box-shadow: 0 4px 20px rgba(229, 9, 20, 0.25);
+          background: rgba(229, 9, 20, 0.28);
+          box-shadow: 0 4px 24px rgba(229, 9, 20, 0.35);
         }
         .spotlight-thumb-wrap {
           flex: 0 0 auto;
@@ -410,7 +537,7 @@ export default function HeroBanner({
         @media (max-width: 768px) {
           .sorot-hero-section {
             padding: 100px 18px 40px;
-            min-height: 580px;
+            min-height: 600px;
           }
           .hero-spotlight-col {
             display: none;
