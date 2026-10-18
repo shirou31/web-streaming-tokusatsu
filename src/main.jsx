@@ -2,6 +2,10 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
+import { initSecurityGuard } from './services/securityGuard.js'
+
+// Inisialisasi perlindungan keamanan dan anti-tamper aplikasi
+initSecurityGuard();
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

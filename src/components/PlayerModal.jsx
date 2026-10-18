@@ -43,6 +43,7 @@ export default function PlayerModal({
   const [isMuted, setIsMuted] = useState(false);
   const [currentSeconds, setCurrentSeconds] = useState(0);
   const [showSkipIntro, setShowSkipIntro] = useState(false);
+  const videoRef = useRef(null);
 
   // Load stream payload according to GET /stream/:episode_id
   useEffect(() => {
@@ -110,8 +111,51 @@ export default function PlayerModal({
 
   const handleSkipIntro = () => {
     if (streamData?.episode?.skip_markers?.intro_end_seconds) {
-      setCurrentSeconds(streamData.episode.skip_markers.intro_end_seconds + 1);
+      const nextTime = streamData.episode.skip_markers.intro_end_seconds + 1;
+      setCurrentSeconds(nextTime);
+      if (videoRef.current) {
+        videoRef.current.currentTime = nextTime;
+      }
       setShowSkipIntro(false);
+    }
+  };
+
+  const handleScrub = (pct) => {
+    const totalDuration = streamData?.episode?.duration_seconds || 1440;
+    const targetSec = Math.floor(pct * totalDuration);
+    setCurrentSeconds(targetSec);
+    if (videoRef.current) {
+      videoRef.current.currentTime = targetSec;
+    }
+  };
+
+  const togglePlay = () => {
+    if (videoRef.current) {
+      if (videoRef.current.paused) {
+        videoRef.current.play().catch(() => {});
+        setIsPlaying(true);
+      } else {
+        videoRef.current.pause();
+        setIsPlaying(false);
+      }
+    } else {
+      setIsPlaying(!isPlaying);
+    }
+  };
+
+  const toggleMute = () => {
+    if (videoRef.current) {
+      videoRef.current.muted = !isMuted;
+    }
+    setIsMuted(!isMuted);
+  };
+
+  const toggleFullscreen = () => {
+    const elem = document.querySelector('.video-viewport-wrapper');
+    if (!document.fullscreenElement) {
+      elem?.requestFullscreen?.().catch(() => {});
+    } else {
+      document.exitFullscreen?.().catch(() => {});
     }
   };
 
@@ -132,10 +176,18 @@ export default function PlayerModal({
   const totalDuration = episode.duration_seconds || 1440;
   const progressPercent = Math.min(100, (currentSeconds / totalDuration) * 100);
 
-  const isIframe = currentSource?.source_type === 'iframe' || 
+  // Deteksi apakah sumber adalah direct media (MP4/HLS/WebM) yang diputar langsung via tag HTML5 Video oleh browser pengguna
+  const isDirectVideo = currentSource?.source_type === 'direct' || 
+                        currentSource?.source_type === 'mp4' || 
+                        currentSource?.source_type === 'hls' || 
+                        (currentSource?.url && (currentSource.url.includes('.mp4') || currentSource.url.includes('.m3u8') || currentSource.url.includes('.webm')));
+
+  // Deteksi embed/iframe pihak ketiga
+  const isIframe = !isDirectVideo && (
+                   currentSource?.source_type === 'iframe' || 
                    currentSource?.source_type === 'embed' || 
                    currentSource?.source_type === 'gdrive' || 
-                   (currentSource?.url && (currentSource.url.includes('tokusatsuindo.com') || currentSource.url.includes('drive.google.com') || currentSource.url.includes('dood') || currentSource.url.includes('streamwish')));
+                   (currentSource?.url && (currentSource.url.includes('tokusatsuindo.com') || currentSource.url.includes('drive.google.com') || currentSource.url.includes('dood') || currentSource.url.includes('streamwish'))));
 
   const formatTime = (secs) => {
     const m = Math.floor(secs / 60);
@@ -242,7 +294,87 @@ export default function PlayerModal({
             )}
 
             <div className="video-viewport-wrapper">
-              {isIframe ? (
+              {isDirectVideo ? (
+                <div className="custom-cinema-screen">
+                  <video
+                    ref={videoRef}
+                    className="html5-video-player"
+                    src={currentSource?.url}
+                    poster={production.backdrop_url || production.poster_url}
+                    playsInline
+                    autoPlay
+                    muted={isMuted}
+                    crossOrigin="anonymous"
+                    onPlay={() => setIsPlaying(true)}
+                    onPause={() => setIsPlaying(false)}
+                    onTimeUpdate={(e) => {
+                      setCurrentSeconds(Math.floor(e.currentTarget.currentTime));
+                    }}
+                    onEnded={() => {
+                      setIsPlaying(false);
+                      postUserHistory({
+                        episode_id: episode.id,
+                        progress_seconds: totalDuration,
+                        duration_seconds: totalDuration,
+                        is_completed: true
+                      });
+                    }}
+                  >
+                    {subtitle_tracks && subtitle_tracks.map((sub) => (
+                      <track
+                        key={sub.id}
+                        kind="subtitles"
+                        src={sub.url}
+                        srcLang={sub.language_code}
+                        label={sub.label}
+                        default={sub.is_default || selectedSubtitleId === sub.id}
+                      />
+                    ))}
+                    Browser Anda tidak mendukung tag video HTML5.
+                  </video>
+
+                  {/* Skip Intro Button Floating */}
+                  {showSkipIntro && (
+                    <button className="skip-intro-btn" onClick={handleSkipIntro}>
+                      <FastForward size={16} />
+                      <span>Lewati Opening ({formatTime(episode.skip_markers.intro_end_seconds)})</span>
+                    </button>
+                  )}
+
+                  {/* Player Bottom Control Bar */}
+                  <div className="screen-control-bar">
+                    <button className="ctrl-btn" onClick={togglePlay} title={isPlaying ? "Jeda" : "Putar"}>
+                      {isPlaying ? <Pause size={18} /> : <Play size={18} />}
+                    </button>
+                    <button className="ctrl-btn" onClick={toggleMute} title={isMuted ? "Bunyikan" : "Bisukan"}>
+                      {isMuted ? <VolumeX size={18} /> : <Volume2 size={18} />}
+                    </button>
+
+                    <span className="time-code">
+                      {formatTime(currentSeconds)} / {formatTime(totalDuration)}
+                    </span>
+
+                    {/* Scrub Progress Bar */}
+                    <div 
+                      className="scrub-bar"
+                      onClick={(e) => {
+                        const rect = e.currentTarget.getBoundingClientRect();
+                        const clickX = e.clientX - rect.left;
+                        const pct = clickX / rect.width;
+                        handleScrub(pct);
+                      }}
+                    >
+                      <div className="scrub-fill" style={{ width: `${progressPercent}%` }} />
+                    </div>
+
+                    {/* Quality & Subtitle Badges */}
+                    <span className="quality-badge">{currentSource?.quality || '1440p'}</span>
+                    <button className="ctrl-btn" onClick={toggleFullscreen} title="Layar Penuh">
+                      <Maximize size={18} />
+                    </button>
+                  </div>
+                </div>
+              ) : isIframe ? (
                 <iframe
                   src={getIframeSrc(currentSource?.url)}
                   title={episode.title}
@@ -269,7 +401,7 @@ export default function PlayerModal({
                   )}
 
                   {/* Center Play Button */}
-                  <div className="screen-center-pulse" onClick={() => setIsPlaying(!isPlaying)}>
+                  <div className="screen-center-pulse" onClick={togglePlay}>
                     <div className="pulse-btn">
                       {isPlaying ? <Pause size={30} /> : <Play size={30} fill="#ffffff" />}
                     </div>
@@ -277,10 +409,10 @@ export default function PlayerModal({
 
                   {/* Player Bottom Control Bar */}
                   <div className="screen-control-bar">
-                    <button className="ctrl-btn" onClick={() => setIsPlaying(!isPlaying)}>
+                    <button className="ctrl-btn" onClick={togglePlay}>
                       {isPlaying ? <Pause size={18} /> : <Play size={18} />}
                     </button>
-                    <button className="ctrl-btn" onClick={() => setIsMuted(!isMuted)}>
+                    <button className="ctrl-btn" onClick={toggleMute}>
                       {isMuted ? <VolumeX size={18} /> : <Volume2 size={18} />}
                     </button>
 
@@ -295,7 +427,7 @@ export default function PlayerModal({
                         const rect = e.currentTarget.getBoundingClientRect();
                         const clickX = e.clientX - rect.left;
                         const pct = clickX / rect.width;
-                        setCurrentSeconds(Math.floor(pct * totalDuration));
+                        handleScrub(pct);
                       }}
                     >
                       <div className="scrub-fill" style={{ width: `${progressPercent}%` }} />
@@ -303,7 +435,7 @@ export default function PlayerModal({
 
                     {/* Quality & Subtitle Badges */}
                     <span className="quality-badge">{currentSource?.quality || '1440p'}</span>
-                    <button className="ctrl-btn" title="Layar Penuh">
+                    <button className="ctrl-btn" onClick={toggleFullscreen} title="Layar Penuh">
                       <Maximize size={18} />
                     </button>
                   </div>
@@ -634,6 +766,13 @@ export default function PlayerModal({
           width: 100%;
           height: 100%;
           border: none;
+        }
+        .html5-video-player {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+          background: #000;
+          display: block;
         }
         .custom-cinema-screen {
           position: relative;

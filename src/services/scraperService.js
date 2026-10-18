@@ -1,8 +1,12 @@
 // src/services/scraperService.js
 // Service untuk mengelola data scraping Tokusatsu Sub Indo live dari fansub lokal
 
-import scrapedData from '../data/scrapedTokusatsu.json';
-import { DB } from '../data/canonicalData';
+import scrapedData from '../data/scrapedTokusatsu.json' with { type: 'json' };
+import { DB } from '../data/canonicalData.js';
+import { clientFetch } from './clientFetch.js';
+
+let liveScrapedEpisodes = null;
+let liveScrapedMeta = null;
 
 /**
  * Helper untuk menyelaraskan gambar sampul/poster agar 100% tepat
@@ -86,11 +90,29 @@ export const resolveSeriesPoster = (ep) => {
 
 export const scraperService = {
   /**
+   * Mengambil pembaruan episode scraping live langsung dari browser via clientFetch
+   */
+  fetchLiveScraped: async () => {
+    try {
+      const res = await clientFetch('/scraper/releases', { cacheTtlMs: 30000, skipCache: true });
+      if (res && res.success && Array.isArray(res.data)) {
+        liveScrapedEpisodes = res.data;
+        if (res.meta) liveScrapedMeta = res.meta;
+        return { success: true, count: res.data.length, source: 'remote-api' };
+      }
+    } catch (err) {
+      console.info('[scraperService] Live scraper API fetch fallback:', err.message);
+    }
+    return { success: true, count: (scrapedData.episodes || []).length, source: 'local-cache' };
+  },
+
+  /**
    * Mendapatkan seluruh episode hasil scraping terbaru
    * Dipastikan gambarnya selaras dengan serial masing-masing
    */
   getScrapedEpisodes: () => {
-    return (scrapedData.episodes || []).map((ep) => ({
+    const sourceList = liveScrapedEpisodes || scrapedData.episodes || [];
+    return sourceList.map((ep) => ({
       ...ep,
       thumbnail: resolveSeriesPoster(ep)
     }));
@@ -100,7 +122,7 @@ export const scraperService = {
    * Mendapatkan metadata scraper
    */
   getMetadata: () => {
-    return scrapedData.metadata || {
+    return liveScrapedMeta || scrapedData.metadata || {
       generatedAt: new Date().toISOString(),
       totalEpisodes: 0,
       primarySource: 'Tokusatsu Fansub Network',

@@ -58,14 +58,18 @@ export default function ScraperModal({ onClose, onPlayEpisode }) {
     setTimeout(() => setCopied(false), 2000);
   };
 
-  const handleTriggerSync = () => {
+  const handleTriggerSync = async () => {
     setSyncing(true);
     setSyncSuccess(false);
-    setTimeout(() => {
-      setSyncing(false);
+    try {
+      await scraperService.fetchLiveScraped();
       setSyncSuccess(true);
       setTimeout(() => setSyncSuccess(false), 3000);
-    }, 1200);
+    } catch (e) {
+      console.warn('Sync fansub error:', e);
+    } finally {
+      setSyncing(false);
+    }
   };
 
   return (

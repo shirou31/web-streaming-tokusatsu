@@ -1,8 +1,57 @@
 // Implementasi Lengkap REST Client & Controller sesuai 02_API_SPECIFICATION.md
 // Mendukung in-memory database berdasar 01_DATABASE_ARCHITECTURE.md serta sinkronisasi LocalStorage
 
-import { DB } from '../data/canonicalData';
-import { scraperService } from './scraperService';
+import { DB } from '../data/canonicalData.js';
+import { scraperService } from './scraperService.js';
+import { 
+  clientFetch, 
+  getApiBaseUrl, 
+  setApiBaseUrl, 
+  clearClientCache,
+  abortAllInFlightRequests 
+} from './clientFetch.js';
+import {
+  CACHE_CATEGORIES,
+  TTL_48_HOURS_MS,
+  initializeCacheManager,
+  cleanupExpiredCache,
+  cleanupSessionCache,
+  clearUserPrivateCache,
+  getCacheStats,
+  enforceCacheLimits,
+  recordUserActivity,
+  getLastActiveTimestamp,
+  isUserInactive48Hours,
+  setTimeOffsetForTesting,
+  resetTimeOffsetForTesting,
+  getCurrentTime,
+  getCacheItem,
+  setCacheItem
+} from './cacheManager.js';
+
+// Re-export configuration & cache helpers for UI components & DevTools testing
+export { 
+  getApiBaseUrl, 
+  setApiBaseUrl, 
+  clearClientCache,
+  abortAllInFlightRequests,
+  CACHE_CATEGORIES,
+  TTL_48_HOURS_MS,
+  initializeCacheManager,
+  cleanupExpiredCache,
+  cleanupSessionCache,
+  clearUserPrivateCache,
+  getCacheStats,
+  enforceCacheLimits,
+  recordUserActivity,
+  getLastActiveTimestamp,
+  isUserInactive48Hours,
+  setTimeOffsetForTesting,
+  resetTimeOffsetForTesting,
+  getCurrentTime,
+  getCacheItem,
+  setCacheItem
+};
 
 // Helper Response Envelope
 const makeResponse = (data, pagination = null) => {
@@ -103,6 +152,17 @@ const formatProductionCard = (prod) => {
  * 1. GET /api/v1/meta/filters
  */
 export const getMetaFilters = async () => {
+  // 1. Coba request langsung dari browser via clientFetch jika Base URL aktif
+  try {
+    const remote = await clientFetch('/meta/filters', { cacheTtlMs: 300000 });
+    if (remote && remote.success && remote.data) {
+      return remote;
+    }
+  } catch (err) {
+    console.info('[apiService] Remote /meta/filters gagal, menggunakan fallback data kanonikal lokal:', err.message);
+  }
+
+  // 2. Fallback data kanonikal lokal
   const franchises = DB.franchises.map((f) => ({
     id: f.id,
     slug: f.slug,
@@ -141,6 +201,20 @@ export const getMetaFilters = async () => {
  * 2. GET /api/v1/home/hero
  */
 export const getHomeHero = async ({ limit = 5, franchise = null } = {}) => {
+  // 1. Coba request langsung dari browser via clientFetch
+  try {
+    const remote = await clientFetch('/home/hero', {
+      params: { limit, franchise: franchise && franchise !== 'all' ? franchise : undefined },
+      cacheTtlMs: 120000
+    });
+    if (remote && remote.success && remote.data) {
+      return remote;
+    }
+  } catch (err) {
+    console.info('[apiService] Remote /home/hero gagal, menggunakan fallback data kanonikal lokal:', err.message);
+  }
+
+  // 2. Fallback data kanonikal lokal
   let featured = DB.productions.filter((p) => p.is_featured && p.is_published);
 
   if (franchise && franchise !== 'all') {
@@ -186,6 +260,20 @@ export const getHomeHero = async ({ limit = 5, franchise = null } = {}) => {
  * 3. GET /api/v1/home/latest-episodes
  */
 export const getHomeLatestEpisodes = async ({ page = 1, per_page = 12, franchise = null, status = null } = {}) => {
+  // 1. Coba request langsung dari browser via clientFetch
+  try {
+    const remote = await clientFetch('/home/latest-episodes', {
+      params: { page, per_page, franchise, status },
+      cacheTtlMs: 60000
+    });
+    if (remote && remote.success && remote.data) {
+      return remote;
+    }
+  } catch (err) {
+    console.info('[apiService] Remote /home/latest-episodes gagal, fallback ke data lokal:', err.message);
+  }
+
+  // 2. Fallback data kanonikal lokal
   let eps = DB.episodes.filter((e) => e.is_published);
 
   if (franchise) {
@@ -248,6 +336,20 @@ export const getHomeLatestEpisodes = async ({ page = 1, per_page = 12, franchise
  * 4. GET /api/v1/home/popular
  */
 export const getHomePopular = async ({ franchise = null, era = null, type = 'tv_series', group_by = 'none', limit = 12 } = {}) => {
+  // 1. Coba request langsung dari browser via clientFetch
+  try {
+    const remote = await clientFetch('/home/popular', {
+      params: { franchise, era, type, group_by, limit },
+      cacheTtlMs: 120000
+    });
+    if (remote && remote.success && remote.data) {
+      return remote;
+    }
+  } catch (err) {
+    console.info('[apiService] Remote /home/popular gagal, fallback ke data lokal:', err.message);
+  }
+
+  // 2. Fallback data kanonikal lokal
   let list = DB.productions.filter((p) => p.is_published);
 
   if (type) {
@@ -284,6 +386,20 @@ export const getHomePopular = async ({ franchise = null, era = null, type = 'tv_
  * 5. GET /api/v1/home/continue-watching
  */
 export const getHomeContinueWatching = async ({ limit = 10 } = {}) => {
+  // 1. Coba request langsung dari browser via clientFetch jika token/endpoint tersedia
+  try {
+    const remote = await clientFetch('/home/continue-watching', {
+      params: { limit },
+      cacheTtlMs: 15000
+    });
+    if (remote && remote.success && remote.data) {
+      return remote;
+    }
+  } catch (err) {
+    // silently fallback to localStorage
+  }
+
+  // 2. Fallback data localStorage tersimpan di browser
   const history = getStoredHistory()
     .filter((h) => !h.is_completed)
     .sort((a, b) => new Date(b.last_watched_at) - new Date(a.last_watched_at))
@@ -337,6 +453,20 @@ export const searchProductions = async ({ q, limit = 8 } = {}) => {
     return makeError('VALIDATION_ERROR', 'Parameter pencarian q minimal 2 karakter.', 400);
   }
 
+  // 1. Coba request langsung dari browser via clientFetch
+  try {
+    const remote = await clientFetch('/productions/search', {
+      params: { q, limit },
+      cacheTtlMs: 30000
+    });
+    if (remote && remote.success && remote.data) {
+      return remote;
+    }
+  } catch (err) {
+    console.info('[apiService] Remote /productions/search gagal, fallback ke data lokal:', err.message);
+  }
+
+  // 2. Fallback data kanonikal lokal
   const query = q.toLowerCase().trim();
   const matched = DB.productions
     .filter((p) => p.is_published)
@@ -370,6 +500,20 @@ export const searchProductions = async ({ q, limit = 8 } = {}) => {
  * 7. GET /api/v1/catalog
  */
 export const getCatalog = async (params = {}) => {
+  // 1. Coba request langsung dari browser via clientFetch
+  try {
+    const remote = await clientFetch('/catalog', {
+      params,
+      cacheTtlMs: 60000
+    });
+    if (remote && remote.success && remote.data) {
+      return remote;
+    }
+  } catch (err) {
+    console.info('[apiService] Remote /catalog gagal, fallback ke data lokal:', err.message);
+  }
+
+  // 2. Fallback data kanonikal lokal
   const {
     franchise,
     era,
@@ -494,6 +638,20 @@ export const getCatalog = async (params = {}) => {
  * 8. GET /api/v1/productions/:slug
  */
 export const getProductionBySlug = async (slug, { watch_order = null } = {}) => {
+  // 1. Coba request langsung dari browser via clientFetch
+  try {
+    const remote = await clientFetch(`/productions/${slug}`, {
+      params: watch_order ? { watch_order } : null,
+      cacheTtlMs: 180000
+    });
+    if (remote && remote.success && remote.data) {
+      return remote;
+    }
+  } catch (err) {
+    console.info(`[apiService] Remote /productions/${slug} gagal, fallback ke data lokal:`, err.message);
+  }
+
+  // 2. Fallback data kanonikal lokal
   const prod = DB.productions.find((p) => p.slug === slug && p.is_published);
   if (!prod) {
     return makeError('NOT_FOUND', `Production dengan slug "${slug}" tidak ditemukan.`, 404);
@@ -679,6 +837,19 @@ export const getProductionBySlug = async (slug, { watch_order = null } = {}) => 
  * 9. GET /api/v1/watch-orders/:slug
  */
 export const getWatchOrderBySlug = async (slug) => {
+  // 1. Coba request langsung dari browser via clientFetch
+  try {
+    const remote = await clientFetch(`/watch-orders/${slug}`, {
+      cacheTtlMs: 180000
+    });
+    if (remote && remote.success && remote.data) {
+      return remote;
+    }
+  } catch (err) {
+    console.info(`[apiService] Remote /watch-orders/${slug} gagal, fallback ke data lokal:`, err.message);
+  }
+
+  // 2. Fallback data kanonikal lokal
   const wo = DB.watch_orders.find((w) => w.slug === slug && w.is_published);
   if (!wo) {
     return makeError('NOT_FOUND', `Watch order dengan slug "${slug}" tidak ditemukan.`, 404);
@@ -734,6 +905,20 @@ export const getWatchOrderBySlug = async (slug) => {
  * Everything needed by the Video Player
  */
 export const getStreamPayload = async (episodeId, { watch_order = null } = {}) => {
+  // 1. Coba request langsung dari browser via clientFetch jika Base URL aktif
+  try {
+    const remote = await clientFetch(`/stream/${episodeId}`, {
+      params: watch_order ? { watch_order } : null,
+      cacheTtlMs: 30000
+    });
+    if (remote && remote.success && remote.data) {
+      return remote;
+    }
+  } catch (err) {
+    console.info(`[apiService] Remote /stream/${episodeId} gagal, fallback ke data lokal:`, err.message);
+  }
+
+  // 2. Fallback data scraper & kanonikal lokal
   // Check if requested episode is from live scraper
   if (typeof episodeId === 'string' && (episodeId.startsWith('scraped_') || scraperService.getEpisodeById(episodeId))) {
     const scrapedPayload = scraperService.buildStreamPayload(episodeId);
@@ -1097,6 +1282,12 @@ export const postUserHistory = async ({ episode_id, progress_seconds, duration_s
 
   setStoredHistory(history.slice(0, 50));
 
+  // Background sync langsung dari browser ke API streaming jika Base URL aktif
+  clientFetch('/user/history', {
+    method: 'POST',
+    body: { episode_id, progress_seconds, duration_seconds, is_completed: completed }
+  }).catch(() => {});
+
   return makeResponse({
     episode_id,
     production_id: record.production_id,
@@ -1160,6 +1351,10 @@ export const deleteUserHistory = async (episodeId) => {
   const history = getStoredHistory();
   const filtered = history.filter((h) => h.episode_id !== episodeId);
   setStoredHistory(filtered);
+
+  // Background sync langsung dari browser ke API streaming
+  clientFetch(`/user/history/${episodeId}`, { method: 'DELETE' }).catch(() => {});
+
   return { success: true, status: 204 };
 };
 
@@ -1167,6 +1362,20 @@ export const deleteUserHistory = async (episodeId) => {
  * 15. GET /api/v1/user/bookmarks
  */
 export const getUserBookmarks = async ({ status = null } = {}) => {
+  // 1. Coba request langsung dari browser via clientFetch jika token/endpoint tersedia
+  try {
+    const remote = await clientFetch('/user/bookmarks', {
+      params: status ? { status } : null,
+      cacheTtlMs: 15000
+    });
+    if (remote && remote.success && remote.data) {
+      return remote;
+    }
+  } catch (err) {
+    // silently fallback to localStorage
+  }
+
+  // 2. Fallback data localStorage tersimpan di browser
   let bookmarks = getStoredBookmarks();
 
   if (status) {
@@ -1217,6 +1426,13 @@ export const postUserBookmark = async ({ production_id, status = 'plan_to_watch'
   }
 
   setStoredBookmarks(bookmarks);
+
+  // Background sync langsung dari browser ke API streaming
+  clientFetch('/user/bookmarks', {
+    method: 'POST',
+    body: { production_id, status }
+  }).catch(() => {});
+
   return makeResponse({ production_id, status });
 };
 
@@ -1227,14 +1443,129 @@ export const deleteUserBookmark = async (productionId) => {
   const bookmarks = getStoredBookmarks();
   const filtered = bookmarks.filter((b) => b.production_id !== productionId);
   setStoredBookmarks(filtered);
+
+  // Background sync langsung dari browser ke API streaming
+  clientFetch(`/user/bookmarks/${productionId}`, { method: 'DELETE' }).catch(() => {});
+
   return { success: true, status: 204 };
 };
 
 /**
- * 18. User Auth & Session
+ * 18. User Auth & Session Management
  */
 export const getCurrentUser = () => {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEYS.USER);
+    if (raw) {
+      return JSON.parse(raw);
+    }
+  } catch {
+    // fallback
+  }
   return DB.users[0];
+};
+
+export const getAuthToken = () => {
+  try {
+    return localStorage.getItem(STORAGE_KEYS.TOKEN);
+  } catch {
+    return null;
+  }
+};
+
+export const getAuthSession = () => {
+  try {
+    const rawUser = localStorage.getItem(STORAGE_KEYS.USER);
+    const token = localStorage.getItem(STORAGE_KEYS.TOKEN);
+    if (rawUser && token) {
+      const user = JSON.parse(rawUser);
+      const is48hExpired = isUserInactive48Hours(user.id);
+      return {
+        isAuthenticated: true,
+        user,
+        token,
+        is48hExpired
+      };
+    }
+  } catch {
+    // fallback
+  }
+  return {
+    isAuthenticated: false,
+    user: null,
+    token: null,
+    is48hExpired: false
+  };
+};
+
+export const loginUser = async ({ id, name, email, avatar_url, token } = {}) => {
+  const user = {
+    id: id || DB.users[0].id,
+    name: name || DB.users[0].name,
+    email: email || DB.users[0].email,
+    avatar_url: avatar_url || DB.users[0].avatar_url || 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100'
+  };
+  const authToken = token || `tok_sess_${Date.now()}_${Math.random().toString(36).substring(2, 9)}`;
+
+  try {
+    localStorage.setItem(STORAGE_KEYS.USER, JSON.stringify(user));
+    localStorage.setItem(STORAGE_KEYS.TOKEN, authToken);
+  } catch (err) {
+    console.warn('[apiService] Gagal menyimpan auth user:', err);
+  }
+
+  // Catat waktu aktivitas / autentikasi terakhir
+  recordUserActivity(user.id);
+
+  if (typeof window !== 'undefined') {
+    window.dispatchEvent(new CustomEvent('tokuflix:auth_changed', { detail: { user, action: 'login' } }));
+  }
+
+  return makeResponse({ user, token: authToken });
+};
+
+export const logoutUser = async () => {
+  let activeUserId = null;
+  try {
+    const raw = localStorage.getItem(STORAGE_KEYS.USER);
+    if (raw) {
+      const u = JSON.parse(raw);
+      activeUserId = u.id;
+    }
+  } catch {
+    // fallback
+  }
+
+  // 1. Batalkan semua request yang masih berjalan (in-flight)
+  const abortedRequestsCount = abortAllInFlightRequests();
+
+  // 2. Hapus cache privat yang hanya berlaku untuk sesi pengguna tersebut
+  const clearedPrivateCount = clearUserPrivateCache(activeUserId);
+
+  // 3. Hapus data sementara terkait sesi
+  const clearedSessionCount = cleanupSessionCache();
+
+  // 4. Hapus access token dan data autentikasi lokal
+  try {
+    localStorage.removeItem(STORAGE_KEYS.USER);
+    localStorage.removeItem(STORAGE_KEYS.TOKEN);
+  } catch (err) {
+    console.warn('[apiService] Gagal menghapus auth tokens:', err);
+  }
+
+  // PENTING: Pertahankan tokuflix_watch_history & tokuflix_user_bookmarks!
+  // PENTING: Pertahankan public-cache yang masih valid!
+
+  if (typeof window !== 'undefined') {
+    window.dispatchEvent(new CustomEvent('tokuflix:auth_changed', { detail: { user: null, action: 'logout' } }));
+  }
+
+  return makeResponse({
+    logged_out: true,
+    aborted_requests: abortedRequestsCount,
+    cleared_private_cache_items: clearedPrivateCount,
+    cleared_session_cache_items: clearedSessionCount
+  });
 };
 
 /**
@@ -1242,6 +1573,17 @@ export const getCurrentUser = () => {
  * Rilis Live Fansub Hasil Scraping Tokusatsu Sub Indo
  */
 export const getScrapedReleases = async () => {
+  // 1. Coba request langsung dari browser via clientFetch jika Base URL aktif
+  try {
+    const remote = await clientFetch('/scraper/releases', { cacheTtlMs: 60000 });
+    if (remote && remote.success && remote.data) {
+      return remote;
+    }
+  } catch (err) {
+    console.info('[apiService] Remote /scraper/releases gagal, fallback ke data lokal:', err.message);
+  }
+
+  // 2. Fallback data scraper lokal
   const episodes = scraperService.getScrapedEpisodes();
   return makeResponse(episodes, {
     total: episodes.length,
@@ -1256,6 +1598,17 @@ export const getScrapedReleases = async () => {
  * Status & Health Scraper Tokusatsu Fansub
  */
 export const getScraperStatus = async () => {
+  // 1. Coba request langsung dari browser via clientFetch jika Base URL aktif
+  try {
+    const remote = await clientFetch('/scraper/status', { cacheTtlMs: 60000 });
+    if (remote && remote.success && remote.data) {
+      return remote;
+    }
+  } catch (err) {
+    console.info('[apiService] Remote /scraper/status gagal, fallback ke data lokal:', err.message);
+  }
+
+  // 2. Fallback metadata scraper lokal
   const meta = scraperService.getMetadata();
   return makeResponse(meta);
 };

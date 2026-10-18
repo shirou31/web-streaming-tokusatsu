@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
 import { 
-  Sparkles, 
   Search, 
   Key, 
   Bookmark, 
-  History, 
   Menu, 
   X, 
   ShieldCheck, 
@@ -13,9 +11,13 @@ import {
   Swords,
   Tv,
   Terminal,
-  Sun,
-  Moon,
-  Smartphone
+  Smartphone,
+  Database,
+  Bell,
+  LogOut,
+  LogIn,
+  User,
+  Sparkles
 } from 'lucide-react';
 
 export default function Navbar({ 
@@ -31,8 +33,9 @@ export default function Navbar({
   scrapedCount = 11,
   watchlistCount, 
   hasTmdbKey,
-  theme = 'dark',
-  onToggleTheme
+  authSession = null,
+  onLogin = null,
+  onLogout = null
 }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [mobileSearchOpen, setMobileSearchOpen] = useState(false);
@@ -50,124 +53,189 @@ export default function Navbar({
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+  const scrollToSection = (id) => {
+    const el = document.getElementById(id);
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+    setMobileMenuOpen(false);
+  };
+
   return (
-    <header className="navbar-container">
-      <div className="navbar-glass">
+    <header className="sorot-header">
+      <div className="header-inner">
         {/* Brand Logo */}
-        <div className="brand-logo" onClick={() => handleSelectFranchise('all')}>
-          <div className="logo-icon-wrapper">
-            <img 
-              src="/logo-512.png" 
-              alt="Tokustream Logo" 
-              className="brand-logo-img" 
-            />
-          </div>
-          <div className="logo-text">
-            <span className="logo-main">TOKU<span className="logo-accent">FLIX</span></span>
-            <span className="logo-badge">SUB INDO</span>
+        <div className="brand-logo" onClick={() => handleSelectFranchise('all')} role="button" tabIndex={0}>
+          <svg width="34" height="34" viewBox="0 0 32 32" aria-hidden="true" className="brand-svg-logo">
+            <rect width="32" height="32" rx="9" fill="#E50914" />
+            <circle cx="9" cy="16" r="4" fill="#fff" />
+            <path d="M14 13 L26 6.5 L26 25.5 L14 19 Z" fill="#fff" fillOpacity="0.88" />
+          </svg>
+          <div className="brand-title-box">
+            <span className="brand-text disp">sorot</span>
+            <span className="brand-badge-toku">TOKUFLIX</span>
           </div>
         </div>
 
-        {/* Desktop Franchise Navigation */}
-        <nav className="nav-franchises">
-          {navFranchises.map((item) => {
-            const Icon = item.icon;
-            const currentNorm = (selectedFranchise || 'all').toLowerCase().replace(/\s+/g, '-');
-            const isActive = currentNorm === item.id;
-            return (
-              <button
-                key={item.id}
-                id={`nav-franchise-${item.id}`}
-                className={`nav-pill ${isActive ? 'active' : ''}`}
-                onClick={() => handleSelectFranchise(item.id)}
-              >
-                <Icon size={16} color={isActive ? '#ffffff' : (item.color || 'currentColor')} />
-                <span>{item.name}</span>
-              </button>
-            );
-          })}
+        {/* Desktop Nav Links */}
+        <nav className="desktop-nav-links" aria-label="Menu Utama">
+          <button 
+            type="button"
+            className={`nav-link-btn ${selectedFranchise === 'all' && !searchQuery ? 'active' : ''}`}
+            onClick={() => {
+              handleSelectFranchise('all');
+              scrollToSection('beranda');
+            }}
+          >
+            Beranda
+          </button>
+          <button 
+            type="button"
+            className="nav-link-btn"
+            onClick={() => scrollToSection('top10')}
+          >
+            Terpopuler
+          </button>
+          <button 
+            type="button"
+            className="nav-link-btn"
+            onClick={() => scrollToSection('baru')}
+          >
+            Baru Rilis
+          </button>
+          <button 
+            type="button"
+            className="nav-link-btn"
+            onClick={() => scrollToSection('jelajah')}
+          >
+            Jelajah
+          </button>
+          <button 
+            type="button"
+            className="nav-link-btn"
+            onClick={onOpenWatchlist}
+          >
+            Daftar Saya
+            {watchlistCount > 0 && <span className="nav-badge-pill">{watchlistCount}</span>}
+          </button>
         </nav>
 
-        {/* Search & Actions */}
-        <div className="nav-actions">
-          {/* Desktop Search Bar */}
-          <div className="search-input-wrapper">
-            <Search size={16} className="search-icon" />
+        {/* Flex spacer */}
+        <div className="nav-spacer" />
+
+        {/* Header Right Actions */}
+        <div className="header-actions">
+          {/* Desktop Search Capsule */}
+          <div className="searchbox">
+            <Search size={18} className="search-icon" aria-hidden="true" />
             <input
               id="search-input"
-              type="text"
-              placeholder="Cari Kamen Rider, Sentai..."
+              type="search"
+              placeholder="Cari judul atau genre"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="search-input"
+              className="sr-input"
+              aria-label="Cari judul atau genre"
             />
             {searchQuery && (
-              <button id="clear-search-btn" className="clear-search-btn" onClick={() => setSearchQuery('')}>
+              <button 
+                type="button" 
+                className="clear-search-btn" 
+                onClick={() => setSearchQuery('')}
+                aria-label="Hapus kata kunci pencarian"
+              >
                 <X size={14} />
               </button>
             )}
           </div>
 
-          {/* Mobile Search Toggle Button */}
+          {/* Mobile Search Toggle */}
           <button
+            type="button"
             id="mobile-search-toggle-btn"
             className="mobile-search-toggle-btn"
             onClick={() => setMobileSearchOpen(!mobileSearchOpen)}
-            title="Cari Tokusatsu"
+            aria-label="Buka pencarian"
           >
             <Search size={18} />
           </button>
 
-          {/* Watchlist / Favorit */}
-          <button 
-            id="watchlist-nav-btn"
-            className="watchlist-btn"
-            onClick={onOpenWatchlist}
-            title="Daftar Tontonan & Favorit Saya"
+          {/* Smart Cache & API Dashboard Button */}
+          <button
+            type="button"
+            id="smart-cache-nav-btn"
+            className="nav-action-btn smart-cache-btn"
+            onClick={onOpenSpecs}
+            title="Smart Cache & API Inspector (48h Inactivity TTL, Storage Audit, Safe Logout)"
           >
-            <Bookmark size={18} />
-            {watchlistCount > 0 && (
-              <span className="watchlist-badge">{watchlistCount}</span>
-            )}
+            <Database size={17} color="var(--accent-cyan)" />
+            <span className="smart-cache-text">Smart Cache</span>
           </button>
 
-          {/* Dark / Light Theme Toggle */}
+          {/* Notifications Bell */}
           <button 
-            id="theme-toggle-btn"
-            className="theme-toggle-btn"
-            onClick={onToggleTheme}
-            title={theme === 'dark' ? "Beralih ke Tema Terang (Light Mode)" : "Beralih ke Tema Gelap (Dark Mode)"}
-            aria-label="Ganti Tema"
+            type="button" 
+            className="ibtn nav-bell-btn" 
+            aria-label="Notifikasi Rilis Fansub Terbaru"
+            onClick={onOpenScraper}
+            title={`${scrapedCount} Episode Baru Siap Ditonton`}
           >
-            <div className="theme-toggle-icon-wrap">
-              {theme === 'dark' ? (
-                <Sun size={17} className="theme-sun-icon" />
-              ) : (
-                <Moon size={17} className="theme-moon-icon" />
-              )}
+            <Bell size={18} />
+            {scrapedCount > 0 && <span className="bell-badge-dot" aria-hidden="true" />}
+          </button>
+
+          {/* User Account / Profile Button */}
+          {authSession?.isAuthenticated ? (
+            <div className="user-profile-badge" title={`Akun: ${authSession.user?.name} (${authSession.user?.email})`}>
+              <img 
+                src={authSession.user?.avatar_url || 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100'} 
+                alt="Avatar Pengguna" 
+                className="user-avatar-img"
+              />
+              <span className="user-firstname">{authSession.user?.name?.split(' ')[0]}</span>
+              <button 
+                type="button"
+                id="nav-logout-btn"
+                className="user-logout-btn"
+                onClick={onLogout}
+                title="Logout & Bersihkan Cache Sesi"
+              >
+                <LogOut size={13} />
+              </button>
             </div>
-            <span className="theme-toggle-label">{theme === 'dark' ? 'Terang' : 'Gelap'}</span>
-          </button>
+          ) : (
+            <button 
+              type="button"
+              id="nav-login-btn"
+              className="user-login-btn"
+              onClick={onLogin}
+              title="Masuk Akun Pengguna"
+            >
+              <LogIn size={15} />
+              <span>Masuk</span>
+            </button>
+          )}
 
-          {/* Mobile Menu Toggle */}
+          {/* Mobile Menu Toggle Button */}
           <button 
+            type="button"
             id="mobile-menu-toggle-btn"
-            className="mobile-toggle-btn"
+            className="mobile-hamburger-btn"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            aria-label="Menu"
+            aria-label={mobileMenuOpen ? "Tutup menu" : "Buka menu"}
           >
             {mobileMenuOpen ? <X size={22} /> : <Menu size={22} />}
           </button>
         </div>
       </div>
 
-      {/* Mobile Search Bar Dropdown */}
+      {/* Mobile Search Input Dropdown */}
       {mobileSearchOpen && (
-        <div className="mobile-search-dropdown glass-panel">
-          <Search size={16} className="search-icon" />
+        <div className="mobile-search-dropdown">
+          <Search size={18} className="mobile-search-icon" />
           <input
             id="mobile-search-input"
-            type="text"
+            type="search"
             placeholder="Cari Kamen Rider, Sentai, Ultraman..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
@@ -175,7 +243,7 @@ export default function Navbar({
             className="mobile-search-input"
           />
           {searchQuery && (
-            <button className="clear-search-btn" onClick={() => setSearchQuery('')}>
+            <button type="button" className="clear-search-btn" onClick={() => setSearchQuery('')}>
               <X size={15} />
             </button>
           )}
@@ -184,160 +252,234 @@ export default function Navbar({
 
       {/* Mobile Menu Drawer */}
       {mobileMenuOpen && (
-        <div className="mobile-menu-drawer glass-panel">
-          <div className="mobile-drawer-section-title">UNIVERSE TOKUSATSU</div>
-          <div className="mobile-franchise-list">
-            {navFranchises.map((item) => {
-              const Icon = item.icon;
-              const currentNorm = (selectedFranchise || 'all').toLowerCase().replace(/\s+/g, '-');
-              const isActive = currentNorm === item.id;
-              return (
-                <button
-                  key={item.id}
-                  className={`mobile-nav-item ${isActive ? 'active' : ''}`}
-                  onClick={() => {
-                    handleSelectFranchise(item.id);
-                    setMobileMenuOpen(false);
-                  }}
-                >
-                  <Icon size={18} color={item.color || 'currentColor'} />
-                  <span>{item.name}</span>
-                </button>
-              );
-            })}
-          </div>
-
-          <div className="mobile-drawer-section-title">FITUR & AKSES</div>
-          <div className="mobile-tools-list">
-            {/* Pasang Aplikasi Mobile */}
-            <button
-              className="mobile-tool-item highlight-mobile-install"
-              onClick={() => {
-                onOpenInstallModal?.();
-                setMobileMenuOpen(false);
-              }}
-              style={{
-                background: 'linear-gradient(135deg, rgba(255, 32, 78, 0.15) 0%, rgba(0, 242, 254, 0.15) 100%)',
-                border: '1px solid rgba(0, 242, 254, 0.4)'
-              }}
-            >
-              <Smartphone size={18} color="var(--accent-cyan)" />
-              <div className="tool-text-group">
-                <span className="tool-title" style={{ color: 'var(--accent-cyan)', fontWeight: 800 }}>📱 Pasang Aplikasi Mobile</span>
-                <span className="tool-desc">1-Klik PWA & File APK Android</span>
+        <div className="mobile-drawer-overlay" onClick={() => setMobileMenuOpen(false)}>
+          <div className="mobile-drawer-panel" onClick={(e) => e.stopPropagation()}>
+            <div className="mobile-drawer-header">
+              <div className="brand-logo">
+                <svg width="28" height="28" viewBox="0 0 32 32" aria-hidden="true">
+                  <rect width="32" height="32" rx="8" fill="#E50914" />
+                  <circle cx="9" cy="16" r="4" fill="#fff" />
+                  <path d="M14 13 L26 6.5 L26 25.5 L14 19 Z" fill="#fff" fillOpacity="0.88" />
+                </svg>
+                <span className="brand-text disp" style={{ fontSize: '22px' }}>sorot</span>
               </div>
-              <span className="scraped-count-badge" style={{ background: 'var(--accent-red)', color: '#fff' }}>Baru</span>
-            </button>
+              <button 
+                type="button" 
+                className="close-drawer-btn" 
+                onClick={() => setMobileMenuOpen(false)}
+                aria-label="Tutup Menu"
+              >
+                <X size={20} />
+              </button>
+            </div>
 
-            {/* Live Fansub Scraper */}
-            <button
-              className="mobile-tool-item"
-              onClick={() => {
-                onOpenScraper?.();
-                setMobileMenuOpen(false);
-              }}
-            >
-              <Zap size={18} color="#10b981" />
-              <div className="tool-text-group">
-                <span className="tool-title">Live Fansub Scraper</span>
-                <span className="tool-desc">Hasil rilis episode & GDrive</span>
-              </div>
-              <span className="scraped-count-badge">{scrapedCount}</span>
-            </button>
-
-            {/* Watchlist & History */}
-            <button
-              className="mobile-tool-item"
-              onClick={() => {
-                onOpenWatchlist?.();
-                setMobileMenuOpen(false);
-              }}
-            >
-              <Bookmark size={18} color="var(--accent-red)" />
-              <div className="tool-text-group">
-                <span className="tool-title">Daftar Favorit & Riwayat</span>
-                <span className="tool-desc">Tersimpan di perangkat</span>
-              </div>
-              {watchlistCount > 0 && <span className="watchlist-badge">{watchlistCount}</span>}
-            </button>
-
-            {/* TMDB API Key */}
-            <button
-              className="mobile-tool-item"
-              onClick={() => {
-                onOpenApiKeyModal?.();
-                setMobileMenuOpen(false);
-              }}
-            >
-              <Key size={18} color="#f59e0b" />
-              <div className="tool-text-group">
-                <span className="tool-title">TMDB Live API Key</span>
-                <span className="tool-desc">{hasTmdbKey ? 'Status: Terhubung Online' : 'Status: Belum Terhubung'}</span>
-              </div>
-              <span className={`status-indicator ${hasTmdbKey ? 'online' : 'offline'}`} />
-            </button>
-
-            {/* REST API Specs */}
-            <button
-              className="mobile-tool-item"
-              onClick={() => {
-                onOpenSpecs?.();
-                setMobileMenuOpen(false);
-              }}
-            >
-              <Terminal size={18} color="var(--accent-cyan)" />
-              <div className="tool-text-group">
-                <span className="tool-title">REST API & DB Schema</span>
-                <span className="tool-desc">01 & 02 Specification Specs</span>
-              </div>
-            </button>
-          </div>
-
-          <div className="mobile-drawer-footer">
-            <button 
-              id="mobile-theme-toggle-btn"
-              className="mobile-theme-toggle-btn"
-              onClick={() => {
-                onToggleTheme?.();
-                setMobileMenuOpen(false);
-              }}
-            >
-              {theme === 'dark' ? (
-                <>
-                  <Sun size={18} color="#f59e0b" />
-                  <span>Beralih ke Tema Terang (Light Mode)</span>
-                </>
+            {/* User Session Profile in Mobile */}
+            <div className="mobile-user-card">
+              {authSession?.isAuthenticated ? (
+                <div className="mobile-user-info-row">
+                  <img 
+                    src={authSession.user?.avatar_url || 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100'} 
+                    alt="User Avatar" 
+                    className="mobile-avatar-img"
+                  />
+                  <div className="mobile-user-details">
+                    <span className="mobile-name">{authSession.user?.name}</span>
+                    <span className="mobile-email">{authSession.user?.email}</span>
+                  </div>
+                  <button 
+                    type="button" 
+                    className="mobile-logout-btn" 
+                    onClick={() => {
+                      onLogout?.();
+                      setMobileMenuOpen(false);
+                    }}
+                  >
+                    <LogOut size={14} />
+                    <span>Logout</span>
+                  </button>
+                </div>
               ) : (
-                <>
-                  <Moon size={18} color="#6366f1" />
-                  <span>Beralih ke Tema Gelap (Dark Mode)</span>
-                </>
+                <div className="mobile-guest-row">
+                  <div>
+                    <div className="mobile-guest-title">Mode Tamu (Guest)</div>
+                    <div className="mobile-guest-sub">Masuk untuk menyimpan riwayat personal</div>
+                  </div>
+                  <button 
+                    type="button" 
+                    className="mobile-login-btn" 
+                    onClick={() => {
+                      onLogin?.();
+                      setMobileMenuOpen(false);
+                    }}
+                  >
+                    <LogIn size={15} />
+                    <span>Masuk</span>
+                  </button>
+                </div>
               )}
-            </button>
+            </div>
+
+            {/* Navigation links */}
+            <div className="mobile-section-label">NAVIGASI UTAMA</div>
+            <div className="mobile-nav-list">
+              <button 
+                type="button" 
+                className="mobile-link-item" 
+                onClick={() => {
+                  handleSelectFranchise('all');
+                  scrollToSection('beranda');
+                }}
+              >
+                Beranda
+              </button>
+              <button 
+                type="button" 
+                className="mobile-link-item" 
+                onClick={() => scrollToSection('top10')}
+              >
+                Top 10 Minggu Ini
+              </button>
+              <button 
+                type="button" 
+                className="mobile-link-item" 
+                onClick={() => scrollToSection('baru')}
+              >
+                Baru Rilis
+              </button>
+              <button 
+                type="button" 
+                className="mobile-link-item" 
+                onClick={() => scrollToSection('fitur')}
+              >
+                Fitur Sorot
+              </button>
+              <button 
+                type="button" 
+                className="mobile-link-item" 
+                onClick={() => scrollToSection('jelajah')}
+              >
+                Jelajahi Katalog
+              </button>
+              <button 
+                type="button" 
+                className="mobile-link-item" 
+                onClick={() => {
+                  onOpenWatchlist?.();
+                  setMobileMenuOpen(false);
+                }}
+              >
+                <span>Daftar Saya (Watchlist & History)</span>
+                {watchlistCount > 0 && <span className="scraped-badge">{watchlistCount}</span>}
+              </button>
+            </div>
+
+            {/* Tokusatsu Franchises */}
+            <div className="mobile-section-label">UNIVERSE TOKUSATSU</div>
+            <div className="mobile-franchise-grid">
+              {navFranchises.map((item) => {
+                const Icon = item.icon;
+                const isActive = (selectedFranchise || 'all').toLowerCase().replace(/\s+/g, '-') === item.id;
+                return (
+                  <button
+                    key={item.id}
+                    type="button"
+                    className={`mobile-franchise-chip ${isActive ? 'active' : ''}`}
+                    onClick={() => {
+                      handleSelectFranchise(item.id);
+                      setMobileMenuOpen(false);
+                    }}
+                  >
+                    <Icon size={15} color={item.color || '#fff'} />
+                    <span>{item.name}</span>
+                  </button>
+                );
+              })}
+            </div>
+
+            {/* Additional Features */}
+            <div className="mobile-section-label">ALAT & KONTROL SISTEM</div>
+            <div className="mobile-tools-list">
+              <button
+                type="button"
+                className="mobile-tool-item"
+                onClick={() => {
+                  onOpenSpecs?.();
+                  setMobileMenuOpen(false);
+                }}
+              >
+                <Database size={18} color="var(--accent-cyan)" />
+                <div className="tool-text">
+                  <strong>Smart Cache & API Inspector</strong>
+                  <small>Audit Storage, 48h TTL & Sesi</small>
+                </div>
+              </button>
+
+              <button
+                type="button"
+                className="mobile-tool-item"
+                onClick={() => {
+                  onOpenScraper?.();
+                  setMobileMenuOpen(false);
+                }}
+              >
+                <Zap size={18} color="#10b981" />
+                <div className="tool-text">
+                  <strong>Live Fansub Scraper Hub</strong>
+                  <small>{scrapedCount} Rilis Aktif & GDrive Mirror</small>
+                </div>
+              </button>
+
+              <button
+                type="button"
+                className="mobile-tool-item"
+                onClick={() => {
+                  onOpenInstallModal?.();
+                  setMobileMenuOpen(false);
+                }}
+              >
+                <Smartphone size={18} color="var(--accent-red)" />
+                <div className="tool-text">
+                  <strong>Pasang Aplikasi Mobile</strong>
+                  <small>Instal PWA & Unduh APK Android</small>
+                </div>
+              </button>
+
+              <button
+                type="button"
+                className="mobile-tool-item"
+                onClick={() => {
+                  onOpenApiKeyModal?.();
+                  setMobileMenuOpen(false);
+                }}
+              >
+                <Key size={18} color="#f59e0b" />
+                <div className="tool-text">
+                  <strong>TMDB Live API Key</strong>
+                  <small>{hasTmdbKey ? 'Status: Terhubung Online' : 'Status: Belum Terhubung'}</small>
+                </div>
+              </button>
+            </div>
           </div>
         </div>
       )}
 
       <style>{`
-        .navbar-container {
+        .sorot-header {
           position: sticky;
           top: 0;
           z-index: 100;
-          padding: 14px 24px;
+          background: linear-gradient(180deg, rgba(11, 11, 12, 0.95) 0%, rgba(11, 11, 12, 0.82) 75%, rgba(11, 11, 12, 0) 100%);
+          backdrop-filter: blur(16px);
+          -webkit-backdrop-filter: blur(16px);
+          transition: background var(--transition-normal);
         }
-        .navbar-glass {
-          max-width: 1440px;
-          margin: 0 auto;
+        .header-inner {
           display: flex;
           align-items: center;
-          justify-content: space-between;
-          background: rgba(9, 13, 22, 0.85);
-          backdrop-filter: blur(20px);
-          -webkit-backdrop-filter: blur(20px);
-          border: 1px solid rgba(255, 255, 255, 0.08);
-          border-radius: var(--radius-lg);
-          padding: 10px 18px;
-          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+          gap: 16px;
+          padding: 16px clamp(16px, 4vw, 56px);
+          max-width: 1440px;
+          margin: 0 auto;
         }
         .brand-logo {
           display: flex;
@@ -345,607 +487,492 @@ export default function Navbar({
           gap: 10px;
           cursor: pointer;
           user-select: none;
+          text-decoration: none;
         }
-        .logo-icon-wrapper {
-          width: 44px;
-          height: 44px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          position: relative;
-          filter: drop-shadow(0 0 8px rgba(255, 32, 78, 0.45));
-          transition: transform var(--transition-bounce), filter var(--transition-fast);
+        .brand-svg-logo {
+          filter: drop-shadow(0 0 10px rgba(229, 9, 20, 0.5));
+          transition: transform var(--transition-bounce);
         }
-        .brand-logo:hover .logo-icon-wrapper {
-          transform: scale(1.1) rotate(-4deg);
-          filter: drop-shadow(0 0 16px rgba(0, 242, 254, 0.7));
+        .brand-logo:hover .brand-svg-logo {
+          transform: scale(1.08);
         }
-        .brand-logo-img {
-          width: 100%;
-          height: 100%;
-          object-fit: contain;
-        }
-        .logo-text {
+        .brand-title-box {
           display: flex;
           align-items: baseline;
           gap: 6px;
         }
-        .logo-main {
-          font-family: var(--font-display);
-          font-size: 1.4rem;
+        .brand-text {
+          font-size: 28px;
           font-weight: 800;
-          letter-spacing: 0.04em;
-          color: #ffffff;
+          letter-spacing: -0.04em;
+          line-height: 1;
+          color: #FFFFFF;
         }
-        .logo-accent {
-          color: var(--accent-red);
-          text-shadow: 0 0 12px var(--accent-red-glow);
-        }
-        .logo-badge {
-          background: rgba(0, 242, 254, 0.15);
-          color: var(--accent-cyan);
-          border: 1px solid rgba(0, 242, 254, 0.3);
-          font-size: 0.65rem;
+        .brand-badge-toku {
+          font-size: 10px;
           font-weight: 800;
-          padding: 2px 5px;
+          letter-spacing: 0.12em;
+          padding: 2px 6px;
           border-radius: 4px;
+          background: rgba(229, 9, 20, 0.2);
+          color: var(--accent-red);
+          border: 1px solid rgba(229, 9, 20, 0.4);
         }
-        .nav-franchises {
+
+        .desktop-nav-links {
+          display: flex;
+          align-items: center;
+          gap: 24px;
+          margin-left: 28px;
+        }
+        .nav-link-btn {
+          background: transparent;
+          border: none;
+          color: #D2D2D6;
+          font-size: 15px;
+          font-weight: 500;
+          cursor: pointer;
+          padding: 6px 0;
+          transition: color var(--transition-fast);
           display: flex;
           align-items: center;
           gap: 6px;
         }
-        .nav-pill {
+        .nav-link-btn:hover {
+          color: #FFFFFF;
+        }
+        .nav-link-btn.active {
+          color: #FFFFFF;
+          font-weight: 700;
+          border-bottom: 2px solid var(--accent-red);
+        }
+        .nav-badge-pill {
+          background: var(--accent-red);
+          color: #FFFFFF;
+          font-size: 11px;
+          font-weight: 700;
+          padding: 1px 6px;
+          border-radius: 10px;
+        }
+
+        .nav-spacer {
+          flex: 1 1 auto;
+        }
+
+        .header-actions {
           display: flex;
           align-items: center;
-          gap: 7px;
-          padding: 7px 14px;
-          font-size: 0.85rem;
-          font-weight: 600;
-          color: var(--text-secondary);
-          border-radius: var(--radius-full);
-          border: 1px solid transparent;
-          transition: all var(--transition-fast);
+          gap: 12px;
         }
-        .nav-pill:hover {
-          color: #ffffff;
-          background: rgba(255, 255, 255, 0.06);
-        }
-        .nav-pill.active {
-          color: #ffffff;
-          background: rgba(255, 32, 78, 0.18);
-          border-color: rgba(255, 32, 78, 0.4);
-          box-shadow: 0 0 12px rgba(255, 32, 78, 0.25);
-        }
-        .nav-actions {
+
+        .searchbox {
           display: flex;
           align-items: center;
-          gap: 10px;
+          gap: 8px;
+          height: 42px;
+          padding: 0 14px;
+          border: 1px solid rgba(255, 255, 255, 0.22);
+          border-radius: 999px;
+          background: rgba(0, 0, 0, 0.45);
+          color: #D2D2D6;
+          transition: border-color var(--transition-fast), background var(--transition-fast);
         }
-        .search-input-wrapper {
-          position: relative;
-          display: flex;
-          align-items: center;
+        .searchbox:focus-within {
+          border-color: #FFFFFF;
+          background: rgba(0, 0, 0, 0.7);
         }
         .search-icon {
-          position: absolute;
-          left: 12px;
-          color: var(--text-muted);
-          pointer-events: none;
+          color: #8E8E94;
+          flex-shrink: 0;
         }
-        .search-input {
-          background: rgba(255, 255, 255, 0.05);
-          border: 1px solid var(--border-subtle);
-          border-radius: var(--radius-full);
-          padding: 8px 32px 8px 34px;
-          font-size: 0.84rem;
-          color: #ffffff;
+        .sr-input {
+          width: 180px;
+          background: transparent;
+          border: 0;
           outline: none;
-          width: 200px;
-          transition: all var(--transition-normal);
+          color: #FFFFFF;
+          font-size: 14px;
+          font-family: var(--font-body);
         }
-        .search-input:focus {
-          width: 250px;
-          background: rgba(255, 255, 255, 0.09);
-          border-color: var(--accent-red);
-          box-shadow: 0 0 15px rgba(255, 32, 78, 0.25);
+        .sr-input::placeholder {
+          color: #8E8E94;
         }
         .clear-search-btn {
-          position: absolute;
-          right: 10px;
-          color: var(--text-muted);
+          background: transparent;
+          border: 0;
+          color: #8E8E94;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
         }
         .clear-search-btn:hover {
-          color: #ffffff;
+          color: #FFFFFF;
         }
-        .scraper-btn {
-          display: flex;
-          align-items: center;
-          gap: 6px;
-          padding: 6px 12px;
-          font-size: 0.8rem;
-          font-weight: 700;
-          background: rgba(16, 185, 129, 0.1);
-          border: 1px solid rgba(16, 185, 129, 0.3);
-          border-radius: var(--radius-full);
-          color: #10b981;
-          transition: all var(--transition-fast);
-        }
-        .scraper-btn:hover {
-          background: rgba(16, 185, 129, 0.2);
-          border-color: #10b981;
-          box-shadow: 0 0 12px rgba(16, 185, 129, 0.35);
-        }
-        .live-dot-pulse {
-          width: 7px;
-          height: 7px;
-          background: #10b981;
-          border-radius: 50%;
-          box-shadow: 0 0 8px #10b981;
-          animation: pulse-dot 1.8s infinite;
-        }
-        @keyframes pulse-dot {
-          0%, 100% { opacity: 1; transform: scale(1); }
-          50% { opacity: 0.4; transform: scale(0.8); }
-        }
-        .scraped-count-badge {
-          background: #10b981;
-          color: #030508;
-          font-size: 0.68rem;
-          font-weight: 800;
-          padding: 1px 6px;
-          border-radius: 999px;
-        }
-        .specs-btn {
-          display: flex;
-          align-items: center;
-          gap: 6px;
-          padding: 7px 12px;
-          font-size: 0.8rem;
-          font-weight: 700;
-          background: rgba(0, 242, 254, 0.08);
-          border: 1px solid rgba(0, 242, 254, 0.25);
-          border-radius: var(--radius-full);
-          color: var(--accent-cyan);
-          transition: all var(--transition-fast);
-        }
-        .specs-btn:hover {
-          background: rgba(0, 242, 254, 0.18);
-          border-color: var(--accent-cyan);
-          box-shadow: 0 0 10px rgba(0, 242, 254, 0.3);
-        }
-        .api-key-btn {
-          display: flex;
-          align-items: center;
-          gap: 6px;
-          padding: 7px 13px;
-          font-size: 0.82rem;
-          font-weight: 600;
-          background: rgba(255, 255, 255, 0.06);
-          border: 1px solid var(--border-subtle);
-          border-radius: var(--radius-full);
-          color: var(--text-secondary);
-        }
-        .api-key-btn:hover {
-          background: rgba(255, 255, 255, 0.12);
-          color: #ffffff;
-        }
-        .api-key-btn.connected {
-          border-color: rgba(16, 185, 129, 0.4);
-          background: rgba(16, 185, 129, 0.1);
-          color: #a7f3d0;
-        }
-        .status-indicator {
-          width: 7px;
-          height: 7px;
-          border-radius: 50%;
-        }
-        .status-indicator.online {
-          background: #10b981;
-          box-shadow: 0 0 8px #10b981;
-        }
-        .status-indicator.offline {
-          background: #f59e0b;
-        }
-        .watchlist-btn {
-          position: relative;
-          width: 38px;
-          height: 38px;
-          border-radius: 50%;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          background: rgba(255, 255, 255, 0.06);
-          border: 1px solid var(--border-subtle);
-          color: var(--text-secondary);
-        }
-        .watchlist-btn:hover {
-          color: #ffffff;
-          background: rgba(255, 255, 255, 0.12);
-        }
-        .watchlist-badge {
-          position: absolute;
-          top: -2px;
-          right: -2px;
-          background: var(--accent-red);
-          color: #ffffff;
-          font-size: 0.65rem;
-          font-weight: 800;
-          width: 17px;
-          height: 17px;
-          border-radius: 50%;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          box-shadow: 0 0 8px var(--accent-red);
-        }
+
         .mobile-search-toggle-btn {
           display: none;
           align-items: center;
           justify-content: center;
-          width: 36px;
-          height: 36px;
+          width: 40px;
+          height: 40px;
           border-radius: 50%;
-          background: rgba(255, 255, 255, 0.06);
-          border: 1px solid var(--border-subtle);
-          color: var(--text-main);
+          background: rgba(255, 255, 255, 0.08);
+          border: 1px solid rgba(255, 255, 255, 0.15);
+          color: #FFFFFF;
           cursor: pointer;
         }
-        .mobile-toggle-btn {
+
+        .nav-action-btn.smart-cache-btn {
+          display: flex;
+          align-items: center;
+          gap: 6px;
+          height: 40px;
+          padding: 0 14px;
+          border-radius: var(--radius-full);
+          background: rgba(0, 242, 254, 0.08);
+          border: 1px solid rgba(0, 242, 254, 0.3);
+          color: var(--accent-cyan);
+          font-size: 13px;
+          font-weight: 700;
+          cursor: pointer;
+          transition: all var(--transition-fast);
+        }
+        .nav-action-btn.smart-cache-btn:hover {
+          background: rgba(0, 242, 254, 0.18);
+          border-color: var(--accent-cyan);
+          box-shadow: 0 0 14px rgba(0, 242, 254, 0.3);
+        }
+
+        .nav-bell-btn {
+          width: 42px;
+          height: 42px;
+          border-color: rgba(255, 255, 255, 0.22);
+        }
+        .bell-badge-dot {
+          position: absolute;
+          top: 10px;
+          right: 11px;
+          width: 8px;
+          height: 8px;
+          border-radius: 50%;
+          background: var(--accent-red);
+          box-shadow: 0 0 8px var(--accent-red);
+        }
+
+        .user-profile-badge {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          padding: 4px 10px 4px 4px;
+          background: rgba(255, 255, 255, 0.08);
+          border: 1px solid rgba(255, 255, 255, 0.15);
+          border-radius: var(--radius-full);
+        }
+        .user-avatar-img {
+          width: 32px;
+          height: 32px;
+          border-radius: 50%;
+          object-fit: cover;
+          border: 1.5px solid var(--accent-red);
+        }
+        .user-firstname {
+          font-size: 13px;
+          font-weight: 700;
+          color: #FFFFFF;
+        }
+        .user-logout-btn {
+          background: transparent;
+          border: none;
+          color: #8E8E94;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          padding: 4px;
+          border-radius: 50%;
+        }
+        .user-logout-btn:hover {
+          color: var(--accent-red);
+        }
+
+        .user-login-btn {
+          display: flex;
+          align-items: center;
+          gap: 6px;
+          height: 40px;
+          padding: 0 16px;
+          border-radius: var(--radius-full);
+          background: linear-gradient(135deg, #E50914 0%, #7A050B 100%);
+          color: #FFFFFF;
+          border: 0;
+          font-size: 14px;
+          font-weight: 700;
+          cursor: pointer;
+          transition: all var(--transition-fast);
+        }
+        .user-login-btn:hover {
+          box-shadow: 0 0 16px rgba(229, 9, 20, 0.5);
+          transform: translateY(-1px);
+        }
+
+        .mobile-hamburger-btn {
           display: none;
           align-items: center;
           justify-content: center;
-          width: 36px;
-          height: 36px;
-          border-radius: 50%;
-          background: rgba(255, 255, 255, 0.06);
-          border: 1px solid var(--border-subtle);
-          color: var(--text-main);
+          width: 42px;
+          height: 42px;
+          border-radius: 10px;
+          background: rgba(255, 255, 255, 0.08);
+          border: 1px solid rgba(255, 255, 255, 0.15);
+          color: #FFFFFF;
           cursor: pointer;
         }
+
+        /* Mobile Search Dropdown */
         .mobile-search-dropdown {
-          margin-top: 8px;
-          padding: 8px 14px;
           display: flex;
           align-items: center;
           gap: 10px;
-          border-radius: var(--radius-md);
-          background: rgba(9, 13, 22, 0.95);
-          backdrop-filter: blur(20px);
-          border: 1px solid var(--border-light);
-          animation: fadeIn 0.2s ease-out;
+          padding: 12px 18px;
+          background: #111113;
+          border-bottom: 1px solid rgba(255, 255, 255, 0.12);
         }
-        html[data-theme="light"] .mobile-search-dropdown {
-          background: rgba(255, 255, 255, 0.98) !important;
-          border-color: rgba(15, 23, 42, 0.12) !important;
-          box-shadow: 0 4px 15px rgba(15, 23, 42, 0.08) !important;
+        .mobile-search-icon {
+          color: #8E8E94;
         }
         .mobile-search-input {
           flex: 1;
           background: transparent;
-          border: none;
-          color: var(--text-main);
-          font-size: 0.9rem;
-          font-weight: 500;
+          border: 0;
           outline: none;
-          font-family: inherit;
+          color: #FFFFFF;
+          font-size: 15px;
         }
-        .mobile-menu-drawer {
-          margin-top: 10px;
-          padding: 14px;
+
+        /* Mobile Drawer */
+        .mobile-drawer-overlay {
+          position: fixed;
+          inset: 0;
+          background: rgba(0, 0, 0, 0.85);
+          backdrop-filter: blur(12px);
+          z-index: 1000;
+          display: flex;
+          justify-content: flex-end;
+        }
+        .mobile-drawer-panel {
+          width: 86%;
+          max-width: 380px;
+          height: 100vh;
+          background: #0E0E10;
+          border-left: 1px solid rgba(255, 255, 255, 0.1);
+          overflow-y: auto;
+          padding: 20px 22px;
+          display: flex;
+          flex-direction: column;
+          gap: 16px;
+        }
+        .mobile-drawer-header {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding-bottom: 14px;
+          border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .close-drawer-btn {
+          background: transparent;
+          border: 0;
+          color: #8E8E94;
+          cursor: pointer;
+        }
+
+        .mobile-user-card {
+          padding: 12px 14px;
+          border-radius: var(--radius-md);
+          background: rgba(255, 255, 255, 0.05);
+          border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .mobile-user-info-row {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+        }
+        .mobile-avatar-img {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          border: 2px solid var(--accent-red);
+        }
+        .mobile-user-details {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          min-width: 0;
+        }
+        .mobile-name {
+          font-size: 14px;
+          font-weight: 700;
+          color: #FFFFFF;
+        }
+        .mobile-email {
+          font-size: 12px;
+          color: #8E8E94;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+        .mobile-logout-btn {
+          display: flex;
+          align-items: center;
+          gap: 4px;
+          padding: 6px 10px;
+          background: rgba(229, 9, 20, 0.15);
+          color: var(--accent-red);
+          border: 1px solid rgba(229, 9, 20, 0.3);
+          border-radius: var(--radius-sm);
+          font-size: 12px;
+          font-weight: 700;
+          cursor: pointer;
+        }
+        .mobile-guest-row {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+        .mobile-guest-title {
+          font-size: 14px;
+          font-weight: 700;
+          color: #FFFFFF;
+        }
+        .mobile-guest-sub {
+          font-size: 12px;
+          color: #8E8E94;
+        }
+        .mobile-login-btn {
+          display: flex;
+          align-items: center;
+          gap: 6px;
+          padding: 8px 14px;
+          background: var(--accent-red);
+          color: #FFFFFF;
+          border: 0;
+          border-radius: var(--radius-full);
+          font-size: 13px;
+          font-weight: 700;
+          cursor: pointer;
+        }
+
+        .mobile-section-label {
+          font-size: 11px;
+          font-weight: 800;
+          letter-spacing: 0.12em;
+          color: #8E8E94;
+          margin-top: 6px;
+        }
+        .mobile-nav-list {
           display: flex;
           flex-direction: column;
           gap: 8px;
-          max-height: 80vh;
-          overflow-y: auto;
         }
-        .mobile-drawer-section-title {
-          font-size: 0.68rem;
-          font-weight: 800;
-          letter-spacing: 0.08em;
-          color: var(--text-muted);
-          margin-top: 6px;
-          margin-bottom: 2px;
-          padding: 0 6px;
-        }
-        .mobile-nav-item {
+        .mobile-link-item {
           display: flex;
           align-items: center;
-          gap: 12px;
-          padding: 9px 12px;
-          border-radius: var(--radius-md);
-          font-size: 0.9rem;
+          justify-content: space-between;
+          padding: 10px 12px;
+          border-radius: var(--radius-sm);
+          background: rgba(255, 255, 255, 0.04);
+          border: 1px solid transparent;
+          color: #E8E8EA;
+          font-size: 14px;
           font-weight: 600;
           text-align: left;
-          background: rgba(255, 255, 255, 0.03);
-          border: 1px solid transparent;
+          cursor: pointer;
         }
-        .mobile-nav-item.active {
-          background: rgba(255, 32, 78, 0.2);
-          border-color: rgba(255, 32, 78, 0.4);
-          color: #ffffff;
+        .mobile-link-item:hover {
+          background: rgba(255, 255, 255, 0.08);
+          color: #FFFFFF;
         }
+        .scraped-badge {
+          background: var(--accent-red);
+          color: #FFFFFF;
+          font-size: 11px;
+          font-weight: 700;
+          padding: 2px 7px;
+          border-radius: 999px;
+        }
+
+        .mobile-franchise-grid {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 8px;
+        }
+        .mobile-franchise-chip {
+          display: flex;
+          align-items: center;
+          gap: 7px;
+          padding: 8px 10px;
+          border-radius: var(--radius-sm);
+          background: rgba(255, 255, 255, 0.04);
+          border: 1px solid rgba(255, 255, 255, 0.1);
+          color: #D2D2D6;
+          font-size: 12px;
+          font-weight: 600;
+          cursor: pointer;
+        }
+        .mobile-franchise-chip.active {
+          border-color: var(--accent-red);
+          background: rgba(229, 9, 20, 0.18);
+          color: #FFFFFF;
+        }
+
         .mobile-tools-list {
           display: flex;
           flex-direction: column;
-          gap: 6px;
+          gap: 8px;
         }
         .mobile-tool-item {
           display: flex;
           align-items: center;
           gap: 12px;
-          padding: 9px 12px;
-          border-radius: var(--radius-md);
-          background: rgba(255, 255, 255, 0.03);
-          border: 1px solid var(--border-subtle);
-          color: var(--text-main);
-          text-align: left;
+          padding: 10px 12px;
+          border-radius: var(--radius-sm);
+          background: rgba(255, 255, 255, 0.04);
+          border: 1px solid rgba(255, 255, 255, 0.08);
+          color: #FFFFFF;
           cursor: pointer;
+          text-align: left;
         }
-        .mobile-tool-item:active {
-          background: rgba(255, 255, 255, 0.08);
-        }
-        .tool-text-group {
-          flex: 1;
+        .mobile-tool-item .tool-text {
           display: flex;
           flex-direction: column;
         }
-        .tool-title {
-          font-size: 0.86rem;
-          font-weight: 700;
+        .mobile-tool-item strong {
+          font-size: 13px;
         }
-        .tool-desc {
-          font-size: 0.72rem;
-          color: var(--text-muted);
-        }
-
-        /* Dark / Light Theme Toggle Button */
-        .theme-toggle-btn {
-          display: flex;
-          align-items: center;
-          gap: 7px;
-          height: 38px;
-          padding: 0 12px;
-          border-radius: var(--radius-full);
-          background: rgba(255, 255, 255, 0.06);
-          border: 1px solid var(--border-subtle);
-          color: var(--text-main);
-          cursor: pointer;
-          transition: all var(--transition-normal);
-          user-select: none;
-        }
-        .theme-toggle-btn:hover {
-          background: rgba(255, 255, 255, 0.12);
-          border-color: var(--accent-red);
-          transform: translateY(-1px);
-        }
-        .theme-toggle-icon-wrap {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          transition: transform 0.3s ease;
-        }
-        .theme-toggle-btn:hover .theme-toggle-icon-wrap {
-          transform: rotate(25deg) scale(1.1);
-        }
-        .theme-sun-icon {
-          color: #f59e0b;
-          filter: drop-shadow(0 0 6px rgba(245, 158, 11, 0.6));
-        }
-        .theme-moon-icon {
-          color: #6366f1;
-          filter: drop-shadow(0 0 6px rgba(99, 102, 241, 0.6));
-        }
-        .theme-toggle-label {
-          font-size: 0.8rem;
-          font-weight: 700;
-          letter-spacing: 0.02em;
+        .mobile-tool-item small {
+          font-size: 11px;
+          color: #8E8E94;
         }
 
-        .mobile-drawer-footer {
-          margin-top: 10px;
-          padding-top: 10px;
-          border-top: 1px solid var(--border-subtle);
-        }
-        .mobile-theme-toggle-btn {
-          display: flex;
-          align-items: center;
-          gap: 10px;
-          width: 100%;
-          padding: 11px 14px;
-          border-radius: var(--radius-md);
-          background: rgba(255, 255, 255, 0.06);
-          border: 1px solid var(--border-subtle);
-          color: var(--text-main);
-          font-weight: 600;
-          font-size: 0.88rem;
-          cursor: pointer;
-          transition: all var(--transition-fast);
-        }
-        .mobile-theme-toggle-btn:hover {
-          background: rgba(255, 255, 255, 0.12);
-        }
-
-        /* Light Theme Overrides for Navbar */
-        html[data-theme="light"] .navbar-glass {
-          background: rgba(255, 255, 255, 0.88) !important;
-          border-color: rgba(15, 23, 42, 0.08) !important;
-          box-shadow: 0 10px 30px rgba(15, 23, 42, 0.07) !important;
-        }
-        html[data-theme="light"] .brand-logo .logo-main {
-          color: #0f172a !important;
-        }
-        html[data-theme="light"] .nav-pill {
-          color: #475569 !important;
-        }
-        html[data-theme="light"] .nav-pill:hover {
-          color: #0f172a !important;
-          background: #f1f5f9 !important;
-        }
-        html[data-theme="light"] .nav-pill.active {
-          color: var(--accent-red) !important;
-          background: rgba(225, 29, 72, 0.1) !important;
-          border-color: rgba(225, 29, 72, 0.3) !important;
-          box-shadow: 0 2px 8px rgba(225, 29, 72, 0.15) !important;
-        }
-        html[data-theme="light"] .search-input {
-          background: #f1f5f9 !important;
-          border-color: #cbd5e1 !important;
-          color: #0f172a !important;
-        }
-        html[data-theme="light"] .search-input:focus {
-          background: #ffffff !important;
-          border-color: var(--accent-red) !important;
-          box-shadow: 0 0 0 3px rgba(225, 29, 72, 0.15) !important;
-        }
-        html[data-theme="light"] .theme-toggle-btn {
-          background: #f1f5f9 !important;
-          border-color: #cbd5e1 !important;
-          color: #0f172a !important;
-          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05) !important;
-        }
-        html[data-theme="light"] .theme-toggle-btn:hover {
-          background: #e2e8f0 !important;
-          border-color: var(--accent-red) !important;
-        }
-        html[data-theme="light"] .api-key-btn {
-          background: #f1f5f9 !important;
-          border-color: #cbd5e1 !important;
-          color: #334155 !important;
-        }
-        html[data-theme="light"] .api-key-btn:hover {
-          background: #e2e8f0 !important;
-          color: #0f172a !important;
-        }
-        html[data-theme="light"] .api-key-btn.connected {
-          background: rgba(16, 185, 129, 0.12) !important;
-          border-color: rgba(16, 185, 129, 0.35) !important;
-          color: #065f46 !important;
-        }
-        html[data-theme="light"] .watchlist-btn {
-          background: #f1f5f9 !important;
-          border-color: #cbd5e1 !important;
-          color: #334155 !important;
-        }
-        html[data-theme="light"] .watchlist-btn:hover {
-          background: #e2e8f0 !important;
-          color: #0f172a !important;
-        }
-        html[data-theme="light"] .mobile-toggle-btn {
-          color: #0f172a !important;
-        }
-        html[data-theme="light"] .mobile-menu-drawer {
-          background: rgba(255, 255, 255, 0.95) !important;
-          border-color: rgba(15, 23, 42, 0.1) !important;
-          box-shadow: 0 12px 30px rgba(15, 23, 42, 0.12) !important;
-        }
-        html[data-theme="light"] .mobile-nav-item {
-          color: #334155 !important;
-        }
-        html[data-theme="light"] .mobile-nav-item:hover {
-          background: #f1f5f9 !important;
-          color: #0f172a !important;
-        }
-        html[data-theme="light"] .mobile-nav-item.active {
-          background: rgba(225, 29, 72, 0.1) !important;
-          color: var(--accent-red) !important;
-        }
-        html[data-theme="light"] .mobile-theme-toggle-btn {
-          background: #f1f5f9 !important;
-          border-color: #cbd5e1 !important;
-          color: #0f172a !important;
-        }
-
-        @media (max-width: 1024px) {
-          .nav-franchises {
+        @media (max-width: 960px) {
+          .desktop-nav-links {
             display: none;
           }
-          .api-btn-text,
-          .specs-btn-text,
-          .scraper-btn-text,
-          .theme-toggle-label {
+          .nav-action-btn.smart-cache-btn {
             display: none;
           }
-        }
-
-        @media (max-width: 768px) {
-          .nav-franchises {
-            display: none !important;
+          .user-profile-badge {
+            display: none;
           }
-          .navbar-container {
-            padding: 8px 12px;
+          .user-login-btn {
+            display: none;
           }
-          .navbar-glass {
-            padding: 6px 12px;
+          .searchbox {
+            display: none;
           }
-          .brand-logo .logo-main {
-            font-size: 1.15rem;
-          }
-          .logo-badge {
-            font-size: 0.6rem;
-            padding: 1px 4px;
-          }
-          .logo-icon-wrapper {
-            width: 32px;
-            height: 32px;
-          }
-          /* Hide overcrowded desktop buttons on mobile */
-          .search-input-wrapper,
-          .scraper-btn,
-          .specs-btn,
-          .api-key-btn,
-          .watchlist-btn,
-          .theme-toggle-btn {
-            display: none !important;
-          }
-          /* Show mobile search and hamburger buttons */
           .mobile-search-toggle-btn {
-            display: flex !important;
+            display: flex;
           }
-          .mobile-toggle-btn {
-            display: flex !important;
+          .mobile-hamburger-btn {
+            display: flex;
           }
-          .nav-actions {
-            gap: 8px;
-          }
-        }
-
-        .force-mobile-mode .nav-franchises {
-          display: none !important;
-        }
-        .force-mobile-mode .navbar-container {
-          padding: 8px 12px;
-        }
-        .force-mobile-mode .navbar-glass {
-          padding: 6px 12px;
-        }
-        .force-mobile-mode .brand-logo .logo-main {
-          font-size: 1.15rem;
-        }
-        .force-mobile-mode .logo-badge {
-          font-size: 0.6rem;
-          padding: 1px 4px;
-        }
-        .force-mobile-mode .logo-icon-wrapper {
-          width: 32px;
-          height: 32px;
-        }
-        .force-mobile-mode .search-input-wrapper,
-        .force-mobile-mode .scraper-btn,
-        .force-mobile-mode .specs-btn,
-        .force-mobile-mode .api-key-btn,
-        .force-mobile-mode .watchlist-btn,
-        .force-mobile-mode .theme-toggle-btn {
-          display: none !important;
-        }
-        .force-mobile-mode .mobile-search-toggle-btn {
-          display: flex !important;
-        }
-        .force-mobile-mode .mobile-toggle-btn {
-          display: flex !important;
-        }
-        .force-mobile-mode .nav-actions {
-          gap: 8px;
         }
       `}</style>
     </header>

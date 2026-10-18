@@ -1,5 +1,5 @@
 import React from 'react';
-import { Play, Star, Bookmark, BookmarkCheck, Calendar, Tv } from 'lucide-react';
+import { Play, Bookmark, BookmarkCheck } from 'lucide-react';
 
 export default function SeriesCard({ 
   series, 
@@ -8,29 +8,24 @@ export default function SeriesCard({
   isBookmarked, 
   onToggleBookmark 
 }) {
-  const bookmarked = isBookmarked(series.id);
+  const bookmarked = isBookmarked ? isBookmarked(series.id) : false;
   const posterImage = series.posterUrl || series.fallbackPoster;
 
-  // Franchise color helper
-  const getBadgeClass = (franchise) => {
-    switch (franchise) {
-      case 'Kamen Rider': return 'badge-red';
-      case 'Super Sentai': return 'badge-gold';
-      case 'Ultraman': return 'badge-cyan';
-      case 'Garo': return 'badge-purple';
-      default: return 'badge-green';
-    }
-  };
+  // Determine badge label
+  let badgeText = series.status === 'Ongoing' ? 'EPISODE BARU' : (series.year >= 2024 ? 'BARU' : series.franchise);
 
   return (
-    <div className="series-card" onClick={() => onSelectSeries(series)}>
-      {/* Poster Image & Overlay */}
-      <div className="poster-wrapper">
+    <button 
+      type="button" 
+      className="card sorot-series-card"
+      onClick={() => onSelectSeries && onSelectSeries(series.rawProduction || series)}
+    >
+      <div className="poster sorot-poster-box">
         <img 
           src={posterImage} 
           alt={series.title}
           loading="lazy"
-          className="poster-img"
+          className="sorot-poster-img"
           onError={(e) => {
             e.target.onerror = null;
             if (series.fallbackPoster && !e.target.src.includes(series.fallbackPoster)) {
@@ -41,282 +36,162 @@ export default function SeriesCard({
           }}
         />
 
+        {/* Ambient bottom shadow gradient */}
+        <div className="sorot-poster-gradient" />
+
         {/* Top Badges */}
-        <div className="card-top-badges">
-          <span className={`badge ${getBadgeClass(series.franchise)}`}>
-            {series.franchise}
-          </span>
-          <div className="card-rating-badge">
-            <Star size={12} fill="var(--accent-gold)" color="var(--accent-gold)" />
-            <span>{series.rating}</span>
-          </div>
-        </div>
-
-        {/* Bottom Tag Badges (Status & Quality) */}
-        <div className="card-bottom-tags">
-          <span className="mini-tag">{series.quality || '1080p'}</span>
-          <span className="mini-tag tag-sub">Sub Indo</span>
-        </div>
-
-        {/* Hover Action Overlay */}
-        <div className="card-hover-overlay">
+        <div className="sorot-badge-row">
+          <span className="sorot-card-badge">{badgeText}</span>
           <button 
-            className="card-play-btn"
+            type="button"
+            className={`sorot-card-bookmark-btn ${bookmarked ? 'bookmarked' : ''}`}
             onClick={(e) => {
               e.stopPropagation();
-              onPlayEpisode(series, series.episodes?.[0] || { epNumber: 1, title: 'Episode 1' });
+              onToggleBookmark && onToggleBookmark(series.rawProduction || series);
             }}
-            title="Tonton Sekarang"
-          >
-            <Play size={22} fill="#ffffff" />
-          </button>
-
-          <button 
-            className={`card-bookmark-btn ${bookmarked ? 'active' : ''}`}
-            onClick={(e) => {
-              e.stopPropagation();
-              onToggleBookmark(series);
-            }}
-            title={bookmarked ? "Hapus dari Favorit" : "Simpan ke Favorit"}
+            title={bookmarked ? "Hapus dari Daftar Saya" : "Simpan ke Daftar Saya"}
           >
             {bookmarked ? (
-              <BookmarkCheck size={18} color="var(--accent-cyan)" />
+              <BookmarkCheck size={16} color="#10b981" />
             ) : (
-              <Bookmark size={18} />
+              <Bookmark size={16} />
             )}
           </button>
         </div>
-      </div>
 
-      {/* Series Info */}
-      <div className="card-info">
-        <h3 className="card-title" title={series.title}>{series.title}</h3>
-        {series.japaneseTitle && (
-          <p className="card-jp-title">{series.japaneseTitle}</p>
-        )}
-        <div className="card-meta">
-          <span className="card-meta-item">
-            <Calendar size={13} />
-            {series.year}
-          </span>
-          <span className="dot-sep" />
-          <span className="card-meta-item">
-            <Tv size={13} />
-            {series.status === 'Tamat' ? `${series.totalEpisodes} Eps` : `Eps ${series.currentEpisode}`}
+        {/* Poster Bottom Title */}
+        <div className="sorot-poster-title disp">{series.title}</div>
+
+        {/* Hover Action Overlay */}
+        <div className="ov">
+          <span 
+            className="sorot-play-circle"
+            onClick={(e) => {
+              e.stopPropagation();
+              onPlayEpisode && onPlayEpisode(series.rawProduction || series, series.episodes?.[0] || { id: '0192a3f0-2222-7000-8000-000000000001' });
+            }}
+            title="Putar Sekarang"
+          >
+            <Play size={24} fill="#FFFFFF" />
           </span>
         </div>
       </div>
 
+      {/* Series Metadata below poster */}
+      <div className="sorot-card-sub">
+        {(series.tags?.[0] || series.franchise || 'Aksi')} • {series.year || 2026}
+      </div>
+
       <style>{`
-        .series-card {
-          position: relative;
-          background: rgba(16, 23, 38, 0.6);
-          border: 1px solid var(--border-subtle);
-          border-radius: var(--radius-md);
-          overflow: hidden;
-          transition: all var(--transition-normal);
-          cursor: pointer;
-          display: flex;
-          flex-direction: column;
-        }
-        .series-card:hover {
-          transform: translateY(-6px);
-          border-color: rgba(255, 32, 78, 0.4);
-          box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6), 0 0 20px rgba(255, 32, 78, 0.2);
-        }
-        .poster-wrapper {
-          position: relative;
-          aspect-ratio: 2 / 3;
+        .sorot-series-card {
           width: 100%;
-          overflow: hidden;
-          background: #0f1523;
         }
-        .poster-img {
+        .sorot-poster-box {
+          width: 100%;
+          aspect-ratio: 2 / 3;
+          background: #18181B;
+          position: relative;
+        }
+        .sorot-poster-img {
           width: 100%;
           height: 100%;
           object-fit: cover;
-          transition: transform 0.4s ease;
+          display: block;
         }
-        .series-card:hover .poster-img {
-          transform: scale(1.06);
+        .sorot-poster-gradient {
+          position: absolute;
+          inset: 0;
+          background: linear-gradient(0deg, rgba(0, 0, 0, 0.82) 0%, rgba(0, 0, 0, 0.2) 45%, rgba(0, 0, 0, 0) 65%);
         }
-        .card-top-badges {
+        .sorot-badge-row {
           position: absolute;
           top: 10px;
           left: 10px;
           right: 10px;
           display: flex;
+          align-items: center;
           justify-content: space-between;
-          align-items: center;
           z-index: 2;
         }
-        .card-rating-badge {
-          display: flex;
-          align-items: center;
-          gap: 4px;
-          background: rgba(10, 14, 23, 0.85);
-          backdrop-filter: blur(8px);
-          border: 1px solid rgba(255, 183, 3, 0.3);
-          color: var(--accent-gold);
-          font-size: 0.75rem;
-          font-weight: 700;
-          padding: 2px 7px;
-          border-radius: var(--radius-sm);
-        }
-        .card-bottom-tags {
-          position: absolute;
-          bottom: 10px;
-          left: 10px;
-          display: flex;
-          gap: 5px;
-          z-index: 2;
-        }
-        .mini-tag {
-          background: rgba(9, 13, 22, 0.88);
-          backdrop-filter: blur(8px);
-          border: 1px solid var(--border-light);
-          font-size: 0.65rem;
-          font-weight: 700;
-          padding: 2px 6px;
+        .sorot-card-badge {
+          padding: 3px 7px;
           border-radius: 4px;
-          color: var(--text-secondary);
+          background: var(--accent-red);
+          color: #FFFFFF;
+          font-size: 11px;
+          font-weight: 800;
+          letter-spacing: 0.05em;
+          text-transform: uppercase;
         }
-        .tag-sub {
-          background: rgba(0, 242, 254, 0.15);
-          color: var(--accent-cyan);
-          border-color: rgba(0, 242, 254, 0.35);
-        }
-        .card-hover-overlay {
-          position: absolute;
-          inset: 0;
-          background: rgba(5, 7, 10, 0.6);
-          backdrop-filter: blur(3px);
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          gap: 12px;
-          opacity: 0;
-          pointer-events: none;
-          transition: opacity var(--transition-fast);
-          z-index: 3;
-        }
-        .series-card:hover .card-hover-overlay {
-          opacity: 1;
-          pointer-events: auto;
-        }
-        .card-play-btn {
-          width: 50px;
-          height: 50px;
+        .sorot-card-bookmark-btn {
+          width: 32px;
+          height: 32px;
           border-radius: 50%;
-          background: linear-gradient(135deg, var(--accent-red) 0%, #b5179e 100%);
-          color: #ffffff;
+          background: rgba(0, 0, 0, 0.55);
+          backdrop-filter: blur(8px);
+          border: 1px solid rgba(255, 255, 255, 0.3);
+          color: #FFFFFF;
           display: flex;
           align-items: center;
           justify-content: center;
-          box-shadow: 0 0 20px var(--accent-red-glow);
-          transform: scale(0.85);
-          transition: all var(--transition-bounce);
-        }
-        .series-card:hover .card-play-btn {
-          transform: scale(1);
-        }
-        .card-play-btn:hover {
-          transform: scale(1.12);
-        }
-        .card-bookmark-btn {
-          width: 38px;
-          height: 38px;
-          border-radius: 50%;
-          background: rgba(255, 255, 255, 0.12);
-          border: 1px solid var(--border-light);
-          color: #ffffff;
-          display: flex;
-          align-items: center;
-          justify-content: center;
+          cursor: pointer;
           transition: all var(--transition-fast);
         }
-        .card-bookmark-btn:hover {
-          background: rgba(255, 255, 255, 0.25);
-          transform: scale(1.08);
+        .sorot-card-bookmark-btn:hover {
+          background: rgba(255, 255, 255, 0.2);
+          border-color: #FFFFFF;
+          transform: scale(1.1);
         }
-        .card-bookmark-btn.active {
-          background: rgba(0, 242, 254, 0.2);
-          border-color: var(--accent-cyan);
+        .sorot-card-bookmark-btn.bookmarked {
+          border-color: #10b981;
+          background: rgba(16, 185, 129, 0.2);
         }
-        .card-info {
-          padding: 14px 14px 16px;
-          display: flex;
-          flex-direction: column;
-          flex: 1;
-        }
-        .card-title {
-          font-size: 1rem;
-          font-weight: 700;
-          color: var(--text-main);
-          white-space: nowrap;
+
+        .sorot-poster-title {
+          position: absolute;
+          left: 12px;
+          right: 12px;
+          bottom: 12px;
+          font-size: 19px;
+          font-weight: 800;
+          line-height: 1.05;
+          letter-spacing: -0.01em;
+          color: #FFFFFF;
+          z-index: 2;
           overflow: hidden;
           text-overflow: ellipsis;
-          margin-bottom: 2px;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
         }
-        .card-jp-title {
-          font-size: 0.75rem;
-          color: var(--text-muted);
-          white-space: nowrap;
-          overflow: hidden;
-          text-overflow: ellipsis;
-          margin-bottom: 8px;
-        }
-        .card-meta {
+
+        .sorot-play-circle {
           display: flex;
           align-items: center;
-          gap: 8px;
-          font-size: 0.8rem;
-          color: var(--text-secondary);
-          margin-top: auto;
-        }
-        .card-meta-item {
-          display: flex;
-          align-items: center;
-          gap: 5px;
-        }
-        .dot-sep {
-          width: 3px;
-          height: 3px;
+          justify-content: center;
+          width: 52px;
+          height: 52px;
           border-radius: 50%;
-          background: var(--text-muted);
+          border: 2px solid #FFFFFF;
+          background: rgba(0, 0, 0, 0.35);
+          cursor: pointer;
+          transition: transform var(--transition-bounce), background var(--transition-fast);
         }
-        @media (max-width: 640px) {
-          .card-info {
-            padding: 8px 10px 10px;
-          }
-          .card-title {
-            font-size: 0.88rem;
-          }
-          .card-jp-title {
-            display: none;
-          }
-          .card-top-badges {
-            top: 6px;
-            left: 6px;
-            right: 6px;
-          }
-          .card-bottom-tags {
-            bottom: 6px;
-            left: 6px;
-          }
-          .badge {
-            font-size: 0.65rem;
-            padding: 2px 6px;
-          }
-          .card-rating-badge {
-            font-size: 0.7rem;
-            padding: 2px 6px;
-          }
-          .card-meta {
-            font-size: 0.74rem;
-          }
+        .sorot-play-circle:hover {
+          transform: scale(1.15);
+          background: var(--accent-red);
+          border-color: var(--accent-red);
+        }
+
+        .sorot-card-sub {
+          font-size: 13px;
+          color: #9A9AA0;
+          margin-top: 10px;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
         }
       `}</style>
-    </div>
+    </button>
   );
 }

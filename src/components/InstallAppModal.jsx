@@ -228,12 +228,21 @@ export default function InstallAppModal({ isOpen, onClose }) {
 
             <div className="apk-action-row" style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
               <a 
-                href="https://github.com/shirou31/web-streaming-tokusatsu/releases/download/v1.0.0-release/TOKUFLIX-v1.0.0.apk"
+                href="/TOKUFLIX-v1.0.0.apk"
                 className="btn-main-install pulse"
-                download
+                download="TOKUFLIX-v1.0.0.apk"
               >
                 <Download size={20} />
-                <span>Unduh TOKUFLIX-v1.0.0.apk (15 MB)</span>
+                <span>Unduh File APK Langsung (15 MB)</span>
+              </a>
+              <a 
+                href="https://github.com/shirou31/web-streaming-tokusatsu/releases/download/v1.0.0-release/TOKUFLIX-v1.0.0.apk"
+                className="btn-secondary"
+                style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px', padding: '10px 16px', borderRadius: '8px', background: 'rgba(255,255,255,0.08)', color: '#fff', textDecoration: 'none', fontSize: '0.88rem', fontWeight: 600 }}
+                download
+              >
+                <Download size={16} />
+                <span>Mirror Unduhan GitHub Release (.APK)</span>
               </a>
               <a 
                 href="https://github.com/shirou31/web-streaming-tokusatsu/releases/tag/v1.0.0-release"
