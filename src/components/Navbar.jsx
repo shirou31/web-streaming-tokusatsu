@@ -57,10 +57,28 @@ export default function Navbar({
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+  const isManualClickRef = useRef(false);
+  const manualClickTimer = useRef(null);
+
+  const setManualTab = (tabId) => {
+    isManualClickRef.current = true;
+    setActiveTab(tabId);
+    clearTimeout(manualClickTimer.current);
+    manualClickTimer.current = setTimeout(() => {
+      isManualClickRef.current = false;
+    }, 1500);
+  };
+
   const scrollToSection = (id) => {
     const el = document.getElementById(id);
     if (el) {
-      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      const headerOffset = 70;
+      const elementPosition = el.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+      window.scrollTo({
+        top: Math.max(0, offsetPosition),
+        behavior: 'smooth'
+      });
     }
     setMobileMenuOpen(false);
   };
@@ -70,7 +88,7 @@ export default function Navbar({
       id: 'beranda',
       label: 'Beranda',
       onClick: () => {
-        setActiveTab('beranda');
+        setManualTab('beranda');
         handleSelectFranchise('all');
         scrollToSection('beranda');
       }
@@ -79,7 +97,7 @@ export default function Navbar({
       id: 'top10',
       label: 'Terpopuler',
       onClick: () => {
-        setActiveTab('top10');
+        setManualTab('top10');
         scrollToSection('top10');
       }
     },
@@ -87,7 +105,7 @@ export default function Navbar({
       id: 'baru',
       label: 'Baru Rilis',
       onClick: () => {
-        setActiveTab('baru');
+        setManualTab('baru');
         scrollToSection('baru');
       }
     },
@@ -95,7 +113,7 @@ export default function Navbar({
       id: 'jelajah',
       label: 'Jelajah',
       onClick: () => {
-        setActiveTab('jelajah');
+        setManualTab('jelajah');
         scrollToSection('jelajah');
       }
     },
@@ -104,7 +122,7 @@ export default function Navbar({
       label: 'Daftar Saya',
       badge: watchlistCount,
       onClick: () => {
-        setActiveTab('watchlist');
+        setManualTab('watchlist');
         onOpenWatchlist?.();
       }
     }
@@ -145,9 +163,11 @@ export default function Navbar({
   useEffect(() => {
     let scrollTimeout;
     const handleScroll = () => {
+      if (isManualClickRef.current) return;
       if (scrollTimeout) return;
       scrollTimeout = setTimeout(() => {
         scrollTimeout = null;
+        if (isManualClickRef.current) return;
         if (searchQuery) return;
         const scrollY = window.scrollY;
         if (scrollY < 200) {
@@ -161,14 +181,15 @@ export default function Navbar({
         ];
         for (const s of sections) {
           if (s.el) {
-            const rect = s.el.getBoundingClientRect();
-            if (rect.top <= 250 && rect.bottom >= 150) {
+            const top = s.el.offsetTop - 120;
+            const bottom = top + s.el.offsetHeight;
+            if (scrollY >= top && scrollY < bottom) {
               setActiveTab(s.id);
               break;
             }
           }
         }
-      }, 80);
+      }, 100);
     };
 
     window.addEventListener('scroll', handleScroll, { passive: true });
@@ -184,7 +205,11 @@ export default function Navbar({
         {/* Brand Logo */}
         <div 
           className="brand-logo" 
-          onClick={() => handleSelectFranchise('all')} 
+          onClick={() => {
+            setManualTab('beranda');
+            handleSelectFranchise('all');
+            scrollToSection('beranda');
+          }} 
           role="button" 
           tabIndex={0}
           aria-label="TOKUFLIX Beranda"
@@ -210,6 +235,7 @@ export default function Navbar({
             return (
               <button 
                 key={item.id}
+                id={`nav-tab-${item.id}`}
                 ref={(el) => { if (el) buttonRefs.current[item.id] = el; }}
                 type="button"
                 className={`nav-link-btn ${isActive ? 'active' : ''}`}
