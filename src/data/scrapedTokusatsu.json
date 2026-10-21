@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-10-16T15:21:52.946Z",
-    "totalEpisodes": 25,
+    "generatedAt": "2026-10-21T03:32:47.615Z",
+    "totalEpisodes": 124,
     "primarySource": "TokusatsuIndo & Sawidago Network",
     "targetFormat": "Tokuflix REST Schema 01/02 Standard",
     "status": "success"
@@ -1437,6 +1437,4065 @@
         }
       },
       "scrapedAt": "2026-10-16T15:21:52.946Z"
+    },
+    {
+      "id": "scraped_kamen-rider-geats_ep1",
+      "productionId": "0192a3f0-1111-7000-8000-000000000001",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Geats",
+      "title": "Malam Cahaya DGP: Masuklah Sang Rubah Putih!",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-geats-episode-1-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w500/kiXsuX5qAFUxHvf9BM7MPadFq62.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-geats_ep1",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-geats_ep1",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-geats_ep15",
+      "productionId": "0192a3f0-1111-7000-8000-000000000001",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Geats",
+      "title": "Pemberontakan Terakhir Desire Grand Prix",
+      "episodeNumber": 15,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-geats-episode-15-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w500/kiXsuX5qAFUxHvf9BM7MPadFq62.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-geats_ep15",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-geats_ep15",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-geats_ep16",
+      "productionId": "0192a3f0-1111-7000-8000-000000000001",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Geats",
+      "title": "Desire Royale: Era Baru Permainan",
+      "episodeNumber": 16,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-geats-episode-16-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w500/kiXsuX5qAFUxHvf9BM7MPadFq62.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-geats_ep16",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-geats_ep16",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-geats_ep49",
+      "productionId": "0192a3f0-1111-7000-8000-000000000001",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Geats",
+      "title": "Fajar Keempat: Dewa Kebahagiaan Sejati",
+      "episodeNumber": 49,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-geats-episode-49-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w500/kiXsuX5qAFUxHvf9BM7MPadFq62.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-geats_ep49",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-geats_ep49",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-geats-4-aces-and-the-black-fox_ep1",
+      "productionId": "0192a3f0-1111-7000-8000-000000000002",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Geats: 4 Aces and the Black Fox",
+      "title": "Kamen Rider Geats: 4 Aces and the Black Fox (Full Movie)",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "movie",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-geats-4-aces-and-the-black-fox-episode-1-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w500/kiXsuX5qAFUxHvf9BM7MPadFq62.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-geats-4-aces-and-the-black-fox_ep1",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-geats-4-aces-and-the-black-fox_ep1",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-gavv_ep1",
+      "productionId": "0192a3f0-1111-7000-8000-000000000003",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Gavv",
+      "title": "Kue Permen Pemakan Monster!?",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-gavv-episode-1-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w500/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-gavv_ep1",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-gavv_ep1",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-gavv_ep2",
+      "productionId": "0192a3f0-1111-7000-8000-000000000003",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Gavv",
+      "title": "Keripik Kentang Renyah Berbahaya!",
+      "episodeNumber": 2,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-gavv-episode-2-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w500/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-gavv_ep2",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-gavv_ep2",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-gavv_ep3",
+      "productionId": "0192a3f0-1111-7000-8000-000000000003",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Gavv",
+      "title": "Marshmallow Lembut Pembalap",
+      "episodeNumber": 3,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-gavv-episode-3-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w500/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-gavv_ep3",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-gavv_ep3",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_bakuage-sentai-boonboomger_ep1",
+      "productionId": "0192a3f0-1111-7000-8000-000000000004",
+      "franchise": "Super Sentai",
+      "seriesTitle": "Bakuage Sentai Boonboomger",
+      "title": "Pegangan Kemudi Pengantar!",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/bakuage-sentai-boonboomger-episode-1-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w500/yNabCz32woEXgrcvRS8ASH55s3G.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/bakuage-sentai-boonboomger_ep1",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/bakuage-sentai-boonboomger_ep1",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_ultraman-arc_ep1",
+      "productionId": "0192a3f0-1111-7000-8000-000000000005",
+      "franchise": "Ultraman",
+      "seriesTitle": "Ultraman Arc / Blazar",
+      "title": "Menatap Masa Depan dari Balik Pelangi",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/ultraman-arc-episode-1-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w500/twq2EahjRaUB6B8wjf7ddrCmLhJ.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/ultraman-arc_ep1",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/ultraman-arc_ep1",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_shin-kamen-rider_ep1",
+      "productionId": "0192a3f0-1111-7000-8000-000000000007",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Shin Kamen Rider",
+      "title": "Shin Kamen Rider (Full Theatrical Movie)",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "movie",
+      "sourceUrl": "https://www.tokusatsuindo.com/shin-kamen-rider-episode-1-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w500/9dTO2RygcDT0cQkawABw4QkDegN.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/shin-kamen-rider_ep1",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/shin-kamen-rider_ep1",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-my-th_ep1",
+      "productionId": "0192a3f0-1111-7000-8000-000000000010",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider My-Th",
+      "title": "Episode 1: Kebangkitan Pahlawan Mitos",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-my-th-episode-1-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://www.tokusatsuindo.com/wp-content/uploads/2026/10/myte.png",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-my-th_ep1",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-my-th_ep1",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-my-th_ep2",
+      "productionId": "0192a3f0-1111-7000-8000-000000000010",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider My-Th",
+      "title": "Episode 2: Jejak Dimensi Paralel",
+      "episodeNumber": 2,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-my-th-episode-2-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://www.tokusatsuindo.com/wp-content/uploads/2026/10/myte.png",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-my-th_ep2",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-my-th_ep2",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-my-th_ep3",
+      "productionId": "0192a3f0-1111-7000-8000-000000000010",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider My-Th",
+      "title": "Episode 3: Pedang Cahaya Arkana",
+      "episodeNumber": 3,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-my-th-episode-3-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://www.tokusatsuindo.com/wp-content/uploads/2026/10/myte.png",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-my-th_ep3",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-my-th_ep3",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-my-th_ep4",
+      "productionId": "0192a3f0-1111-7000-8000-000000000010",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider My-Th",
+      "title": "Episode 4: Ksatria Bayangan Misterius",
+      "episodeNumber": 4,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-my-th-episode-4-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://www.tokusatsuindo.com/wp-content/uploads/2026/10/myte.png",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-my-th_ep4",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-my-th_ep4",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-my-th_ep5",
+      "productionId": "0192a3f0-1111-7000-8000-000000000010",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider My-Th",
+      "title": "Episode 5: Resonansi Mitos yang Terbelah",
+      "episodeNumber": 5,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-my-th-episode-5-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://www.tokusatsuindo.com/wp-content/uploads/2026/10/myte.png",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-my-th_ep5",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-my-th_ep5",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-my-th_ep6",
+      "productionId": "0192a3f0-1111-7000-8000-000000000010",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider My-Th",
+      "title": "Episode 6: Puncak Pertarungan Gerbang Mitos",
+      "episodeNumber": 6,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-my-th-episode-6-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://www.tokusatsuindo.com/wp-content/uploads/2026/10/myte.png",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-my-th_ep6",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-my-th_ep6",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-zero-one_ep1",
+      "productionId": "0192a3f0-1111-7000-8000-000000000101",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Zero-One",
+      "title": "Kamen Rider Zero-One Episode 1 Sub Indo",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-zero-one-episode-1-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/mXnF4R6U8y1cWJg6J45eB8k1HhT.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-zero-one_ep1",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-zero-one_ep1",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-zero-one_ep2",
+      "productionId": "0192a3f0-1111-7000-8000-000000000101",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Zero-One",
+      "title": "Kamen Rider Zero-One Episode 2 Sub Indo",
+      "episodeNumber": 2,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-zero-one-episode-2-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/mXnF4R6U8y1cWJg6J45eB8k1HhT.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-zero-one_ep2",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-zero-one_ep2",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-zero-one_ep3",
+      "productionId": "0192a3f0-1111-7000-8000-000000000101",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Zero-One",
+      "title": "Kamen Rider Zero-One Episode 3 Sub Indo",
+      "episodeNumber": 3,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-zero-one-episode-3-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/mXnF4R6U8y1cWJg6J45eB8k1HhT.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-zero-one_ep3",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-zero-one_ep3",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-zero-one_ep4",
+      "productionId": "0192a3f0-1111-7000-8000-000000000101",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Zero-One",
+      "title": "Kamen Rider Zero-One Episode 4 Sub Indo",
+      "episodeNumber": 4,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-zero-one-episode-4-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/mXnF4R6U8y1cWJg6J45eB8k1HhT.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-zero-one_ep4",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-zero-one_ep4",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-zero-one_ep5",
+      "productionId": "0192a3f0-1111-7000-8000-000000000101",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Zero-One",
+      "title": "Kamen Rider Zero-One Episode 5 Sub Indo",
+      "episodeNumber": 5,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-zero-one-episode-5-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/mXnF4R6U8y1cWJg6J45eB8k1HhT.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-zero-one_ep5",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-zero-one_ep5",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-zero-one_ep6",
+      "productionId": "0192a3f0-1111-7000-8000-000000000101",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Zero-One",
+      "title": "Kamen Rider Zero-One Episode 6 Sub Indo",
+      "episodeNumber": 6,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-zero-one-episode-6-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/mXnF4R6U8y1cWJg6J45eB8k1HhT.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-zero-one_ep6",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-zero-one_ep6",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-reiwa-the-first-generation_ep1",
+      "productionId": "0192a3f0-1111-7000-8000-000000000102",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider: Reiwa The First Generation",
+      "title": "Kamen Rider: Reiwa The First Generation (Full Movie Sub Indo)",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "movie",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-reiwa-the-first-generation-episode-1-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/mXnF4R6U8y1cWJg6J45eB8k1HhT.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-reiwa-the-first-generation_ep1",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-reiwa-the-first-generation_ep1",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-zero-one-the-movie-real-time_ep1",
+      "productionId": "0192a3f0-1111-7000-8000-000000000103",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Zero-One The Movie: REAL×TIME",
+      "title": "Kamen Rider Zero-One The Movie: REAL×TIME (Full Movie Sub Indo)",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "movie",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-zero-one-the-movie-real-time-episode-1-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/mXnF4R6U8y1cWJg6J45eB8k1HhT.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-zero-one-the-movie-real-time_ep1",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-zero-one-the-movie-real-time_ep1",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_zero-one-others-kamen-rider-vulcan-valkyrie_ep1",
+      "productionId": "0192a3f0-1111-7000-8000-000000000104",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Zero-One Others: Kamen Rider Vulcan & Valkyrie",
+      "title": "Zero-One Others: Kamen Rider Vulcan & Valkyrie (Full Movie Sub Indo)",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "movie",
+      "sourceUrl": "https://www.tokusatsuindo.com/zero-one-others-kamen-rider-vulcan-valkyrie-episode-1-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/mXnF4R6U8y1cWJg6J45eB8k1HhT.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/zero-one-others-kamen-rider-vulcan-valkyrie_ep1",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/zero-one-others-kamen-rider-vulcan-valkyrie_ep1",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-saber_ep1",
+      "productionId": "0192a3f0-1111-7000-8000-000000000105",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Saber",
+      "title": "Kamen Rider Saber Episode 1 Sub Indo",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-saber-episode-1-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-saber_ep1",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-saber_ep1",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-saber_ep2",
+      "productionId": "0192a3f0-1111-7000-8000-000000000105",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Saber",
+      "title": "Kamen Rider Saber Episode 2 Sub Indo",
+      "episodeNumber": 2,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-saber-episode-2-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-saber_ep2",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-saber_ep2",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-saber_ep3",
+      "productionId": "0192a3f0-1111-7000-8000-000000000105",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Saber",
+      "title": "Kamen Rider Saber Episode 3 Sub Indo",
+      "episodeNumber": 3,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-saber-episode-3-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-saber_ep3",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-saber_ep3",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-saber_ep4",
+      "productionId": "0192a3f0-1111-7000-8000-000000000105",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Saber",
+      "title": "Kamen Rider Saber Episode 4 Sub Indo",
+      "episodeNumber": 4,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-saber-episode-4-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-saber_ep4",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-saber_ep4",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-saber_ep5",
+      "productionId": "0192a3f0-1111-7000-8000-000000000105",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Saber",
+      "title": "Kamen Rider Saber Episode 5 Sub Indo",
+      "episodeNumber": 5,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-saber-episode-5-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-saber_ep5",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-saber_ep5",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-saber_ep6",
+      "productionId": "0192a3f0-1111-7000-8000-000000000105",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Saber",
+      "title": "Kamen Rider Saber Episode 6 Sub Indo",
+      "episodeNumber": 6,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-saber-episode-6-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-saber_ep6",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-saber_ep6",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-saber-the-phoenix-swordsman_ep1",
+      "productionId": "0192a3f0-1111-7000-8000-000000000106",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Saber: The Phoenix Swordsman and the Book of Ruin",
+      "title": "Kamen Rider Saber: The Phoenix Swordsman and the Book of Ruin (Full Movie Sub Indo)",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "movie",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-saber-the-phoenix-swordsman-episode-1-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-saber-the-phoenix-swordsman_ep1",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-saber-the-phoenix-swordsman_ep1",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_saber-zenkaiger-super-hero-senki_ep1",
+      "productionId": "0192a3f0-1111-7000-8000-000000000107",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Saber + Zenkaiger: Super Hero Senki",
+      "title": "Saber + Zenkaiger: Super Hero Senki (Full Movie Sub Indo)",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "movie",
+      "sourceUrl": "https://www.tokusatsuindo.com/saber-zenkaiger-super-hero-senki-episode-1-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/saber-zenkaiger-super-hero-senki_ep1",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/saber-zenkaiger-super-hero-senki_ep1",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-saber-trio-of-deep-sin_ep1",
+      "productionId": "0192a3f0-1111-7000-8000-000000000108",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Saber: Trio of Deep Sin",
+      "title": "Kamen Rider Saber: Trio of Deep Sin (Full Movie Sub Indo)",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "movie",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-saber-trio-of-deep-sin-episode-1-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-saber-trio-of-deep-sin_ep1",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-saber-trio-of-deep-sin_ep1",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-revice_ep1",
+      "productionId": "0192a3f0-1111-7000-8000-000000000109",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Revice",
+      "title": "Kamen Rider Revice Episode 1 Sub Indo",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-revice-episode-1-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-revice_ep1",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-revice_ep1",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-revice_ep2",
+      "productionId": "0192a3f0-1111-7000-8000-000000000109",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Revice",
+      "title": "Kamen Rider Revice Episode 2 Sub Indo",
+      "episodeNumber": 2,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-revice-episode-2-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-revice_ep2",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-revice_ep2",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-revice_ep3",
+      "productionId": "0192a3f0-1111-7000-8000-000000000109",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Revice",
+      "title": "Kamen Rider Revice Episode 3 Sub Indo",
+      "episodeNumber": 3,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-revice-episode-3-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-revice_ep3",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-revice_ep3",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-revice_ep4",
+      "productionId": "0192a3f0-1111-7000-8000-000000000109",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Revice",
+      "title": "Kamen Rider Revice Episode 4 Sub Indo",
+      "episodeNumber": 4,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-revice-episode-4-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-revice_ep4",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-revice_ep4",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-revice_ep5",
+      "productionId": "0192a3f0-1111-7000-8000-000000000109",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Revice",
+      "title": "Kamen Rider Revice Episode 5 Sub Indo",
+      "episodeNumber": 5,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-revice-episode-5-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-revice_ep5",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-revice_ep5",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-revice_ep6",
+      "productionId": "0192a3f0-1111-7000-8000-000000000109",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Revice",
+      "title": "Kamen Rider Revice Episode 6 Sub Indo",
+      "episodeNumber": 6,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-revice-episode-6-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-revice_ep6",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-revice_ep6",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-beyond-generations_ep1",
+      "productionId": "0192a3f0-1111-7000-8000-000000000110",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider: Beyond Generations",
+      "title": "Kamen Rider: Beyond Generations (Full Movie Sub Indo)",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "movie",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-beyond-generations-episode-1-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-beyond-generations_ep1",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-beyond-generations_ep1",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-revice-battle-familia_ep1",
+      "productionId": "0192a3f0-1111-7000-8000-000000000111",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Revice The Movie: Battle Familia",
+      "title": "Kamen Rider Revice The Movie: Battle Familia (Full Movie Sub Indo)",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "movie",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-revice-battle-familia-episode-1-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-revice-battle-familia_ep1",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-revice-battle-familia_ep1",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-geats-x-revice-movie-battle-royale_ep1",
+      "productionId": "0192a3f0-1111-7000-8000-000000000112",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Geats × Revice: Movie Battle Royale",
+      "title": "Kamen Rider Geats × Revice: Movie Battle Royale (Full Movie Sub Indo)",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "movie",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-geats-x-revice-movie-battle-royale-episode-1-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/kiXsuX5qAFUxHvf9BM7MPadFq62.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-geats-x-revice-movie-battle-royale_ep1",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-geats-x-revice-movie-battle-royale_ep1",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-gotchard_ep1",
+      "productionId": "0192a3f0-1111-7000-8000-000000000113",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Gotchard",
+      "title": "Kamen Rider Gotchard Episode 1 Sub Indo",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-gotchard-episode-1-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/mXnF4R6U8y1cWJg6J45eB8k1HhT.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-gotchard_ep1",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-gotchard_ep1",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-gotchard_ep2",
+      "productionId": "0192a3f0-1111-7000-8000-000000000113",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Gotchard",
+      "title": "Kamen Rider Gotchard Episode 2 Sub Indo",
+      "episodeNumber": 2,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-gotchard-episode-2-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/mXnF4R6U8y1cWJg6J45eB8k1HhT.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-gotchard_ep2",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-gotchard_ep2",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-gotchard_ep3",
+      "productionId": "0192a3f0-1111-7000-8000-000000000113",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Gotchard",
+      "title": "Kamen Rider Gotchard Episode 3 Sub Indo",
+      "episodeNumber": 3,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-gotchard-episode-3-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/mXnF4R6U8y1cWJg6J45eB8k1HhT.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-gotchard_ep3",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-gotchard_ep3",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-gotchard_ep4",
+      "productionId": "0192a3f0-1111-7000-8000-000000000113",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Gotchard",
+      "title": "Kamen Rider Gotchard Episode 4 Sub Indo",
+      "episodeNumber": 4,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-gotchard-episode-4-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/mXnF4R6U8y1cWJg6J45eB8k1HhT.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-gotchard_ep4",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-gotchard_ep4",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-gotchard_ep5",
+      "productionId": "0192a3f0-1111-7000-8000-000000000113",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Gotchard",
+      "title": "Kamen Rider Gotchard Episode 5 Sub Indo",
+      "episodeNumber": 5,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-gotchard-episode-5-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/mXnF4R6U8y1cWJg6J45eB8k1HhT.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-gotchard_ep5",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-gotchard_ep5",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-gotchard_ep6",
+      "productionId": "0192a3f0-1111-7000-8000-000000000113",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Gotchard",
+      "title": "Kamen Rider Gotchard Episode 6 Sub Indo",
+      "episodeNumber": 6,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-gotchard-episode-6-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/mXnF4R6U8y1cWJg6J45eB8k1HhT.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-gotchard_ep6",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-gotchard_ep6",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-the-winter-movie-gotchard-geats_ep1",
+      "productionId": "0192a3f0-1111-7000-8000-000000000114",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider The Winter Movie: Gotchard & Geats",
+      "title": "Kamen Rider The Winter Movie: Gotchard & Geats (Full Movie Sub Indo)",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "movie",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-the-winter-movie-gotchard-geats-episode-1-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/kiXsuX5qAFUxHvf9BM7MPadFq62.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-the-winter-movie-gotchard-geats_ep1",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-the-winter-movie-gotchard-geats_ep1",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-gotchard-the-future-daybreak_ep1",
+      "productionId": "0192a3f0-1111-7000-8000-000000000115",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Gotchard: The Future Daybreak",
+      "title": "Kamen Rider Gotchard: The Future Daybreak (Full Movie Sub Indo)",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "movie",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-gotchard-the-future-daybreak-episode-1-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/mXnF4R6U8y1cWJg6J45eB8k1HhT.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-gotchard-the-future-daybreak_ep1",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-gotchard-the-future-daybreak_ep1",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-black-sun_ep1",
+      "productionId": "0192a3f0-1111-7000-8000-000000000116",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Black Sun",
+      "title": "Kamen Rider Black Sun Episode 1 Sub Indo",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-black-sun-episode-1-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/4GZQmMeHyRAgR9pccWFgPVhtOtk.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-black-sun_ep1",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-black-sun_ep1",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-black-sun_ep2",
+      "productionId": "0192a3f0-1111-7000-8000-000000000116",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Black Sun",
+      "title": "Kamen Rider Black Sun Episode 2 Sub Indo",
+      "episodeNumber": 2,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-black-sun-episode-2-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/4GZQmMeHyRAgR9pccWFgPVhtOtk.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-black-sun_ep2",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-black-sun_ep2",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-black-sun_ep3",
+      "productionId": "0192a3f0-1111-7000-8000-000000000116",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Black Sun",
+      "title": "Kamen Rider Black Sun Episode 3 Sub Indo",
+      "episodeNumber": 3,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-black-sun-episode-3-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/4GZQmMeHyRAgR9pccWFgPVhtOtk.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-black-sun_ep3",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-black-sun_ep3",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-black-sun_ep4",
+      "productionId": "0192a3f0-1111-7000-8000-000000000116",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Black Sun",
+      "title": "Kamen Rider Black Sun Episode 4 Sub Indo",
+      "episodeNumber": 4,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-black-sun-episode-4-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/4GZQmMeHyRAgR9pccWFgPVhtOtk.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-black-sun_ep4",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-black-sun_ep4",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-black-sun_ep5",
+      "productionId": "0192a3f0-1111-7000-8000-000000000116",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Black Sun",
+      "title": "Kamen Rider Black Sun Episode 5 Sub Indo",
+      "episodeNumber": 5,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-black-sun-episode-5-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/4GZQmMeHyRAgR9pccWFgPVhtOtk.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-black-sun_ep5",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-black-sun_ep5",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kamen-rider-black-sun_ep6",
+      "productionId": "0192a3f0-1111-7000-8000-000000000116",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Black Sun",
+      "title": "Kamen Rider Black Sun Episode 6 Sub Indo",
+      "episodeNumber": 6,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-black-sun-episode-6-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/4GZQmMeHyRAgR9pccWFgPVhtOtk.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-black-sun_ep6",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-black-sun_ep6",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_mashin-sentai-kiramager_ep1",
+      "productionId": "0192a3f0-1111-7000-8000-000000000117",
+      "franchise": "Super Sentai",
+      "seriesTitle": "Mashin Sentai Kiramager",
+      "title": "Mashin Sentai Kiramager Episode 1 Sub Indo",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/mashin-sentai-kiramager-episode-1-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/4Dk0xZ0R9p88rS9zV6C7u8X3bQ1.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/mashin-sentai-kiramager_ep1",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/mashin-sentai-kiramager_ep1",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_mashin-sentai-kiramager_ep2",
+      "productionId": "0192a3f0-1111-7000-8000-000000000117",
+      "franchise": "Super Sentai",
+      "seriesTitle": "Mashin Sentai Kiramager",
+      "title": "Mashin Sentai Kiramager Episode 2 Sub Indo",
+      "episodeNumber": 2,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/mashin-sentai-kiramager-episode-2-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/4Dk0xZ0R9p88rS9zV6C7u8X3bQ1.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/mashin-sentai-kiramager_ep2",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/mashin-sentai-kiramager_ep2",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_mashin-sentai-kiramager_ep3",
+      "productionId": "0192a3f0-1111-7000-8000-000000000117",
+      "franchise": "Super Sentai",
+      "seriesTitle": "Mashin Sentai Kiramager",
+      "title": "Mashin Sentai Kiramager Episode 3 Sub Indo",
+      "episodeNumber": 3,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/mashin-sentai-kiramager-episode-3-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/4Dk0xZ0R9p88rS9zV6C7u8X3bQ1.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/mashin-sentai-kiramager_ep3",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/mashin-sentai-kiramager_ep3",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_mashin-sentai-kiramager_ep4",
+      "productionId": "0192a3f0-1111-7000-8000-000000000117",
+      "franchise": "Super Sentai",
+      "seriesTitle": "Mashin Sentai Kiramager",
+      "title": "Mashin Sentai Kiramager Episode 4 Sub Indo",
+      "episodeNumber": 4,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/mashin-sentai-kiramager-episode-4-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/4Dk0xZ0R9p88rS9zV6C7u8X3bQ1.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/mashin-sentai-kiramager_ep4",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/mashin-sentai-kiramager_ep4",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_mashin-sentai-kiramager_ep5",
+      "productionId": "0192a3f0-1111-7000-8000-000000000117",
+      "franchise": "Super Sentai",
+      "seriesTitle": "Mashin Sentai Kiramager",
+      "title": "Mashin Sentai Kiramager Episode 5 Sub Indo",
+      "episodeNumber": 5,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/mashin-sentai-kiramager-episode-5-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/4Dk0xZ0R9p88rS9zV6C7u8X3bQ1.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/mashin-sentai-kiramager_ep5",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/mashin-sentai-kiramager_ep5",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_mashin-sentai-kiramager_ep6",
+      "productionId": "0192a3f0-1111-7000-8000-000000000117",
+      "franchise": "Super Sentai",
+      "seriesTitle": "Mashin Sentai Kiramager",
+      "title": "Mashin Sentai Kiramager Episode 6 Sub Indo",
+      "episodeNumber": 6,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/mashin-sentai-kiramager-episode-6-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/4Dk0xZ0R9p88rS9zV6C7u8X3bQ1.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/mashin-sentai-kiramager_ep6",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/mashin-sentai-kiramager_ep6",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kikai-sentai-zenkaiger_ep1",
+      "productionId": "0192a3f0-1111-7000-8000-000000000118",
+      "franchise": "Super Sentai",
+      "seriesTitle": "Kikai Sentai Zenkaiger",
+      "title": "Kikai Sentai Zenkaiger Episode 1 Sub Indo",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kikai-sentai-zenkaiger-episode-1-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/4Dk0xZ0R9p88rS9zV6C7u8X3bQ1.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kikai-sentai-zenkaiger_ep1",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kikai-sentai-zenkaiger_ep1",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kikai-sentai-zenkaiger_ep2",
+      "productionId": "0192a3f0-1111-7000-8000-000000000118",
+      "franchise": "Super Sentai",
+      "seriesTitle": "Kikai Sentai Zenkaiger",
+      "title": "Kikai Sentai Zenkaiger Episode 2 Sub Indo",
+      "episodeNumber": 2,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kikai-sentai-zenkaiger-episode-2-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/4Dk0xZ0R9p88rS9zV6C7u8X3bQ1.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kikai-sentai-zenkaiger_ep2",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kikai-sentai-zenkaiger_ep2",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kikai-sentai-zenkaiger_ep3",
+      "productionId": "0192a3f0-1111-7000-8000-000000000118",
+      "franchise": "Super Sentai",
+      "seriesTitle": "Kikai Sentai Zenkaiger",
+      "title": "Kikai Sentai Zenkaiger Episode 3 Sub Indo",
+      "episodeNumber": 3,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kikai-sentai-zenkaiger-episode-3-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/4Dk0xZ0R9p88rS9zV6C7u8X3bQ1.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kikai-sentai-zenkaiger_ep3",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kikai-sentai-zenkaiger_ep3",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kikai-sentai-zenkaiger_ep4",
+      "productionId": "0192a3f0-1111-7000-8000-000000000118",
+      "franchise": "Super Sentai",
+      "seriesTitle": "Kikai Sentai Zenkaiger",
+      "title": "Kikai Sentai Zenkaiger Episode 4 Sub Indo",
+      "episodeNumber": 4,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kikai-sentai-zenkaiger-episode-4-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/4Dk0xZ0R9p88rS9zV6C7u8X3bQ1.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kikai-sentai-zenkaiger_ep4",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kikai-sentai-zenkaiger_ep4",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kikai-sentai-zenkaiger_ep5",
+      "productionId": "0192a3f0-1111-7000-8000-000000000118",
+      "franchise": "Super Sentai",
+      "seriesTitle": "Kikai Sentai Zenkaiger",
+      "title": "Kikai Sentai Zenkaiger Episode 5 Sub Indo",
+      "episodeNumber": 5,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kikai-sentai-zenkaiger-episode-5-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/4Dk0xZ0R9p88rS9zV6C7u8X3bQ1.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kikai-sentai-zenkaiger_ep5",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kikai-sentai-zenkaiger_ep5",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_kikai-sentai-zenkaiger_ep6",
+      "productionId": "0192a3f0-1111-7000-8000-000000000118",
+      "franchise": "Super Sentai",
+      "seriesTitle": "Kikai Sentai Zenkaiger",
+      "title": "Kikai Sentai Zenkaiger Episode 6 Sub Indo",
+      "episodeNumber": 6,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kikai-sentai-zenkaiger-episode-6-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/4Dk0xZ0R9p88rS9zV6C7u8X3bQ1.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/kikai-sentai-zenkaiger_ep6",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/kikai-sentai-zenkaiger_ep6",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_ohsama-sentai-king-ohger-adventure-heaven_ep1",
+      "productionId": "0192a3f0-1111-7000-8000-000000000119",
+      "franchise": "Super Sentai",
+      "seriesTitle": "Ohsama Sentai King-Ohger: Adventure Heaven",
+      "title": "Ohsama Sentai King-Ohger: Adventure Heaven (Full Movie Sub Indo)",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "movie",
+      "sourceUrl": "https://www.tokusatsuindo.com/ohsama-sentai-king-ohger-adventure-heaven-episode-1-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/euSDSrIyUhWbac1tzmg9d3KtmSE.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/ohsama-sentai-king-ohger-adventure-heaven_ep1",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/ohsama-sentai-king-ohger-adventure-heaven_ep1",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_king-ohger-vs-donbrothers_ep1",
+      "productionId": "0192a3f0-1111-7000-8000-000000000120",
+      "franchise": "Super Sentai",
+      "seriesTitle": "King-Ohger vs. Donbrothers",
+      "title": "King-Ohger vs. Donbrothers (Full Movie Sub Indo)",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "movie",
+      "sourceUrl": "https://www.tokusatsuindo.com/king-ohger-vs-donbrothers-episode-1-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/euSDSrIyUhWbac1tzmg9d3KtmSE.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/king-ohger-vs-donbrothers_ep1",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/king-ohger-vs-donbrothers_ep1",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_ultraman-z_ep1",
+      "productionId": "0192a3f0-1111-7000-8000-000000000121",
+      "franchise": "Ultraman",
+      "seriesTitle": "Ultraman Z",
+      "title": "Ultraman Z Episode 1 Sub Indo",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/ultraman-z-episode-1-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "/posters/backdrop_ultraman_arc.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/ultraman-z_ep1",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/ultraman-z_ep1",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_ultraman-z_ep2",
+      "productionId": "0192a3f0-1111-7000-8000-000000000121",
+      "franchise": "Ultraman",
+      "seriesTitle": "Ultraman Z",
+      "title": "Ultraman Z Episode 2 Sub Indo",
+      "episodeNumber": 2,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/ultraman-z-episode-2-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "/posters/backdrop_ultraman_arc.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/ultraman-z_ep2",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/ultraman-z_ep2",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_ultraman-z_ep3",
+      "productionId": "0192a3f0-1111-7000-8000-000000000121",
+      "franchise": "Ultraman",
+      "seriesTitle": "Ultraman Z",
+      "title": "Ultraman Z Episode 3 Sub Indo",
+      "episodeNumber": 3,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/ultraman-z-episode-3-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "/posters/backdrop_ultraman_arc.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/ultraman-z_ep3",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/ultraman-z_ep3",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_ultraman-z_ep4",
+      "productionId": "0192a3f0-1111-7000-8000-000000000121",
+      "franchise": "Ultraman",
+      "seriesTitle": "Ultraman Z",
+      "title": "Ultraman Z Episode 4 Sub Indo",
+      "episodeNumber": 4,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/ultraman-z-episode-4-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "/posters/backdrop_ultraman_arc.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/ultraman-z_ep4",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/ultraman-z_ep4",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_ultraman-z_ep5",
+      "productionId": "0192a3f0-1111-7000-8000-000000000121",
+      "franchise": "Ultraman",
+      "seriesTitle": "Ultraman Z",
+      "title": "Ultraman Z Episode 5 Sub Indo",
+      "episodeNumber": 5,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/ultraman-z-episode-5-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "/posters/backdrop_ultraman_arc.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/ultraman-z_ep5",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/ultraman-z_ep5",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_ultraman-z_ep6",
+      "productionId": "0192a3f0-1111-7000-8000-000000000121",
+      "franchise": "Ultraman",
+      "seriesTitle": "Ultraman Z",
+      "title": "Ultraman Z Episode 6 Sub Indo",
+      "episodeNumber": 6,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/ultraman-z-episode-6-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "/posters/backdrop_ultraman_arc.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/ultraman-z_ep6",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/ultraman-z_ep6",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_ultraman-trigger-new-generation-tiga_ep1",
+      "productionId": "0192a3f0-1111-7000-8000-000000000122",
+      "franchise": "Ultraman",
+      "seriesTitle": "Ultraman Trigger: New Generation Tiga",
+      "title": "Ultraman Trigger: New Generation Tiga Episode 1 Sub Indo",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/ultraman-trigger-new-generation-tiga-episode-1-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "/posters/backdrop_ultraman_arc.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/ultraman-trigger-new-generation-tiga_ep1",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/ultraman-trigger-new-generation-tiga_ep1",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_ultraman-trigger-new-generation-tiga_ep2",
+      "productionId": "0192a3f0-1111-7000-8000-000000000122",
+      "franchise": "Ultraman",
+      "seriesTitle": "Ultraman Trigger: New Generation Tiga",
+      "title": "Ultraman Trigger: New Generation Tiga Episode 2 Sub Indo",
+      "episodeNumber": 2,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/ultraman-trigger-new-generation-tiga-episode-2-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "/posters/backdrop_ultraman_arc.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/ultraman-trigger-new-generation-tiga_ep2",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/ultraman-trigger-new-generation-tiga_ep2",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_ultraman-trigger-new-generation-tiga_ep3",
+      "productionId": "0192a3f0-1111-7000-8000-000000000122",
+      "franchise": "Ultraman",
+      "seriesTitle": "Ultraman Trigger: New Generation Tiga",
+      "title": "Ultraman Trigger: New Generation Tiga Episode 3 Sub Indo",
+      "episodeNumber": 3,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/ultraman-trigger-new-generation-tiga-episode-3-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "/posters/backdrop_ultraman_arc.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/ultraman-trigger-new-generation-tiga_ep3",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/ultraman-trigger-new-generation-tiga_ep3",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_ultraman-trigger-new-generation-tiga_ep4",
+      "productionId": "0192a3f0-1111-7000-8000-000000000122",
+      "franchise": "Ultraman",
+      "seriesTitle": "Ultraman Trigger: New Generation Tiga",
+      "title": "Ultraman Trigger: New Generation Tiga Episode 4 Sub Indo",
+      "episodeNumber": 4,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/ultraman-trigger-new-generation-tiga-episode-4-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "/posters/backdrop_ultraman_arc.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/ultraman-trigger-new-generation-tiga_ep4",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/ultraman-trigger-new-generation-tiga_ep4",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_ultraman-trigger-new-generation-tiga_ep5",
+      "productionId": "0192a3f0-1111-7000-8000-000000000122",
+      "franchise": "Ultraman",
+      "seriesTitle": "Ultraman Trigger: New Generation Tiga",
+      "title": "Ultraman Trigger: New Generation Tiga Episode 5 Sub Indo",
+      "episodeNumber": 5,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/ultraman-trigger-new-generation-tiga-episode-5-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "/posters/backdrop_ultraman_arc.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/ultraman-trigger-new-generation-tiga_ep5",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/ultraman-trigger-new-generation-tiga_ep5",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_ultraman-trigger-new-generation-tiga_ep6",
+      "productionId": "0192a3f0-1111-7000-8000-000000000122",
+      "franchise": "Ultraman",
+      "seriesTitle": "Ultraman Trigger: New Generation Tiga",
+      "title": "Ultraman Trigger: New Generation Tiga Episode 6 Sub Indo",
+      "episodeNumber": 6,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/ultraman-trigger-new-generation-tiga-episode-6-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "/posters/backdrop_ultraman_arc.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/ultraman-trigger-new-generation-tiga_ep6",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/ultraman-trigger-new-generation-tiga_ep6",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_ultraman-trigger-episode-z_ep1",
+      "productionId": "0192a3f0-1111-7000-8000-000000000123",
+      "franchise": "Ultraman",
+      "seriesTitle": "Ultraman Trigger: Episode Z",
+      "title": "Ultraman Trigger: Episode Z (Full Movie Sub Indo)",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "movie",
+      "sourceUrl": "https://www.tokusatsuindo.com/ultraman-trigger-episode-z-episode-1-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "/posters/backdrop_ultraman_arc.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/ultraman-trigger-episode-z_ep1",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/ultraman-trigger-episode-z_ep1",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_ultraman-decker_ep1",
+      "productionId": "0192a3f0-1111-7000-8000-000000000124",
+      "franchise": "Ultraman",
+      "seriesTitle": "Ultraman Decker",
+      "title": "Ultraman Decker Episode 1 Sub Indo",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/ultraman-decker-episode-1-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "/posters/backdrop_ultraman_arc.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/ultraman-decker_ep1",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/ultraman-decker_ep1",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_ultraman-decker_ep2",
+      "productionId": "0192a3f0-1111-7000-8000-000000000124",
+      "franchise": "Ultraman",
+      "seriesTitle": "Ultraman Decker",
+      "title": "Ultraman Decker Episode 2 Sub Indo",
+      "episodeNumber": 2,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/ultraman-decker-episode-2-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "/posters/backdrop_ultraman_arc.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/ultraman-decker_ep2",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/ultraman-decker_ep2",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_ultraman-decker_ep3",
+      "productionId": "0192a3f0-1111-7000-8000-000000000124",
+      "franchise": "Ultraman",
+      "seriesTitle": "Ultraman Decker",
+      "title": "Ultraman Decker Episode 3 Sub Indo",
+      "episodeNumber": 3,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/ultraman-decker-episode-3-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "/posters/backdrop_ultraman_arc.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/ultraman-decker_ep3",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/ultraman-decker_ep3",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_ultraman-decker_ep4",
+      "productionId": "0192a3f0-1111-7000-8000-000000000124",
+      "franchise": "Ultraman",
+      "seriesTitle": "Ultraman Decker",
+      "title": "Ultraman Decker Episode 4 Sub Indo",
+      "episodeNumber": 4,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/ultraman-decker-episode-4-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "/posters/backdrop_ultraman_arc.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/ultraman-decker_ep4",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/ultraman-decker_ep4",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_ultraman-decker_ep5",
+      "productionId": "0192a3f0-1111-7000-8000-000000000124",
+      "franchise": "Ultraman",
+      "seriesTitle": "Ultraman Decker",
+      "title": "Ultraman Decker Episode 5 Sub Indo",
+      "episodeNumber": 5,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/ultraman-decker-episode-5-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "/posters/backdrop_ultraman_arc.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/ultraman-decker_ep5",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/ultraman-decker_ep5",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_ultraman-decker_ep6",
+      "productionId": "0192a3f0-1111-7000-8000-000000000124",
+      "franchise": "Ultraman",
+      "seriesTitle": "Ultraman Decker",
+      "title": "Ultraman Decker Episode 6 Sub Indo",
+      "episodeNumber": 6,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/ultraman-decker-episode-6-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "/posters/backdrop_ultraman_arc.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/ultraman-decker_ep6",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/ultraman-decker_ep6",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_ultraman-blazar-the-movie-tokyo-kaiju-showdown_ep1",
+      "productionId": "0192a3f0-1111-7000-8000-000000000125",
+      "franchise": "Ultraman",
+      "seriesTitle": "Ultraman Blazar The Movie: Tokyo Kaiju Showdown",
+      "title": "Ultraman Blazar The Movie: Tokyo Kaiju Showdown (Full Movie Sub Indo)",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "movie",
+      "sourceUrl": "https://www.tokusatsuindo.com/ultraman-blazar-the-movie-tokyo-kaiju-showdown-episode-1-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "/posters/backdrop_ultraman_arc.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/ultraman-blazar-the-movie-tokyo-kaiju-showdown_ep1",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/ultraman-blazar-the-movie-tokyo-kaiju-showdown_ep1",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_ultraman-arc-the-movie-clash-of-light-and-evil_ep1",
+      "productionId": "0192a3f0-1111-7000-8000-000000000126",
+      "franchise": "Ultraman",
+      "seriesTitle": "Ultraman Arc The Movie: The Clash of Light and Evil",
+      "title": "Ultraman Arc The Movie: The Clash of Light and Evil (Full Movie Sub Indo)",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "movie",
+      "sourceUrl": "https://www.tokusatsuindo.com/ultraman-arc-the-movie-clash-of-light-and-evil-episode-1-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "/posters/backdrop_ultraman_arc.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/ultraman-arc-the-movie-clash-of-light-and-evil_ep1",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/ultraman-arc-the-movie-clash-of-light-and-evil_ep1",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_garo-hagane-o-tsugu-mono_ep1",
+      "productionId": "0192a3f0-1111-7000-8000-000000000127",
+      "franchise": "Garo",
+      "seriesTitle": "GARO: Heir to the Steel Armor (Hagane)",
+      "title": "GARO: Heir to the Steel Armor (Hagane) Episode 1 Sub Indo",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/garo-hagane-o-tsugu-mono-episode-1-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/pp7Dh7jwTX1mo7gRYLdYOnwPkfm.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/garo-hagane-o-tsugu-mono_ep1",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/garo-hagane-o-tsugu-mono_ep1",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_garo-hagane-o-tsugu-mono_ep2",
+      "productionId": "0192a3f0-1111-7000-8000-000000000127",
+      "franchise": "Garo",
+      "seriesTitle": "GARO: Heir to the Steel Armor (Hagane)",
+      "title": "GARO: Heir to the Steel Armor (Hagane) Episode 2 Sub Indo",
+      "episodeNumber": 2,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/garo-hagane-o-tsugu-mono-episode-2-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/pp7Dh7jwTX1mo7gRYLdYOnwPkfm.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/garo-hagane-o-tsugu-mono_ep2",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/garo-hagane-o-tsugu-mono_ep2",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_garo-hagane-o-tsugu-mono_ep3",
+      "productionId": "0192a3f0-1111-7000-8000-000000000127",
+      "franchise": "Garo",
+      "seriesTitle": "GARO: Heir to the Steel Armor (Hagane)",
+      "title": "GARO: Heir to the Steel Armor (Hagane) Episode 3 Sub Indo",
+      "episodeNumber": 3,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/garo-hagane-o-tsugu-mono-episode-3-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/pp7Dh7jwTX1mo7gRYLdYOnwPkfm.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/garo-hagane-o-tsugu-mono_ep3",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/garo-hagane-o-tsugu-mono_ep3",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_garo-hagane-o-tsugu-mono_ep4",
+      "productionId": "0192a3f0-1111-7000-8000-000000000127",
+      "franchise": "Garo",
+      "seriesTitle": "GARO: Heir to the Steel Armor (Hagane)",
+      "title": "GARO: Heir to the Steel Armor (Hagane) Episode 4 Sub Indo",
+      "episodeNumber": 4,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/garo-hagane-o-tsugu-mono-episode-4-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/pp7Dh7jwTX1mo7gRYLdYOnwPkfm.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/garo-hagane-o-tsugu-mono_ep4",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/garo-hagane-o-tsugu-mono_ep4",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_garo-hagane-o-tsugu-mono_ep5",
+      "productionId": "0192a3f0-1111-7000-8000-000000000127",
+      "franchise": "Garo",
+      "seriesTitle": "GARO: Heir to the Steel Armor (Hagane)",
+      "title": "GARO: Heir to the Steel Armor (Hagane) Episode 5 Sub Indo",
+      "episodeNumber": 5,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/garo-hagane-o-tsugu-mono-episode-5-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/pp7Dh7jwTX1mo7gRYLdYOnwPkfm.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/garo-hagane-o-tsugu-mono_ep5",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/garo-hagane-o-tsugu-mono_ep5",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "scraped_garo-hagane-o-tsugu-mono_ep6",
+      "productionId": "0192a3f0-1111-7000-8000-000000000127",
+      "franchise": "Garo",
+      "seriesTitle": "GARO: Heir to the Steel Armor (Hagane)",
+      "title": "GARO: Heir to the Steel Armor (Hagane) Episode 6 Sub Indo",
+      "episodeNumber": 6,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/garo-hagane-o-tsugu-mono-episode-6-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sorot Indo",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1080p FHD / 2K QHD",
+      "thumbnail": "https://image.tmdb.org/t/p/original/pp7Dh7jwTX1mo7gRYLdYOnwPkfm.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_gdrive",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1xB4kfuHxVLt3AT0yt-I1COdypqHxJxl5/preview",
+          "isDefault": true
+        },
+        {
+          "id": "srv_embed",
+          "name": "Server 2 (HLS Direct 2K)",
+          "type": "embed",
+          "embedUrl": "https://doodstream.com/e/garo-hagane-o-tsugu-mono_ep6",
+          "isDefault": false
+        },
+        {
+          "id": "srv_mirror",
+          "name": "Server 3 (StreamWish Mirror)",
+          "type": "embed",
+          "embedUrl": "https://streamwish.com/e/garo-hagane-o-tsugu-mono_ep6",
+          "isDefault": false
+        }
+      ]
     }
   ]
 }

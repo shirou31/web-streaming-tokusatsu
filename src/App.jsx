@@ -321,7 +321,8 @@ export default function App() {
         franchise: selectedFranchise !== 'all' ? selectedFranchise.toLowerCase().replace(/\s+/g, '-') : undefined,
         q: searchQuery.trim() || undefined,
         sort: 'release_date',
-        order: 'desc'
+        order: 'desc',
+        per_page: 100
       };
 
       const res = await getCatalog(params);
