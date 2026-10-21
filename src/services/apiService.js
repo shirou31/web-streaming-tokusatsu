@@ -652,7 +652,14 @@ export const isScrapedEpisodeMatch = (se, prod, episodeNumber = null) => {
   const EXPLICIT_PROD_MAP = {
     'ultraman-tiga-dyna-movie': ['scraped_prod_ultra_tiga_dyna_movie_ep1'],
     'ultraman-tiga-gaiden': ['scraped_prod_ultra_tiga_gaiden_ep1', 'scraped_prod_ultra_tiga_gaiden_ep2'],
-    'kaizoku-sentai-ten-gokaiger': ['scraped_prod_ss_ten_gokaiger_ep1']
+    'kaizoku-sentai-ten-gokaiger': ['scraped_prod_ss_ten_gokaiger_ep1'],
+    'kamen-rider-w-returns-eternal': ['scraped_prod_kr_w_eternal_ep1'],
+    'garo-red-requiem': ['scraped_prod_garo_red_requiem_ep2'],
+    'shin-ultraman': ['scraped_prod_shin-ultraman_movie'],
+    'kamen-rider-ryuki-13-riders': ['scraped_prod_kamen-rider-ryuki-13-riders_movie'],
+    'kamen-rider-ryuki-episode-final': ['scraped_prod_kamen-rider-ryuki-episode-final_movie'],
+    'ohsama-sentai-king-ohger-vs-kyoryuger': ['scraped_sawidago_ohsama-sentai-king-ohger-vs-kyoryuger_ep1_mvhzqk7j'],
+    'no-1-sentai-gozyuger-vs-boonboomger': ['scraped_sawidago_no-1-sentai-gozyuger-vs-boonboomger-movie_ep1_mvhzpw7s']
   };
 
   if (EXPLICIT_PROD_MAP[prod.slug]) {

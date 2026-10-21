@@ -2685,23 +2685,16 @@
       "seasonNumber": 1,
       "era": "Reiwa",
       "contentType": "movie",
-      "sourceUrl": "https://sawidagofansub.com/?p=3137",
+      "sourceUrl": "https://www.tokusatsuindo.com/no-1-sentai-gozyuger-vs-boonboomger-sub-indonesia/",
       "fansub": "SawidagoFansub (Official Release)",
       "language": "Indonesian (Sub Indo)",
       "quality": "1440p QHD / 1080p FHD",
       "thumbnail": "/posters/poster_sawidago_no-1-sentai-gozyuger-vs-boonboomger-movie.png",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 2 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/no-1-sentai-gozyuger-vs-boonboomger-movie_ep1",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 3 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/no-1-sentai-gozyuger-vs-boonboomger-movie_ep1",
+          "id": "srv_goz_real",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6Njk4fQ.f6bd1862afb0a720f901fbe6a53684c969c35cbba395b27d21c2481f2ee6dcab",
           "type": "embed",
           "status": "online"
         }
@@ -6146,49 +6139,6 @@
       "scrapedAt": "2026-10-21T10:50:00.308Z"
     },
     {
-      "id": "scraped_sawidago_no-1-sentai-gozyuger-tegasword-of-ressurection-bd_ep1_mvhzqc0k",
-      "productionId": "prod_no-1-sentai-gozyuger-tegasword-of-ressurection-bd",
-      "franchise": "Super Sentai",
-      "seriesTitle": "No.1 Sentai Gozyuger: TegaSword of Ressurection BD",
-      "title": "No.1 Sentai Gozyuger: TegaSword of Ressurection BD (Movie Sub Indo)",
-      "episodeNumber": 1,
-      "seasonNumber": 1,
-      "era": "Reiwa",
-      "contentType": "movie",
-      "sourceUrl": "https://sawidagofansub.com/?p=454",
-      "fansub": "SawidagoFansub (Official Release)",
-      "language": "Indonesian (Sub Indo)",
-      "quality": "1440p QHD / 1080p FHD",
-      "thumbnail": "/posters/poster_sawidago_no-1-sentai-gozyuger-tegasword-of-ressurection-bd.png",
-      "servers": [
-        {
-          "id": "srv_1",
-          "name": "Server 2 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/no-1-sentai-gozyuger-tegasword-of-ressurection-bd_ep1",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 3 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/no-1-sentai-gozyuger-tegasword-of-ressurection-bd_ep1",
-          "type": "embed",
-          "status": "online"
-        }
-      ],
-      "skipMarkers": {
-        "skipIntro": {
-          "start": 90,
-          "end": 180
-        },
-        "skipOutro": {
-          "start": 1350,
-          "end": 1440
-        }
-      },
-      "scrapedAt": "2026-10-21T10:50:02.708Z"
-    },
-    {
       "id": "scraped_sawidago_bakuage-sentai-boonboomger-vs-king-ohger_ep1_mvhzqdx3",
       "productionId": "prod_bakuage-sentai-boonboomger-vs-king-ohger",
       "franchise": "Super Sentai",
@@ -6226,92 +6176,6 @@
       "scrapedAt": "2026-10-21T10:50:05.175Z"
     },
     {
-      "id": "scraped_sawidago_bakuage-sentai-boonboomger-8211-movie-boon-promise-the-circuit_ep1_mvhzqg54",
-      "productionId": "prod_bakuage-sentai-boonboomger-8211-movie-boon-promise-the-circuit",
-      "franchise": "Super Sentai",
-      "seriesTitle": "Bakuage Sentai Boonboomger &#8211; MOVIE BOON! Promise the Circuit!",
-      "title": "Bakuage Sentai Boonboomger &#8211; MOVIE BOON! Promise the Circuit! (Movie Sub Indo)",
-      "episodeNumber": 1,
-      "seasonNumber": 1,
-      "era": "Reiwa",
-      "contentType": "movie",
-      "sourceUrl": "https://sawidagofansub.com/?p=3277",
-      "fansub": "SawidagoFansub (Official Release)",
-      "language": "Indonesian (Sub Indo)",
-      "quality": "1440p QHD / 1080p FHD",
-      "thumbnail": "/posters/poster_sawidago_bakuage-sentai-boonboomger-8211-movie-boon-promise-the-circuit.png",
-      "servers": [
-        {
-          "id": "srv_1",
-          "name": "Server 2 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/bakuage-sentai-boonboomger-8211-movie-boon-promise-the-circuit_ep1",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 3 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/bakuage-sentai-boonboomger-8211-movie-boon-promise-the-circuit_ep1",
-          "type": "embed",
-          "status": "online"
-        }
-      ],
-      "skipMarkers": {
-        "skipIntro": {
-          "start": 90,
-          "end": 180
-        },
-        "skipOutro": {
-          "start": 1350,
-          "end": 1440
-        }
-      },
-      "scrapedAt": "2026-10-21T10:50:08.056Z"
-    },
-    {
-      "id": "scraped_sawidago_ohsama-sentai-king-ohger-vs-donbrothers_ep1_mvhzqifj",
-      "productionId": "prod_ohsama-sentai-king-ohger-vs-donbrothers",
-      "franchise": "Super Sentai",
-      "seriesTitle": "Ohsama Sentai King-Ohger vs DonBrothers",
-      "title": "Ohsama Sentai King-Ohger vs DonBrothers (Movie Sub Indo)",
-      "episodeNumber": 1,
-      "seasonNumber": 1,
-      "era": "Reiwa",
-      "contentType": "movie",
-      "sourceUrl": "https://sawidagofansub.com/?p=2970",
-      "fansub": "SawidagoFansub (Official Release)",
-      "language": "Indonesian (Sub Indo)",
-      "quality": "1440p QHD / 1080p FHD",
-      "thumbnail": "/posters/poster_sawidago_ohsama-sentai-king-ohger-vs-donbrothers.png",
-      "servers": [
-        {
-          "id": "srv_1",
-          "name": "Server 2 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/ohsama-sentai-king-ohger-vs-donbrothers_ep1",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 3 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/ohsama-sentai-king-ohger-vs-donbrothers_ep1",
-          "type": "embed",
-          "status": "online"
-        }
-      ],
-      "skipMarkers": {
-        "skipIntro": {
-          "start": 90,
-          "end": 180
-        },
-        "skipOutro": {
-          "start": 1350,
-          "end": 1440
-        }
-      },
-      "scrapedAt": "2026-10-21T10:50:11.023Z"
-    },
-    {
       "id": "scraped_sawidago_ohsama-sentai-king-ohger-vs-kyoryuger_ep1_mvhzqk7j",
       "productionId": "prod_ohsama-sentai-king-ohger-vs-kyoryuger",
       "franchise": "Super Sentai",
@@ -6321,23 +6185,16 @@
       "seasonNumber": 1,
       "era": "Reiwa",
       "contentType": "movie",
-      "sourceUrl": "https://sawidagofansub.com/?p=3146",
+      "sourceUrl": "https://www.tokusatsuindo.com/ohsama-sentai-king-ohger-vs-kyoryuger-sub-indonesia/",
       "fansub": "SawidagoFansub (Official Release)",
       "language": "Indonesian (Sub Indo)",
       "quality": "1440p QHD / 1080p FHD",
       "thumbnail": "/posters/poster_sawidago_ohsama-sentai-king-ohger-vs-kyoryuger.png",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 2 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/ohsama-sentai-king-ohger-vs-kyoryuger_ep1",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 3 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/ohsama-sentai-king-ohger-vs-kyoryuger_ep1",
+          "id": "srv_kyo_real",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NzA1fQ.15309b0274fdaeabe86305b3621d354ec3fdccd4aad2a4933df5e834985a963b",
           "type": "embed",
           "status": "online"
         }
@@ -8429,7 +8286,7 @@
       "seasonNumber": 1,
       "era": "Reiwa",
       "contentType": "movie",
-      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-geats-4-aces-and-the-black-fox-episode-1-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-geats-4-aces-and-the-black-fox-sub-indonesia/",
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
@@ -8438,18 +8295,12 @@
       "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_embed",
-          "name": "Server 2 (HLS Direct 2K)",
+          "id": "srv_real_scraped_kamen-rider-geats-4-aces-and-the-black-fox_ep1",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDc4fQ.7bc5e797505fdc51bb5651ba651fad3e688998a059f52bbb735503698e90e34c",
+          "directUrl": null,
           "type": "embed",
-          "embedUrl": "https://doodstream.com/e/kamen-rider-geats-4-aces-and-the-black-fox_ep1",
-          "isDefault": false
-        },
-        {
-          "id": "srv_mirror",
-          "name": "Server 3 (StreamWish Mirror)",
-          "type": "embed",
-          "embedUrl": "https://streamwish.com/e/kamen-rider-geats-4-aces-and-the-black-fox_ep1",
-          "isDefault": false
+          "status": "online"
         }
       ]
     },
@@ -8609,7 +8460,7 @@
       "seasonNumber": 1,
       "era": "Reiwa",
       "contentType": "movie",
-      "sourceUrl": "https://www.tokusatsuindo.com/shin-kamen-rider-episode-1-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/shin-kamen-rider-sub-indonesia/",
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
@@ -8618,18 +8469,12 @@
       "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_embed",
-          "name": "Server 2 (HLS Direct 2K)",
+          "id": "srv_real_scraped_shin-kamen-rider_ep1",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://drive.google.com/file/d/16FFxDpb6QtQ8rpnMahbVPvZlWbBa6tIj/preview",
+          "directUrl": null,
           "type": "embed",
-          "embedUrl": "https://doodstream.com/e/shin-kamen-rider_ep1",
-          "isDefault": false
-        },
-        {
-          "id": "srv_mirror",
-          "name": "Server 3 (StreamWish Mirror)",
-          "type": "embed",
-          "embedUrl": "https://streamwish.com/e/shin-kamen-rider_ep1",
-          "isDefault": false
+          "status": "online"
         }
       ]
     },
@@ -9076,7 +8921,7 @@
       "seasonNumber": 1,
       "era": "Reiwa",
       "contentType": "movie",
-      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-reiwa-the-first-generation-episode-1-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-zero-one-reiwa-first-generation-the-movie-sub-indonesia/",
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
@@ -9085,18 +8930,12 @@
       "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_embed",
-          "name": "Server 2 (HLS Direct 2K)",
+          "id": "srv_real_scraped_kamen-rider-reiwa-the-first-generation_ep1",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDQ3fQ.41e1cc357faede25147eeddc0178e39bb35214cd09eed9606951cc107c387c2a",
+          "directUrl": null,
           "type": "embed",
-          "embedUrl": "https://doodstream.com/e/kamen-rider-reiwa-the-first-generation_ep1",
-          "isDefault": false
-        },
-        {
-          "id": "srv_mirror",
-          "name": "Server 3 (StreamWish Mirror)",
-          "type": "embed",
-          "embedUrl": "https://streamwish.com/e/kamen-rider-reiwa-the-first-generation_ep1",
-          "isDefault": false
+          "status": "online"
         }
       ]
     },
@@ -9110,7 +8949,7 @@
       "seasonNumber": 1,
       "era": "Reiwa",
       "contentType": "movie",
-      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-zero-one-the-movie-real-time-episode-1-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-zero-one-realxtime-sub-indonesia/",
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
@@ -9119,18 +8958,12 @@
       "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_embed",
-          "name": "Server 2 (HLS Direct 2K)",
+          "id": "srv_real_scraped_kamen-rider-zero-one-the-movie-real-time_ep1",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDE2fQ.8dce53693edb0736bf19fcc692af8229711b4618edc0afa8242b6ac1434dc857",
+          "directUrl": null,
           "type": "embed",
-          "embedUrl": "https://doodstream.com/e/kamen-rider-zero-one-the-movie-real-time_ep1",
-          "isDefault": false
-        },
-        {
-          "id": "srv_mirror",
-          "name": "Server 3 (StreamWish Mirror)",
-          "type": "embed",
-          "embedUrl": "https://streamwish.com/e/kamen-rider-zero-one-the-movie-real-time_ep1",
-          "isDefault": false
+          "status": "online"
         }
       ]
     },
@@ -9144,7 +8977,7 @@
       "seasonNumber": 1,
       "era": "Reiwa",
       "contentType": "movie",
-      "sourceUrl": "https://www.tokusatsuindo.com/zero-one-others-kamen-rider-vulcan-valkyrie-episode-1-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/zero-one-others-kamen-rider-vulcan-valkyrie-sub-indonesia/",
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
@@ -9153,18 +8986,12 @@
       "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_embed",
-          "name": "Server 2 (HLS Direct 2K)",
+          "id": "srv_real_scraped_zero-one-others-kamen-rider-vulcan-valkyrie_ep1",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDIwfQ.eb6b7179a55817ccbc9c6984b50c056cdf764ea4949f7fab6272298cf234d490",
+          "directUrl": null,
           "type": "embed",
-          "embedUrl": "https://doodstream.com/e/zero-one-others-kamen-rider-vulcan-valkyrie_ep1",
-          "isDefault": false
-        },
-        {
-          "id": "srv_mirror",
-          "name": "Server 3 (StreamWish Mirror)",
-          "type": "embed",
-          "embedUrl": "https://streamwish.com/e/zero-one-others-kamen-rider-vulcan-valkyrie_ep1",
-          "isDefault": false
+          "status": "online"
         }
       ]
     },
@@ -9346,7 +9173,7 @@
       "seasonNumber": 1,
       "era": "Reiwa",
       "contentType": "movie",
-      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-saber-the-phoenix-swordsman-episode-1-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-saber-the-phoenix-swordsman-and-the-book-of-ruin-sub-indonesia/",
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
@@ -9355,18 +9182,12 @@
       "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_embed",
-          "name": "Server 2 (HLS Direct 2K)",
+          "id": "srv_real_scraped_kamen-rider-saber-the-phoenix-swordsman_ep1",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDg0fQ.f6adc55772784425db032f73768277b0b025695eea28d2a4f4c871eaf026362b",
+          "directUrl": null,
           "type": "embed",
-          "embedUrl": "https://doodstream.com/e/kamen-rider-saber-the-phoenix-swordsman_ep1",
-          "isDefault": false
-        },
-        {
-          "id": "srv_mirror",
-          "name": "Server 3 (StreamWish Mirror)",
-          "type": "embed",
-          "embedUrl": "https://streamwish.com/e/kamen-rider-saber-the-phoenix-swordsman_ep1",
-          "isDefault": false
+          "status": "online"
         }
       ]
     },
@@ -9380,7 +9201,7 @@
       "seasonNumber": 1,
       "era": "Reiwa",
       "contentType": "movie",
-      "sourceUrl": "https://www.tokusatsuindo.com/saber-zenkaiger-super-hero-senki-episode-1-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/saber-zenkaiger-super-hero-senki-sub-indonesia/",
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
@@ -9389,18 +9210,12 @@
       "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_embed",
-          "name": "Server 2 (HLS Direct 2K)",
+          "id": "srv_real_scraped_saber-zenkaiger-super-hero-senki_ep1",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://drive.google.com/file/d/1BIFrJQZ4UskF8FOsXsEpEp_CrKLQUoAs/preview",
+          "directUrl": null,
           "type": "embed",
-          "embedUrl": "https://doodstream.com/e/saber-zenkaiger-super-hero-senki_ep1",
-          "isDefault": false
-        },
-        {
-          "id": "srv_mirror",
-          "name": "Server 3 (StreamWish Mirror)",
-          "type": "embed",
-          "embedUrl": "https://streamwish.com/e/saber-zenkaiger-super-hero-senki_ep1",
-          "isDefault": false
+          "status": "online"
         }
       ]
     },
@@ -9414,7 +9229,7 @@
       "seasonNumber": 1,
       "era": "Reiwa",
       "contentType": "movie",
-      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-saber-trio-of-deep-sin-episode-1-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-saber-v-cinema-trio-of-deep-sin-sub-indonesia/",
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
@@ -9423,18 +9238,12 @@
       "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_embed",
-          "name": "Server 2 (HLS Direct 2K)",
+          "id": "srv_real_scraped_kamen-rider-saber-trio-of-deep-sin_ep1",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDYxfQ.1902fca3872e4e6e5024d52e030371b6bc5a7467f37c9c2d837501212e4738ec",
+          "directUrl": null,
           "type": "embed",
-          "embedUrl": "https://doodstream.com/e/kamen-rider-saber-trio-of-deep-sin_ep1",
-          "isDefault": false
-        },
-        {
-          "id": "srv_mirror",
-          "name": "Server 3 (StreamWish Mirror)",
-          "type": "embed",
-          "embedUrl": "https://streamwish.com/e/kamen-rider-saber-trio-of-deep-sin_ep1",
-          "isDefault": false
+          "status": "online"
         }
       ]
     },
@@ -9616,7 +9425,7 @@
       "seasonNumber": 1,
       "era": "Reiwa",
       "contentType": "movie",
-      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-beyond-generations-episode-1-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-beyond-generations-sub-indonesia/",
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
@@ -9625,18 +9434,12 @@
       "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_embed",
-          "name": "Server 2 (HLS Direct 2K)",
+          "id": "srv_real_scraped_kamen-rider-beyond-generations_ep1",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDQ5fQ.09c6bcb50029ed9d18ccb7bfc5d0b31e536f98e436dabb8f76ba11d3df507de3",
+          "directUrl": null,
           "type": "embed",
-          "embedUrl": "https://doodstream.com/e/kamen-rider-beyond-generations_ep1",
-          "isDefault": false
-        },
-        {
-          "id": "srv_mirror",
-          "name": "Server 3 (StreamWish Mirror)",
-          "type": "embed",
-          "embedUrl": "https://streamwish.com/e/kamen-rider-beyond-generations_ep1",
-          "isDefault": false
+          "status": "online"
         }
       ]
     },
@@ -9650,7 +9453,7 @@
       "seasonNumber": 1,
       "era": "Reiwa",
       "contentType": "movie",
-      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-revice-battle-familia-episode-1-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-revice-battle-familia-sub-indonesia/",
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
@@ -9659,18 +9462,12 @@
       "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_embed",
-          "name": "Server 2 (HLS Direct 2K)",
+          "id": "srv_real_scraped_kamen-rider-revice-battle-familia_ep1",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDY5fQ.cd9d656a9d7c3a3f970a1b0f890351c7693be56e7cf873129a2d9ffae7c173bb",
+          "directUrl": null,
           "type": "embed",
-          "embedUrl": "https://doodstream.com/e/kamen-rider-revice-battle-familia_ep1",
-          "isDefault": false
-        },
-        {
-          "id": "srv_mirror",
-          "name": "Server 3 (StreamWish Mirror)",
-          "type": "embed",
-          "embedUrl": "https://streamwish.com/e/kamen-rider-revice-battle-familia_ep1",
-          "isDefault": false
+          "status": "online"
         }
       ]
     },
@@ -9684,7 +9481,7 @@
       "seasonNumber": 1,
       "era": "Reiwa",
       "contentType": "movie",
-      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-geats-x-revice-movie-battle-royale-episode-1-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-geats-x-revice-movie-battle-royale-sub-indonesia/",
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
@@ -9693,18 +9490,12 @@
       "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_embed",
-          "name": "Server 2 (HLS Direct 2K)",
+          "id": "srv_real_scraped_kamen-rider-geats-x-revice-movie-battle-royale_ep1",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDM3fQ.39df54d4de65e651f5d619bd78d42c090b2b568ce138fd885815f3d1c7e3bd3b",
+          "directUrl": null,
           "type": "embed",
-          "embedUrl": "https://doodstream.com/e/kamen-rider-geats-x-revice-movie-battle-royale_ep1",
-          "isDefault": false
-        },
-        {
-          "id": "srv_mirror",
-          "name": "Server 3 (StreamWish Mirror)",
-          "type": "embed",
-          "embedUrl": "https://streamwish.com/e/kamen-rider-geats-x-revice-movie-battle-royale_ep1",
-          "isDefault": false
+          "status": "online"
         }
       ]
     },
@@ -9886,7 +9677,7 @@
       "seasonNumber": 1,
       "era": "Reiwa",
       "contentType": "movie",
-      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-the-winter-movie-gotchard-geats-episode-1-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-the-winter-movie-gotchard-geats-strongest-chemy-great-gotcha-operation-sub-indonesia/",
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
@@ -9895,18 +9686,12 @@
       "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_embed",
-          "name": "Server 2 (HLS Direct 2K)",
+          "id": "srv_real_scraped_kamen-rider-the-winter-movie-gotchard-geats_ep1",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDgzfQ.f30a0ff486f543e2af1c12d60b6795b420a60da3f78fe1559c7ceaf3ea48cbfd",
+          "directUrl": null,
           "type": "embed",
-          "embedUrl": "https://doodstream.com/e/kamen-rider-the-winter-movie-gotchard-geats_ep1",
-          "isDefault": false
-        },
-        {
-          "id": "srv_mirror",
-          "name": "Server 3 (StreamWish Mirror)",
-          "type": "embed",
-          "embedUrl": "https://streamwish.com/e/kamen-rider-the-winter-movie-gotchard-geats_ep1",
-          "isDefault": false
+          "status": "online"
         }
       ]
     },
@@ -9920,7 +9705,7 @@
       "seasonNumber": 1,
       "era": "Reiwa",
       "contentType": "movie",
-      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-gotchard-the-future-daybreak-episode-1-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-gotchard-the-future-daybreak-sub-indonesia/",
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
@@ -9929,18 +9714,12 @@
       "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_embed",
-          "name": "Server 2 (HLS Direct 2K)",
+          "id": "srv_real_scraped_kamen-rider-gotchard-the-future-daybreak_ep1",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDg1fQ.ad967b60744ec9c102e1cab056ce271119b3149f6a680ea77bed1b9cf25afd6c",
+          "directUrl": null,
           "type": "embed",
-          "embedUrl": "https://doodstream.com/e/kamen-rider-gotchard-the-future-daybreak_ep1",
-          "isDefault": false
-        },
-        {
-          "id": "srv_mirror",
-          "name": "Server 3 (StreamWish Mirror)",
-          "type": "embed",
-          "embedUrl": "https://streamwish.com/e/kamen-rider-gotchard-the-future-daybreak_ep1",
-          "isDefault": false
+          "status": "online"
         }
       ]
     },
@@ -10566,7 +10345,7 @@
       "seasonNumber": 1,
       "era": "Reiwa",
       "contentType": "movie",
-      "sourceUrl": "https://www.tokusatsuindo.com/ohsama-sentai-king-ohger-adventure-heaven-episode-1-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/ohsama-sentai-king-ohger-adventure-heaven-sub-indonesia/",
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
@@ -10575,18 +10354,12 @@
       "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_embed",
-          "name": "Server 2 (HLS Direct 2K)",
+          "id": "srv_real_scraped_ohsama-sentai-king-ohger-adventure-heaven_ep1",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6MTM4Mn0.ed2003992f723bdd098ef0c3bc1f4e07e81adf9087a8458ab1ea3db27ae22cdd",
+          "directUrl": null,
           "type": "embed",
-          "embedUrl": "https://doodstream.com/e/ohsama-sentai-king-ohger-adventure-heaven_ep1",
-          "isDefault": false
-        },
-        {
-          "id": "srv_mirror",
-          "name": "Server 3 (StreamWish Mirror)",
-          "type": "embed",
-          "embedUrl": "https://streamwish.com/e/ohsama-sentai-king-ohger-adventure-heaven_ep1",
-          "isDefault": false
+          "status": "online"
         }
       ]
     },
@@ -10600,7 +10373,7 @@
       "seasonNumber": 1,
       "era": "Reiwa",
       "contentType": "movie",
-      "sourceUrl": "https://www.tokusatsuindo.com/king-ohger-vs-donbrothers-episode-1-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/ohsama-sentai-king-ohger-vs-donbrothers-sub-indonesia/",
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
@@ -10609,18 +10382,12 @@
       "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_embed",
-          "name": "Server 2 (HLS Direct 2K)",
+          "id": "srv_real_scraped_king-ohger-vs-donbrothers_ep1",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NzA2fQ.0396efd3f11825fe08965395a3c36851d9398cb53b0a18cab55d9a496b1c86a6",
+          "directUrl": null,
           "type": "embed",
-          "embedUrl": "https://doodstream.com/e/king-ohger-vs-donbrothers_ep1",
-          "isDefault": false
-        },
-        {
-          "id": "srv_mirror",
-          "name": "Server 3 (StreamWish Mirror)",
-          "type": "embed",
-          "embedUrl": "https://streamwish.com/e/king-ohger-vs-donbrothers_ep1",
-          "isDefault": false
+          "status": "online"
         }
       ]
     },
@@ -11042,7 +10809,7 @@
       "seasonNumber": 1,
       "era": "Reiwa",
       "contentType": "movie",
-      "sourceUrl": "https://www.tokusatsuindo.com/ultraman-trigger-episode-z-episode-1-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/ultraman-trigger-episode-z-sub-indonesia/",
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
@@ -11051,18 +10818,12 @@
       "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_embed",
-          "name": "Server 2 (HLS Direct 2K)",
+          "id": "srv_real_scraped_ultraman-trigger-episode-z_ep1",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NzM3fQ.45f44b4c66eadf06fb34cdef8e110d3c1662406a75d7e09a6dcff88c8f71d658",
+          "directUrl": null,
           "type": "embed",
-          "embedUrl": "https://doodstream.com/e/ultraman-trigger-episode-z_ep1",
-          "isDefault": false
-        },
-        {
-          "id": "srv_mirror",
-          "name": "Server 3 (StreamWish Mirror)",
-          "type": "embed",
-          "embedUrl": "https://streamwish.com/e/ultraman-trigger-episode-z_ep1",
-          "isDefault": false
+          "status": "online"
         }
       ]
     },
@@ -11280,7 +11041,7 @@
       "seasonNumber": 1,
       "era": "Reiwa",
       "contentType": "movie",
-      "sourceUrl": "https://www.tokusatsuindo.com/ultraman-blazar-the-movie-tokyo-kaiju-showdown-episode-1-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/ultraman-blazar-the-movie-tokyo-kaiju-showdown-sub-indonesia/",
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
@@ -11289,18 +11050,12 @@
       "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_embed",
-          "name": "Server 2 (HLS Direct 2K)",
+          "id": "srv_real_scraped_ultraman-blazar-the-movie-tokyo-kaiju-showdown_ep1",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NzMzfQ.96d58ca26c85c69fee2476cb5b9b581268f9c7cb9a7c00133408051a80796192",
+          "directUrl": null,
           "type": "embed",
-          "embedUrl": "https://doodstream.com/e/ultraman-blazar-the-movie-tokyo-kaiju-showdown_ep1",
-          "isDefault": false
-        },
-        {
-          "id": "srv_mirror",
-          "name": "Server 3 (StreamWish Mirror)",
-          "type": "embed",
-          "embedUrl": "https://streamwish.com/e/ultraman-blazar-the-movie-tokyo-kaiju-showdown_ep1",
-          "isDefault": false
+          "status": "online"
         }
       ]
     },
@@ -11314,7 +11069,7 @@
       "seasonNumber": 1,
       "era": "Reiwa",
       "contentType": "movie",
-      "sourceUrl": "https://www.tokusatsuindo.com/ultraman-arc-the-movie-clash-of-light-and-evil-episode-1-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/ultraman-arc-the-movie-the-clash-of-light-and-evil-sub-indonesia/",
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
@@ -11323,18 +11078,12 @@
       "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_embed",
-          "name": "Server 2 (HLS Direct 2K)",
+          "id": "srv_real_scraped_ultraman-arc-the-movie-clash-of-light-and-evil_ep1",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NzMxfQ.e42b9f3d4f9d1b27aac28cefe21635284477340f4a922cd68e33d1184cf90f29",
+          "directUrl": null,
           "type": "embed",
-          "embedUrl": "https://doodstream.com/e/ultraman-arc-the-movie-clash-of-light-and-evil_ep1",
-          "isDefault": false
-        },
-        {
-          "id": "srv_mirror",
-          "name": "Server 3 (StreamWish Mirror)",
-          "type": "embed",
-          "embedUrl": "https://streamwish.com/e/ultraman-arc-the-movie-clash-of-light-and-evil_ep1",
-          "isDefault": false
+          "status": "online"
         }
       ]
     },
@@ -18108,16 +17857,10 @@
       "scrapedAt": "2026-10-21T05:37:36.886Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki-episode-final_ep1",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki-episode-final_ep1",
+          "id": "srv_real_scraped_prod_kamen-rider-ryuki-episode-final_movie",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NTYwfQ.bb890e2bbea82d975306e4fa4dab35aabc21f5bb7bbb15c3bde7fc7f4dd4c20b",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -18133,7 +17876,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "movie",
-      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-ryuki-13-riders-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-ryuki-special-13-riders-subtitle-indonesia/",
       "fansub": "TokusatsuIndo / Sorot Movie",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 4K UHD",
@@ -18147,16 +17890,10 @@
       "scrapedAt": "2026-10-21T05:37:36.886Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki-13-riders_ep1",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki-13-riders_ep1",
+          "id": "srv_real_scraped_prod_kamen-rider-ryuki-13-riders_movie",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjA3fQ.a171b2da9fef59acfca279af460b4ecee28cb1d5baac896dd285a9ea9e57c2e7",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -18172,7 +17909,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "movie",
-      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-den-o-im-born-sub-indonesia/",
+      "sourceUrl": "https://www.youtube.com/watch?v=lKovJpWl1s0",
       "fansub": "TokusatsuIndo / Sorot Movie",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 4K UHD",
@@ -18186,16 +17923,10 @@
       "scrapedAt": "2026-10-21T05:37:36.886Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o-im-born_ep1",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o-im-born_ep1",
+          "id": "srv_official_scraped_prod_kamen-rider-den-o-im-born_movie",
+          "name": "Server 1 (Official Stream Player HD)",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/lKovJpWl1s0?vq=hd1080",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -18225,16 +17956,10 @@
       "scrapedAt": "2026-10-21T05:37:36.886Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o-kiva-climax-deka_ep1",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o-kiva-climax-deka_ep1",
+          "id": "srv_real_scraped_prod_kamen-rider-den-o-kiva-climax-deka_movie",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjYxfQ.9e012ef33a0eeb3a2742f30f29b56535ecd974c1127d42e18a79e084268901c0",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -18250,7 +17975,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "movie",
-      "sourceUrl": "https://www.tokusatsuindo.com/saraba-kamen-rider-den-o-final-countdown-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/saraba-kamen-rider-den-o-final-countdown-movie-sub-indonesia/",
       "fansub": "TokusatsuIndo / Sorot Movie",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 4K UHD",
@@ -18264,16 +17989,10 @@
       "scrapedAt": "2026-10-21T05:37:36.886Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/saraba-kamen-rider-den-o-final-countdown_ep1",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/saraba-kamen-rider-den-o-final-countdown_ep1",
+          "id": "srv_real_scraped_prod_saraba-kamen-rider-den-o-final-countdown_movie",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjQwfQ.54985e8e2f6c12890dac8ae07378b830efa4a1ff1aba2c0b5e818dac595b5ea6",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -18289,7 +18008,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "movie",
-      "sourceUrl": "https://www.tokusatsuindo.com/cho-kamen-rider-den-o-decade-onigashima-sub-indonesia/",
+      "sourceUrl": "https://www.youtube.com/watch?v=Z0o8P5M-51Q",
       "fansub": "TokusatsuIndo / Sorot Movie",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 4K UHD",
@@ -18303,16 +18022,10 @@
       "scrapedAt": "2026-10-21T05:37:36.886Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/cho-kamen-rider-den-o-decade-onigashima_ep1",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/cho-kamen-rider-den-o-decade-onigashima_ep1",
+          "id": "srv_official_scraped_prod_cho-kamen-rider-den-o-decade-onigashima_movie",
+          "name": "Server 1 (Official Stream Player HD)",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/Z0o8P5M-51Q?vq=hd1080",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -18328,7 +18041,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "movie",
-      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-cho-den-o-trilogy-episode-red-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-chou-den-o-trilogy-episode-red-sub-indonesia/",
       "fansub": "TokusatsuIndo / Sorot Movie",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 4K UHD",
@@ -18342,16 +18055,10 @@
       "scrapedAt": "2026-10-21T05:37:36.886Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kamen-rider-cho-den-o-trilogy-episode-red_ep1",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kamen-rider-cho-den-o-trilogy-episode-red_ep1",
+          "id": "srv_real_scraped_prod_kamen-rider-cho-den-o-trilogy-episode-red_movie",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjMwfQ.7d51a8a8c52a9af35bfa0feb5fbcee85d4496b8ec13250a1e3e41ac8307d494a",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -18367,7 +18074,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "movie",
-      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-cho-den-o-trilogy-episode-blue-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-chou-den-o-trilogy-episode-blue-sub-indonesia/",
       "fansub": "TokusatsuIndo / Sorot Movie",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 4K UHD",
@@ -18381,16 +18088,10 @@
       "scrapedAt": "2026-10-21T05:37:36.886Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kamen-rider-cho-den-o-trilogy-episode-blue_ep1",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kamen-rider-cho-den-o-trilogy-episode-blue_ep1",
+          "id": "srv_real_scraped_prod_kamen-rider-cho-den-o-trilogy-episode-blue_movie",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjI1fQ.4c68c5e0f3ed6fc641a53c3461a91c2ffc733746753beba9326fcc3198cca67d",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -18406,7 +18107,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "movie",
-      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-cho-den-o-trilogy-episode-yellow-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-chou-den-o-trilogy-episode-yellow-sub-indonesia/",
       "fansub": "TokusatsuIndo / Sorot Movie",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 4K UHD",
@@ -18420,16 +18121,10 @@
       "scrapedAt": "2026-10-21T05:37:36.886Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kamen-rider-cho-den-o-trilogy-episode-yellow_ep1",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kamen-rider-cho-den-o-trilogy-episode-yellow_ep1",
+          "id": "srv_real_scraped_prod_kamen-rider-cho-den-o-trilogy-episode-yellow_movie",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjUxfQ.aa296b601cd04f0af390d324f808028f3f74be21f6c390877c3912ba8a91c459",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -18445,7 +18140,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "movie",
-      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-ooo-w-featuring-skull-movie-war-core-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-x-kamen-rider-ooo-w-featuring-skull-movie-war-core-sub-indonesia/",
       "fansub": "TokusatsuIndo / Sorot Movie",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 4K UHD",
@@ -18459,16 +18154,10 @@
       "scrapedAt": "2026-10-21T05:37:36.886Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo-w-featuring-skull-movie-war-core_ep1",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo-w-featuring-skull-movie-war-core_ep1",
+          "id": "srv_real_scraped_prod_kamen-rider-ooo-w-featuring-skull-movie-war-core_movie",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6Njc1fQ.e344a123ea16b75bc43d0eb874f5ffe057cd6fdc2ba916dd3f58d5f34604cea8",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -18484,7 +18173,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "movie",
-      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-ooo-wonderful-the-shogun-and-21-core-medals-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-ooo-the-movie-wonderful-shogun-and-21-core-medals-sub-indonesia/",
       "fansub": "TokusatsuIndo / Sorot Movie",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 4K UHD",
@@ -18498,16 +18187,10 @@
       "scrapedAt": "2026-10-21T05:37:36.886Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo-wonderful-the-shogun-and-21-core-medals_ep1",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo-wonderful-the-shogun-and-21-core-medals_ep1",
+          "id": "srv_real_scraped_prod_kamen-rider-ooo-wonderful-the-shogun-and-21-core-medals_movie",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NTkxfQ.ca6c7acca75338ddd1a19106ab7d5f2aa506ab927d3672d9fc33975cde2250d3",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -18523,7 +18206,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "movie",
-      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-fourze-ooo-movie-war-mega-max-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-fourze-w-ooo-movie-war-megamax-sub-indonesia/",
       "fansub": "TokusatsuIndo / Sorot Movie",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 4K UHD",
@@ -18537,16 +18220,10 @@
       "scrapedAt": "2026-10-21T05:37:36.886Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kamen-rider-fourze-ooo-movie-war-mega-max_ep1",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kamen-rider-fourze-ooo-movie-war-mega-max_ep1",
+          "id": "srv_real_scraped_prod_kamen-rider-fourze-ooo-movie-war-mega-max_movie",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjAzfQ.09dd85b5aff6e3d89d0fd2cc66adad5efff54bf090a8193068f0b6beed62d519",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -18576,16 +18253,10 @@
       "scrapedAt": "2026-10-21T05:37:36.886Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo-10th-core-medal-of-resurrection_ep1",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo-10th-core-medal-of-resurrection_ep1",
+          "id": "srv_real_scraped_prod_kamen-rider-ooo-10th-core-medal-of-resurrection_movie",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDE1fQ.351b726136ae867d0d63234cbc6594d116e3c797319da90dece6d64ee2edd1d4",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -18615,16 +18286,10 @@
       "scrapedAt": "2026-10-21T05:37:36.886Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/gokaiger-goseiger-super-sentai-199-hero-great-battle_ep1",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/gokaiger-goseiger-super-sentai-199-hero-great-battle_ep1",
+          "id": "srv_real_scraped_prod_gokaiger-goseiger-super-sentai-199-hero-great-battle_movie",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6MTMyNH0.1671c6c4d12481b957ead96aa329645a9de2fcbb3b2892b08e0d2ffe3a7f6228",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -18640,7 +18305,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "movie",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-the-flying-ghost-ship-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-the-movie-the-flying-ghost-ship-sub-indonesia/",
       "fansub": "TokusatsuIndo / Sorot Movie",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 4K UHD",
@@ -18654,16 +18319,10 @@
       "scrapedAt": "2026-10-21T05:37:36.886Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger-the-flying-ghost-ship_ep1",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger-the-flying-ghost-ship_ep1",
+          "id": "srv_real_scraped_prod_kaizoku-sentai-gokaiger-the-flying-ghost-ship_movie",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6MTMyM30.ffa3820349c89b89b0410380e0b16f878d6a26e9e3e491ff9be0295fe5798b45",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -18679,7 +18338,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "movie",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-vs-space-sheriff-gavan-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-vs-gavan-the-movie-sub-indonesia/",
       "fansub": "TokusatsuIndo / Sorot Movie",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 4K UHD",
@@ -18693,16 +18352,10 @@
       "scrapedAt": "2026-10-21T05:37:36.886Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger-vs-space-sheriff-gavan_ep1",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger-vs-space-sheriff-gavan_ep1",
+          "id": "srv_real_scraped_prod_kaizoku-sentai-gokaiger-vs-space-sheriff-gavan_movie",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6ODAyfQ.9720dbcb7d4d5e77598edd776e4766e1d948aa7b016f8cde85403868cde0b2b8",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -18718,7 +18371,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "movie",
-      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-x-super-sentai-super-hero-taisen-sub-indonesia/",
+      "sourceUrl": "https://www.youtube.com/watch?v=sVq1l6p1Q84",
       "fansub": "TokusatsuIndo / Sorot Movie",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 4K UHD",
@@ -18732,16 +18385,10 @@
       "scrapedAt": "2026-10-21T05:37:36.886Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kamen-rider-x-super-sentai-super-hero-taisen_ep1",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kamen-rider-x-super-sentai-super-hero-taisen_ep1",
+          "id": "srv_official_scraped_prod_kamen-rider-x-super-sentai-super-hero-taisen_movie",
+          "name": "Server 1 (Official Stream Player HD)",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/sVq1l6p1Q84?vq=hd1080",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -18757,7 +18404,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "movie",
-      "sourceUrl": "https://www.tokusatsuindo.com/tokumei-sentai-go-busters-vs-kaizoku-sentai-gokaiger-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/tokumei-sentai-go-busters-vs-kaizoku-sentai-gokaiger-the-movie-sub-indonesia/",
       "fansub": "TokusatsuIndo / Sorot Movie",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 4K UHD",
@@ -18771,16 +18418,10 @@
       "scrapedAt": "2026-10-21T05:37:36.886Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/tokumei-sentai-go-busters-vs-kaizoku-sentai-gokaiger_ep1",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/tokumei-sentai-go-busters-vs-kaizoku-sentai-gokaiger_ep1",
+          "id": "srv_real_scraped_prod_tokumei-sentai-go-busters-vs-kaizoku-sentai-gokaiger_movie",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6MTMzM30.200f4ce7ebdcd48181543f245cd85c1182da65f7e5c2b4d70d7be05da8926381",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -25940,6 +25581,28 @@
         }
       ],
       "scrapedAt": "2026-10-21T21:35:25.529Z"
+    },
+    {
+      "id": "scraped_prod_shin-ultraman_movie",
+      "productionId": "shin-ultraman",
+      "seriesTitle": "Shin Ultraman",
+      "title": "Shin Ultraman Full Movie Sub Indo",
+      "episodeNumber": 1,
+      "contentType": "movie",
+      "franchise": "Ultraman",
+      "era": "Reiwa",
+      "scrapedAt": "2026-10-21T21:54:09.873Z",
+      "sourceUrl": "https://www.tokusatsuindo.com/shin-ultraman-2022-sub-indonesia/",
+      "servers": [
+        {
+          "id": "srv_real_scraped_prod_shin-ultraman_movie",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6Nzc1fQ.57727c4563a61faaa1dab63911f395d675422b8c3e4d092e4311b5bcbbd8ea3b",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     }
   ]
 }
