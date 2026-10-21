@@ -643,6 +643,62 @@ export const getCatalog = async (params = {}) => {
 };
 
 /**
+ * Helper akurat untuk mencocokkan episode hasil scraping dengan produksi kanonikal.
+ * Mencegah kontaminasi silang antar judul mirip (misal: Tiga & Dyna vs Tiga Gaiden / Peradaban Kuno).
+ */
+export const isScrapedEpisodeMatch = (se, prod, episodeNumber = null) => {
+  if (!se || !prod) return false;
+
+  const EXPLICIT_PROD_MAP = {
+    'ultraman-tiga-dyna-movie': ['scraped_prod_ultra_tiga_dyna_movie_ep1'],
+    'ultraman-tiga-gaiden': ['scraped_prod_ultra_tiga_gaiden_ep1', 'scraped_prod_ultra_tiga_gaiden_ep2'],
+    'kaizoku-sentai-ten-gokaiger': ['scraped_prod_ss_ten_gokaiger_ep1']
+  };
+
+  if (EXPLICIT_PROD_MAP[prod.slug]) {
+    return EXPLICIT_PROD_MAP[prod.slug].includes(se.id);
+  }
+
+  const sTitle = (se.seriesTitle || se.title || '').toLowerCase();
+  const pSlug = (prod.slug || '').toLowerCase();
+  const pTitle = (prod.title || '').toLowerCase();
+  const sProdId = (se.productionId || '').toLowerCase();
+
+  // Isolasi tipe konten: Serial TV vs Movie
+  if (prod.type === 'movie' && se.contentType === 'tv_series') return false;
+  if (prod.type === 'tv_series' && se.contentType === 'movie') return false;
+
+  // Disambiguasi judul Dyna
+  if (pSlug.includes('dyna') && !sTitle.includes('dyna') && !sProdId.includes('dyna')) return false;
+  if (!pSlug.includes('dyna') && sTitle.includes('dyna') && !pTitle.includes('dyna')) return false;
+
+  // Disambiguasi judul Gaiden / Peradaban Kuno
+  if (pSlug.includes('gaiden') && !sTitle.includes('gaiden') && !sProdId.includes('gaiden')) return false;
+  if (!pSlug.includes('gaiden') && (sTitle.includes('gaiden') || sProdId.includes('gaiden')) && !pTitle.includes('gaiden')) return false;
+
+  // Disambiguasi Ten Gokaiger vs Serial Utama
+  if (pSlug.includes('ten-gokaiger') && !sTitle.includes('ten') && !sProdId.includes('ten')) return false;
+  if (!pSlug.includes('ten-gokaiger') && (sTitle.includes('ten gokaiger') || sProdId.includes('ten_gokaiger')) && !pTitle.includes('ten')) return false;
+
+  const matchProd = (prod.id && se.productionId === prod.id) ||
+                    sProdId === pSlug ||
+                    sProdId === `prod_${pSlug.replace(/-/g, '_')}` ||
+                    pSlug === sProdId.replace(/^prod_/, '').replace(/_/g, '-') ||
+                    sTitle === pTitle ||
+                    sTitle.includes(pSlug.replace(/-/g, ' ')) ||
+                    pSlug.replace(/-/g, ' ').includes(sTitle) ||
+                    pTitle.includes(sTitle) ||
+                    sTitle.includes(pTitle);
+
+  if (!matchProd) return false;
+
+  if (episodeNumber !== null && episodeNumber !== undefined) {
+    return Number(se.episodeNumber) === Number(episodeNumber);
+  }
+  return true;
+};
+
+/**
  * 8. GET /api/v1/productions/:slug
  */
 export const getProductionBySlug = async (slug, { watch_order = null } = {}) => {
@@ -701,13 +757,7 @@ export const getProductionBySlug = async (slug, { watch_order = null } = {}) => 
     const existingEpNumbers = new Set(episodes.map((e) => e.episode_number));
     
     scrapedList.forEach((se) => {
-      const sTitle = (se.seriesTitle || se.title || '').toLowerCase();
-      const pTitle = (prod.title || '').toLowerCase();
-      const sProdId = (se.productionId || '').toLowerCase();
-      const pSlug = (prod.slug || '').toLowerCase();
-      const isMatch = sTitle.includes(pTitle) || pTitle.includes(sTitle) || 
-                      sProdId.includes(pSlug) || pSlug.includes(sProdId.replace('prod_', '')) ||
-                      (prod.id && se.productionId === prod.id);
+      const isMatch = isScrapedEpisodeMatch(se, prod);
 
       if (isMatch && se.episodeNumber && !existingEpNumbers.has(se.episodeNumber)) {
         existingEpNumbers.add(se.episodeNumber);
@@ -999,17 +1049,7 @@ export const getStreamPayload = async (episodeId, { watch_order = null } = {}) =
   // 1. Cek apakah ada data episode asli dari scraper fansub TokusatsuIndo / Sawidago
   try {
     const allScraped = scraperService.getScrapedEpisodes();
-    const sTitleQuery = (prod.title || '').toLowerCase().replace(/^(serial|film|movie)\s+/i, '').trim();
-    const pSlugQuery = (prod.slug || '').toLowerCase();
-
-    const matchedScraped = allScraped.find((se) => {
-      const seTitle = (se.seriesTitle || se.title || '').toLowerCase();
-      const seProdId = (se.productionId || '').toLowerCase();
-      const matchSeries = seTitle.includes(sTitleQuery) || sTitleQuery.includes(seTitle) ||
-                          seProdId.includes(pSlugQuery) || pSlugQuery.includes(seProdId.replace('prod_', '')) ||
-                          (prod.id && se.productionId === prod.id);
-      return matchSeries && Number(se.episodeNumber) === Number(ep.episode_number);
-    });
+    const matchedScraped = allScraped.find((se) => isScrapedEpisodeMatch(se, prod, ep.episode_number));
 
     if (matchedScraped && matchedScraped.servers && matchedScraped.servers.length > 0) {
       matchedScraped.servers.forEach((srv, sIdx) => {
@@ -1035,6 +1075,23 @@ export const getStreamPayload = async (episodeId, { watch_order = null } = {}) =
   } catch (err) {
     console.warn('[apiService] Error checking scraped episode servers:', err);
   }
+
+  // Bersihkan server fake/dummy yang memicu "Google Drive error" atau "Cloudflare Doodstream error"
+  sources = sources.filter((s) => {
+    const u = s.origin_url || s.url || '';
+    if (
+      u.includes('preview_reiwa_toku') ||
+      u.includes('_tokuflix_') ||
+      u.includes('18U4M_preview') ||
+      u.includes('doodstream.com/e/kamen-rider-') ||
+      u.includes('streamwish.com/e/kamen-rider-') ||
+      u.includes('doodstream.com/e/geats') ||
+      u.includes('doodstream.com/e/gavv')
+    ) {
+      return false;
+    }
+    return true;
+  });
 
   if (sources.length === 0) {
     // Generate fallback sources if none explicitly seeded

@@ -577,33 +577,50 @@ export default function PlayerModal({
               </div>
             </div>
 
-            {/* Resolution Explanation & Google Drive 360p Bypass Notice */}
-            <div className="resolution-notice-card glass-panel">
-              <div className="notice-icon-box">
-                <Sparkles size={18} color="#00f2fe" />
-              </div>
-              <div className="notice-text-col">
-                <div className="notice-head">
-                  <strong>Peningkatan Kualitas Resolusi HD & 1440p QHD Aktif</strong>
-                  <span className="notice-pill">Bypass 360p Limit</span>
+            {/* Resolution Explanation & Direct Player vs Google Drive Notice */}
+            {currentSource?.url && currentSource.url.includes('drive.google.com') ? (
+              <div className="resolution-notice-card glass-panel">
+                <div className="notice-icon-box">
+                  <Sparkles size={18} color="#00f2fe" />
                 </div>
-                <p className="notice-desc">
-                  Secara default, pemutar web Google Drive preview menampilkan pratinjau di 360p karena kompresi bawaan Google. Tokuflix menyediakan mode <strong>1440p (2K QHD)</strong> dan <strong>1080p FHD</strong> dengan direct bypass link berkecepatan tinggi di bawah ini:
-                </p>
+                <div className="notice-text-col">
+                  <div className="notice-head">
+                    <strong>Peningkatan Kualitas Resolusi HD & 1440p QHD Aktif</strong>
+                    <span className="notice-pill">Bypass 360p Limit</span>
+                  </div>
+                  <p className="notice-desc">
+                    Secara default, pemutar web Google Drive preview menampilkan pratinjau di 360p karena kompresi bawaan Google. Tokuflix menyediakan mode <strong>1440p (2K QHD)</strong> dan <strong>1080p FHD</strong> dengan direct bypass link berkecepatan tinggi di bawah ini:
+                  </p>
+                </div>
+                {streamData.scraped_metadata?.drive_download_1 && (
+                  <a
+                    href={streamData.scraped_metadata.drive_download_1}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn-bypass-qhd"
+                    title="Buka Video Resolusi 1440p Penuh di Tab Baru"
+                  >
+                    <ExternalLink size={14} />
+                    <span>Buka 1440p Penuh</span>
+                  </a>
+                )}
               </div>
-              {streamData.scraped_metadata?.drive_download_1 && (
-                <a
-                  href={streamData.scraped_metadata.drive_download_1}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn-bypass-qhd"
-                  title="Buka Video Resolusi 1440p Penuh di Tab Baru"
-                >
-                  <ExternalLink size={14} />
-                  <span>Buka 1440p Penuh</span>
-                </a>
-              )}
-            </div>
+            ) : (
+              <div className="resolution-notice-card glass-panel direct-player-notice">
+                <div className="notice-icon-box">
+                  <Zap size={18} color="#00f2fe" />
+                </div>
+                <div className="notice-text-col">
+                  <div className="notice-head">
+                    <strong>Server Direct Player HD Aktif</strong>
+                    <span className="notice-pill live-pill">⚡ Siap Putar Langsung</span>
+                  </div>
+                  <p className="notice-desc">
+                    Stream video multi-resolusi aktif dan langsung diputar tanpa hambatan batasan kuota atau izin login akun pihak ketiga.
+                  </p>
+                </div>
+              </div>
+            )}
 
             {/* Server Selector Bar */}
             <div className="server-toolbar glass-panel">

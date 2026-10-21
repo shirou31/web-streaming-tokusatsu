@@ -644,6 +644,45 @@ export const DB = {
       ]
     },
     {
+      "id": "0192a3f0-1111-7000-8000-000000000023",
+      "franchise_id": "0192a3f0-aaaa-7000-8000-000000000003",
+      "era_id": "0192a3f0-bbbb-7000-8000-000000000002",
+      "parent_production_id": null,
+      "type": "movie",
+      "slug": "ultraman-tiga-gaiden",
+      "title": "Ultraman Tiga Gaiden: Revival of the Ancient Giant",
+      "title_native": "ウルトラマンティガ外伝 古代に蘇る巨人",
+      "title_romaji": "Urutoraman Tiga Gaiden: Kodai ni Yomigaeru Kyojin",
+      "alternative_titles": [
+        "Tiga Peradaban Kuno",
+        "Revival of the Ancient Giant"
+      ],
+      "synopsis": "Kisah sampingan legendaris di mana Tsubasa Madoka, putra dari Daigo Madoka, terlempar kembali ke masa peradaban kuno 5000 tahun silam dan membangkitkan kembali patung raksasa cahaya Ultraman Tiga.",
+      "tagline": "Kebangkitan Raksasa Cahaya Peradaban Kuno!",
+      "poster_url": "/posters/poster_ultraman_tiga.jpg",
+      "backdrop_url": "/posters/poster_ultraman_tiga.jpg",
+      "trailer_url": "https://www.youtube-nocookie.com/embed/pZfB2Ww48_k",
+      "release_date": "2001-01-25",
+      "end_date": "2001-01-25",
+      "release_year": 2001,
+      "status": "completed",
+      "total_episodes": 1,
+      "runtime_minutes": 45,
+      "age_rating": "all",
+      "view_count": 450000,
+      "is_featured": false,
+      "featured_order": null,
+      "is_published": true,
+      "published_at": "2001-01-25T00:00:00Z",
+      "meta_title": "Nonton Movie Ultraman Tiga Gaiden Peradaban Kuno Sub Indo",
+      "meta_description": "Streaming film Ultraman Tiga Gaiden: Revival of the Ancient Giant Subtitle Indonesia.",
+      "genre_slugs": [
+        "action",
+        "giant-hero",
+        "fantasy"
+      ]
+    },
+    {
       "id": "0192a3f0-1111-7000-8000-000000000014",
       "franchise_id": "0192a3f0-aaaa-7000-8000-000000000003",
       "era_id": "0192a3f0-bbbb-7000-8000-000000000001",
