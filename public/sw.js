@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tokuflix-v1.0.0';
+const CACHE_NAME = 'tokuflix-v1.0.3';
 const STATIC_ASSETS = [
   '/',
   '/index.html',
@@ -23,13 +23,14 @@ self.addEventListener('install', (event) => {
   self.skipWaiting();
 });
 
-// Activate Event - Clean old caches
+// Activate Event - Clean old caches immediately
 self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys().then((keys) => {
       return Promise.all(
         keys.map((key) => {
           if (key !== CACHE_NAME) {
+            console.log('[SW] Deleting old cache:', key);
             return caches.delete(key);
           }
         })
@@ -39,7 +40,7 @@ self.addEventListener('activate', (event) => {
   self.clients.claim();
 });
 
-// Fetch Event - Network first with cache fallback for app navigation
+// Fetch Event - Network First with Cache Fallback for instant updates
 self.addEventListener('fetch', (event) => {
   const req = event.request;
   const url = new URL(req.url);
@@ -49,34 +50,23 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // Navigation requests (HTML)
-  if (req.mode === 'navigate') {
-    event.respondWith(
-      fetch(req)
-        .then((res) => {
-          const resClone = res.clone();
-          caches.open(CACHE_NAME).then((cache) => cache.put(req, resClone));
-          return res;
-        })
-        .catch(() => caches.match('/index.html') || caches.match('/'))
-    );
-    return;
-  }
-
-  // Static assets: Stale-While-Revalidate
   event.respondWith(
-    caches.match(req).then((cached) => {
-      const networked = fetch(req)
-        .then((res) => {
-          if (res.status === 200) {
-            const resClone = res.clone();
-            caches.open(CACHE_NAME).then((cache) => cache.put(req, resClone));
+    fetch(req)
+      .then((networkRes) => {
+        if (networkRes && networkRes.status === 200) {
+          const resClone = networkRes.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(req, resClone));
+        }
+        return networkRes;
+      })
+      .catch(() => {
+        return caches.match(req).then((cached) => {
+          if (cached) return cached;
+          if (req.mode === 'navigate') {
+            return caches.match('/index.html') || caches.match('/');
           }
-          return res;
-        })
-        .catch(() => cached);
-
-      return cached || networked;
-    })
+        });
+      })
   );
 });
+
