@@ -262,10 +262,10 @@ export default function HeroBanner({
           inset: 0;
           background: linear-gradient(90deg, 
             #0B0B0C 0%, 
-            rgba(11, 11, 12, 0.98) 28%, 
-            rgba(11, 11, 12, 0.82) 48%, 
-            rgba(11, 11, 12, 0.45) 72%, 
-            rgba(11, 11, 12, 0.65) 100%
+            rgba(11, 11, 12, 0.96) 30%, 
+            rgba(11, 11, 12, 0.68) 50%, 
+            rgba(11, 11, 12, 0.2) 75%, 
+            rgba(11, 11, 12, 0.1) 100%
           );
         }
 
