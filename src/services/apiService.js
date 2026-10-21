@@ -535,7 +535,7 @@ export const getCatalog = async (params = {}) => {
     sort = 'release_date',
     order = (sort === 'title' ? 'asc' : 'desc'),
     page = 1,
-    per_page = 100
+    per_page = 300
   } = params;
 
   let list = DB.productions.filter((p) => p.is_published);

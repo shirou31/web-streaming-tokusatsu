@@ -322,7 +322,7 @@ export default function App() {
         q: searchQuery.trim() || undefined,
         sort: 'release_date',
         order: 'desc',
-        per_page: 100
+        per_page: 300
       };
 
       const res = await getCatalog(params);
