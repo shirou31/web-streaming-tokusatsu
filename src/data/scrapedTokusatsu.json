@@ -1,13 +1,76 @@
 {
   "metadata": {
     "generatedAt": "2026-10-21T03:32:47.615Z",
-    "totalEpisodes": 350,
+    "totalEpisodes": 351,
     "primarySource": "TokusatsuIndo & Sawidago Network",
     "targetFormat": "Tokuflix REST Schema 01/02 Standard",
     "status": "success",
-    "lastUpdated": "2026-10-21T09:43:05.471Z"
+    "lastUpdated": "2026-10-21T10:16:18.363Z"
   },
   "episodes": [
+    {
+      "id": "scraped_prod_kamen_rider_my_th_ep7_mvhxbzwh",
+      "productionId": "0192a3f0-1111-7000-8000-000000000010",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider My-Th",
+      "title": "Kamen Rider My-Th Episode 7 Sub Indo",
+      "episodeNumber": 7,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-my-th-episode-7-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "/posters/poster_kamen_rider_myth.png",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1jZKllG0sLqda9fYoWOfNY-djWAFMNNEJ/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1TrKKS-aXusT_EKrZQfpDqT2PB_gxFkyp/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjYyNH0.dec20cfcde615d9be2dcfe38aa31f5417bd2e80f35d353d27a85a1cf8eef4289",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (Direct Embed)",
+          "embedUrl": "https://gdplayer.to/x/?c0lnMkxsR2pCUUo1a25nZncvVTJYdllEVmVFVWdyMFlnWFNLNE5mNGwzdEVmNUpLeWEvdkdjNTZSUjZOU0VKdk1KMlhOMTNLdzlMT1plSXlLeEFsYlBJUjJ2UG9yMWc1cG1CMlRIeXB6ZzlxTmhOR3cxZmJJL2ZQbnc2RFA4NmcwdHNkM25OK0xyVnpXcmpDWXZYdUd3PT0,",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1jZKllG0sLqda9fYoWOfNY-djWAFMNNEJ/view?usp=sharing",
+          "directUrl": "https://drive.google.com/file/d/1jZKllG0sLqda9fYoWOfNY-djWAFMNNEJ/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_4",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1TrKKS-aXusT_EKrZQfpDqT2PB_gxFkyp/view?usp=sharing",
+          "directUrl": "https://drive.google.com/file/d/1TrKKS-aXusT_EKrZQfpDqT2PB_gxFkyp/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-10-21T10:16:18.361Z"
+    },
     {
       "id": "scraped_prod_kakusei_hunter_omegahorn_ep13_mvhxbyux",
       "productionId": "prod_kakusei_hunter_omegahorn",
@@ -70,69 +133,6 @@
         }
       },
       "scrapedAt": "2026-10-21T09:42:53.241Z"
-    },
-    {
-      "id": "scraped_prod_kamen_rider_my_th_ep7_mvhxbzwh",
-      "productionId": "prod_kamen_rider_my_th",
-      "franchise": "Kamen Rider",
-      "seriesTitle": "Kamen Rider My-Th",
-      "title": "Kamen Rider My-Th Episode 7 Sub Indo",
-      "episodeNumber": 7,
-      "seasonNumber": 1,
-      "era": "Reiwa",
-      "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-my-th-episode-7-sub-indonesia/",
-      "fansub": "TokusatsuIndo / Sawidago Network",
-      "language": "Indonesian (Sub Indo)",
-      "quality": "1440p QHD / 1080p FHD",
-      "thumbnail": "/posters/poster_kamen_rider_myth.png",
-      "driveDownloadUrl1": "https://drive.google.com/file/d/1jZKllG0sLqda9fYoWOfNY-djWAFMNNEJ/view?usp=sharing",
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1TrKKS-aXusT_EKrZQfpDqT2PB_gxFkyp/view?usp=sharing",
-      "servers": [
-        {
-          "id": "srv_1",
-          "name": "Server 1 (Direct Embed)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjYyNH0.dec20cfcde615d9be2dcfe38aa31f5417bd2e80f35d353d27a85a1cf8eef4289",
-          "directUrl": null,
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (Direct Embed)",
-          "embedUrl": "https://gdplayer.to/x/?c0lnMkxsR2pCUUo1a25nZncvVTJYdllEVmVFVWdyMFlnWFNLNE5mNGwzdEVmNUpLeWEvdkdjNTZSUjZOU0VKdk1KMlhOMTNLdzlMT1plSXlLeEFsYlBJUjJ2UG9yMWc1cG1CMlRIeXB6ZzlxTmhOR3cxZmJJL2ZQbnc2RFA4NmcwdHNkM25OK0xyVnpXcmpDWXZYdUd3PT0,",
-          "directUrl": null,
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_3",
-          "name": "Server Google Drive 1 (Fast HD)",
-          "embedUrl": "https://drive.google.com/file/d/1jZKllG0sLqda9fYoWOfNY-djWAFMNNEJ/view?usp=sharing",
-          "directUrl": "https://drive.google.com/file/d/1jZKllG0sLqda9fYoWOfNY-djWAFMNNEJ/view?usp=sharing",
-          "type": "gdrive",
-          "status": "online"
-        },
-        {
-          "id": "srv_4",
-          "name": "Server Google Drive 2 (Mirror HD)",
-          "embedUrl": "https://drive.google.com/file/d/1TrKKS-aXusT_EKrZQfpDqT2PB_gxFkyp/view?usp=sharing",
-          "directUrl": "https://drive.google.com/file/d/1TrKKS-aXusT_EKrZQfpDqT2PB_gxFkyp/view?usp=sharing",
-          "type": "gdrive",
-          "status": "online"
-        }
-      ],
-      "skipMarkers": {
-        "skipIntro": {
-          "start": 90,
-          "end": 180
-        },
-        "skipOutro": {
-          "start": 1350,
-          "end": 1440
-        }
-      },
-      "scrapedAt": "2026-10-21T09:42:54.593Z"
     },
     {
       "id": "scraped_prod_choukou_senshi_changerion_ep20_mvhxc0x7",
@@ -2705,6 +2705,67 @@
           "isDefault": false
         }
       ]
+    },
+    {
+      "id": "scraped_kamen-rider-my-th_ep7",
+      "productionId": "0192a3f0-1111-7000-8000-000000000010",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider My-Th",
+      "title": "Episode 7: Kebangkitan Entitas Purba",
+      "episodeNumber": 7,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-my-th-episode-7-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "/posters/poster_kamen_rider_myth.png",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1jZKllG0sLqda9fYoWOfNY-djWAFMNNEJ/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1TrKKS-aXusT_EKrZQfpDqT2PB_gxFkyp/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "type": "embed",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjYyNH0.dec20cfcde615d9be2dcfe38aa31f5417bd2e80f35d353d27a85a1cf8eef4289",
+          "isDefault": true
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (GDPlayer Embed)",
+          "type": "embed",
+          "embedUrl": "https://gdplayer.to/x/?c0lnMkxsR2pCUUo1a25nZncvVTJYdllEVmVFVWdyMFlnWFNLNE5mNGwzdEVmNUpLeWEvdkdjNTZSUjZOU0VKdk1KMlhOMTNLdzlMT1plSXlLeEFsYlBJUjJ2UG9yMWc1cG1CMlRIeXB6ZzlxTmhOR3cxZmJJL2ZQbnc2RFA4NmcwdHNkM25OK0xyVnpXcmpDWXZYdUd3PT0,",
+          "isDefault": false
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1jZKllG0sLqda9fYoWOfNY-djWAFMNNEJ/preview",
+          "directUrl": "https://drive.google.com/file/d/1jZKllG0sLqda9fYoWOfNY-djWAFMNNEJ/view?usp=sharing",
+          "isDefault": false
+        },
+        {
+          "id": "srv_4",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "type": "gdrive",
+          "embedUrl": "https://drive.google.com/file/d/1TrKKS-aXusT_EKrZQfpDqT2PB_gxFkyp/preview",
+          "directUrl": "https://drive.google.com/file/d/1TrKKS-aXusT_EKrZQfpDqT2PB_gxFkyp/view?usp=sharing",
+          "isDefault": false
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-10-21T10:16:18.363Z"
     },
     {
       "id": "scraped_kamen-rider-zero-one_ep1",

@@ -695,6 +695,44 @@ export const getProductionBySlug = async (slug, { watch_order = null } = {}) => 
       };
     });
 
+  // Sinkronisasi otomatis dengan hasil Scraper Live untuk episode rilis baru
+  try {
+    const scrapedList = scraperService.getScrapedEpisodes();
+    const existingEpNumbers = new Set(episodes.map((e) => e.episode_number));
+    
+    scrapedList.forEach((se) => {
+      const sTitle = (se.seriesTitle || se.title || '').toLowerCase();
+      const pTitle = (prod.title || '').toLowerCase();
+      const sProdId = (se.productionId || '').toLowerCase();
+      const pSlug = (prod.slug || '').toLowerCase();
+      const isMatch = sTitle.includes(pTitle) || pTitle.includes(sTitle) || 
+                      sProdId.includes(pSlug) || pSlug.includes(sProdId.replace('prod_', '')) ||
+                      (prod.id && se.productionId === prod.id);
+
+      if (isMatch && se.episodeNumber && !existingEpNumbers.has(se.episodeNumber)) {
+        existingEpNumbers.add(se.episodeNumber);
+        const userHist = history.find((h) => h.episode_id === se.id) || null;
+        episodes.push({
+          id: se.id,
+          episode_number: se.episodeNumber,
+          episode_label: `Ep ${se.episodeNumber}`,
+          slug: `episode-${se.episodeNumber}`,
+          kind: se.contentType === 'movie' ? 'movie' : 'episode',
+          title: se.title,
+          thumbnail_url: se.thumbnail || prod.poster_url,
+          duration_seconds: 1440,
+          air_date: se.scrapedAt ? se.scrapedAt.substring(0, 10) : '2026-02-21',
+          has_subtitles: ['id'],
+          user_progress: userHist ? { progress_seconds: userHist.progress_seconds, is_completed: userHist.is_completed } : null
+        });
+      }
+    });
+
+    episodes.sort((a, b) => a.episode_number - b.episode_number);
+  } catch (err) {
+    console.warn('[apiService] Error merging scraped episodes:', err);
+  }
+
   // Related productions (children, parent, shared watch order)
   const relatedProds = [];
   // Children (e.g. movies of this TV series)
@@ -814,7 +852,7 @@ export const getProductionBySlug = async (slug, { watch_order = null } = {}) => 
       release_date: prod.release_date,
       end_date: prod.end_date,
       release_year: prod.release_year,
-      total_episodes: prod.total_episodes,
+      total_episodes: Math.max(prod.total_episodes || 0, episodes.length),
       runtime_minutes: prod.runtime_minutes,
       age_rating: prod.age_rating,
       view_count: prod.view_count,

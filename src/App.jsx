@@ -506,7 +506,7 @@ export default function App() {
     // Fallback real ongoing Tokusatsu
     return [
       { title: 'Kamen Rider Gavv Ep 1', badge: 'EPISODE BARU', sub: 'Kamen Rider · 2024', posterUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg', slug: 'kamen-rider-gavv' },
-      { title: 'Kamen Rider My-Th Ep 1', badge: 'EPISODE BARU', sub: 'Kamen Rider · 2026', posterUrl: '/posters/poster_kamen_rider_myth.png', slug: 'kamen-rider-my-th' },
+      { title: 'Kamen Rider My-Th Ep 7', badge: 'EPISODE BARU', sub: 'Kamen Rider · 2026', posterUrl: '/posters/poster_kamen_rider_myth.png', slug: 'kamen-rider-my-th' },
       { title: 'Bakuage Sentai Boonboomger Ep 1', badge: 'BARU', sub: 'Super Sentai · 2024', posterUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/yNabCz32woEXgrcvRS8ASH55s3G.jpg', slug: 'bakuage-sentai-boonboomger' },
       { title: 'Ultraman Arc Ep 1', badge: 'BARU', sub: 'Ultraman · 2024', posterUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/twq2EahjRaUB6B8wjf7ddrCmLhJ.jpg', slug: 'ultraman-arc' },
       { title: 'Kaizoku Sentai Ten Gokaiger', badge: 'MOVIE BARU', sub: 'Super Sentai · 2021', posterUrl: '/posters/poster_ten_gokaiger.jpg', slug: 'kaizoku-sentai-ten-gokaiger' },
