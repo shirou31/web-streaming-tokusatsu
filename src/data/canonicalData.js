@@ -1,6 +1,4 @@
-// Database Relasional Tokusatsu Canonical Data
-// Sesuai dengan spesifikasi 01_DATABASE_ARCHITECTURE.md
-
+// Database Kanonikal TokuFlix dengan Metadata Tokusatsu Lengkap
 export const DB = {
   "franchises": [
     {
@@ -192,7 +190,7 @@ export const DB = {
       ],
       "synopsis": "Tiba-tiba dunia terbagi menjadi empat bagian! Ace Ukiyo pun terpecah menjadi empat kepribadian yang berbeda. Di tengah kekacauan ini, seorang Kamen Rider hitam misterius bernama Kamen Rider X-Geats muncul untuk membawa kiamat ke dunia.",
       "tagline": "4 Aces, 1 Fox: Pertarungan puncak demi menyelamatkan dunia!",
-      "poster_url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/kiXsuX5qAFUxHvf9BM7MPadFq62.jpg",
+      "poster_url": "/posters/poster_kamen-rider-geats-4-aces-and-the-black-fox.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/original/kiXsuX5qAFUxHvf9BM7MPadFq62.jpg",
       "trailer_url": "https://www.youtube-nocookie.com/embed/XQxZqjZ3a-Y",
       "release_date": "2023-07-28",
@@ -213,7 +211,8 @@ export const DB = {
         "action",
         "battle-royale",
         "sci-fi"
-      ]
+      ],
+      "fallback_poster": "/posters/poster_kamen-rider-geats-4-aces-and-the-black-fox.jpg"
     },
     {
       "id": "0192a3f0-1111-7000-8000-000000000003",
@@ -816,7 +815,7 @@ export const DB = {
       ],
       "synopsis": "Berdasarkan legenda rakyat Momotaro. Taro Momoi yang lahir dari buah persik bersama empat rekannya yang unik bertransformasi dengan Avataro Gear untuk melawan monster Hitotsuki.",
       "tagline": "Festival Pertarungan Tanpa Henti: Mari Menjalin Ikatan!",
-      "poster_url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/yNabCz32woEXgrcvRS8ASH55s3G.jpg",
+      "poster_url": "/posters/poster_avataro-sentai-donbrothers.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/original/4Dk0xZ0R9p88rS9zV6C7u8X3bQ1.jpg",
       "trailer_url": "https://www.youtube-nocookie.com/embed/yW3J8rC4v6s",
       "release_date": "2022-03-06",
@@ -837,7 +836,8 @@ export const DB = {
         "action",
         "mecha",
         "dark-fantasy"
-      ]
+      ],
+      "fallback_poster": "/posters/poster_avataro-sentai-donbrothers.jpg"
     },
     {
       "id": "0192a3f0-1111-7000-8000-000000000019",
@@ -1010,7 +1010,7 @@ export const DB = {
       ],
       "synopsis": "Era baru Reiwa dimulai! Di dunia di mana android berakal 'Humagear' hidup berdampingan dengan manusia, Aruto Hiden tiba-tiba ditunjuk sebagai CEO Hiden Intelligence. Memegang sabuk Hiden Zero-One Driver dan Progrisekey, Aruto bertarung melindungi mimpi manusia dan Humagear dari serangan siber kelompok teroris MetsubouJinrai.net dan konspirasi korporasi ZAIA.",
       "tagline": "Hanya Ada Satu Presiden yang Mampu Menghancurkan Keputusasaan: Hiden Aruto!",
-      "poster_url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3Ff5D1FjPZ6WJ82k5rKjF9QZ1z5.jpg",
+      "poster_url": "/posters/poster_kamen-rider-zero-one.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/original/mXnF4R6U8y1cWJg6J45eB8k1HhT.jpg",
       "trailer_url": "https://www.youtube-nocookie.com/embed/K_V-bVwZfZk",
       "release_date": "2019-09-01",
@@ -1031,7 +1031,8 @@ export const DB = {
         "action",
         "sci-fi",
         "mecha"
-      ]
+      ],
+      "fallback_poster": "/posters/poster_kamen-rider-zero-one.jpg"
     },
     {
       "id": "0192a3f0-1111-7000-8000-000000000102",
@@ -1049,7 +1050,7 @@ export const DB = {
       ],
       "synopsis": "Sejarah dunia telah diubah oleh Time Jacker Finis! Aruto terbangun di dunia di mana Humagear memperbudak umat manusia, dan ayahnya, Soreo Hiden, bertransformasi menjadi Kamen Rider 1型 (Type 1). Bersama Sougo Tokiwa (Kamen Rider Zi-O), Aruto melintasi waktu untuk merebut kembali masa depan sejati era Reiwa.",
       "tagline": "Pertemuan Generasi Pertama: Zero-One dan Zi-O Menembus Batas Waktu!",
-      "poster_url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3Ff5D1FjPZ6WJ82k5rKjF9QZ1z5.jpg",
+      "poster_url": "/posters/poster_kamen-rider-reiwa-the-first-generation.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/original/mXnF4R6U8y1cWJg6J45eB8k1HhT.jpg",
       "trailer_url": "https://www.youtube-nocookie.com/embed/K_V-bVwZfZk",
       "release_date": "2019-12-21",
@@ -1070,7 +1071,8 @@ export const DB = {
         "action",
         "sci-fi",
         "battle-royale"
-      ]
+      ],
+      "fallback_poster": "/posters/poster_kamen-rider-reiwa-the-first-generation.jpg"
     },
     {
       "id": "0192a3f0-1111-7000-8000-000000000103",
@@ -1088,7 +1090,7 @@ export const DB = {
       ],
       "synopsis": "Hitungan mundur 60 menit kehancuran dunia! Seseorang misterius bernama S / Kamen Rider Eden memimpin kelompok 'Thinknet' untuk memusnahkan miliaran manusia dan menciptakan surga baru. Dalam batas waktu 60 menit nyata, Aruto bersama Vulcan, Valkyrie, Jin, Horobi, dan Thouser bertempur serentak di berbagai penjuru kota.",
       "tagline": "Kiamat dalam 60 Menit: Bertarung Bersama Demi Menjaga Senyuman!",
-      "poster_url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3Ff5D1FjPZ6WJ82k5rKjF9QZ1z5.jpg",
+      "poster_url": "/posters/poster_kamen-rider-zero-one-the-movie-real-time.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/original/mXnF4R6U8y1cWJg6J45eB8k1HhT.jpg",
       "trailer_url": "https://www.youtube-nocookie.com/embed/K_V-bVwZfZk",
       "release_date": "2020-12-18",
@@ -1109,7 +1111,8 @@ export const DB = {
         "action",
         "sci-fi",
         "mecha"
-      ]
+      ],
+      "fallback_poster": "/posters/poster_kamen-rider-zero-one-the-movie-real-time.jpg"
     },
     {
       "id": "0192a3f0-1111-7000-8000-000000000104",
@@ -1127,7 +1130,7 @@ export const DB = {
       ],
       "synopsis": "Epilog emosional saga Zero-One. Fuwa Isamu dan Yaiba Yua dihadapkan pada ancaman sisa-sisa kehancuran MetsubouJinrai. Demi keadilan dan menyelamatkan orang-orang yang ia cintai, Isamu mempertaruhkan nyawanya membangkitkan wujud terkuat: Kamen Rider Vulcan Lone Wolf.",
       "tagline": "Serigala Tunggal Mengaum Demi Keadilan Terakhir!",
-      "poster_url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3Ff5D1FjPZ6WJ82k5rKjF9QZ1z5.jpg",
+      "poster_url": "/posters/poster_zero-one-others-kamen-rider-vulcan-valkyrie.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/original/mXnF4R6U8y1cWJg6J45eB8k1HhT.jpg",
       "trailer_url": "https://www.youtube-nocookie.com/embed/K_V-bVwZfZk",
       "release_date": "2021-08-27",
@@ -1148,7 +1151,8 @@ export const DB = {
         "action",
         "sci-fi",
         "dark-fantasy"
-      ]
+      ],
+      "fallback_poster": "/posters/poster_zero-one-others-kamen-rider-vulcan-valkyrie.jpg"
     },
     {
       "id": "0192a3f0-1111-7000-8000-000000000105",
@@ -1167,7 +1171,7 @@ export const DB = {
       ],
       "synopsis": "Touma Kamiyama, seorang novelis pemilik toko buku, terpilih oleh pedang api suci Kaenken Rekka dan Wonder Ride Book Brave Dragon untuk menjadi Kamen Rider Saber. Bersama para Ksatria Pedang dari Sword of Logos, Touma berjuang menyelamatkan halaman-halaman dunia Wonder World yang dicuri oleh Megiddo demi menentukan akhir cerita dunia.",
       "tagline": "Aku yang Menentukan Akhir dari Cerita Ini!",
-      "poster_url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
+      "poster_url": "/posters/poster_kamen-rider-saber.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
       "trailer_url": "https://www.youtube-nocookie.com/embed/K_V-bVwZfZk",
       "release_date": "2020-09-06",
@@ -1188,7 +1192,8 @@ export const DB = {
         "action",
         "fantasy",
         "sword-fight"
-      ]
+      ],
+      "fallback_poster": "/posters/poster_kamen-rider-saber.jpg"
     },
     {
       "id": "0192a3f0-1111-7000-8000-000000000106",
@@ -1206,7 +1211,7 @@ export const DB = {
       ],
       "synopsis": "Baha sang Ksatria Abadi bangkit dari segel ribuan tahun bersama pedang kehancuran Mumeiken Kyomu dan buku Buku Kehancuran (Book of Ruin). Enam pendekar Sword of Logos dipimpin Touma bertarung serentak dalam pertempuran pedang super cepat demi mencegah kehancuran realitas.",
       "tagline": "Enam Bilah Pedang Melawan Abadi: Pertarungan Takdir di Ujung Kiamat!",
-      "poster_url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
+      "poster_url": "/posters/poster_kamen-rider-saber-the-phoenix-swordsman.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
       "trailer_url": "https://www.youtube-nocookie.com/embed/K_V-bVwZfZk",
       "release_date": "2020-12-18",
@@ -1227,7 +1232,8 @@ export const DB = {
         "action",
         "fantasy",
         "sword-fight"
-      ]
+      ],
+      "fallback_poster": "/posters/poster_kamen-rider-saber-the-phoenix-swordsman.jpg"
     },
     {
       "id": "0192a3f0-1111-7000-8000-000000000107",
@@ -1245,7 +1251,7 @@ export const DB = {
       ],
       "synopsis": "Peringatan agung 50 Tahun Kamen Rider dan 45 Tahun Super Sentai! Monster Asmodeus mengacaukan dunia fiksi dan nyata dengan mencuri 'Buku Asal-Usul'. Touma Kamiyama dan Kaito Goshikida (Zenkaiger) ditarik ke dalam lukisan sejarah masa lalu, bertemu langsung dengan pembuat manga muda Shotaro Ishinomori untuk mengembalikan semangat pahlawan bagi anak-anak di seluruh dunia.",
       "tagline": "Semua Dimulai dari Sebuah Goresan Pensil: Sejarah Pahlawan Abadi!",
-      "poster_url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
+      "poster_url": "/posters/poster_saber-zenkaiger-super-hero-senki.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
       "trailer_url": "https://www.youtube-nocookie.com/embed/K_V-bVwZfZk",
       "release_date": "2021-07-22",
@@ -1266,7 +1272,8 @@ export const DB = {
         "action",
         "crossover",
         "fantasy"
-      ]
+      ],
+      "fallback_poster": "/posters/poster_saber-zenkaiger-super-hero-senki.jpg"
     },
     {
       "id": "0192a3f0-1111-7000-8000-000000000108",
@@ -1284,7 +1291,7 @@ export const DB = {
       ],
       "synopsis": "Delapan tahun setelah pertempuran akhir, Touma, Rintaro, dan Kento menjalani kehidupan dewasa masing-masing. Ketika pedang misterius Mumeiken Kyomu muncul kembali dan menghapus ingatan orang-orang, rahasia kelam masa lalu para pendekar terungkap dalam drama psikologis yang menyentuh hati.",
       "tagline": "Dosa, Takdir, dan Janji Tiga Pendekar yang Tak Pernah Pudar.",
-      "poster_url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
+      "poster_url": "/posters/poster_kamen-rider-saber-trio-of-deep-sin.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
       "trailer_url": "https://www.youtube-nocookie.com/embed/K_V-bVwZfZk",
       "release_date": "2022-01-28",
@@ -1305,7 +1312,8 @@ export const DB = {
         "action",
         "drama",
         "fantasy"
-      ]
+      ],
+      "fallback_poster": "/posters/poster_kamen-rider-saber-trio-of-deep-sin.jpg"
     },
     {
       "id": "0192a3f0-1111-7000-8000-000000000109",
@@ -1324,7 +1332,7 @@ export const DB = {
       ],
       "synopsis": "Ikki Igarashi adalah anak sulung keluarga pengelola pemandian umum Shiawase-yu. Demi melindungi keluarganya dari sekte pemuja iblis Deadmans, Ikki mengikat kontrak dengan iblis dalam dirinya sendiri yang jenaka bernama Vice. Dengan mencap Vistamp pada sabuk Revice Driver, manusia dan iblis bersatu menjadi duo Kamen Rider Revi dan Kamen Rider Vice!",
       "tagline": "Iblis dan Manusia Jadi Satu: Kami Adalah Kamen Rider Terkuat!",
-      "poster_url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
+      "poster_url": "/posters/poster_kamen-rider-revice.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
       "trailer_url": "https://www.youtube-nocookie.com/embed/K_V-bVwZfZk",
       "release_date": "2021-09-05",
@@ -1345,7 +1353,8 @@ export const DB = {
         "action",
         "comedy",
         "supernatural"
-      ]
+      ],
+      "fallback_poster": "/posters/poster_kamen-rider-revice.jpg"
     },
     {
       "id": "0192a3f0-1111-7000-8000-000000000110",
@@ -1363,7 +1372,7 @@ export const DB = {
       ],
       "synopsis": "Tahun 2071: Dunia telah dikuasai oleh Diablo! Ryunosuke Momose, ilmuwan yang dimodifikasi oleh Shocker pada tahun 1971, terbangun di masa depan dan kembali ke tahun 2021 untuk merebut kembali tubuhnya. Bersama Ikki (Revice) dan Touma (Saber), mereka mengaktifkan sabuk Kamen Rider Century yang melintasi 100 tahun sejarah pahlawan bertopeng.",
       "tagline": "100 Tahun Menembus Waktu: Dari 1971, 2021, Hingga 2071!",
-      "poster_url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
+      "poster_url": "/posters/poster_kamen-rider-beyond-generations.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
       "trailer_url": "https://www.youtube-nocookie.com/embed/K_V-bVwZfZk",
       "release_date": "2021-12-17",
@@ -1384,7 +1393,8 @@ export const DB = {
         "action",
         "sci-fi",
         "time-travel"
-      ]
+      ],
+      "fallback_poster": "/posters/poster_kamen-rider-beyond-generations.jpg"
     },
     {
       "id": "0192a3f0-1111-7000-8000-000000000111",
@@ -1402,7 +1412,7 @@ export const DB = {
       ],
       "synopsis": "Sebuah pesawat terbang dibajak dan penumpangnya diculik ke Area 666 yang terisolasi. Keluarga Igarashi bergegas ke lokasi kejadian untuk menyelamatkan para sandera, namun mereka berhadapan dengan Azazel dan Kamen Rider Daimon (Kane Kosugi) yang memiliki kekuatan sabuk Chimera Driver mengerikan.",
       "tagline": "Pertarungan Pamungkas Ikatan Darah Keluarga Igarashi!",
-      "poster_url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
+      "poster_url": "/posters/poster_kamen-rider-revice-battle-familia.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
       "trailer_url": "https://www.youtube-nocookie.com/embed/K_V-bVwZfZk",
       "release_date": "2022-07-22",
@@ -1423,7 +1433,8 @@ export const DB = {
         "action",
         "supernatural",
         "martial-arts"
-      ]
+      ],
+      "fallback_poster": "/posters/poster_kamen-rider-revice-battle-familia.jpg"
     },
     {
       "id": "0192a3f0-1111-7000-8000-000000000112",
@@ -1441,7 +1452,7 @@ export const DB = {
       ],
       "synopsis": "Turnamen Desire Grand Prix baru yang brutal 'Desire Royale' dimulai! Ace Ukiyo (Geats) dan Ikki Igarashi (Revice) harus bersaing di arena pertempuran hidup mati. Kejutan besar terjadi ketika Kamen Rider Ryuki, Knight, dan Ouja dari era Heisei legendaris ditarik ke dalam pertarungan Battle Royale paling dahsyat!",
       "tagline": "Para Rider Battle Royale Bersatu: Siapa yang Bertahan Hidup?!",
-      "poster_url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/kiXsuX5qAFUxHvf9BM7MPadFq62.jpg",
+      "poster_url": "/posters/poster_kamen-rider-geats-x-revice-movie-battle-royale.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/original/kiXsuX5qAFUxHvf9BM7MPadFq62.jpg",
       "trailer_url": "https://www.youtube-nocookie.com/embed/XQxZqjZ3a-Y",
       "release_date": "2022-12-23",
@@ -1462,7 +1473,8 @@ export const DB = {
         "action",
         "battle-royale",
         "survival"
-      ]
+      ],
+      "fallback_poster": "/posters/poster_kamen-rider-geats-x-revice-movie-battle-royale.jpg"
     },
     {
       "id": "0192a3f0-1111-7000-8000-000000000113",
@@ -1481,7 +1493,7 @@ export const DB = {
       ],
       "synopsis": "Houtaro Ichinose adalah siswa SMA biasa yang bercita-cita menemukan hal berharga dalam hidupnya ('Gotcha!'). Secara tak terduga, ia terpilih menjadi seorang alkemis dan dipercayakan sabuk GotcharDriver. Bersama Rinne Kudo, Houtaro harus mengumpulkan dan bersahabat dengan 101 makhluk buatan 'Chemy' sebelum jatuh ke tangan Tiga Bersaudari Kegelapan.",
       "tagline": "Genggam Impianmu: Gotcha!",
-      "poster_url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3Ff5D1FjPZ6WJ82k5rKjF9QZ1z5.jpg",
+      "poster_url": "/posters/poster_kamen-rider-gotchard.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/original/mXnF4R6U8y1cWJg6J45eB8k1HhT.jpg",
       "trailer_url": "https://www.youtube-nocookie.com/embed/K_V-bVwZfZk",
       "release_date": "2023-09-03",
@@ -1502,7 +1514,8 @@ export const DB = {
         "action",
         "alchemy",
         "sci-fi"
-      ]
+      ],
+      "fallback_poster": "/posters/poster_kamen-rider-gotchard.jpg"
     },
     {
       "id": "0192a3f0-1111-7000-8000-000000000114",
@@ -1520,7 +1533,7 @@ export const DB = {
       ],
       "synopsis": "Penyihir Chemy X membawa petualangan luar biasa! Houtaro dan Ace Ukiyo harus bekerja sama dalam misi menangkap Chemy Level 10 paling langka 'X-Rex'. Namun bahaya besar muncul ketika Chemy misterius mengubah para sahabat menjadi makhluk mungil yang menggemaskan.",
       "tagline": "Operasi Terhebat Dimulai: Gotchard dan Geats Menaklukkan Level 10!",
-      "poster_url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3Ff5D1FjPZ6WJ82k5rKjF9QZ1z5.jpg",
+      "poster_url": "/posters/poster_kamen-rider-the-winter-movie-gotchard-geats.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/original/kiXsuX5qAFUxHvf9BM7MPadFq62.jpg",
       "trailer_url": "https://www.youtube-nocookie.com/embed/K_V-bVwZfZk",
       "release_date": "2023-12-22",
@@ -1541,7 +1554,8 @@ export const DB = {
         "action",
         "comedy",
         "adventure"
-      ]
+      ],
+      "fallback_poster": "/posters/poster_kamen-rider-the-winter-movie-gotchard-geats.jpg"
     },
     {
       "id": "0192a3f0-1111-7000-8000-000000000115",
@@ -1559,7 +1573,7 @@ export const DB = {
       ],
       "synopsis": "Dari masa depan yang hancur terbakar, sosok Kamen Rider Gotchard Daybreak (disuarakan DAIGO) kembali ke masa lalu. Houtaro masa depan memandu Houtaro muda untuk menguasai kekuatan Miracle Gotchard demi menghentikan invasi pasukan Abyssal dan menyelamatkan garis waktu dunia.",
       "tagline": "Menembus Fajar Masa Depan: Harapan Tak Pernah Padam!",
-      "poster_url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3Ff5D1FjPZ6WJ82k5rKjF9QZ1z5.jpg",
+      "poster_url": "/posters/poster_kamen-rider-gotchard-the-future-daybreak.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/original/mXnF4R6U8y1cWJg6J45eB8k1HhT.jpg",
       "trailer_url": "https://www.youtube-nocookie.com/embed/K_V-bVwZfZk",
       "release_date": "2024-07-26",
@@ -1580,7 +1594,8 @@ export const DB = {
         "action",
         "sci-fi",
         "time-travel"
-      ]
+      ],
+      "fallback_poster": "/posters/poster_kamen-rider-gotchard-the-future-daybreak.jpg"
     },
     {
       "id": "0192a3f0-1111-7000-8000-000000000116",
@@ -1598,7 +1613,7 @@ export const DB = {
       ],
       "synopsis": "Reboot gelap karya sutradara Kazuya Shiraishi untuk penonton dewasa. Berlatar tahun 2022 di mana manusia dan Kaijin hidup dalam ketegangan sosial tajam. Dua saudara angkat, Kotaro Minami (Kamen Rider Black Sun) dan Nobuhiko Akizuki (Shadowmoon), berhadapan dalam takdir tragis memperebutkan gelar Raja Pencipta.",
       "tagline": "Dua Raja, Satu Takdir Hitam: Keadilan di Tengah Diskriminasi.",
-      "poster_url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg",
+      "poster_url": "/posters/poster_kamen-rider-black-sun.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/original/4GZQmMeHyRAgR9pccWFgPVhtOtk.jpg",
       "trailer_url": "https://www.youtube-nocookie.com/embed/K_V-bVwZfZk",
       "release_date": "2022-10-28",
@@ -1619,7 +1634,8 @@ export const DB = {
         "action",
         "dark-fantasy",
         "political-drama"
-      ]
+      ],
+      "fallback_poster": "/posters/poster_kamen-rider-black-sun.jpg"
     },
     {
       "id": "0192a3f0-1111-7000-8000-000000000117",
@@ -1637,7 +1653,7 @@ export const DB = {
       ],
       "synopsis": "Kekaisaran Gelap Yodon menginvasi bumi dari dimensi kristal! Putri Mabushina dari planet Crystalia mencari lima pemuda dengan pancaran jiwa paling cemerlang 'Kiramental'. Dipimpin Juru Atsuta sang seniman muda berimajinasi tanpa batas, mereka mengendalikan mesin hidup cerdas Mashin untuk melindungi bumi.",
       "tagline": "Bersinar Terang! Pancarkan Kilauan Semangatmu!",
-      "poster_url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/4Dk0xZ0R9p88rS9zV6C7u8X3bQ1.jpg",
+      "poster_url": "/posters/poster_mashin-sentai-kiramager.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/original/4Dk0xZ0R9p88rS9zV6C7u8X3bQ1.jpg",
       "trailer_url": "https://www.youtube-nocookie.com/embed/yW3J8rC4v6s",
       "release_date": "2020-03-08",
@@ -1658,7 +1674,8 @@ export const DB = {
         "action",
         "mecha",
         "fantasy"
-      ]
+      ],
+      "fallback_poster": "/posters/poster_mashin-sentai-kiramager.jpg"
     },
     {
       "id": "0192a3f0-1111-7000-8000-000000000118",
@@ -1676,7 +1693,7 @@ export const DB = {
       ],
       "synopsis": "Dinasti Tojitendo menyegel seluruh dunia paralel ke dalam roda gigi Tojiru Gear! Dunia manusia bergabung dengan Kikatopia. Kaito Goshikida, pemuda yang selalu berusaha dengan kekuatan penuh (Zenryoku Zenkai!), bekerja sama dengan empat robot Kikanoid menggunakan Sentai Gears legendaris untuk membebaskan semua dunia yang terbelenggu.",
       "tagline": "Kekuatan Penuh Tanpa Batas! Zenryoku Zenkai!",
-      "poster_url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/4Dk0xZ0R9p88rS9zV6C7u8X3bQ1.jpg",
+      "poster_url": "/posters/poster_kikai-sentai-zenkaiger.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/original/4Dk0xZ0R9p88rS9zV6C7u8X3bQ1.jpg",
       "trailer_url": "https://www.youtube-nocookie.com/embed/yW3J8rC4v6s",
       "release_date": "2021-03-07",
@@ -1697,7 +1714,8 @@ export const DB = {
         "action",
         "comedy",
         "mecha"
-      ]
+      ],
+      "fallback_poster": "/posters/poster_kikai-sentai-zenkaiger.jpg"
     },
     {
       "id": "0192a3f0-1111-7000-8000-000000000119",
@@ -1715,7 +1733,7 @@ export const DB = {
       ],
       "synopsis": "Saat upacara penobatan resmi Gira Hastie sebagai Raja Shugoddam, Gerbang Alam Kematian Hakabaka tiba-tiba terbuka. Enam raja ditarik ke alam baka di mana leluhur raja pertama Shugoddam, Lainiol Hastie, menantang legitimasi tahta Gira.",
       "tagline": "Bahkan di Alam Kematian, Para Raja Tak Akan Pernah Tunduk!",
-      "poster_url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/euSDSrIyUhWbac1tzmg9d3KtmSE.jpg",
+      "poster_url": "/posters/poster_ohsama-sentai-king-ohger-adventure-heaven.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/original/euSDSrIyUhWbac1tzmg9d3KtmSE.jpg",
       "trailer_url": "https://www.youtube-nocookie.com/embed/yW3J8rC4v6s",
       "release_date": "2023-07-28",
@@ -1736,7 +1754,8 @@ export const DB = {
         "action",
         "fantasy",
         "mecha"
-      ]
+      ],
+      "fallback_poster": "/posters/poster_ohsama-sentai-king-ohger-adventure-heaven.jpg"
     },
     {
       "id": "0192a3f0-1111-7000-8000-000000000120",
@@ -1754,7 +1773,7 @@ export const DB = {
       ],
       "synopsis": "Pertemuan paling gila dalam sejarah Super Sentai! Taro Momoi (Don Momotaro) dan seluruh anggota Donbrothers meninggal secara misterius dan tiba di alam kematian Hakabaka, di mana Gira dan para raja King-Ohger sedang berkunjung. Kekacauan komedi khas Donbrothers berpadu dengan aksi megah para raja!",
       "tagline": "Festival Kegilaan Para Raja dan Pembawa Berkah!",
-      "poster_url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/euSDSrIyUhWbac1tzmg9d3KtmSE.jpg",
+      "poster_url": "/posters/poster_king-ohger-vs-donbrothers.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/original/euSDSrIyUhWbac1tzmg9d3KtmSE.jpg",
       "trailer_url": "https://www.youtube-nocookie.com/embed/yW3J8rC4v6s",
       "release_date": "2024-04-26",
@@ -1775,7 +1794,8 @@ export const DB = {
         "action",
         "comedy",
         "mecha"
-      ]
+      ],
+      "fallback_poster": "/posters/poster_king-ohger-vs-donbrothers.jpg"
     },
     {
       "id": "0192a3f0-1111-7000-8000-000000000121",
@@ -1793,7 +1813,7 @@ export const DB = {
       ],
       "synopsis": "Serial Ultraman era Reiwa berating tertinggi! Monster parasit berbahaya Celebro mengacaukan galaksi. Ultraman Z, murid setia Ultraman Zero yang bersemangat tinggi, tiba di Bumi dan bersatu dengan Haruki Natsukawa, pilot robot anti-monster STORAGE. Memanfaatkan Ultra Medals dan Z Riser, mereka bertransformasi ke berbagai wujud legendaris Alpha Edge, Beta Smash, dan Delta Rise Claw!",
       "tagline": "Sebutkan Namaku: Ultraman Zetto!",
-      "poster_url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/twq2EahjRaUB6B8wjf7ddrCmLhJ.jpg",
+      "poster_url": "/posters/poster_ultraman-z.jpg",
       "backdrop_url": "/posters/backdrop_ultraman_arc.jpg",
       "trailer_url": "https://www.youtube-nocookie.com/embed/pZfB2Ww48_k",
       "release_date": "2020-06-20",
@@ -1814,7 +1834,8 @@ export const DB = {
         "action",
         "giant-hero",
         "sci-fi"
-      ]
+      ],
+      "fallback_poster": "/posters/poster_ultraman-z.jpg"
     },
     {
       "id": "0192a3f0-1111-7000-8000-000000000122",
@@ -1832,7 +1853,7 @@ export const DB = {
       ],
       "synopsis": "Peringatan 25 tahun Ultraman Tiga legendaris. Tiga puluh juta tahun lalu, kegelapan dahsyat disegel di luar angkasa. Di planet Mars modern, pemuda ahli botani Kengo Manaka yang selalu ingin membuat semua orang tersenyum, membangkitkan Raksasa Cahaya Ultraman Trigger dengan Guts Sparklence untuk melawan Carmeara dan Raksasa Kegelapan Purba.",
       "tagline": "Tersenyumlah, Tarik Pelatuk Senyuman Cahaya!",
-      "poster_url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/twq2EahjRaUB6B8wjf7ddrCmLhJ.jpg",
+      "poster_url": "/posters/poster_ultraman-trigger-new-generation-tiga.jpg",
       "backdrop_url": "/posters/backdrop_ultraman_arc.jpg",
       "trailer_url": "https://www.youtube-nocookie.com/embed/pZfB2Ww48_k",
       "release_date": "2021-07-10",
@@ -1853,7 +1874,8 @@ export const DB = {
         "action",
         "giant-hero",
         "sci-fi"
-      ]
+      ],
+      "fallback_poster": "/posters/poster_ultraman-trigger-new-generation-tiga.jpg"
     },
     {
       "id": "0192a3f0-1111-7000-8000-000000000123",
@@ -1871,7 +1893,7 @@ export const DB = {
       ],
       "synopsis": "Dua tahun setelah pertempuran akhir Kengo, ancaman baru muncul dari bayang-bayang organisasi rahasia yang menciptakan Evil Trigger. Haruki dan Ultraman Z melintasi dimensi untuk membantu GUTS-Select dan Kengo dalam pertempuran epik mempertahankan kedamaian bumi.",
       "tagline": "Trigger dan Z: Duet Cahaya Penghancur Kegelapan!",
-      "poster_url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/twq2EahjRaUB6B8wjf7ddrCmLhJ.jpg",
+      "poster_url": "/posters/poster_ultraman-trigger-episode-z.jpg",
       "backdrop_url": "/posters/backdrop_ultraman_arc.jpg",
       "trailer_url": "https://www.youtube-nocookie.com/embed/pZfB2Ww48_k",
       "release_date": "2022-03-18",
@@ -1892,7 +1914,8 @@ export const DB = {
         "action",
         "giant-hero",
         "sci-fi"
-      ]
+      ],
+      "fallback_poster": "/posters/poster_ultraman-trigger-episode-z.jpg"
     },
     {
       "id": "0192a3f0-1111-7000-8000-000000000124",
@@ -1910,7 +1933,7 @@ export const DB = {
       ],
       "synopsis": "Penerus semangat Ultraman Dyna. Ketika kawanan makhluk misterius 'Spheres' menyerang dan memutus kontak bumi dengan luar angkasa, Kanata Asumi tidak ragu mempertaruhkan nyawanya. Cahaya takdir menganugerahkannya Ultra D Flasher dan Ultra Dimension Cards untuk bertransformasi menjadi Ultraman Decker demi membuka jalan menuju masa depan.",
       "tagline": "Lompatlah Menuju Masa Depan: Cahaya Kilat Decker!",
-      "poster_url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/twq2EahjRaUB6B8wjf7ddrCmLhJ.jpg",
+      "poster_url": "/posters/poster_ultraman-decker.jpg",
       "backdrop_url": "/posters/backdrop_ultraman_arc.jpg",
       "trailer_url": "https://www.youtube-nocookie.com/embed/pZfB2Ww48_k",
       "release_date": "2022-07-09",
@@ -1931,7 +1954,8 @@ export const DB = {
         "action",
         "giant-hero",
         "sci-fi"
-      ]
+      ],
+      "fallback_poster": "/posters/poster_ultraman-decker.jpg"
     },
     {
       "id": "0192a3f0-1111-7000-8000-000000000125",
@@ -1949,7 +1973,7 @@ export const DB = {
       ],
       "synopsis": "Gelombang radiasi aneh melanda fasilitas industri di Tokyo! Pasukan khusus SKaRD dipimpin Kapten Gento Hiruma dikerahkan mengevakuasi warga saat monster mutan raksasa Gongilgan bangkit. Di tengah kobaran api ibukota, raungan liar Ultraman Blazar dan senjata Firdran Armor menyala demi melindungi bumi.",
       "tagline": "Raungan Liar di Jantung Tokyo: Benturan Akbar Monster Raksasa!",
-      "poster_url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/twq2EahjRaUB6B8wjf7ddrCmLhJ.jpg",
+      "poster_url": "/posters/poster_ultraman-blazar-the-movie-tokyo-kaiju-showdown.jpg",
       "backdrop_url": "/posters/backdrop_ultraman_arc.jpg",
       "trailer_url": "https://www.youtube-nocookie.com/embed/pZfB2Ww48_k",
       "release_date": "2024-02-23",
@@ -1970,7 +1994,8 @@ export const DB = {
         "action",
         "giant-hero",
         "military-kaiju"
-      ]
+      ],
+      "fallback_poster": "/posters/poster_ultraman-blazar-the-movie-tokyo-kaiju-showdown.jpg"
     },
     {
       "id": "0192a3f0-1111-7000-8000-000000000126",
@@ -1988,7 +2013,7 @@ export const DB = {
       ],
       "synopsis": "Pertarungan klimaks film layar lebar Ultraman Arc! Entitas kegelapan kuno bangkit membalikkan imajinasi manusia menjadi mimpi buruk monster kosmik. Yuma Hize dan SKIP menggabungkan seluruh kristal Arc Stone untuk membuka wujud terkuat cahaya pelindung semesta.",
       "tagline": "Imajinasi Melampaui Batas Kegelapan: Cahaya Baru Terbit!",
-      "poster_url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/twq2EahjRaUB6B8wjf7ddrCmLhJ.jpg",
+      "poster_url": "/posters/poster_ultraman-arc-the-movie-clash-of-light-and-evil.jpg",
       "backdrop_url": "/posters/backdrop_ultraman_arc.jpg",
       "trailer_url": "https://www.youtube-nocookie.com/embed/pZfB2Ww48_k",
       "release_date": "2025-02-14",
@@ -2009,7 +2034,8 @@ export const DB = {
         "action",
         "giant-hero",
         "sci-fi"
-      ]
+      ],
+      "fallback_poster": "/posters/poster_ultraman-arc-the-movie-clash-of-light-and-evil.jpg"
     },
     {
       "id": "0192a3f0-1111-7000-8000-000000000127",
@@ -2028,7 +2054,7 @@ export const DB = {
       ],
       "synopsis": "Ksatria Emas Garo kembali di era Reiwa 2024! Saejima Kouga dan Ryuga Dougai membimbing generasi ksatria baru 'Hagane' yang mengenakan zirah baja suci tanpa jubah emas. Menyelidiki fenomena Horror yang merasuk ke dalam teknologi distrik modern, pedang Garo bersinar menebas kutukan kuno.",
       "tagline": "Ketika Kilau Emas Membimbing Jiwa-Jiwa Ksatria Baja!",
-      "poster_url": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/pp7Dh7jwTX1mo7gRYLdYOnwPkfm.jpg",
+      "poster_url": "/posters/poster_garo-hagane-o-tsugu-mono.jpg",
       "backdrop_url": "https://image.tmdb.org/t/p/original/pp7Dh7jwTX1mo7gRYLdYOnwPkfm.jpg",
       "trailer_url": "https://www.youtube-nocookie.com/embed/K_V-bVwZfZk",
       "release_date": "2024-01-11",
@@ -2049,7 +2075,8 @@ export const DB = {
         "action",
         "dark-fantasy",
         "sword-fight"
-      ]
+      ],
+      "fallback_poster": "/posters/poster_garo-hagane-o-tsugu-mono.jpg"
     }
   ],
   "episodes": [

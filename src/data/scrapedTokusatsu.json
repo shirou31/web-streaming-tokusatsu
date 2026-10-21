@@ -1043,7 +1043,9 @@
           "end": 1440
         }
       },
-      "scrapedAt": "2026-10-16T15:21:32.958Z"
+      "scrapedAt": "2026-10-16T15:21:32.958Z",
+      "posterUrl": "/posters/poster_eternal.jpg",
+      "fallbackPoster": "/posters/poster_eternal.jpg"
     },
     {
       "id": "scraped_prod_kr_build_rogue_ep1",
@@ -1153,7 +1155,9 @@
           "end": 1440
         }
       },
-      "scrapedAt": "2026-10-16T15:21:36.493Z"
+      "scrapedAt": "2026-10-16T15:21:36.493Z",
+      "posterUrl": "/posters/poster_ten_gokaiger.jpg",
+      "fallbackPoster": "/posters/poster_ten_gokaiger.jpg"
     },
     {
       "id": "scraped_prod_ultra_tiga_dyna_movie_ep1",
