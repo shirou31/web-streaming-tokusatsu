@@ -1,0 +1,43 @@
+name: Auto Update Tokusatsu Episodes
+
+on:
+  schedule:
+    # Berjalan otomatis setiap 6 jam sekali (00:00, 06:00, 12:00, 18:00 UTC)
+    - cron: '0 */6 * * *'
+  # Memungkinkan dijalankan secara manual kapan saja dari tab GitHub Actions
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  check-and-update:
+    name: Check & Sync New Episodes
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Run Auto-Updater Script
+        run: node scripts/autoUpdateEpisodes.mjs
+
+      - name: Commit & Push Changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain src/data/scrapedTokusatsu.json)" ]; then
+            echo "Episode baru ditemukan! Melakukan commit & push..."
+            git add src/data/scrapedTokusatsu.json
+            git commit -m "🤖 Auto-update: sync latest Tokusatsu episodes"
+            git push origin main
+          else
+            echo "Tidak ada episode baru. Database sudah up-to-date."
+          fi
