@@ -179,7 +179,7 @@ export default function HeroBanner({
                     style={{ background: 'linear-gradient(135deg, #7A050B 0%, #1A0002 100%)' }}
                   >
                     <img 
-                      src={item.posterUrl || item.backdropUrl || item.fallbackPoster} 
+                      src={item.backdropUrl || item.posterUrl || item.fallbackPoster} 
                       alt="" 
                       className="spotlight-thumb-img" 
                       onError={(e) => { e.currentTarget.style.display = 'none'; }}
