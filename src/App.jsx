@@ -1136,27 +1136,7 @@ export default function App() {
         onClose={() => setInstallModalOpen(false)}
       />
 
-      {/* Floating Desktop Device Simulator Switch (for testing mobile on desktop) */}
-      <div className="desktop-device-toggle-bar">
-        <button
-          id="mobile-preview-toggle-btn"
-          className={`device-toggle-pill ${isMobilePreview ? 'active' : ''}`}
-          onClick={() => setIsMobilePreview(!isMobilePreview)}
-          title={isMobilePreview ? "Kembali ke Tampilan Desktop Penuh" : "Pratinjau Tampilan Mobile Ponsel (390px)"}
-        >
-          {isMobilePreview ? (
-            <>
-              <Tv size={15} />
-              <span>Kembali ke Mode Desktop</span>
-            </>
-          ) : (
-            <>
-              <Smartphone size={15} color="#E50914" />
-              <span>Pratinjau Versi Mobile (390px)</span>
-            </>
-          )}
-        </button>
-      </div>
+
     </div>
   );
 }
