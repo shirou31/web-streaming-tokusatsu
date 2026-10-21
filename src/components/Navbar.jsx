@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect, useCallback } from 'react';
 import { 
   Search, 
   Key, 
@@ -39,6 +39,10 @@ export default function Navbar({
 }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [mobileSearchOpen, setMobileSearchOpen] = useState(false);
+  const [activeTab, setActiveTab] = useState('beranda');
+  const [indicatorStyle, setIndicatorStyle] = useState({ left: 0, width: 0, opacity: 0 });
+  const navContainerRef = useRef(null);
+  const buttonRefs = useRef({});
 
   const navFranchises = [
     { id: 'all', name: 'Semua', icon: Sparkles },
@@ -60,6 +64,119 @@ export default function Navbar({
     }
     setMobileMenuOpen(false);
   };
+
+  const desktopNavItems = [
+    {
+      id: 'beranda',
+      label: 'Beranda',
+      onClick: () => {
+        setActiveTab('beranda');
+        handleSelectFranchise('all');
+        scrollToSection('beranda');
+      }
+    },
+    {
+      id: 'top10',
+      label: 'Terpopuler',
+      onClick: () => {
+        setActiveTab('top10');
+        scrollToSection('top10');
+      }
+    },
+    {
+      id: 'baru',
+      label: 'Baru Rilis',
+      onClick: () => {
+        setActiveTab('baru');
+        scrollToSection('baru');
+      }
+    },
+    {
+      id: 'jelajah',
+      label: 'Jelajah',
+      onClick: () => {
+        setActiveTab('jelajah');
+        scrollToSection('jelajah');
+      }
+    },
+    {
+      id: 'watchlist',
+      label: 'Daftar Saya',
+      badge: watchlistCount,
+      onClick: () => {
+        setActiveTab('watchlist');
+        onOpenWatchlist?.();
+      }
+    }
+  ];
+
+  const updateIndicator = useCallback((tabId) => {
+    const targetEl = buttonRefs.current[tabId];
+    const container = navContainerRef.current;
+    if (targetEl && container) {
+      const containerRect = container.getBoundingClientRect();
+      const targetRect = targetEl.getBoundingClientRect();
+      setIndicatorStyle({
+        left: targetRect.left - containerRect.left,
+        width: targetRect.width,
+        opacity: 1
+      });
+    }
+  }, []);
+
+  useEffect(() => {
+    updateIndicator(activeTab);
+  }, [activeTab, updateIndicator]);
+
+  useEffect(() => {
+    const handleResize = () => updateIndicator(activeTab);
+    window.addEventListener('resize', handleResize);
+
+    const t1 = setTimeout(() => updateIndicator(activeTab), 50);
+    const t2 = setTimeout(() => updateIndicator(activeTab), 300);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+      clearTimeout(t1);
+      clearTimeout(t2);
+    };
+  }, [activeTab, updateIndicator]);
+
+  useEffect(() => {
+    let scrollTimeout;
+    const handleScroll = () => {
+      if (scrollTimeout) return;
+      scrollTimeout = setTimeout(() => {
+        scrollTimeout = null;
+        if (searchQuery) return;
+        const scrollY = window.scrollY;
+        if (scrollY < 200) {
+          setActiveTab('beranda');
+          return;
+        }
+        const sections = [
+          { id: 'jelajah', el: document.getElementById('jelajah') },
+          { id: 'baru', el: document.getElementById('baru') },
+          { id: 'top10', el: document.getElementById('top10') }
+        ];
+        for (const s of sections) {
+          if (s.el) {
+            const rect = s.el.getBoundingClientRect();
+            if (rect.top <= 250 && rect.bottom >= 150) {
+              setActiveTab(s.id);
+              break;
+            }
+          }
+        }
+      }, 80);
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      if (scrollTimeout) clearTimeout(scrollTimeout);
+    };
+  }, [searchQuery]);
 
   return (
     <header className="sorot-header">
@@ -86,47 +203,33 @@ export default function Navbar({
           </div>
         </div>
 
-        {/* Desktop Nav Links */}
-        <nav className="desktop-nav-links" aria-label="Menu Utama">
-          <button 
-            type="button"
-            className={`nav-link-btn ${selectedFranchise === 'all' && !searchQuery ? 'active' : ''}`}
-            onClick={() => {
-              handleSelectFranchise('all');
-              scrollToSection('beranda');
+        {/* Desktop Nav Links with Animated Sliding Indicator */}
+        <nav className="desktop-nav-links" ref={navContainerRef} aria-label="Menu Utama">
+          {desktopNavItems.map((item) => {
+            const isActive = activeTab === item.id;
+            return (
+              <button 
+                key={item.id}
+                ref={(el) => { if (el) buttonRefs.current[item.id] = el; }}
+                type="button"
+                className={`nav-link-btn ${isActive ? 'active' : ''}`}
+                onClick={item.onClick}
+              >
+                {item.label}
+                {item.badge > 0 && <span className="nav-badge-pill">{item.badge}</span>}
+              </button>
+            );
+          })}
+          {/* Animated Sliding Underline Indicator */}
+          <span 
+            className="nav-sliding-indicator" 
+            style={{
+              left: `${indicatorStyle.left}px`,
+              width: `${indicatorStyle.width}px`,
+              opacity: indicatorStyle.opacity
             }}
-          >
-            Beranda
-          </button>
-          <button 
-            type="button"
-            className="nav-link-btn"
-            onClick={() => scrollToSection('top10')}
-          >
-            Terpopuler
-          </button>
-          <button 
-            type="button"
-            className="nav-link-btn"
-            onClick={() => scrollToSection('baru')}
-          >
-            Baru Rilis
-          </button>
-          <button 
-            type="button"
-            className="nav-link-btn"
-            onClick={() => scrollToSection('jelajah')}
-          >
-            Jelajah
-          </button>
-          <button 
-            type="button"
-            className="nav-link-btn"
-            onClick={onOpenWatchlist}
-          >
-            Daftar Saya
-            {watchlistCount > 0 && <span className="nav-badge-pill">{watchlistCount}</span>}
-          </button>
+            aria-hidden="true"
+          />
         </nav>
 
         {/* Flex spacer */}
@@ -520,23 +623,26 @@ export default function Navbar({
         }
 
         .desktop-nav-links {
+          position: relative;
           display: flex;
           align-items: center;
           gap: 24px;
           margin-left: 28px;
         }
         .nav-link-btn {
+          position: relative;
           background: transparent;
           border: none;
           color: #D2D2D6;
           font-size: 15px;
           font-weight: 500;
           cursor: pointer;
-          padding: 6px 0;
-          transition: color var(--transition-fast);
+          padding: 8px 0;
+          transition: color 0.22s cubic-bezier(0.4, 0, 0.2, 1);
           display: flex;
           align-items: center;
           gap: 6px;
+          z-index: 1;
         }
         .nav-link-btn:hover {
           color: #FFFFFF;
@@ -544,7 +650,19 @@ export default function Navbar({
         .nav-link-btn.active {
           color: #FFFFFF;
           font-weight: 700;
-          border-bottom: 2px solid var(--accent-red);
+        }
+        .nav-sliding-indicator {
+          position: absolute;
+          bottom: 0px;
+          height: 3px;
+          background: var(--accent-red, #E50914);
+          border-radius: 4px 4px 0 0;
+          box-shadow: 0 0 12px rgba(229, 9, 20, 0.75), 0 0 4px rgba(229, 9, 20, 0.95);
+          transition: left 0.35s cubic-bezier(0.25, 1, 0.5, 1), 
+                      width 0.35s cubic-bezier(0.25, 1, 0.5, 1), 
+                      opacity 0.25s ease;
+          pointer-events: none;
+          z-index: 2;
         }
         .nav-badge-pill {
           background: var(--accent-red);
