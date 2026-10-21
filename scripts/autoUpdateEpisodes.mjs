@@ -11,6 +11,8 @@ const __dirname = path.dirname(__filename);
 const outputPath = path.resolve(__dirname, '../src/data/scrapedTokusatsu.json');
 const canonicalPath = path.resolve(__dirname, '../src/data/canonicalData.js');
 
+import { runSawidagoBot } from './sawidagoBot.mjs';
+
 const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
 
 // Feed URLs to scan for fresh releases
@@ -252,6 +254,14 @@ export async function runAutoUpdate() {
   console.log('🤖 TOKUFLIX AUTO-UPDATER: Pengecekan Episode Baru Tokusatsu');
   console.log('   Timestamp:', new Date().toISOString());
   console.log('========================================================\n');
+
+  // 1. Jalankan SawidagoFansub Bot terlebih dahulu
+  try {
+    console.log('🌱 Menjalankan SawidagoFansub Automation Bot...');
+    await runSawidagoBot();
+  } catch (err) {
+    console.warn('⚠️ SawidagoFansub Bot warning:', err.message);
+  }
 
   if (!fs.existsSync(outputPath)) {
     console.error('❌ File scrapedTokusatsu.json tidak ditemukan di:', outputPath);

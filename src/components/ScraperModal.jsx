@@ -34,6 +34,9 @@ export default function ScraperModal({ onClose, onPlayEpisode }) {
   const totalGdrive = episodes.filter((ep) => ep.driveDownloadUrl1).length;
 
   const filteredEpisodes = episodes.filter((ep) => {
+    if (subFilter === 'sawidago') {
+      return (ep.fansub || '').toLowerCase().includes('sawidago') || (ep.sourceUrl || '').includes('sawidago');
+    }
     if (subFilter === 'myth') {
       return (ep.seriesTitle || '').toLowerCase().includes('my-th') || (ep.title || '').toLowerCase().includes('my-th');
     }
@@ -90,6 +93,57 @@ export default function ScraperModal({ onClose, onPlayEpisode }) {
           <button id="close-scraper-modal-btn" className="close-btn" onClick={onClose}>
             <X size={20} />
           </button>
+        </div>
+
+        {/* Full Automation Bot Banner */}
+        <div style={{
+          margin: '0 24px 16px 24px',
+          padding: '14px 18px',
+          borderRadius: '12px',
+          background: 'linear-gradient(135deg, rgba(34, 197, 94, 0.15) 0%, rgba(14, 165, 233, 0.15) 100%)',
+          border: '1px solid rgba(34, 197, 94, 0.4)',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          flexWrap: 'wrap',
+          gap: '12px'
+        }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+            <span style={{
+              width: '12px',
+              height: '12px',
+              borderRadius: '50%',
+              background: '#22C55E',
+              boxShadow: '0 0 12px #22C55E',
+              display: 'inline-block'
+            }} />
+            <div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                <strong style={{ color: '#22C55E', fontSize: '13px', letterSpacing: '0.04em' }}>
+                  SAWIDAGOFANSUB AUTOMATION BOT: AKTIF (FULL AUTOMATION 24/7)
+                </strong>
+                <span style={{ fontSize: '10px', background: 'rgba(34,197,94,0.25)', color: '#4ADE80', padding: '2px 6px', borderRadius: '4px', fontWeight: 700 }}>
+                  LIVE
+                </span>
+              </div>
+              <span style={{ color: '#D4D4D8', fontSize: '12px', marginTop: '2px', display: 'block' }}>
+                Terintegrasi langsung dengan <strong style={{ color: '#38BDF8' }}>https://sawidagofansub.com/</strong>. Ketika ada update film/series baru, bot otomatis mengekstrak & menyinkronkan ke website via GitHub Actions Cron (Setiap 3 Jam).
+              </span>
+            </div>
+          </div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+            <span style={{
+              fontSize: '11px',
+              fontWeight: 700,
+              padding: '5px 12px',
+              borderRadius: '20px',
+              background: 'rgba(34, 197, 94, 0.2)',
+              color: '#4ADE80',
+              border: '1px solid rgba(74, 222, 128, 0.4)'
+            }}>
+              Cron Cloud: 3 Jam Sekali
+            </span>
+          </div>
         </div>
 
         {/* Stats Row */}
@@ -189,6 +243,13 @@ export default function ScraperModal({ onClose, onPlayEpisode }) {
                 onClick={() => setSubFilter('myth')}
               >
                 ⚡ Kamen Rider My-Th ({episodes.filter(e => (e.seriesTitle||'').toLowerCase().includes('my-th')).length})
+              </button>
+              <button 
+                className={`subfilter-chip ${subFilter === 'sawidago' ? 'active' : ''}`}
+                style={{ borderColor: subFilter === 'sawidago' ? '#22C55E' : undefined, color: subFilter === 'sawidago' ? '#4ADE80' : undefined }}
+                onClick={() => setSubFilter('sawidago')}
+              >
+                🌱 SawidagoFansub ({episodes.filter(e => (e.fansub||'').toLowerCase().includes('sawidago') || (e.sourceUrl||'').includes('sawidago')).length})
               </button>
               <button 
                 className={`subfilter-chip ${subFilter === 'reiwa' ? 'active' : ''}`}

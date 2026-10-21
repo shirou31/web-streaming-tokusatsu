@@ -1,10 +1,10 @@
-name: Auto Update Tokusatsu Episodes
+name: Auto Update Tokusatsu Episodes (SawidagoFansub & TokuIndo Bot)
 
 on:
   schedule:
-    # Berjalan otomatis setiap 6 jam sekali (00:00, 06:00, 12:00, 18:00 UTC)
-    - cron: '0 */6 * * *'
-  # Memungkinkan dijalankan secara manual kapan saja dari tab GitHub Actions
+    # Berjalan otomatis 24/7 setiap 3 jam sekali di cloud GitHub Actions (Full Automation)
+    - cron: '0 */3 * * *'
+  # Memungkinkan pemicuan manual atau webhook kapan saja
   workflow_dispatch:
 
 permissions:
@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   check-and-update:
-    name: Check & Sync New Episodes
+    name: Check & Sync New Episodes (SawidagoFansub Bot)
     runs-on: ubuntu-latest
 
     steps:
@@ -26,18 +26,22 @@ jobs:
         with:
           node-version: 22
 
-      - name: Run Auto-Updater Script
+      - name: Run SawidagoFansub Automation Bot
+        run: node scripts/sawidagoBot.mjs
+
+      - name: Run TokusatsuIndo Scanner
         run: node scripts/autoUpdateEpisodes.mjs
 
       - name: Commit & Push Changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if [ -n "$(git status --porcelain src/data/scrapedTokusatsu.json)" ]; then
-            echo "Episode baru ditemukan! Melakukan commit & push..."
-            git add src/data/scrapedTokusatsu.json
-            git commit -m "🤖 Auto-update: sync latest Tokusatsu episodes"
+          if [ -n "$(git status --porcelain src/data/scrapedTokusatsu.json public/posters)" ]; then
+            echo "✨ Episode baru terdeteksi oleh Sawidago Bot! Melakukan commit & push..."
+            git add src/data/scrapedTokusatsu.json public/posters/
+            git commit -m "🤖 SawidagoFansub Bot: auto-sync latest releases & episodes [skip ci]" || git commit -m "🤖 SawidagoFansub Bot: auto-sync latest releases & episodes"
             git push origin main
           else
-            echo "Tidak ada episode baru. Database sudah up-to-date."
+            echo "✨ Tidak ada episode baru. Database sudah mutakhir dengan SawidagoFansub."
           fi
+
