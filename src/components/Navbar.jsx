@@ -65,15 +65,24 @@ export default function Navbar({
     <header className="sorot-header">
       <div className="header-inner">
         {/* Brand Logo */}
-        <div className="brand-logo" onClick={() => handleSelectFranchise('all')} role="button" tabIndex={0}>
-          <svg width="34" height="34" viewBox="0 0 32 32" aria-hidden="true" className="brand-svg-logo">
-            <rect width="32" height="32" rx="9" fill="#E50914" />
-            <circle cx="9" cy="16" r="4" fill="#fff" />
-            <path d="M14 13 L26 6.5 L26 25.5 L14 19 Z" fill="#fff" fillOpacity="0.88" />
-          </svg>
+        <div 
+          className="brand-logo" 
+          onClick={() => handleSelectFranchise('all')} 
+          role="button" 
+          tabIndex={0}
+          aria-label="TOKUFLIX Beranda"
+        >
+          <img 
+            src="/logo.png" 
+            alt="Logo Resmi TOKUFLIX" 
+            className="brand-official-logo" 
+            width="38" 
+            height="38" 
+          />
           <div className="brand-title-box">
-            <span className="brand-text disp">sorot</span>
-            <span className="brand-badge-toku">TOKUFLIX</span>
+            <span className="brand-text disp">
+              TOKU<span className="brand-highlight">FLIX</span>
+            </span>
           </div>
         </div>
 
@@ -246,12 +255,16 @@ export default function Navbar({
           <div className="mobile-drawer-panel" onClick={(e) => e.stopPropagation()}>
             <div className="mobile-drawer-header">
               <div className="brand-logo">
-                <svg width="28" height="28" viewBox="0 0 32 32" aria-hidden="true">
-                  <rect width="32" height="32" rx="8" fill="#E50914" />
-                  <circle cx="9" cy="16" r="4" fill="#fff" />
-                  <path d="M14 13 L26 6.5 L26 25.5 L14 19 Z" fill="#fff" fillOpacity="0.88" />
-                </svg>
-                <span className="brand-text disp" style={{ fontSize: '22px' }}>sorot</span>
+                <img 
+                  src="/logo.png" 
+                  alt="Logo Resmi TOKUFLIX" 
+                  className="brand-official-logo" 
+                  width="32" 
+                  height="32" 
+                />
+                <span className="brand-text disp" style={{ fontSize: '24px' }}>
+                  TOKU<span className="brand-highlight">FLIX</span>
+                </span>
               </div>
               <button 
                 type="button" 
@@ -341,7 +354,7 @@ export default function Navbar({
                 className="mobile-link-item" 
                 onClick={() => scrollToSection('fitur')}
               >
-                Fitur Sorot
+                Fitur Tokuflix
               </button>
               <button 
                 type="button" 
@@ -474,39 +487,36 @@ export default function Navbar({
         .brand-logo {
           display: flex;
           align-items: center;
-          gap: 10px;
+          gap: 12px;
           cursor: pointer;
           user-select: none;
           text-decoration: none;
         }
-        .brand-svg-logo {
-          filter: drop-shadow(0 0 10px rgba(229, 9, 20, 0.5));
+        .brand-official-logo {
+          width: 38px;
+          height: 38px;
+          object-fit: contain;
+          filter: drop-shadow(0 2px 10px rgba(229, 9, 20, 0.55));
           transition: transform var(--transition-bounce);
         }
-        .brand-logo:hover .brand-svg-logo {
-          transform: scale(1.08);
+        .brand-logo:hover .brand-official-logo {
+          transform: scale(1.1) rotate(-3deg);
         }
         .brand-title-box {
           display: flex;
-          align-items: baseline;
-          gap: 6px;
+          align-items: center;
         }
         .brand-text {
-          font-size: 28px;
-          font-weight: 800;
-          letter-spacing: -0.04em;
+          font-size: 26px;
+          font-weight: 900;
+          letter-spacing: -0.02em;
           line-height: 1;
           color: #FFFFFF;
+          text-transform: uppercase;
         }
-        .brand-badge-toku {
-          font-size: 10px;
-          font-weight: 800;
-          letter-spacing: 0.12em;
-          padding: 2px 6px;
-          border-radius: 4px;
-          background: rgba(229, 9, 20, 0.2);
-          color: var(--accent-red);
-          border: 1px solid rgba(229, 9, 20, 0.4);
+        .brand-highlight {
+          color: var(--accent-red, #E50914);
+          text-shadow: 0 0 16px rgba(229, 9, 20, 0.55);
         }
 
         .desktop-nav-links {

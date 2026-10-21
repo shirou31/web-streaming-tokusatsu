@@ -21,14 +21,17 @@ export default function Footer({
         <div className="footer-links-grid">
           {/* Brand Column */}
           <div className="footer-brand-col">
-            <div className="footer-logo-row" onClick={() => scrollTo('beranda')}>
-              <svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true">
-                <rect width="32" height="32" rx="9" fill="#E50914" />
-                <circle cx="9" cy="16" r="4" fill="#fff" />
-                <path d="M14 13 L26 6.5 L26 25.5 L14 19 Z" fill="#fff" fillOpacity="0.88" />
-              </svg>
-              <span className="footer-brand-name disp">sorot</span>
-              <span className="footer-brand-sub">TOKUFLIX</span>
+            <div className="footer-logo-row" onClick={() => scrollTo('beranda')} role="button" tabIndex={0} aria-label="TOKUFLIX Beranda">
+              <img 
+                src="/logo.png" 
+                alt="Logo Resmi TOKUFLIX" 
+                className="footer-official-logo" 
+                width="34" 
+                height="34" 
+              />
+              <span className="footer-brand-name disp">
+                TOKU<span className="footer-highlight">FLIX</span>
+              </span>
             </div>
             <p className="footer-tagline">
               Tempat film, serial, dan anime tokusatsu favoritmu menyala. Nonton kapan saja, di mana saja dengan kualitas 1440p 2K QHD Subtitle Indonesia.
@@ -67,7 +70,7 @@ export default function Footer({
           <div className="footer-nav-col">
             <h4 className="footer-col-title">PERUSAHAAN</h4>
             <ul className="footer-list">
-              <li><a href="#beranda" className="footer-link-btn">Tentang Sorot</a></li>
+              <li><a href="#beranda" className="footer-link-btn">Tentang TOKUFLIX</a></li>
               <li><a href="#beranda" className="footer-link-btn">Karier</a></li>
               <li><a href="#beranda" className="footer-link-btn">Syarat & Ketentuan</a></li>
               <li><a href="#beranda" className="footer-link-btn">Kebijakan Privasi</a></li>
@@ -96,7 +99,7 @@ export default function Footer({
           </div>
 
           <p className="footer-copyright-text">
-            © 2026 Sorot / TOKUFLIX. Seluruh hak cipta dilindungi undang-undang. Seluruh materi, karakter, dan serial Tokusatsu (Toei Company, Tsuburaya Productions, TV Asahi) adalah milik pemegang hak cipta masing-masing.
+            © 2026 TOKUFLIX. Seluruh hak cipta dilindungi undang-undang. Seluruh materi, karakter, dan serial Tokusatsu (Toei Company, Tsuburaya Productions, TV Asahi) adalah milik pemegang hak cipta masing-masing.
           </p>
         </div>
       </div>
@@ -125,24 +128,29 @@ export default function Footer({
         .footer-logo-row {
           display: inline-flex;
           align-items: center;
-          gap: 10px;
+          gap: 12px;
           cursor: pointer;
+        }
+        .footer-official-logo {
+          width: 34px;
+          height: 34px;
+          object-fit: contain;
+          filter: drop-shadow(0 2px 8px rgba(229, 9, 20, 0.45));
+          transition: transform var(--transition-bounce);
+        }
+        .footer-logo-row:hover .footer-official-logo {
+          transform: scale(1.1) rotate(-3deg);
         }
         .footer-brand-name {
           font-size: 26px;
-          font-weight: 800;
-          letter-spacing: -0.04em;
+          font-weight: 900;
+          letter-spacing: -0.02em;
           color: #FFFFFF;
+          text-transform: uppercase;
         }
-        .footer-brand-sub {
-          font-size: 10px;
-          font-weight: 800;
-          letter-spacing: 0.1em;
-          padding: 2px 6px;
-          border-radius: 4px;
-          background: rgba(229, 9, 20, 0.2);
-          color: var(--accent-red);
-          border: 1px solid rgba(229, 9, 20, 0.35);
+        .footer-highlight {
+          color: var(--accent-red, #E50914);
+          text-shadow: 0 0 14px rgba(229, 9, 20, 0.5);
         }
         .footer-tagline {
           font-size: 14px;

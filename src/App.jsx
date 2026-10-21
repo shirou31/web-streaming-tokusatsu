@@ -944,7 +944,7 @@ export default function App() {
 
       {/* 6. Section: Fitur Streaming ("Satu layar, banyak cara menonton") */}
       {!searchQuery && (
-        <section id="fitur" aria-label="Fitur Sorot" style={{ marginTop: '48px', padding: '88px clamp(16px, 4vw, 56px)', background: '#111113', borderTop: '1px solid rgba(255,255,255,.08)', borderBottom: '1px solid rgba(255,255,255,.08)' }}>
+        <section id="fitur" aria-label="Fitur Tokuflix" style={{ marginTop: '48px', padding: '88px clamp(16px, 4vw, 56px)', background: '#111113', borderTop: '1px solid rgba(255,255,255,.08)', borderBottom: '1px solid rgba(255,255,255,.08)' }}>
           <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '64px', maxWidth: '1240px', margin: '0 auto' }}>
             {/* Interactive Screen Mockup */}
             <div 
