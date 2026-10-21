@@ -164,6 +164,7 @@ export default function Navbar({
           {/* Notifications Bell */}
           <button 
             type="button" 
+            id="nav-bell-btn"
             className="ibtn nav-bell-btn" 
             aria-label="Notifikasi Rilis Fansub Terbaru"
             onClick={onOpenScraper}
