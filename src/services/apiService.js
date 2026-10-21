@@ -994,69 +994,66 @@ export const getStreamPayload = async (episodeId, { watch_order = null } = {}) =
   const franchise = DB.franchises.find((f) => f.id === prod.franchise_id);
 
   // Active Video Sources grouped by server_name
-  const sources = DB.video_sources.filter((vs) => vs.episode_id === ep.id && vs.is_active);
-  if (sources.length === 0) {
-    // Generate fallback sources if none explicitly seeded (All upgraded to 1440p 2K Ultra HD down to 360p)
-    const baseResolutions = [
-      { quality: "1440p", bitrate: 8200, label: "2K QHD Ultra" },
-      { quality: "1080p", bitrate: 5000, label: "Full HD" },
-      { quality: "720p", bitrate: 2800, label: "HD Jernih" },
-      { quality: "480p", bitrate: 1200, label: "SD Hemat" },
-      { quality: "360p", bitrate: 700, label: "Mobile" }
-    ];
+  let sources = DB.video_sources.filter((vs) => vs.episode_id === ep.id && vs.is_active);
 
-    baseResolutions.forEach((res, idx) => {
-      sources.push({
-        id: `gen-src-hls-${res.quality}-${ep.id}`,
-        episode_id: ep.id,
-        server_name: "Server 1 (HLS Ultra Fast CDN)",
-        source_type: "hls",
-        quality: res.quality,
-        label: `${res.quality} (${res.label})`,
-        origin_url: `https://doodstream.com/e/${prod.slug}_ep${ep.episode_number}?res=${res.quality}`,
-        mime_type: "application/vnd.apple.mpegurl",
-        bitrate_kbps: res.bitrate,
-        audio_language: "ja",
-        has_hardsub: false,
-        hardsub_language: null,
-        is_protected: true,
-        priority: 10 + idx,
-        is_active: true
-      });
-      sources.push({
-        id: `gen-src-streamwish-${res.quality}-${ep.id}`,
-        episode_id: ep.id,
-        server_name: "Server 2 (StreamWish FHD/2K)",
-        source_type: "iframe",
-        quality: res.quality,
-        label: `${res.quality} (${res.label})`,
-        origin_url: `https://streamwish.com/e/${prod.slug}_ep${ep.episode_number}?res=${res.quality}`,
-        mime_type: null,
-        bitrate_kbps: res.bitrate,
-        audio_language: "ja",
-        has_hardsub: true,
-        hardsub_language: "id",
-        is_protected: false,
-        priority: 20 + idx,
-        is_active: true
-      });
+  // 1. Cek apakah ada data episode asli dari scraper fansub TokusatsuIndo / Sawidago
+  try {
+    const allScraped = scraperService.getScrapedEpisodes();
+    const sTitleQuery = (prod.title || '').toLowerCase().replace(/^(serial|film|movie)\s+/i, '').trim();
+    const pSlugQuery = (prod.slug || '').toLowerCase();
+
+    const matchedScraped = allScraped.find((se) => {
+      const seTitle = (se.seriesTitle || se.title || '').toLowerCase();
+      const seProdId = (se.productionId || '').toLowerCase();
+      const matchSeries = seTitle.includes(sTitleQuery) || sTitleQuery.includes(seTitle) ||
+                          seProdId.includes(pSlugQuery) || pSlugQuery.includes(seProdId.replace('prod_', '')) ||
+                          (prod.id && se.productionId === prod.id);
+      return matchSeries && Number(se.episodeNumber) === Number(ep.episode_number);
     });
 
+    if (matchedScraped && matchedScraped.servers && matchedScraped.servers.length > 0) {
+      matchedScraped.servers.forEach((srv, sIdx) => {
+        sources.unshift({
+          id: `scraped-srv-${ep.id}-${sIdx}`,
+          episode_id: ep.id,
+          server_name: srv.name || `Server ${sIdx + 1} (Direct Embed HD)`,
+          source_type: 'iframe',
+          quality: '1080p',
+          label: '1080p (Full HD)',
+          origin_url: srv.embedUrl || srv.directUrl,
+          mime_type: null,
+          bitrate_kbps: 5000,
+          audio_language: 'ja',
+          has_hardsub: true,
+          hardsub_language: 'id',
+          is_protected: false,
+          priority: 1 + sIdx,
+          is_active: true
+        });
+      });
+    }
+  } catch (err) {
+    console.warn('[apiService] Error checking scraped episode servers:', err);
+  }
+
+  if (sources.length === 0) {
+    // Generate fallback sources if none explicitly seeded
+    const fallbackTrailer = prod.trailer_url || "https://www.youtube-nocookie.com/embed/XQxZqjZ3a-Y?vq=hd1080";
     sources.push({
       id: `gen-src-demo-${ep.id}`,
       episode_id: ep.id,
-      server_name: "Official Demo Player (1440p / HD)",
+      server_name: "Official Stream Player (1440p / HD)",
       source_type: "iframe",
       quality: "1440p",
       label: "1440p (2K Ultra QHD)",
-      origin_url: prod.trailer_url || "https://www.youtube-nocookie.com/embed/XQxZqjZ3a-Y?vq=hd1440",
+      origin_url: fallbackTrailer,
       mime_type: null,
       bitrate_kbps: 8000,
       audio_language: "ja",
       has_hardsub: false,
       hardsub_language: null,
       is_protected: false,
-      priority: 30,
+      priority: 1,
       is_active: true
     });
   }

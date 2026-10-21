@@ -255,18 +255,34 @@ export default function PlayerModal({
   const totalDuration = episode.duration_seconds || 1440;
   const progressPercent = Math.min(100, (currentSeconds / totalDuration) * 100);
 
-  // Deteksi apakah sumber adalah direct media (MP4/HLS/WebM) yang diputar langsung via tag HTML5 Video oleh browser pengguna
-  const isDirectVideo = currentSource?.source_type === 'direct' || 
+  // Deteksi domain embed / web player pihak ketiga
+  const isEmbedDomain = Boolean(
+    currentSource?.url && (
+      currentSource.url.includes('player.') ||
+      currentSource.url.includes('tokusatsuindo.com') ||
+      currentSource.url.includes('drive.google.com') ||
+      currentSource.url.includes('dood') ||
+      currentSource.url.includes('streamwish') ||
+      currentSource.url.includes('youtube') ||
+      currentSource.url.includes('/x/?t=') ||
+      currentSource.url.includes('/p/?t=') ||
+      currentSource.url.includes('/e/') ||
+      currentSource.url.includes('/preview')
+    )
+  );
+
+  // Deteksi apakah sumber adalah direct media binary (MP4/HLS/WebM) yang diputar langsung via HTML5 Video
+  const isDirectVideo = !isEmbedDomain && (
+                        currentSource?.source_type === 'direct' || 
                         currentSource?.source_type === 'mp4' || 
                         currentSource?.source_type === 'hls' || 
-                        (currentSource?.url && (currentSource.url.includes('.mp4') || currentSource.url.includes('.m3u8') || currentSource.url.includes('.webm')));
+                        (currentSource?.url && (currentSource.url.includes('.mp4') || currentSource.url.includes('.m3u8') || currentSource.url.includes('.webm'))));
 
   // Deteksi embed/iframe pihak ketiga
-  const isIframe = !isDirectVideo && (
+  const isIframe = isEmbedDomain || 
                    currentSource?.source_type === 'iframe' || 
                    currentSource?.source_type === 'embed' || 
-                   currentSource?.source_type === 'gdrive' || 
-                   (currentSource?.url && (currentSource.url.includes('tokusatsuindo.com') || currentSource.url.includes('drive.google.com') || currentSource.url.includes('dood') || currentSource.url.includes('streamwish'))));
+                   currentSource?.source_type === 'gdrive';
 
   const formatTime = (secs) => {
     const m = Math.floor(secs / 60);
@@ -280,6 +296,10 @@ export default function PlayerModal({
     if (url.includes('drive.google.com')) {
       // Normalize /view or /view?usp=sharing to /preview
       url = url.replace(/\/view(\?usp=sharing)?/g, '/preview').replace(/\/preview\?usp=sharing/g, '/preview');
+      return url;
+    }
+    // Jika player.tokusatsuindo.com, jangan ubah parameter token query
+    if (url.includes('player.tokusatsuindo.com')) {
       return url;
     }
     const sep = url.includes('?') ? '&' : '?';
@@ -450,11 +470,11 @@ export default function PlayerModal({
                 </div>
               ) : isIframe ? (
                 <iframe
+                  key={`${selectedServerIdx}-${selectedSourceIdx}-${currentSource?.url}`}
                   src={getIframeSrc(currentSource?.url)}
                   title={episode.title}
                   className="embed-iframe"
-                  referrerPolicy="no-referrer"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen
                 />
               ) : (

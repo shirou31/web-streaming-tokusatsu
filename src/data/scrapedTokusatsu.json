@@ -8262,33 +8262,17 @@
       "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-ten-gokaiger-sub-indonesia/",
       "fansub": "TokusatsuIndo / Sawidago Network",
       "language": "Indonesian (Sub Indo)",
-      "quality": "1440p QHD / 1080p FHD",
+      "quality": "1080p FHD / 720p HD",
       "thumbnail": "/posters/poster_ten_gokaiger.jpg",
       "driveDownloadUrl1": "https://drive.google.com/file/d/1xg6TazTEgBG4QkQCht4OolOMAqBD_dD-/view?usp=sharing",
       "driveDownloadUrl2": "https://drive.google.com/file/d/1Mg-L_rMKFgZPjmMrH-e_vPcSSdz9ZDak/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (Direct Embed)",
+          "id": "srv_real_tokusatsuindo_ten_gokaiger_movie",
+          "name": "Server 1 (Direct Embed HD)",
           "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6MTM3NH0.3f46df30ecd2d60e0ee6f782b3640cf713d30aadb442cd3e5f6d63f766180725",
           "directUrl": null,
           "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server Google Drive 1 (Fast HD)",
-          "embedUrl": "https://drive.google.com/file/d/1xg6TazTEgBG4QkQCht4OolOMAqBD_dD-/preview",
-          "directUrl": "https://drive.google.com/file/d/1xg6TazTEgBG4QkQCht4OolOMAqBD_dD-/view?usp=sharing",
-          "type": "gdrive",
-          "status": "online"
-        },
-        {
-          "id": "srv_3",
-          "name": "Server Google Drive 2 (Mirror HD)",
-          "embedUrl": "https://drive.google.com/file/d/1Mg-L_rMKFgZPjmMrH-e_vPcSSdz9ZDak/preview",
-          "directUrl": "https://drive.google.com/file/d/1Mg-L_rMKFgZPjmMrH-e_vPcSSdz9ZDak/view?usp=sharing",
-          "type": "gdrive",
           "status": "online"
         }
       ],
@@ -18452,31 +18436,33 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-1-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-1-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
       "thumbnail": "/posters/poster_kaizoku-sentai-gokaiger.jpg",
       "posterUrl": "/posters/poster_kaizoku-sentai-gokaiger.jpg",
       "fallbackPoster": "/posters/poster_kaizoku-sentai-gokaiger.jpg",
-      "driveDownloadUrl1": "https://drive.google.com/drive/folders/tokuflix_kaizoku-sentai-gokaiger_ep1",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1Bf3xSrHmZ0YTQYsYVGgppzVkIjGC63mn/view?usp=sharing",
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep1",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep1",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep1",
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep1",
+          "id": "srv_real_tokusatsuindo_gokaiger_1",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6MzMyNX0.77610faedc6cbe93632e59dbc13cad64156e90b83fa9382b12cc4d56326c4736",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         },
         {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep1",
-          "type": "embed",
+          "id": "srv_real_gdrive_gokaiger_1",
+          "name": "Server 2 (Google Drive Preview)",
+          "embedUrl": "https://drive.google.com/file/d/1Bf3xSrHmZ0YTQYsYVGgppzVkIjGC63mn/preview",
+          "directUrl": "https://drive.google.com/file/d/1Bf3xSrHmZ0YTQYsYVGgppzVkIjGC63mn/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
       ]
@@ -18491,7 +18477,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-2-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-2-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -18505,16 +18491,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep2",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep2",
+          "id": "srv_real_tokusatsuindo_gokaiger_2",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDIyMn0.553d955592c1827faef2c5e413d9a3fcf62f860ea1abfa2f70010027d9536ba7",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -18530,7 +18510,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-3-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-3-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -18544,16 +18524,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep3",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep3",
+          "id": "srv_real_tokusatsuindo_gokaiger_3",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDU1OH0.c899eab424501da993069c659a59ad093e05a387e7be1ee6ed1c369e21c01fd9",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -18569,7 +18543,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-4-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-4-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -18583,16 +18557,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep4",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep4",
+          "id": "srv_real_tokusatsuindo_gokaiger_4",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6MzYyMH0.471f60f26279841b0a7ee42c84d7ec075095faa27a1e658cbe7f32e49992a25e",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -18608,7 +18576,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-5-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-5-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -18622,16 +18590,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep5",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep5",
+          "id": "srv_real_tokusatsuindo_gokaiger_5",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDM0Mn0.6b51535bde644675565502b0f6a821ef21fd88c11964d69a7d8ab7d64c2eaf45",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -18647,7 +18609,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-6-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-6-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -18661,16 +18623,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep6",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep6",
+          "id": "srv_real_tokusatsuindo_gokaiger_6",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDc5MX0.47e3b951fcd3a978b731e95c98a601cc9c77273e107754448987eeafa3ace0f8",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -18686,7 +18642,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-7-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-7-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -18700,16 +18656,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep7",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep7",
+          "id": "srv_real_tokusatsuindo_gokaiger_7",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6MzI3N30.47161461015bd6a7fba2bd1ea24b6ffefb41c57bfdf4439df8a3c1ea70348ac3",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -18725,7 +18675,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-8-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-8-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -18739,16 +18689,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep8",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep8",
+          "id": "srv_real_tokusatsuindo_gokaiger_8",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDQ2Mn0.299f1cf28d550aa7396069cfd1d12a9e6583a45599eab0ec232ede9bc4d576ad",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -18764,7 +18708,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-9-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-9-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -18778,16 +18722,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep9",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep9",
+          "id": "srv_real_tokusatsuindo_gokaiger_9",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDUxNX0.5ddd74461c29ce4d553900f5b8dca81b8e4688aaec1d53b7818aca586b25d22f",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -18803,7 +18741,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-10-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-10-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -18817,16 +18755,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep10",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep10",
+          "id": "srv_real_tokusatsuindo_gokaiger_10",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6MjkyM30.0c35a63e3800ca293f9e1c5a7b263b8271e55f8a1c74422201837cab6d05cf86",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -18842,7 +18774,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-11-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-11-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -18856,16 +18788,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep11",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep11",
+          "id": "srv_real_tokusatsuindo_gokaiger_11",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6Mzk3N30.092b287b435c04e8ea91193df8562ce25ca3642799e2eef0aac3514f0edb9dc2",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -18881,7 +18807,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-12-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-12-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -18895,16 +18821,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep12",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep12",
+          "id": "srv_real_tokusatsuindo_gokaiger_12",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6Mzg0NH0.be6e89c6cc532b86cd0f7cc7a47bd4a9abed94c55a7508c422e3ca3792f5c3fd",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -18920,7 +18840,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-13-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-13-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -18934,16 +18854,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep13",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep13",
+          "id": "srv_real_tokusatsuindo_gokaiger_13",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6Mjg2MH0.cd1d05eb8230b189c6cee7ff99b88aab24612f0bca7eec12c884e402f933e1fc",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -18959,7 +18873,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-14-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-14-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -18973,16 +18887,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep14",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep14",
+          "id": "srv_real_tokusatsuindo_gokaiger_14",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6MzYyMn0.a783817f1e20b72e729ffb0d7799e127c77df835e481866e62ef4ff8e208b905",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -18998,7 +18906,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-15-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-15-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -19012,16 +18920,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep15",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep15",
+          "id": "srv_real_tokusatsuindo_gokaiger_15",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDg5MX0.c42532b8c1c7eaecde9f670645c8d107807ffcd6d47a91b6e0efafb8b9714f3e",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -19037,7 +18939,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-16-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-16-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -19051,16 +18953,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep16",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep16",
+          "id": "srv_real_tokusatsuindo_gokaiger_16",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDE4M30.dfce8bda9ce768a78d70942fdff8960319b8183c60f663f970322e743932740a",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -19076,7 +18972,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-17-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-17-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -19090,16 +18986,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep17",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep17",
+          "id": "srv_real_tokusatsuindo_gokaiger_17",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NTEzMX0.c0a849f26bd4e51d0388a926d00c6f5d16eb07f731c35686b3b44f42a396326f",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -19115,7 +19005,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-18-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-18-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -19129,16 +19019,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep18",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep18",
+          "id": "srv_real_tokusatsuindo_gokaiger_18",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6MzA5Mn0.72e446aad3a21c5524028487cd582b99d1e4a02bc873b137c82b01949ba19910",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -19154,7 +19038,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-19-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-19-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -19168,16 +19052,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep19",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep19",
+          "id": "srv_real_tokusatsuindo_gokaiger_19",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6Mjk4Mn0.1cd55a9f4df21c932d0fad9d88b2c74f371af82039882dae0200821f57b2826b",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -19193,7 +19071,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-20-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-20-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -19207,16 +19085,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep20",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep20",
+          "id": "srv_real_tokusatsuindo_gokaiger_20",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDUzMn0.5d5eddcca0b2facde5464cc7e605e2ae98104fc2d57d5ed5d7b35cd1cacce44a",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -19232,7 +19104,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-21-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-21-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -19246,16 +19118,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep21",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep21",
+          "id": "srv_real_tokusatsuindo_gokaiger_21",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDUzMH0.a8242505d0457974d10055541f4531a0369ecaa7f79136146567f1304e19d0bd",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -19271,7 +19137,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-22-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-22-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -19285,16 +19151,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep22",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep22",
+          "id": "srv_real_tokusatsuindo_gokaiger_22",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6MzA3MH0.28e3d60554ae471ccb286ac9b6c7a40fd869a125ee12dbaca7e5e4a8b16bef86",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -19310,7 +19170,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-23-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-23-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -19324,16 +19184,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep23",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep23",
+          "id": "srv_real_tokusatsuindo_gokaiger_23",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6Mjk0M30.691bf1c3a00c9df3eae55dceded6f31285c0416a8d9d93bc7854be56c8c1a8ab",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -19349,7 +19203,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-24-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-24-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -19363,16 +19217,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep24",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep24",
+          "id": "srv_real_tokusatsuindo_gokaiger_24",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NTA0MH0.adbe9aa00084f6b7665e41d91b58f64b991348f532816c7d455d70299ccbe17e",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -19388,7 +19236,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-25-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-25-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -19402,16 +19250,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep25",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep25",
+          "id": "srv_real_tokusatsuindo_gokaiger_25",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6MzQ0OH0.50f740c9c669d9792af5d55553623613bc0d9d77a3d7ee965d8a94499c3e9a62",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -19427,7 +19269,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-26-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-26-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -19441,16 +19283,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep26",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep26",
+          "id": "srv_real_tokusatsuindo_gokaiger_26",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDcyNH0.ae21eb4152c31e9b724c3162a9e25dd47d0ddcdedb463d5c8d681853efc57314",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -19466,7 +19302,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-27-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-27-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -19480,16 +19316,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep27",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep27",
+          "id": "srv_real_tokusatsuindo_gokaiger_27",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6MzcwMH0.8be0f2c7e96f0d35632a9fbad4207993e42fbb3790eaf45a69472f01d2085de5",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -19505,7 +19335,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-28-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-28-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -19519,16 +19349,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep28",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep28",
+          "id": "srv_real_tokusatsuindo_gokaiger_28",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://drive.google.com/file/d/1UqB3tFvjxUjbuL30smHwbO91nEosF40Q/preview",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -19544,7 +19368,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-29-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-29-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -19558,16 +19382,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep29",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep29",
+          "id": "srv_real_tokusatsuindo_gokaiger_29",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6MzM0Nn0.8bb37aac57e158028abd6849c1dfa5bec76e39203fffae4e55e2158073b0c6fd",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -19583,7 +19401,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-30-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-30-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -19597,16 +19415,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep30",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep30",
+          "id": "srv_real_tokusatsuindo_gokaiger_30",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDM2Nn0.d985ec799c823363a956a9a98092bbf4df7d155ddf56be69a0473c134d862f10",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -19622,7 +19434,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-31-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-31-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -19636,16 +19448,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep31",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep31",
+          "id": "srv_real_tokusatsuindo_gokaiger_31",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDAyNn0.5d770457d2a5cd695c59f7a4b0a93caa5aff785a26487512b5c7a1db2961f361",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -19661,7 +19467,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-32-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-32-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -19675,16 +19481,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep32",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep32",
+          "id": "srv_real_tokusatsuindo_gokaiger_32",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6Mzk1MH0.68509b13bf7ed1659e775d16bb2541a7560915406986dd7cbe90bf9d8b4c083f",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -19700,7 +19500,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-33-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-33-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -19714,16 +19514,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep33",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep33",
+          "id": "srv_real_tokusatsuindo_gokaiger_33",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDI2Mn0.daee5264744a01e08a7ec2cf7c539a5c79682141e3c1eff63eebec0405de5eac",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -19739,7 +19533,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-34-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-34-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -19753,16 +19547,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep34",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep34",
+          "id": "srv_real_tokusatsuindo_gokaiger_34",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDg1MX0.2d9c480fb143b7f6251c17da14e8a006b963891b4122a2e0d7b1b5e80547dbbe",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -19778,7 +19566,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-35-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-35-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -19792,16 +19580,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep35",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep35",
+          "id": "srv_real_tokusatsuindo_gokaiger_35",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDU5NX0.aecca7b96ed0049195e185552cde189ed65595426ecc3f0f655f34d7295e9632",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -19817,7 +19599,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-36-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-36-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -19831,16 +19613,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep36",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep36",
+          "id": "srv_real_tokusatsuindo_gokaiger_36",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6MzY3Mn0.85e47d36b0abf779478ace63d461159af9597142a7fd643d894e1194066a68e3",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -19856,7 +19632,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-37-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-37-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -19870,16 +19646,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep37",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep37",
+          "id": "srv_real_tokusatsuindo_gokaiger_37",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6MzM1Mn0.cf847f67af20afd102272f0a1b5ad2069b725208db2a8f307339f7c02c14db6b",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -19895,7 +19665,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-38-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-38-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -19909,16 +19679,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep38",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep38",
+          "id": "srv_real_tokusatsuindo_gokaiger_38",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6MzQyOH0.88961bdbdf3be0263c46b18854112d0f57cd5added8b7f3a82cce3e63bd70e08",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -19934,7 +19698,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-39-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-39-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -19948,16 +19712,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep39",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep39",
+          "id": "srv_real_tokusatsuindo_gokaiger_39",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6Mjk5Mn0.e61ee7bedba804fbcef55c5402d6150cf612752282a4427d1f7dc0e1828f93ca",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -19973,7 +19731,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-40-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-40-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -19987,16 +19745,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep40",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep40",
+          "id": "srv_real_tokusatsuindo_gokaiger_40",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDUzOH0.22d58fa236581c5b12c0e03f39c605fce8cfbfb84b3e99de9c43f2248003413a",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -20012,7 +19764,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-41-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-41-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -20026,16 +19778,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep41",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep41",
+          "id": "srv_real_tokusatsuindo_gokaiger_41",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDYzNn0.7af48b330cab5ee2af3ec5ae9ca44cb7388379a5b7da188564837ff7b7ceb759",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -20051,7 +19797,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-42-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-42-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -20065,16 +19811,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep42",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep42",
+          "id": "srv_real_tokusatsuindo_gokaiger_42",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDg0NH0.a1296b04a64360216661e6e521f0244dbd88e417e28edd7a9762856a56a5d904",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -20090,7 +19830,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-43-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-43-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -20104,16 +19844,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep43",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep43",
+          "id": "srv_real_tokusatsuindo_gokaiger_43",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6Mjk5MX0.fa873a83f817b5380c71261890ac9f38ba6a9e1ba5bb5bd311a28647d699ff25",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -20129,7 +19863,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-44-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-44-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -20143,16 +19877,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep44",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep44",
+          "id": "srv_real_tokusatsuindo_gokaiger_44",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6MzMzNH0.84e80adc80829aacd6790337d6962127ccfe715c0ea87171ccc68fa5fbb61ba8",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -20168,7 +19896,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-45-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-45-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -20182,16 +19910,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep45",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep45",
+          "id": "srv_real_tokusatsuindo_gokaiger_45",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6Mzg5N30.347f8856a5293d08e12e8d61d772169d40ce6e9c019f3a48b60f0d59dbe3165d",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -20207,7 +19929,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-46-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-46-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -20221,16 +19943,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep46",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep46",
+          "id": "srv_real_tokusatsuindo_gokaiger_46",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6MzE4N30.6e10c241bd2d065131c6394b104b5562c0b0c9555608a34a79c01744d7f285ca",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -20246,7 +19962,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-47-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-47-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -20260,16 +19976,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep47",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep47",
+          "id": "srv_real_tokusatsuindo_gokaiger_47",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6MzM3MX0.010c8eab03f05ee642e4beee361adf6a29c12d70f5ebd0e79e514bb3449f5e2d",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -20285,7 +19995,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-48-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-48-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -20299,16 +20009,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep48",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep48",
+          "id": "srv_real_tokusatsuindo_gokaiger_48",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDk2M30.d6c200aa6706794d2a64ddfee3a215a8619d98f845e432366c4b1164d7f75ca7",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -20324,7 +20028,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-49-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-49-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -20338,16 +20042,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep49",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep49",
+          "id": "srv_real_tokusatsuindo_gokaiger_49",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6Mjk4MX0.f7d228e9eaf4e20a845e32933682e4dbf19bb7ad04e6961171e754cc37f1a243",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -20363,7 +20061,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-50-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-50-sub-indonesia/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -20377,16 +20075,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep50",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep50",
+          "id": "srv_real_tokusatsuindo_gokaiger_50",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDkzMX0.87fa23f1210c2c892b8b5eaf08099586d024d94a92381fa767b16730b22a59c1",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
@@ -20402,7 +20094,7 @@
       "seasonNumber": 1,
       "era": "Heisei",
       "contentType": "tv_series",
-      "sourceUrl": "https://www.tokusatsuindo.com/kaizoku-sentai-gokaiger-episode-51-sub-indonesia/",
+      "sourceUrl": "https://www.tokusatsuindo.com/gokaiger-episode-51-sub-indonesia-tamat/",
       "fansub": "TokusatsuIndo / RyuSub Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 720p HD",
@@ -20416,16 +20108,10 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (HLS Ultra Fast 1440p)",
-          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep51",
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (StreamWish Mirror)",
-          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep51",
+          "id": "srv_real_tokusatsuindo_gokaiger_51",
+          "name": "Server 1 (Direct Embed HD)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6MzY4N30.6d989e17da7ddc07ef803c7dc8b7357b085b1870c176d3924839939de18d4e47",
+          "directUrl": null,
           "type": "embed",
           "status": "online"
         }
