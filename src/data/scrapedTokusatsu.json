@@ -12730,7 +12730,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep1",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep1",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep1",
-      "scrapedAt": "2026-10-21T05:37:36.883Z"
+      "scrapedAt": "2026-10-21T05:37:36.883Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep1",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep1",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep2",
@@ -12753,7 +12769,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep2",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep2",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep2",
-      "scrapedAt": "2026-10-21T05:37:36.883Z"
+      "scrapedAt": "2026-10-21T05:37:36.883Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep2",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep2",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep3",
@@ -12776,7 +12808,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep3",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep3",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep3",
-      "scrapedAt": "2026-10-21T05:37:36.883Z"
+      "scrapedAt": "2026-10-21T05:37:36.883Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep3",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep3",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep4",
@@ -12799,7 +12847,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep4",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep4",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep4",
-      "scrapedAt": "2026-10-21T05:37:36.883Z"
+      "scrapedAt": "2026-10-21T05:37:36.883Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep4",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep4",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep5",
@@ -12822,7 +12886,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep5",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep5",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep5",
-      "scrapedAt": "2026-10-21T05:37:36.883Z"
+      "scrapedAt": "2026-10-21T05:37:36.883Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep5",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep5",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep6",
@@ -12845,7 +12925,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep6",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep6",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep6",
-      "scrapedAt": "2026-10-21T05:37:36.883Z"
+      "scrapedAt": "2026-10-21T05:37:36.883Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep6",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep6",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep7",
@@ -12868,7 +12964,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep7",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep7",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep7",
-      "scrapedAt": "2026-10-21T05:37:36.883Z"
+      "scrapedAt": "2026-10-21T05:37:36.883Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep7",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep7",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep8",
@@ -12891,7 +13003,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep8",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep8",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep8",
-      "scrapedAt": "2026-10-21T05:37:36.883Z"
+      "scrapedAt": "2026-10-21T05:37:36.883Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep8",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep8",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep9",
@@ -12914,7 +13042,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep9",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep9",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep9",
-      "scrapedAt": "2026-10-21T05:37:36.883Z"
+      "scrapedAt": "2026-10-21T05:37:36.883Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep9",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep9",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep10",
@@ -12937,7 +13081,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep10",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep10",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep10",
-      "scrapedAt": "2026-10-21T05:37:36.883Z"
+      "scrapedAt": "2026-10-21T05:37:36.883Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep10",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep10",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep11",
@@ -12960,7 +13120,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep11",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep11",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep11",
-      "scrapedAt": "2026-10-21T05:37:36.883Z"
+      "scrapedAt": "2026-10-21T05:37:36.883Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep11",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep11",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep12",
@@ -12983,7 +13159,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep12",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep12",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep12",
-      "scrapedAt": "2026-10-21T05:37:36.883Z"
+      "scrapedAt": "2026-10-21T05:37:36.883Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep12",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep12",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep13",
@@ -13006,7 +13198,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep13",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep13",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep13",
-      "scrapedAt": "2026-10-21T05:37:36.883Z"
+      "scrapedAt": "2026-10-21T05:37:36.883Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep13",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep13",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep14",
@@ -13029,7 +13237,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep14",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep14",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep14",
-      "scrapedAt": "2026-10-21T05:37:36.883Z"
+      "scrapedAt": "2026-10-21T05:37:36.883Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep14",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep14",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep15",
@@ -13052,7 +13276,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep15",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep15",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep15",
-      "scrapedAt": "2026-10-21T05:37:36.883Z"
+      "scrapedAt": "2026-10-21T05:37:36.883Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep15",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep15",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep16",
@@ -13075,7 +13315,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep16",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep16",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep16",
-      "scrapedAt": "2026-10-21T05:37:36.883Z"
+      "scrapedAt": "2026-10-21T05:37:36.883Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep16",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep16",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep17",
@@ -13098,7 +13354,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep17",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep17",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep17",
-      "scrapedAt": "2026-10-21T05:37:36.883Z"
+      "scrapedAt": "2026-10-21T05:37:36.883Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep17",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep17",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep18",
@@ -13121,7 +13393,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep18",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep18",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep18",
-      "scrapedAt": "2026-10-21T05:37:36.883Z"
+      "scrapedAt": "2026-10-21T05:37:36.883Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep18",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep18",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep19",
@@ -13144,7 +13432,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep19",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep19",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep19",
-      "scrapedAt": "2026-10-21T05:37:36.883Z"
+      "scrapedAt": "2026-10-21T05:37:36.883Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep19",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep19",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep20",
@@ -13167,7 +13471,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep20",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep20",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep20",
-      "scrapedAt": "2026-10-21T05:37:36.883Z"
+      "scrapedAt": "2026-10-21T05:37:36.883Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep20",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep20",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep21",
@@ -13190,7 +13510,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep21",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep21",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep21",
-      "scrapedAt": "2026-10-21T05:37:36.883Z"
+      "scrapedAt": "2026-10-21T05:37:36.883Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep21",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep21",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep22",
@@ -13213,7 +13549,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep22",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep22",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep22",
-      "scrapedAt": "2026-10-21T05:37:36.883Z"
+      "scrapedAt": "2026-10-21T05:37:36.883Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep22",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep22",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep23",
@@ -13236,7 +13588,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep23",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep23",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep23",
-      "scrapedAt": "2026-10-21T05:37:36.883Z"
+      "scrapedAt": "2026-10-21T05:37:36.883Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep23",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep23",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep24",
@@ -13259,7 +13627,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep24",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep24",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep24",
-      "scrapedAt": "2026-10-21T05:37:36.883Z"
+      "scrapedAt": "2026-10-21T05:37:36.883Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep24",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep24",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep25",
@@ -13282,7 +13666,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep25",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep25",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep25",
-      "scrapedAt": "2026-10-21T05:37:36.883Z"
+      "scrapedAt": "2026-10-21T05:37:36.883Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep25",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep25",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep26",
@@ -13305,7 +13705,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep26",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep26",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep26",
-      "scrapedAt": "2026-10-21T05:37:36.883Z"
+      "scrapedAt": "2026-10-21T05:37:36.883Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep26",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep26",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep27",
@@ -13328,7 +13744,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep27",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep27",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep27",
-      "scrapedAt": "2026-10-21T05:37:36.883Z"
+      "scrapedAt": "2026-10-21T05:37:36.883Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep27",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep27",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep28",
@@ -13351,7 +13783,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep28",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep28",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep28",
-      "scrapedAt": "2026-10-21T05:37:36.883Z"
+      "scrapedAt": "2026-10-21T05:37:36.883Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep28",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep28",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep29",
@@ -13374,7 +13822,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep29",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep29",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep29",
-      "scrapedAt": "2026-10-21T05:37:36.883Z"
+      "scrapedAt": "2026-10-21T05:37:36.883Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep29",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep29",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep30",
@@ -13397,7 +13861,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep30",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep30",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep30",
-      "scrapedAt": "2026-10-21T05:37:36.883Z"
+      "scrapedAt": "2026-10-21T05:37:36.883Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep30",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep30",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep31",
@@ -13420,7 +13900,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep31",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep31",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep31",
-      "scrapedAt": "2026-10-21T05:37:36.883Z"
+      "scrapedAt": "2026-10-21T05:37:36.883Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep31",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep31",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep32",
@@ -13443,7 +13939,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep32",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep32",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep32",
-      "scrapedAt": "2026-10-21T05:37:36.883Z"
+      "scrapedAt": "2026-10-21T05:37:36.883Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep32",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep32",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep33",
@@ -13466,7 +13978,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep33",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep33",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep33",
-      "scrapedAt": "2026-10-21T05:37:36.883Z"
+      "scrapedAt": "2026-10-21T05:37:36.883Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep33",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep33",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep34",
@@ -13489,7 +14017,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep34",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep34",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep34",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep34",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep34",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep35",
@@ -13512,7 +14056,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep35",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep35",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep35",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep35",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep35",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep36",
@@ -13535,7 +14095,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep36",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep36",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep36",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep36",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep36",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep37",
@@ -13558,7 +14134,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep37",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep37",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep37",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep37",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep37",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep38",
@@ -13581,7 +14173,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep38",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep38",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep38",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep38",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep38",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep39",
@@ -13604,7 +14212,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep39",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep39",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep39",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep39",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep39",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep40",
@@ -13627,7 +14251,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep40",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep40",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep40",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep40",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep40",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep41",
@@ -13650,7 +14290,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep41",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep41",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep41",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep41",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep41",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep42",
@@ -13673,7 +14329,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep42",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep42",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep42",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep42",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep42",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep43",
@@ -13696,7 +14368,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep43",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep43",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep43",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep43",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep43",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep44",
@@ -13719,7 +14407,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep44",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep44",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep44",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep44",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep44",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep45",
@@ -13742,7 +14446,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep45",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep45",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep45",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep45",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep45",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep46",
@@ -13765,7 +14485,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep46",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep46",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep46",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep46",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep46",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep47",
@@ -13788,7 +14524,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep47",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep47",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep47",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep47",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep47",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep48",
@@ -13811,7 +14563,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep48",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep48",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep48",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep48",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep48",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep49",
@@ -13834,7 +14602,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep49",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep49",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep49",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep49",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep49",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ryuki_ep50",
@@ -13857,7 +14641,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki_ep50",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryukiep50",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-ep50",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki_ep50",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki_ep50",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep1",
@@ -13880,7 +14680,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep1",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep1",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep1",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep1",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep1",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep2",
@@ -13903,7 +14719,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep2",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep2",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep2",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep2",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep2",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep3",
@@ -13926,7 +14758,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep3",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep3",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep3",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep3",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep3",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep4",
@@ -13949,7 +14797,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep4",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep4",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep4",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep4",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep4",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep5",
@@ -13972,7 +14836,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep5",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep5",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep5",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep5",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep5",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep6",
@@ -13995,7 +14875,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep6",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep6",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep6",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep6",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep6",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep7",
@@ -14018,7 +14914,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep7",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep7",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep7",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep7",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep7",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep8",
@@ -14041,7 +14953,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep8",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep8",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep8",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep8",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep8",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep9",
@@ -14064,7 +14992,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep9",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep9",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep9",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep9",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep9",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep10",
@@ -14087,7 +15031,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep10",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep10",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep10",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep10",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep10",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep11",
@@ -14110,7 +15070,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep11",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep11",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep11",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep11",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep11",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep12",
@@ -14133,7 +15109,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep12",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep12",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep12",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep12",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep12",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep13",
@@ -14156,7 +15148,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep13",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep13",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep13",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep13",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep13",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep14",
@@ -14179,7 +15187,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep14",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep14",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep14",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep14",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep14",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep15",
@@ -14202,7 +15226,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep15",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep15",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep15",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep15",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep15",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep16",
@@ -14225,7 +15265,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep16",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep16",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep16",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep16",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep16",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep17",
@@ -14248,7 +15304,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep17",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep17",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep17",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep17",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep17",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep18",
@@ -14271,7 +15343,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep18",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep18",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep18",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep18",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep18",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep19",
@@ -14294,7 +15382,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep19",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep19",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep19",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep19",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep19",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep20",
@@ -14317,7 +15421,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep20",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep20",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep20",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep20",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep20",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep21",
@@ -14340,7 +15460,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep21",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep21",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep21",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep21",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep21",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep22",
@@ -14363,7 +15499,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep22",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep22",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep22",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep22",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep22",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep23",
@@ -14386,7 +15538,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep23",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep23",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep23",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep23",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep23",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep24",
@@ -14409,7 +15577,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep24",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep24",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep24",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep24",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep24",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep25",
@@ -14432,7 +15616,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep25",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep25",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep25",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep25",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep25",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep26",
@@ -14455,7 +15655,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep26",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep26",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep26",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep26",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep26",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep27",
@@ -14478,7 +15694,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep27",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep27",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep27",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep27",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep27",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep28",
@@ -14501,7 +15733,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep28",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep28",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep28",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep28",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep28",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep29",
@@ -14524,7 +15772,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep29",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep29",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep29",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep29",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep29",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep30",
@@ -14547,7 +15811,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep30",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep30",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep30",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep30",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep30",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep31",
@@ -14570,7 +15850,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep31",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep31",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep31",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep31",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep31",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep32",
@@ -14593,7 +15889,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep32",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep32",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep32",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep32",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep32",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep33",
@@ -14616,7 +15928,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep33",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep33",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep33",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep33",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep33",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep34",
@@ -14639,7 +15967,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep34",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep34",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep34",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep34",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep34",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep35",
@@ -14662,7 +16006,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep35",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep35",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep35",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep35",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep35",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep36",
@@ -14685,7 +16045,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep36",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep36",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep36",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep36",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep36",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep37",
@@ -14708,7 +16084,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep37",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep37",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep37",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep37",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep37",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep38",
@@ -14731,7 +16123,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep38",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep38",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep38",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep38",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep38",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep39",
@@ -14754,7 +16162,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep39",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep39",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep39",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep39",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep39",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep40",
@@ -14777,7 +16201,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep40",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep40",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep40",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep40",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep40",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep41",
@@ -14800,7 +16240,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep41",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep41",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep41",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep41",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep41",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep42",
@@ -14823,7 +16279,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep42",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep42",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep42",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep42",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep42",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep43",
@@ -14846,7 +16318,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep43",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep43",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep43",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep43",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep43",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep44",
@@ -14869,7 +16357,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep44",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep44",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep44",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep44",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep44",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep45",
@@ -14892,7 +16396,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep45",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep45",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep45",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep45",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep45",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep46",
@@ -14915,7 +16435,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep46",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep46",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep46",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep46",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep46",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep47",
@@ -14938,7 +16474,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep47",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep47",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep47",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep47",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep47",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep48",
@@ -14961,7 +16513,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep48",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep48",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep48",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep48",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep48",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_den_o_ep49",
@@ -14984,7 +16552,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o_ep49",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-oep49",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-ep49",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o_ep49",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o_ep49",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep1",
@@ -15007,7 +16591,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep1",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep1",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep1",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep1",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep1",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep2",
@@ -15030,7 +16630,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep2",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep2",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep2",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep2",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep2",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep3",
@@ -15053,7 +16669,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep3",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep3",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep3",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep3",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep3",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep4",
@@ -15076,7 +16708,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep4",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep4",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep4",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep4",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep4",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep5",
@@ -15099,7 +16747,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep5",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep5",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep5",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep5",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep5",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep6",
@@ -15122,7 +16786,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep6",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep6",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep6",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep6",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep6",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep7",
@@ -15145,7 +16825,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep7",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep7",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep7",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep7",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep7",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep8",
@@ -15168,7 +16864,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep8",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep8",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep8",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep8",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep8",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep9",
@@ -15191,7 +16903,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep9",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep9",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep9",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep9",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep9",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep10",
@@ -15214,7 +16942,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep10",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep10",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep10",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep10",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep10",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep11",
@@ -15237,7 +16981,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep11",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep11",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep11",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep11",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep11",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep12",
@@ -15260,7 +17020,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep12",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep12",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep12",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep12",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep12",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep13",
@@ -15283,7 +17059,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep13",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep13",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep13",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep13",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep13",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep14",
@@ -15306,7 +17098,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep14",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep14",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep14",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep14",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep14",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep15",
@@ -15329,7 +17137,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep15",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep15",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep15",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep15",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep15",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep16",
@@ -15352,7 +17176,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep16",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep16",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep16",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep16",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep16",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep17",
@@ -15375,7 +17215,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep17",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep17",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep17",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep17",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep17",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep18",
@@ -15398,7 +17254,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep18",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep18",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep18",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep18",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep18",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep19",
@@ -15421,7 +17293,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep19",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep19",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep19",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep19",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep19",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep20",
@@ -15444,7 +17332,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep20",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep20",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep20",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep20",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep20",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep21",
@@ -15467,7 +17371,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep21",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep21",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep21",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep21",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep21",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep22",
@@ -15490,7 +17410,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep22",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep22",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep22",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep22",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep22",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep23",
@@ -15513,7 +17449,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep23",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep23",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep23",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep23",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep23",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep24",
@@ -15536,7 +17488,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep24",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep24",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep24",
-      "scrapedAt": "2026-10-21T05:37:36.884Z"
+      "scrapedAt": "2026-10-21T05:37:36.884Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep24",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep24",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep25",
@@ -15559,7 +17527,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep25",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep25",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep25",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep25",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep25",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep26",
@@ -15582,7 +17566,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep26",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep26",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep26",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep26",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep26",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep27",
@@ -15605,7 +17605,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep27",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep27",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep27",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep27",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep27",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep28",
@@ -15628,7 +17644,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep28",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep28",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep28",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep28",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep28",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep29",
@@ -15651,7 +17683,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep29",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep29",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep29",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep29",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep29",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep30",
@@ -15674,7 +17722,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep30",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep30",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep30",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep30",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep30",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep31",
@@ -15697,7 +17761,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep31",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep31",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep31",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep31",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep31",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep32",
@@ -15720,7 +17800,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep32",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep32",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep32",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep32",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep32",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep33",
@@ -15743,7 +17839,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep33",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep33",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep33",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep33",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep33",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep34",
@@ -15766,7 +17878,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep34",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep34",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep34",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep34",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep34",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep35",
@@ -15789,7 +17917,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep35",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep35",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep35",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep35",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep35",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep36",
@@ -15812,7 +17956,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep36",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep36",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep36",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep36",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep36",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep37",
@@ -15835,7 +17995,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep37",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep37",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep37",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep37",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep37",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep38",
@@ -15858,7 +18034,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep38",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep38",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep38",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep38",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep38",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep39",
@@ -15881,7 +18073,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep39",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep39",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep39",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep39",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep39",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep40",
@@ -15904,7 +18112,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep40",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep40",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep40",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep40",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep40",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep41",
@@ -15927,7 +18151,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep41",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep41",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep41",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep41",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep41",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep42",
@@ -15950,7 +18190,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep42",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep42",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep42",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep42",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep42",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep43",
@@ -15973,7 +18229,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep43",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep43",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep43",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep43",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep43",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep44",
@@ -15996,7 +18268,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep44",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep44",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep44",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep44",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep44",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep45",
@@ -16019,7 +18307,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep45",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep45",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep45",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep45",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep45",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep46",
@@ -16042,7 +18346,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep46",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep46",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep46",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep46",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep46",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep47",
@@ -16065,7 +18385,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep47",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep47",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep47",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep47",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep47",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kr_ooo_ep48",
@@ -16088,7 +18424,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo_ep48",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-oooep48",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-ep48",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo_ep48",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo_ep48",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep1",
@@ -16111,7 +18463,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep1",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep1",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep1",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep1",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep1",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep2",
@@ -16134,7 +18502,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep2",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep2",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep2",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep2",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep2",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep3",
@@ -16157,7 +18541,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep3",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep3",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep3",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep3",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep3",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep4",
@@ -16180,7 +18580,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep4",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep4",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep4",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep4",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep4",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep5",
@@ -16203,7 +18619,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep5",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep5",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep5",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep5",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep5",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep6",
@@ -16226,7 +18658,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep6",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep6",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep6",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep6",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep6",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep7",
@@ -16249,7 +18697,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep7",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep7",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep7",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep7",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep7",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep8",
@@ -16272,7 +18736,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep8",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep8",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep8",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep8",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep8",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep9",
@@ -16295,7 +18775,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep9",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep9",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep9",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep9",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep9",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep10",
@@ -16318,7 +18814,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep10",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep10",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep10",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep10",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep10",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep11",
@@ -16341,7 +18853,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep11",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep11",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep11",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep11",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep11",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep12",
@@ -16364,7 +18892,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep12",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep12",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep12",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep12",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep12",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep13",
@@ -16387,7 +18931,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep13",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep13",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep13",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep13",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep13",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep14",
@@ -16410,7 +18970,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep14",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep14",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep14",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep14",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep14",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep15",
@@ -16433,7 +19009,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep15",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep15",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep15",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep15",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep15",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep16",
@@ -16456,7 +19048,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep16",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep16",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep16",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep16",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep16",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep17",
@@ -16479,7 +19087,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep17",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep17",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep17",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep17",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep17",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep18",
@@ -16502,7 +19126,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep18",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep18",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep18",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep18",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep18",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep19",
@@ -16525,7 +19165,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep19",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep19",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep19",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep19",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep19",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep20",
@@ -16548,7 +19204,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep20",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep20",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep20",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep20",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep20",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep21",
@@ -16571,7 +19243,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep21",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep21",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep21",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep21",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep21",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep22",
@@ -16594,7 +19282,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep22",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep22",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep22",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep22",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep22",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep23",
@@ -16617,7 +19321,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep23",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep23",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep23",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep23",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep23",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep24",
@@ -16640,7 +19360,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep24",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep24",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep24",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep24",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep24",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep25",
@@ -16663,7 +19399,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep25",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep25",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep25",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep25",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep25",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep26",
@@ -16686,7 +19438,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep26",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep26",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep26",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep26",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep26",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep27",
@@ -16709,7 +19477,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep27",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep27",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep27",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep27",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep27",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep28",
@@ -16732,7 +19516,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep28",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep28",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep28",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep28",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep28",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep29",
@@ -16755,7 +19555,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep29",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep29",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep29",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep29",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep29",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep30",
@@ -16778,7 +19594,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep30",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep30",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep30",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep30",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep30",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep31",
@@ -16801,7 +19633,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep31",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep31",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep31",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep31",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep31",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep32",
@@ -16824,7 +19672,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep32",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep32",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep32",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep32",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep32",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep33",
@@ -16847,7 +19711,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep33",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep33",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep33",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep33",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep33",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep34",
@@ -16870,7 +19750,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep34",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep34",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep34",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep34",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep34",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep35",
@@ -16893,7 +19789,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep35",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep35",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep35",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep35",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep35",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep36",
@@ -16916,7 +19828,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep36",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep36",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep36",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep36",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep36",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep37",
@@ -16939,7 +19867,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep37",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep37",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep37",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep37",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep37",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep38",
@@ -16962,7 +19906,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep38",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep38",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep38",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep38",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep38",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep39",
@@ -16985,7 +19945,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep39",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep39",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep39",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep39",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep39",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep40",
@@ -17008,7 +19984,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep40",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep40",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep40",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep40",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep40",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep41",
@@ -17031,7 +20023,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep41",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep41",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep41",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep41",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep41",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep42",
@@ -17054,7 +20062,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep42",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep42",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep42",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep42",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep42",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep43",
@@ -17077,7 +20101,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep43",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep43",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep43",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep43",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep43",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep44",
@@ -17100,7 +20140,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep44",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep44",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep44",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep44",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep44",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep45",
@@ -17123,7 +20179,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep45",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep45",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep45",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep45",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep45",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep46",
@@ -17146,7 +20218,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep46",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep46",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep46",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep46",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep46",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep47",
@@ -17169,7 +20257,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep47",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep47",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep47",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep47",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep47",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep48",
@@ -17192,7 +20296,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep48",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep48",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep48",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep48",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep48",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep49",
@@ -17215,7 +20335,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep49",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep49",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep49",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep49",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep49",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep50",
@@ -17238,7 +20374,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep50",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep50",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep50",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep50",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep50",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep51",
@@ -17261,7 +20413,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger_ep51",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaigerep51",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-ep51",
-      "scrapedAt": "2026-10-21T05:37:36.885Z"
+      "scrapedAt": "2026-10-21T05:37:36.885Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger_ep51",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger_ep51",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kamen-rider-ryuki-episode-final_movie",
@@ -17284,7 +20452,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki-episode-final",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryuki-episode-final",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-episode-final",
-      "scrapedAt": "2026-10-21T05:37:36.886Z"
+      "scrapedAt": "2026-10-21T05:37:36.886Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki-episode-final_ep1",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki-episode-final_ep1",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kamen-rider-ryuki-13-riders_movie",
@@ -17307,7 +20491,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki-13-riders",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryuki-13-riders",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-13-riders",
-      "scrapedAt": "2026-10-21T05:37:36.886Z"
+      "scrapedAt": "2026-10-21T05:37:36.886Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ryuki-13-riders_ep1",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ryuki-13-riders_ep1",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kamen-rider-den-o-im-born_movie",
@@ -17330,7 +20530,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o-im-born",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-o-im-born",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-im-born",
-      "scrapedAt": "2026-10-21T05:37:36.886Z"
+      "scrapedAt": "2026-10-21T05:37:36.886Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o-im-born_ep1",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o-im-born_ep1",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kamen-rider-den-o-kiva-climax-deka_movie",
@@ -17353,7 +20569,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o-kiva-climax-deka",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-o-kiva-climax-deka",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-kiva-climax-deka",
-      "scrapedAt": "2026-10-21T05:37:36.886Z"
+      "scrapedAt": "2026-10-21T05:37:36.886Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-den-o-kiva-climax-deka_ep1",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-den-o-kiva-climax-deka_ep1",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_saraba-kamen-rider-den-o-final-countdown_movie",
@@ -17376,7 +20608,23 @@
       "streamwishUrl": "https://streamwish.to/e/saraba-kamen-rider-den-o-final-countdown",
       "doodstreamUrl": "https://doodstream.com/e/saraba-kamen-rider-den-o-final-countdown",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/saraba-kamen-rider-den-o-final-countdown",
-      "scrapedAt": "2026-10-21T05:37:36.886Z"
+      "scrapedAt": "2026-10-21T05:37:36.886Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/saraba-kamen-rider-den-o-final-countdown_ep1",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/saraba-kamen-rider-den-o-final-countdown_ep1",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_cho-kamen-rider-den-o-decade-onigashima_movie",
@@ -17399,7 +20647,23 @@
       "streamwishUrl": "https://streamwish.to/e/cho-kamen-rider-den-o-decade-onigashima",
       "doodstreamUrl": "https://doodstream.com/e/cho-kamen-rider-den-o-decade-onigashima",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/cho-kamen-rider-den-o-decade-onigashima",
-      "scrapedAt": "2026-10-21T05:37:36.886Z"
+      "scrapedAt": "2026-10-21T05:37:36.886Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/cho-kamen-rider-den-o-decade-onigashima_ep1",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/cho-kamen-rider-den-o-decade-onigashima_ep1",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kamen-rider-cho-den-o-trilogy-episode-red_movie",
@@ -17422,7 +20686,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-cho-den-o-trilogy-episode-red",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-cho-den-o-trilogy-episode-red",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-cho-den-o-trilogy-episode-red",
-      "scrapedAt": "2026-10-21T05:37:36.886Z"
+      "scrapedAt": "2026-10-21T05:37:36.886Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-cho-den-o-trilogy-episode-red_ep1",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-cho-den-o-trilogy-episode-red_ep1",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kamen-rider-cho-den-o-trilogy-episode-blue_movie",
@@ -17445,7 +20725,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-cho-den-o-trilogy-episode-blue",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-cho-den-o-trilogy-episode-blue",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-cho-den-o-trilogy-episode-blue",
-      "scrapedAt": "2026-10-21T05:37:36.886Z"
+      "scrapedAt": "2026-10-21T05:37:36.886Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-cho-den-o-trilogy-episode-blue_ep1",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-cho-den-o-trilogy-episode-blue_ep1",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kamen-rider-cho-den-o-trilogy-episode-yellow_movie",
@@ -17468,7 +20764,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-cho-den-o-trilogy-episode-yellow",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-cho-den-o-trilogy-episode-yellow",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-cho-den-o-trilogy-episode-yellow",
-      "scrapedAt": "2026-10-21T05:37:36.886Z"
+      "scrapedAt": "2026-10-21T05:37:36.886Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-cho-den-o-trilogy-episode-yellow_ep1",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-cho-den-o-trilogy-episode-yellow_ep1",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kamen-rider-ooo-w-featuring-skull-movie-war-core_movie",
@@ -17491,7 +20803,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo-w-featuring-skull-movie-war-core",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ooo-w-featuring-skull-movie-war-core",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-w-featuring-skull-movie-war-core",
-      "scrapedAt": "2026-10-21T05:37:36.886Z"
+      "scrapedAt": "2026-10-21T05:37:36.886Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo-w-featuring-skull-movie-war-core_ep1",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo-w-featuring-skull-movie-war-core_ep1",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kamen-rider-ooo-wonderful-the-shogun-and-21-core-medals_movie",
@@ -17514,7 +20842,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo-wonderful-the-shogun-and-21-core-medals",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ooo-wonderful-the-shogun-and-21-core-medals",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-wonderful-the-shogun-and-21-core-medals",
-      "scrapedAt": "2026-10-21T05:37:36.886Z"
+      "scrapedAt": "2026-10-21T05:37:36.886Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo-wonderful-the-shogun-and-21-core-medals_ep1",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo-wonderful-the-shogun-and-21-core-medals_ep1",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kamen-rider-fourze-ooo-movie-war-mega-max_movie",
@@ -17537,7 +20881,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-fourze-ooo-movie-war-mega-max",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-fourze-ooo-movie-war-mega-max",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-fourze-ooo-movie-war-mega-max",
-      "scrapedAt": "2026-10-21T05:37:36.886Z"
+      "scrapedAt": "2026-10-21T05:37:36.886Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-fourze-ooo-movie-war-mega-max_ep1",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-fourze-ooo-movie-war-mega-max_ep1",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kamen-rider-ooo-10th-core-medal-of-resurrection_movie",
@@ -17560,7 +20920,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo-10th-core-medal-of-resurrection",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ooo-10th-core-medal-of-resurrection",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-10th-core-medal-of-resurrection",
-      "scrapedAt": "2026-10-21T05:37:36.886Z"
+      "scrapedAt": "2026-10-21T05:37:36.886Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-ooo-10th-core-medal-of-resurrection_ep1",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-ooo-10th-core-medal-of-resurrection_ep1",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_gokaiger-goseiger-super-sentai-199-hero-great-battle_movie",
@@ -17583,7 +20959,23 @@
       "streamwishUrl": "https://streamwish.to/e/gokaiger-goseiger-super-sentai-199-hero-great-battle",
       "doodstreamUrl": "https://doodstream.com/e/gokaiger-goseiger-super-sentai-199-hero-great-battle",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/gokaiger-goseiger-super-sentai-199-hero-great-battle",
-      "scrapedAt": "2026-10-21T05:37:36.886Z"
+      "scrapedAt": "2026-10-21T05:37:36.886Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/gokaiger-goseiger-super-sentai-199-hero-great-battle_ep1",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/gokaiger-goseiger-super-sentai-199-hero-great-battle_ep1",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kaizoku-sentai-gokaiger-the-flying-ghost-ship_movie",
@@ -17606,7 +20998,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger-the-flying-ghost-ship",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger-the-flying-ghost-ship",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-the-flying-ghost-ship",
-      "scrapedAt": "2026-10-21T05:37:36.886Z"
+      "scrapedAt": "2026-10-21T05:37:36.886Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger-the-flying-ghost-ship_ep1",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger-the-flying-ghost-ship_ep1",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kaizoku-sentai-gokaiger-vs-space-sheriff-gavan_movie",
@@ -17629,7 +21037,23 @@
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger-vs-space-sheriff-gavan",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger-vs-space-sheriff-gavan",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-vs-space-sheriff-gavan",
-      "scrapedAt": "2026-10-21T05:37:36.886Z"
+      "scrapedAt": "2026-10-21T05:37:36.886Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger-vs-space-sheriff-gavan_ep1",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kaizoku-sentai-gokaiger-vs-space-sheriff-gavan_ep1",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_kamen-rider-x-super-sentai-super-hero-taisen_movie",
@@ -17652,7 +21076,23 @@
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-x-super-sentai-super-hero-taisen",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-x-super-sentai-super-hero-taisen",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-x-super-sentai-super-hero-taisen",
-      "scrapedAt": "2026-10-21T05:37:36.886Z"
+      "scrapedAt": "2026-10-21T05:37:36.886Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-x-super-sentai-super-hero-taisen_ep1",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-x-super-sentai-super-hero-taisen_ep1",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     },
     {
       "id": "scraped_prod_tokumei-sentai-go-busters-vs-kaizoku-sentai-gokaiger_movie",
@@ -17675,7 +21115,23 @@
       "streamwishUrl": "https://streamwish.to/e/tokumei-sentai-go-busters-vs-kaizoku-sentai-gokaiger",
       "doodstreamUrl": "https://doodstream.com/e/tokumei-sentai-go-busters-vs-kaizoku-sentai-gokaiger",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/tokumei-sentai-go-busters-vs-kaizoku-sentai-gokaiger",
-      "scrapedAt": "2026-10-21T05:37:36.886Z"
+      "scrapedAt": "2026-10-21T05:37:36.886Z",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/tokumei-sentai-go-busters-vs-kaizoku-sentai-gokaiger_ep1",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/tokumei-sentai-go-busters-vs-kaizoku-sentai-gokaiger_ep1",
+          "type": "embed",
+          "status": "online"
+        }
+      ]
     }
   ]
 }

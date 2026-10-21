@@ -307,12 +307,12 @@ export default function ScraperModal({ onClose, onPlayEpisode }) {
                     <div className="ep-meta-sub">
                       <span><strong>Sumber Fansub:</strong> {ep.fansub}</span>
                       <span>•</span>
-                      <span><strong>Server:</strong> {ep.servers.length} Jalur</span>
+                      <span><strong>Server:</strong> {(ep.servers || []).length} Jalur</span>
                     </div>
 
                     {/* Servers pill row */}
                     <div className="servers-pill-row">
-                      {ep.servers.map((srv, sIdx) => (
+                      {(ep.servers || []).map((srv, sIdx) => (
                         <span key={sIdx} className="srv-chip">
                           <span className="dot-ok" />
                           {srv.name}

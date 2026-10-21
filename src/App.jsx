@@ -9,6 +9,7 @@ import ApiKeyModal from './components/ApiKeyModal';
 import WatchlistModal from './components/WatchlistModal';
 import ScraperModal from './components/ScraperModal';
 import InstallAppModal from './components/InstallAppModal';
+import ErrorBoundary from './components/ErrorBoundary';
 import Footer from './components/Footer';
 
 // API Services implementing 02_API_SPECIFICATION.md & Smart Cache
@@ -1276,13 +1277,15 @@ export default function App() {
 
       {/* F. Live Fansub Scraper Modal */}
       {scraperModalOpen && (
-        <ScraperModal
-          onClose={() => setScraperModalOpen(false)}
-          onPlayEpisode={(epId) => {
-            setScraperModalOpen(false);
-            setPlayerEpisodeId(epId);
-          }}
-        />
+        <ErrorBoundary onReset={() => setScraperModalOpen(false)}>
+          <ScraperModal
+            onClose={() => setScraperModalOpen(false)}
+            onPlayEpisode={(epId) => {
+              setScraperModalOpen(false);
+              setPlayerEpisodeId(epId);
+            }}
+          />
+        </ErrorBoundary>
       )}
 
       {/* G. Install Mobile App Modal (PWA & APK Android) */}

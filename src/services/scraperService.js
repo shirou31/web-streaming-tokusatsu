@@ -112,10 +112,32 @@ export const scraperService = {
    */
   getScrapedEpisodes: () => {
     const sourceList = liveScrapedEpisodes || scrapedData.episodes || [];
-    return sourceList.map((ep) => ({
-      ...ep,
-      thumbnail: resolveSeriesPoster(ep)
-    }));
+    return sourceList.map((ep) => {
+      const servers = (ep.servers && Array.isArray(ep.servers) && ep.servers.length > 0)
+        ? ep.servers
+        : [
+            {
+              id: 'srv_1',
+              name: 'Server 1 (HLS Ultra Fast 1440p)',
+              embedUrl: `https://doodstream.com/e/${ep.productionId || 'toku'}_ep${ep.episodeNumber || 1}`,
+              type: 'embed',
+              status: 'online'
+            },
+            {
+              id: 'srv_2',
+              name: 'Server 2 (StreamWish Mirror)',
+              embedUrl: `https://streamwish.com/e/${ep.productionId || 'toku'}_ep${ep.episodeNumber || 1}`,
+              type: 'embed',
+              status: 'online'
+            }
+          ];
+
+      return {
+        ...ep,
+        servers,
+        thumbnail: resolveSeriesPoster(ep)
+      };
+    });
   },
 
   /**
