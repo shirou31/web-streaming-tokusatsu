@@ -215,9 +215,6 @@ export default function App() {
   const [history, setHistory] = useState([]);
   const [authSession, setAuthSession] = useState(() => getAuthSession());
 
-  // Email CTA State
-  const [ctaEmail, setCtaEmail] = useState('');
-  const [ctaSubmitted, setCtaSubmitted] = useState(false);
 
   // TMDB Live Integration State
   const [apiKey, setApiKey] = useState(getStoredApiKey());
@@ -590,14 +587,6 @@ export default function App() {
     return list;
   }, [catalogItems, selectedGenre, searchQuery]);
 
-  const handleCtaSubmit = (e) => {
-    e.preventDefault();
-    if (ctaEmail.trim()) {
-      setCtaSubmitted(true);
-      setTimeout(() => setCtaSubmitted(false), 4000);
-      setCtaEmail('');
-    }
-  };
 
   return (
     <div className={`sorot-app ${isMobilePreview ? 'force-mobile-mode' : ''}`}>
@@ -1049,62 +1038,6 @@ export default function App() {
         )}
       </section>
 
-      {/* 8. Section: Siap Nonton Malam Ini? (Email CTA banner) */}
-      <section 
-        id="mulai" 
-        aria-label="Mulai menonton" 
-        style={{
-          position: 'relative',
-          marginTop: '96px',
-          padding: '96px clamp(16px, 4vw, 56px)',
-          textAlign: 'center',
-          overflow: 'hidden',
-          background: 'radial-gradient(60% 90% at 50% 0%, hsla(352,80%,40%,.45) 0%, transparent 70%), conic-gradient(from 160deg at 50% -20%, transparent 0deg, rgba(255,255,255,.10) 20deg, transparent 40deg, transparent 320deg, rgba(255,255,255,.10) 340deg, transparent 360deg), #0B0B0C',
-          borderTop: '1px solid rgba(255,255,255,.08)'
-        }}
-      >
-        <h2 className="disp" style={{ fontSize: 'clamp(34px, 5vw, 60px)', fontWeight: 800, lineHeight: 1, letterSpacing: '-.035em', maxWidth: '760px', margin: '0 auto 16px' }}>
-          Siap nonton malam ini?
-        </h2>
-        <p style={{ fontSize: '18px', lineHeight: 1.5, color: '#C8C8CC', maxWidth: '520px', margin: '0 auto 28px' }}>
-          Masukkan email untuk membuat akun baru atau melanjutkan tontonan Tokusatsu favoritmu di perangkat mana pun.
-        </p>
-        <form onSubmit={handleCtaSubmit} style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '10px', maxWidth: '620px', margin: '0 auto' }}>
-          <label htmlFor="email-mulai" className="sr-only" style={{ position: 'absolute', width: 1, height: 1, overflow: 'hidden' }}>Alamat email</label>
-          <input 
-            id="email-mulai" 
-            type="email" 
-            value={ctaEmail}
-            onChange={(e) => setCtaEmail(e.target.value)}
-            placeholder="Alamat email kamu" 
-            required
-            style={{
-              flex: '1 1 300px',
-              height: '56px',
-              padding: '0 18px',
-              borderRadius: '8px',
-              border: '1px solid rgba(255,255,255,.3)',
-              background: 'rgba(0,0,0,.55)',
-              color: '#fff',
-              font: "400 16px 'DM Sans', system-ui, sans-serif",
-              outline: 'none'
-            }}
-          />
-          <button type="submit" className="btn btn-r" style={{ height: '56px', padding: '0 30px', fontSize: '18px' }}>
-            {ctaSubmitted ? (
-              <>
-                <Check size={20} />
-                <span>Tersimpan!</span>
-              </>
-            ) : (
-              <>
-                <span>Mulai Nonton</span>
-                <ChevronRight size={20} />
-              </>
-            )}
-          </button>
-        </form>
-      </section>
 
       {/* 9. Footer */}
       <Footer onSelectFranchise={(f) => setSelectedGenre(f)} />
