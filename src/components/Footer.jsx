@@ -60,8 +60,8 @@ export default function Footer({
             <ul className="footer-list">
               <li><button type="button" className="footer-link-btn" onClick={onOpenSpecs}>Smart Cache Inspector</button></li>
               <li><button type="button" className="footer-link-btn" onClick={onOpenInstallModal}>Pasang Aplikasi Mobile (PWA/APK)</button></li>
-              <li><a href="#fitur" className="footer-link-btn">Ruang Nonton Bareng</a></li>
-              <li><a href="#fitur" className="footer-link-btn">Unduh Offline</a></li>
+              <li><a href="#top10" className="footer-link-btn">Serial Terpopuler</a></li>
+              <li><a href="#baru" className="footer-link-btn">Update Rilis Terbaru</a></li>
               <li><a href="#beranda" className="footer-link-btn">Pusat Bantuan</a></li>
             </ul>
           </div>

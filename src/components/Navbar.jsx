@@ -478,13 +478,7 @@ export default function Navbar({
               >
                 Baru Rilis
               </button>
-              <button 
-                type="button" 
-                className="mobile-link-item" 
-                onClick={() => scrollToSection('fitur')}
-              >
-                Fitur Tokuflix
-              </button>
+
               <button 
                 type="button" 
                 className="mobile-link-item" 
