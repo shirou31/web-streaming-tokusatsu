@@ -2692,10 +2692,19 @@
       "thumbnail": "/posters/poster_sawidago_no-1-sentai-gozyuger-vs-boonboomger-movie.png",
       "servers": [
         {
-          "id": "srv_goz_real",
-          "name": "Server 1 (Direct Embed HD)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6Njk4fQ.f6bd1862afb0a720f901fbe6a53684c969c35cbba395b27d21c2481f2ee6dcab",
-          "type": "embed",
+          "id": "srv_real_drive_1_scraped_sawidago_no-1-sentai-gozyuger-vs-boonboomger-movie_ep1_mvhzpw7s",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1DwdRgxh55Uds6qNsKdDLyF93rVVnoDVA/preview",
+          "directUrl": "https://drive.google.com/file/d/1DwdRgxh55Uds6qNsKdDLyF93rVVnoDVA/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_drive_2_scraped_sawidago_no-1-sentai-gozyuger-vs-boonboomger-movie_ep1_mvhzpw7s",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1ke9cFNRxREZ616SnAsk-n6euf7RdkKgq/preview",
+          "directUrl": "https://drive.google.com/file/d/1ke9cFNRxREZ616SnAsk-n6euf7RdkKgq/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
       ],
@@ -2709,7 +2718,9 @@
           "end": 1440
         }
       },
-      "scrapedAt": "2026-10-21T10:49:42.232Z"
+      "scrapedAt": "2026-10-21T10:49:42.232Z",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1DwdRgxh55Uds6qNsKdDLyF93rVVnoDVA/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1ke9cFNRxREZ616SnAsk-n6euf7RdkKgq/view?usp=sharing"
     },
     {
       "id": "scraped_sawidago_polisi-angkasa-super-gavan-infinity_ep1_mvhzpxpz",
@@ -3674,11 +3685,19 @@
       "thumbnail": "/posters/poster_sawidago_kamen-rider-gavv-guilty-parfait.png",
       "servers": [
         {
-          "id": "srv_real_kamen-rider-gavv_1",
-          "name": "Server 1 (Direct Embed HD)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6MzM0fQ.dc2ef6a2a690c0dd150d4946de2e8411da4b66ec5563ee0b918abae885ac3102",
-          "directUrl": null,
-          "type": "embed",
+          "id": "srv_real_drive_1_scraped_sawidago_kamen-rider-gavv-guilty-parfait_ep1_mvhzq1am",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1VDTaJZK_JjlOLcdNKIJmICYO-VDfeSXg/preview",
+          "directUrl": "https://drive.google.com/file/d/1VDTaJZK_JjlOLcdNKIJmICYO-VDfeSXg/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_drive_2_scraped_sawidago_kamen-rider-gavv-guilty-parfait_ep1_mvhzq1am",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1Oa3ALA8IXfgq0-9pwYPXAklOcVh_wXyz/preview",
+          "directUrl": "https://drive.google.com/file/d/1Oa3ALA8IXfgq0-9pwYPXAklOcVh_wXyz/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
       ],
@@ -3692,7 +3711,9 @@
           "end": 1440
         }
       },
-      "scrapedAt": "2026-10-21T10:49:48.814Z"
+      "scrapedAt": "2026-10-21T10:49:48.814Z",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1VDTaJZK_JjlOLcdNKIJmICYO-VDfeSXg/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1Oa3ALA8IXfgq0-9pwYPXAklOcVh_wXyz/view?usp=sharing"
     },
     {
       "id": "scraped_sawidago_no-1-sentai-gozyuger-8211-polar-beginning_ep1_mvhzq3v9",
@@ -6155,11 +6176,11 @@
       "thumbnail": "/posters/poster_sawidago_bakuage-sentai-boonboomger-vs-king-ohger.png",
       "servers": [
         {
-          "id": "srv_real_bakuage-sentai-boonboomger_1",
-          "name": "Server 1 (Direct Embed HD)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDQ4N30.af1103dcbf7de25cfc3e7ebd4d57365d0dc96ae131d3e660b5f1f320960e99a6",
-          "directUrl": null,
-          "type": "embed",
+          "id": "srv_real_drive_1_scraped_sawidago_bakuage-sentai-boonboomger-vs-king-ohger_ep1_mvhzqdx3",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1QPSCFSBkSqd7faB-S-w7_wY0W1JdS9q7/preview",
+          "directUrl": "https://drive.google.com/file/d/1QPSCFSBkSqd7faB-S-w7_wY0W1JdS9q7/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
       ],
@@ -6173,7 +6194,8 @@
           "end": 1440
         }
       },
-      "scrapedAt": "2026-10-21T10:50:05.175Z"
+      "scrapedAt": "2026-10-21T10:50:05.175Z",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1QPSCFSBkSqd7faB-S-w7_wY0W1JdS9q7/view?usp=sharing"
     },
     {
       "id": "scraped_sawidago_ohsama-sentai-king-ohger-vs-kyoryuger_ep1_mvhzqk7j",
@@ -6192,10 +6214,19 @@
       "thumbnail": "/posters/poster_sawidago_ohsama-sentai-king-ohger-vs-kyoryuger.png",
       "servers": [
         {
-          "id": "srv_kyo_real",
-          "name": "Server 1 (Direct Embed HD)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NzA1fQ.15309b0274fdaeabe86305b3621d354ec3fdccd4aad2a4933df5e834985a963b",
-          "type": "embed",
+          "id": "srv_real_drive_1_scraped_sawidago_ohsama-sentai-king-ohger-vs-kyoryuger_ep1_mvhzqk7j",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1GGue1Gnwc55rbbFgVonnQMpm6tZ6eel5/preview",
+          "directUrl": "https://drive.google.com/file/d/1GGue1Gnwc55rbbFgVonnQMpm6tZ6eel5/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_drive_2_scraped_sawidago_ohsama-sentai-king-ohger-vs-kyoryuger_ep1_mvhzqk7j",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1llyM6GaE0VMnVQKzvQjtGTFFxZig8pEq/preview",
+          "directUrl": "https://drive.google.com/file/d/1llyM6GaE0VMnVQKzvQjtGTFFxZig8pEq/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
       ],
@@ -6209,7 +6240,9 @@
           "end": 1440
         }
       },
-      "scrapedAt": "2026-10-21T10:50:13.327Z"
+      "scrapedAt": "2026-10-21T10:50:13.327Z",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1GGue1Gnwc55rbbFgVonnQMpm6tZ6eel5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1llyM6GaE0VMnVQKzvQjtGTFFxZig8pEq/view?usp=sharing"
     },
     {
       "id": "scraped_prod_kamen_rider_my_th_ep7_mvhxbzwh",
@@ -7272,30 +7305,22 @@
       "language": "Indonesian (Sub Indo)",
       "quality": "1440p QHD / 1080p FHD",
       "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg",
-      "driveDownloadUrl1": "https://drive.google.com/file/d/1e8WfB7LGeocf_HzCWJsRN_jm0EP75bXY/view?usp=drivesdk",
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1dqp4Bv1WvHtNwdr5LnJdyDpOaOdyuaaN/view?usp=drivesdk",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1e8WfB7LGeocf_HzCWJsRN_jm0EP75bXY/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1dqp4Bv1WvHtNwdr5LnJdyDpOaOdyuaaN/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (Direct Embed)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6Mjh9.1102f22b81a25b4cce811bdc80be4d24bc7b61a55243bde319b202382d0148b0",
-          "directUrl": null,
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server Google Drive 1 (Fast HD)",
+          "id": "srv_real_drive_1_scraped_prod_kr_gavv_movie_ep52",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
           "embedUrl": "https://drive.google.com/file/d/1e8WfB7LGeocf_HzCWJsRN_jm0EP75bXY/preview",
-          "directUrl": "https://drive.google.com/file/d/1e8WfB7LGeocf_HzCWJsRN_jm0EP75bXY/view?usp=drivesdk",
+          "directUrl": "https://drive.google.com/file/d/1e8WfB7LGeocf_HzCWJsRN_jm0EP75bXY/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         },
         {
-          "id": "srv_3",
-          "name": "Server Google Drive 2 (Mirror HD)",
+          "id": "srv_real_drive_2_scraped_prod_kr_gavv_movie_ep52",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
           "embedUrl": "https://drive.google.com/file/d/1dqp4Bv1WvHtNwdr5LnJdyDpOaOdyuaaN/preview",
-          "directUrl": "https://drive.google.com/file/d/1dqp4Bv1WvHtNwdr5LnJdyDpOaOdyuaaN/view?usp=drivesdk",
+          "directUrl": "https://drive.google.com/file/d/1dqp4Bv1WvHtNwdr5LnJdyDpOaOdyuaaN/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         }
@@ -7327,38 +7352,22 @@
       "language": "Indonesian (Sub Indo)",
       "quality": "1440p QHD / 1080p FHD",
       "thumbnail": "https://www.tokusatsuindo.com/wp-content/uploads/2024/09/gavv.png",
-      "driveDownloadUrl1": "https://drive.google.com/file/d/1hoobr3vNVZVvPUC15DAg4TrY0h_Gs_3w/view?usp=drivesdk",
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1IsWtLqCG7vnzdwm_qtYYhMD1WadI-sFf/view?usp=drivesdk",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1hoobr3vNVZVvPUC15DAg4TrY0h_Gs_3w/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1IsWtLqCG7vnzdwm_qtYYhMD1WadI-sFf/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (Direct Embed)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6MzB9.cce026a46aeb42338cdedf0efe6ae67c2a9df5a513a334b5f48c50b514366416",
-          "directUrl": null,
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (Direct Embed)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6MzB9.cce026a46aeb42338cdedf0efe6ae67c2a9df5a513a334b5f48c50b514366416",
-          "directUrl": null,
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_3",
-          "name": "Server Google Drive 1 (Fast HD)",
+          "id": "srv_real_drive_1_scraped_prod_kr_gavv_special_ep51",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
           "embedUrl": "https://drive.google.com/file/d/1hoobr3vNVZVvPUC15DAg4TrY0h_Gs_3w/preview",
-          "directUrl": "https://drive.google.com/file/d/1hoobr3vNVZVvPUC15DAg4TrY0h_Gs_3w/view?usp=drivesdk",
+          "directUrl": "https://drive.google.com/file/d/1hoobr3vNVZVvPUC15DAg4TrY0h_Gs_3w/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         },
         {
-          "id": "srv_4",
-          "name": "Server Google Drive 2 (Mirror HD)",
+          "id": "srv_real_drive_2_scraped_prod_kr_gavv_special_ep51",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
           "embedUrl": "https://drive.google.com/file/d/1IsWtLqCG7vnzdwm_qtYYhMD1WadI-sFf/preview",
-          "directUrl": "https://drive.google.com/file/d/1IsWtLqCG7vnzdwm_qtYYhMD1WadI-sFf/view?usp=drivesdk",
+          "directUrl": "https://drive.google.com/file/d/1IsWtLqCG7vnzdwm_qtYYhMD1WadI-sFf/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         }
@@ -7441,24 +7450,16 @@
       "driveDownloadUrl2": "https://drive.google.com/file/d/1SlY3DGTS7QE2yXYePYZPLQSvQzI-pMwM/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (Direct Embed)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NzAyfQ.622d856eb5a9c50983fc82a89ee45ec36d48305da89c72d44313d942bee7f6a2",
-          "directUrl": null,
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server Google Drive 1 (Fast HD)",
+          "id": "srv_real_drive_1_scraped_prod_ss_boonboomger_movie_ep51",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
           "embedUrl": "https://drive.google.com/file/d/1ZxpUwcgiwvnyTbRcD3NBps9kprKYJgYu/preview",
           "directUrl": "https://drive.google.com/file/d/1ZxpUwcgiwvnyTbRcD3NBps9kprKYJgYu/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         },
         {
-          "id": "srv_3",
-          "name": "Server Google Drive 2 (Mirror HD)",
+          "id": "srv_real_drive_2_scraped_prod_ss_boonboomger_movie_ep51",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
           "embedUrl": "https://drive.google.com/file/d/1SlY3DGTS7QE2yXYePYZPLQSvQzI-pMwM/preview",
           "directUrl": "https://drive.google.com/file/d/1SlY3DGTS7QE2yXYePYZPLQSvQzI-pMwM/view?usp=sharing",
           "type": "gdrive",
@@ -7496,32 +7497,16 @@
       "driveDownloadUrl2": "https://drive.google.com/file/d/1ke9cFNRxREZ616SnAsk-n6euf7RdkKgq/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (Direct Embed)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6Njk4fQ.f6bd1862afb0a720f901fbe6a53684c969c35cbba395b27d21c2481f2ee6dcab",
-          "directUrl": null,
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (Direct Embed)",
-          "embedUrl": "https://drive.google.com/file/d/1ke9cFNRxREZ616SnAsk-n6euf7RdkKgq/preview",
-          "directUrl": null,
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_3",
-          "name": "Server Google Drive 1 (Fast HD)",
+          "id": "srv_real_drive_1_scraped_prod_ss_boonboomger_spec_ep52",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
           "embedUrl": "https://drive.google.com/file/d/1DwdRgxh55Uds6qNsKdDLyF93rVVnoDVA/preview",
           "directUrl": "https://drive.google.com/file/d/1DwdRgxh55Uds6qNsKdDLyF93rVVnoDVA/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         },
         {
-          "id": "srv_4",
-          "name": "Server Google Drive 2 (Mirror HD)",
+          "id": "srv_real_drive_2_scraped_prod_ss_boonboomger_spec_ep52",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
           "embedUrl": "https://drive.google.com/file/d/1ke9cFNRxREZ616SnAsk-n6euf7RdkKgq/preview",
           "directUrl": "https://drive.google.com/file/d/1ke9cFNRxREZ616SnAsk-n6euf7RdkKgq/view?usp=sharing",
           "type": "gdrive",
@@ -7606,24 +7591,16 @@
       "driveDownloadUrl2": "https://drive.google.com/file/d/1axZylZ00oI6WxRRMVvHfgfTiFRzLfQ8B/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (Direct Embed)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NTU4fQ.05f6b2ec65516f7f06075b2b0f4c8201ba33ff176e82ec786d2c4939b52f788a",
-          "directUrl": null,
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server Google Drive 1 (Fast HD)",
+          "id": "srv_real_drive_1_scraped_prod_kr_kuuga_spec_ep50",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
           "embedUrl": "https://drive.google.com/file/d/1GR2QRdZZ83231NJg5TOkR8FfeSFQWWGt/preview",
           "directUrl": "https://drive.google.com/file/d/1GR2QRdZZ83231NJg5TOkR8FfeSFQWWGt/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         },
         {
-          "id": "srv_3",
-          "name": "Server Google Drive 2 (Mirror HD)",
+          "id": "srv_real_drive_2_scraped_prod_kr_kuuga_spec_ep50",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
           "embedUrl": "https://drive.google.com/file/d/1axZylZ00oI6WxRRMVvHfgfTiFRzLfQ8B/preview",
           "directUrl": "https://drive.google.com/file/d/1axZylZ00oI6WxRRMVvHfgfTiFRzLfQ8B/view?usp=sharing",
           "type": "gdrive",
@@ -7708,32 +7685,16 @@
       "driveDownloadUrl2": "https://drive.google.com/file/d/1Jyyc087h3aVqZpTh02cgQIE21xV-l4rM/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (Direct Embed)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjU3OH0.14ecc056e908f6c827c7358b2e83419498613e89439015700b36debd452a0dc0",
-          "directUrl": null,
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (Direct Embed)",
-          "embedUrl": "https://gdplayer.to/x/?SjEwL1hiVmdRYWtPa1VFUWtUWlJwazJFTEFZVHlxNlZrNWwwY1FucHlIU0RMYUM0aUplWlhCdkdiM3VweXBRdDNjeVMyMXNqUE9URUVmbTVuZFdsMDNOWGl1bWZJRVJQYWhFanY2UkhVTFlBTEYyQmhBN0w4OFBLV1U0T2NZRlNpTmkrV1pKRHczR1dmUjJmbUZhWHBkZkllNFZhUkUxak5ZN2JjaktIbWNSME1SWmhsTjF2ejNPdm9Obis2NWo3Nlo2REwwZEhuV0krY1QrYUdSbjk5YWFxK1BIRy8xNEhwTXVlUG1WTFZ1WnFtSGkwYXNWOTVudWJ3UUp4c09iSA,,",
-          "directUrl": null,
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_3",
-          "name": "Server Google Drive 1 (Fast HD)",
+          "id": "srv_real_drive_1_scraped_prod_kr_agito_spec_ep52",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
           "embedUrl": "https://drive.google.com/file/d/1emDgkA6z--jTUs8617QDwOEmO5tMu-9o/preview",
           "directUrl": "https://drive.google.com/file/d/1emDgkA6z--jTUs8617QDwOEmO5tMu-9o/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         },
         {
-          "id": "srv_4",
-          "name": "Server Google Drive 2 (Mirror HD)",
+          "id": "srv_real_drive_2_scraped_prod_kr_agito_spec_ep52",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
           "embedUrl": "https://drive.google.com/file/d/1Jyyc087h3aVqZpTh02cgQIE21xV-l4rM/preview",
           "directUrl": "https://drive.google.com/file/d/1Jyyc087h3aVqZpTh02cgQIE21xV-l4rM/view?usp=sharing",
           "type": "gdrive",
@@ -7771,24 +7732,16 @@
       "driveDownloadUrl2": "https://drive.google.com/file/d/1B5T41TfvtQqNxEn8gX6y_F3n1WWTUOor/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (Direct Embed)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjMzfQ.6d98a62eb86eca2a0cb0b74d6f50c8cdf104c62ced8902fbf320d3aacbc5335e",
-          "directUrl": null,
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server Google Drive 1 (Fast HD)",
+          "id": "srv_real_drive_1_scraped_prod_kr_w_eternal_ep1",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
           "embedUrl": "https://drive.google.com/file/d/1Ff9_Gx1N3qae7VnK-BTgRIWPHo-5KRK7/preview",
           "directUrl": "https://drive.google.com/file/d/1Ff9_Gx1N3qae7VnK-BTgRIWPHo-5KRK7/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         },
         {
-          "id": "srv_3",
-          "name": "Server Google Drive 2 (Mirror HD)",
+          "id": "srv_real_drive_2_scraped_prod_kr_w_eternal_ep1",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
           "embedUrl": "https://drive.google.com/file/d/1B5T41TfvtQqNxEn8gX6y_F3n1WWTUOor/preview",
           "directUrl": "https://drive.google.com/file/d/1B5T41TfvtQqNxEn8gX6y_F3n1WWTUOor/view?usp=sharing",
           "type": "gdrive",
@@ -7828,24 +7781,16 @@
       "driveDownloadUrl2": "https://drive.google.com/file/d/1ggW7yOjYWONqcVADpcgjw2stvJAWdGEQ/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (Direct Embed)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjcwfQ.a8646c8df15672709221be074771c1931d5251a043cfb0a52793a90c1371e197",
-          "directUrl": null,
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server Google Drive 1 (Fast HD)",
+          "id": "srv_real_drive_1_scraped_prod_kr_build_rogue_ep1",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
           "embedUrl": "https://drive.google.com/file/d/1ZIJFAfAu-YpLIDDnPUyoZEt_v3EImVLt/preview",
           "directUrl": "https://drive.google.com/file/d/1ZIJFAfAu-YpLIDDnPUyoZEt_v3EImVLt/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         },
         {
-          "id": "srv_3",
-          "name": "Server Google Drive 2 (Mirror HD)",
+          "id": "srv_real_drive_2_scraped_prod_kr_build_rogue_ep1",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
           "embedUrl": "https://drive.google.com/file/d/1ggW7yOjYWONqcVADpcgjw2stvJAWdGEQ/preview",
           "directUrl": "https://drive.google.com/file/d/1ggW7yOjYWONqcVADpcgjw2stvJAWdGEQ/view?usp=sharing",
           "type": "gdrive",
@@ -7883,11 +7828,19 @@
       "driveDownloadUrl2": "https://drive.google.com/file/d/1Mg-L_rMKFgZPjmMrH-e_vPcSSdz9ZDak/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_real_tokusatsuindo_ten_gokaiger_movie",
-          "name": "Server 1 (Direct Embed HD)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6MTM3NH0.3f46df30ecd2d60e0ee6f782b3640cf713d30aadb442cd3e5f6d63f766180725",
-          "directUrl": null,
-          "type": "embed",
+          "id": "srv_real_drive_1_scraped_prod_ss_ten_gokaiger_ep1",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1xg6TazTEgBG4QkQCht4OolOMAqBD_dD-/preview",
+          "directUrl": "https://drive.google.com/file/d/1xg6TazTEgBG4QkQCht4OolOMAqBD_dD-/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_drive_2_scraped_prod_ss_ten_gokaiger_ep1",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1Mg-L_rMKFgZPjmMrH-e_vPcSSdz9ZDak/preview",
+          "directUrl": "https://drive.google.com/file/d/1Mg-L_rMKFgZPjmMrH-e_vPcSSdz9ZDak/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
       ],
@@ -7920,15 +7873,23 @@
       "language": "Indonesian (Sub Indo)",
       "quality": "1440p QHD / 1080p FHD",
       "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/twq2EahjRaUB6B8wjf7ddrCmLhJ.jpg",
-      "driveDownloadUrl1": "https://drive.google.com/file/d/1BZ1UzLzP6y_nHRSwayQHvHvC6K-XX2pc/view?usp=sharing",
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1qhFLCb5S-nvPcaHSeQUNnhEBQ_KamFbX/view?usp=sharing",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1oA59MNJCnHLcQa8Ce9mmBnDgggG3GUze/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1CZ5DT71oeCjoO7lcuj_XgTj97Rr8UUAL/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_real_ultraman-tiga_1",
-          "name": "Server 1 (Direct Embed HD)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6MjB9.6b9b3e4f395abc9214a0e0bb8b579e5911b44b24b99c44d5eddc9f2e9a861f95",
-          "directUrl": null,
-          "type": "embed",
+          "id": "srv_real_drive_1_scraped_prod_ultra_tiga_dyna_movie_ep1",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1oA59MNJCnHLcQa8Ce9mmBnDgggG3GUze/preview",
+          "directUrl": "https://drive.google.com/file/d/1oA59MNJCnHLcQa8Ce9mmBnDgggG3GUze/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_drive_2_scraped_prod_ultra_tiga_dyna_movie_ep1",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1CZ5DT71oeCjoO7lcuj_XgTj97Rr8UUAL/preview",
+          "directUrl": "https://drive.google.com/file/d/1CZ5DT71oeCjoO7lcuj_XgTj97Rr8UUAL/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
       ],
@@ -7959,22 +7920,14 @@
       "language": "Indonesian (Sub Indo)",
       "quality": "1440p QHD / 1080p FHD",
       "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/twq2EahjRaUB6B8wjf7ddrCmLhJ.jpg",
-      "driveDownloadUrl1": "https://drive.google.com/file/d/1waH4yY4Pc8SFZ9ra9Aa1VRwMke1FVilM/view?usp=sharing",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1x8Y0LkIs4s8Rb5xiJs2lLbixFPIjL2ew/view?usp=sharing",
       "driveDownloadUrl2": "https://drive.google.com/file/d/1MzeCBu1AYM30ikpGRfBvgiseHG3yphBA/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_real_gaiden_movie_1",
-          "name": "Server 1 (Direct Embed HD)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NzYzfQ.bbc1e8b10fd72bb269682593048bb7dbc68ca6fbb2c723d3173f0d7ccaa0fa9b",
-          "directUrl": null,
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_real_gaiden_movie_2",
-          "name": "Server 2 (Google Drive Preview)",
-          "embedUrl": "https://drive.google.com/file/d/1waH4yY4Pc8SFZ9ra9Aa1VRwMke1FVilM/preview",
-          "directUrl": "https://drive.google.com/file/d/1waH4yY4Pc8SFZ9ra9Aa1VRwMke1FVilM/view?usp=sharing",
+          "id": "srv_real_drive_1_scraped_prod_ultra_tiga_gaiden_ep1",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1x8Y0LkIs4s8Rb5xiJs2lLbixFPIjL2ew/preview",
+          "directUrl": "https://drive.google.com/file/d/1x8Y0LkIs4s8Rb5xiJs2lLbixFPIjL2ew/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         }
@@ -8010,24 +7963,16 @@
       "driveDownloadUrl2": "https://drive.google.com/file/d/1JdObPEt4jFipiWHu_bi5oOy-IHdlW1xA/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (Direct Embed)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NzMxfQ.e42b9f3d4f9d1b27aac28cefe21635284477340f4a922cd68e33d1184cf90f29",
-          "directUrl": null,
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server Google Drive 1 (Fast HD)",
+          "id": "srv_real_drive_1_scraped_prod_ultra_arc_movie_ep1",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
           "embedUrl": "https://drive.google.com/file/d/1clDL6J5vp7UR_Qj6SnObraIuDSO8vTps/preview",
           "directUrl": "https://drive.google.com/file/d/1clDL6J5vp7UR_Qj6SnObraIuDSO8vTps/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         },
         {
-          "id": "srv_3",
-          "name": "Server Google Drive 2 (Mirror HD)",
+          "id": "srv_real_drive_2_scraped_prod_ultra_arc_movie_ep1",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
           "embedUrl": "https://drive.google.com/file/d/1JdObPEt4jFipiWHu_bi5oOy-IHdlW1xA/preview",
           "directUrl": "https://drive.google.com/file/d/1JdObPEt4jFipiWHu_bi5oOy-IHdlW1xA/view?usp=sharing",
           "type": "gdrive",
@@ -8065,32 +8010,16 @@
       "driveDownloadUrl2": "https://drive.google.com/file/d/1DU1Ds7DqTm9V0NJQgqF8XVZuQyZdXoP1/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (Direct Embed)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6Nzc4fQ.4ec532518f3cbb5ab894e66ee56d61820b100e71fa11432128e9c4a777d41f4c",
-          "directUrl": null,
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server 2 (Direct Embed)",
-          "embedUrl": "https://drive.google.com/file/d/1DU1Ds7DqTm9V0NJQgqF8XVZuQyZdXoP1/preview",
-          "directUrl": null,
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_3",
-          "name": "Server Google Drive 1 (Fast HD)",
+          "id": "srv_real_drive_1_scraped_prod_garo_taiga_ep1",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
           "embedUrl": "https://drive.google.com/file/d/1Z7sSJuLQyujgHhcv30nNbiDnhNG3BIIJ/preview",
           "directUrl": "https://drive.google.com/file/d/1Z7sSJuLQyujgHhcv30nNbiDnhNG3BIIJ/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         },
         {
-          "id": "srv_4",
-          "name": "Server Google Drive 2 (Mirror HD)",
+          "id": "srv_real_drive_2_scraped_prod_garo_taiga_ep1",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
           "embedUrl": "https://drive.google.com/file/d/1DU1Ds7DqTm9V0NJQgqF8XVZuQyZdXoP1/preview",
           "directUrl": "https://drive.google.com/file/d/1DU1Ds7DqTm9V0NJQgqF8XVZuQyZdXoP1/view?usp=sharing",
           "type": "gdrive",
@@ -8128,24 +8057,16 @@
       "driveDownloadUrl2": "https://drive.google.com/file/d/1C_hKMU_PnYH-3zbylCprGDJClvJhrNr-/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_1",
-          "name": "Server 1 (Direct Embed)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6Nzk0fQ.954dd34f5a9c1e0620b14a700e3e2502a6ced44cd43c47dc1850ae0e7aa779d5",
-          "directUrl": null,
-          "type": "embed",
-          "status": "online"
-        },
-        {
-          "id": "srv_2",
-          "name": "Server Google Drive 1 (Fast HD)",
+          "id": "srv_real_drive_1_scraped_prod_garo_red_requiem_ep2",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
           "embedUrl": "https://drive.google.com/file/d/1sg-BRYsGbEFdCYoyt-TQCkpd7daOt9ov/preview",
           "directUrl": "https://drive.google.com/file/d/1sg-BRYsGbEFdCYoyt-TQCkpd7daOt9ov/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         },
         {
-          "id": "srv_3",
-          "name": "Server Google Drive 2 (Mirror HD)",
+          "id": "srv_real_drive_2_scraped_prod_garo_red_requiem_ep2",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
           "embedUrl": "https://drive.google.com/file/d/1C_hKMU_PnYH-3zbylCprGDJClvJhrNr-/preview",
           "directUrl": "https://drive.google.com/file/d/1C_hKMU_PnYH-3zbylCprGDJClvJhrNr-/view?usp=sharing",
           "type": "gdrive",
@@ -8291,15 +8212,23 @@
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
       "thumbnail": "https://image.tmdb.org/t/p/w500/kiXsuX5qAFUxHvf9BM7MPadFq62.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1-WrbG3VhT1EMpUhOXfJVkd5BSj46oN9V/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1snnc9em50saudbn9M1aegHRM5Wt4XDZ4/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_real_scraped_kamen-rider-geats-4-aces-and-the-black-fox_ep1",
-          "name": "Server 1 (Direct Embed HD)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDc4fQ.7bc5e797505fdc51bb5651ba651fad3e688998a059f52bbb735503698e90e34c",
-          "directUrl": null,
-          "type": "embed",
+          "id": "srv_real_drive_1_scraped_kamen-rider-geats-4-aces-and-the-black-fox_ep1",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1-WrbG3VhT1EMpUhOXfJVkd5BSj46oN9V/preview",
+          "directUrl": "https://drive.google.com/file/d/1-WrbG3VhT1EMpUhOXfJVkd5BSj46oN9V/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_drive_2_scraped_kamen-rider-geats-4-aces-and-the-black-fox_ep1",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1snnc9em50saudbn9M1aegHRM5Wt4XDZ4/preview",
+          "directUrl": "https://drive.google.com/file/d/1snnc9em50saudbn9M1aegHRM5Wt4XDZ4/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
       ]
@@ -8465,15 +8394,15 @@
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
       "thumbnail": "https://image.tmdb.org/t/p/w500/9dTO2RygcDT0cQkawABw4QkDegN.jpg",
-      "driveDownloadUrl1": null,
+      "driveDownloadUrl1": "https://drive.google.com/file/d/16FFxDpb6QtQ8rpnMahbVPvZlWbBa6tIj/view?usp=sharing",
       "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_real_scraped_shin-kamen-rider_ep1",
-          "name": "Server 1 (Direct Embed HD)",
+          "id": "srv_real_drive_1_scraped_shin-kamen-rider_ep1",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
           "embedUrl": "https://drive.google.com/file/d/16FFxDpb6QtQ8rpnMahbVPvZlWbBa6tIj/preview",
-          "directUrl": null,
-          "type": "embed",
+          "directUrl": "https://drive.google.com/file/d/16FFxDpb6QtQ8rpnMahbVPvZlWbBa6tIj/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
       ]
@@ -8926,15 +8855,23 @@
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
       "thumbnail": "https://image.tmdb.org/t/p/original/mXnF4R6U8y1cWJg6J45eB8k1HhT.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1nE_1I07HSiDn8gv6xldVYWS0SgKNYIby/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1WnnehtfaEkdIfoW0Is9IoIcK57T3OxJG/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_real_scraped_kamen-rider-reiwa-the-first-generation_ep1",
-          "name": "Server 1 (Direct Embed HD)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDQ3fQ.41e1cc357faede25147eeddc0178e39bb35214cd09eed9606951cc107c387c2a",
-          "directUrl": null,
-          "type": "embed",
+          "id": "srv_real_drive_1_scraped_kamen-rider-reiwa-the-first-generation_ep1",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1nE_1I07HSiDn8gv6xldVYWS0SgKNYIby/preview",
+          "directUrl": "https://drive.google.com/file/d/1nE_1I07HSiDn8gv6xldVYWS0SgKNYIby/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_drive_2_scraped_kamen-rider-reiwa-the-first-generation_ep1",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1WnnehtfaEkdIfoW0Is9IoIcK57T3OxJG/preview",
+          "directUrl": "https://drive.google.com/file/d/1WnnehtfaEkdIfoW0Is9IoIcK57T3OxJG/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
       ]
@@ -8954,15 +8891,23 @@
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
       "thumbnail": "https://image.tmdb.org/t/p/original/mXnF4R6U8y1cWJg6J45eB8k1HhT.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/16h2wt-IXpHuZP2ToaisBKfnXgQqDeQdd/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1JOac0xq39Iyv5vg7JIdcT-GiO2CJjIkQ/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_real_scraped_kamen-rider-zero-one-the-movie-real-time_ep1",
-          "name": "Server 1 (Direct Embed HD)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDE2fQ.8dce53693edb0736bf19fcc692af8229711b4618edc0afa8242b6ac1434dc857",
-          "directUrl": null,
-          "type": "embed",
+          "id": "srv_real_drive_1_scraped_kamen-rider-zero-one-the-movie-real-time_ep1",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/16h2wt-IXpHuZP2ToaisBKfnXgQqDeQdd/preview",
+          "directUrl": "https://drive.google.com/file/d/16h2wt-IXpHuZP2ToaisBKfnXgQqDeQdd/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_drive_2_scraped_kamen-rider-zero-one-the-movie-real-time_ep1",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1JOac0xq39Iyv5vg7JIdcT-GiO2CJjIkQ/preview",
+          "directUrl": "https://drive.google.com/file/d/1JOac0xq39Iyv5vg7JIdcT-GiO2CJjIkQ/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
       ]
@@ -8982,15 +8927,23 @@
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
       "thumbnail": "https://image.tmdb.org/t/p/original/mXnF4R6U8y1cWJg6J45eB8k1HhT.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1an3zwcJtCNaPzp_Y2AyRMGfRmxOXrRhV/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1niilvbTiwtIgDUaKMLDYgUTPMS_phUiO/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_real_scraped_zero-one-others-kamen-rider-vulcan-valkyrie_ep1",
-          "name": "Server 1 (Direct Embed HD)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDIwfQ.eb6b7179a55817ccbc9c6984b50c056cdf764ea4949f7fab6272298cf234d490",
-          "directUrl": null,
-          "type": "embed",
+          "id": "srv_real_drive_1_scraped_zero-one-others-kamen-rider-vulcan-valkyrie_ep1",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1an3zwcJtCNaPzp_Y2AyRMGfRmxOXrRhV/preview",
+          "directUrl": "https://drive.google.com/file/d/1an3zwcJtCNaPzp_Y2AyRMGfRmxOXrRhV/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_drive_2_scraped_zero-one-others-kamen-rider-vulcan-valkyrie_ep1",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1niilvbTiwtIgDUaKMLDYgUTPMS_phUiO/preview",
+          "directUrl": "https://drive.google.com/file/d/1niilvbTiwtIgDUaKMLDYgUTPMS_phUiO/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
       ]
@@ -9178,15 +9131,23 @@
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
       "thumbnail": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1Y4oToH4Q9OPaQjTaXu9kM_1aDqDZFRyP/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1LNqJxYyKuRqL9uE1eXWK6JLqUbRxVzyW/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_real_scraped_kamen-rider-saber-the-phoenix-swordsman_ep1",
-          "name": "Server 1 (Direct Embed HD)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDg0fQ.f6adc55772784425db032f73768277b0b025695eea28d2a4f4c871eaf026362b",
-          "directUrl": null,
-          "type": "embed",
+          "id": "srv_real_drive_1_scraped_kamen-rider-saber-the-phoenix-swordsman_ep1",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1Y4oToH4Q9OPaQjTaXu9kM_1aDqDZFRyP/preview",
+          "directUrl": "https://drive.google.com/file/d/1Y4oToH4Q9OPaQjTaXu9kM_1aDqDZFRyP/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_drive_2_scraped_kamen-rider-saber-the-phoenix-swordsman_ep1",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1LNqJxYyKuRqL9uE1eXWK6JLqUbRxVzyW/preview",
+          "directUrl": "https://drive.google.com/file/d/1LNqJxYyKuRqL9uE1eXWK6JLqUbRxVzyW/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
       ]
@@ -9206,15 +9167,15 @@
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
       "thumbnail": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
-      "driveDownloadUrl1": null,
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1BIFrJQZ4UskF8FOsXsEpEp_CrKLQUoAs/view?usp=sharing",
       "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_real_scraped_saber-zenkaiger-super-hero-senki_ep1",
-          "name": "Server 1 (Direct Embed HD)",
+          "id": "srv_real_drive_1_scraped_saber-zenkaiger-super-hero-senki_ep1",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
           "embedUrl": "https://drive.google.com/file/d/1BIFrJQZ4UskF8FOsXsEpEp_CrKLQUoAs/preview",
-          "directUrl": null,
-          "type": "embed",
+          "directUrl": "https://drive.google.com/file/d/1BIFrJQZ4UskF8FOsXsEpEp_CrKLQUoAs/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
       ]
@@ -9234,15 +9195,23 @@
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
       "thumbnail": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1QyUDWeOTyYEdkg7quRy2uOL960lPZOp1/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1E2FfEYBYmGOVz7K6SRf4FD5KgTEBDriw/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_real_scraped_kamen-rider-saber-trio-of-deep-sin_ep1",
-          "name": "Server 1 (Direct Embed HD)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDYxfQ.1902fca3872e4e6e5024d52e030371b6bc5a7467f37c9c2d837501212e4738ec",
-          "directUrl": null,
-          "type": "embed",
+          "id": "srv_real_drive_1_scraped_kamen-rider-saber-trio-of-deep-sin_ep1",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1QyUDWeOTyYEdkg7quRy2uOL960lPZOp1/preview",
+          "directUrl": "https://drive.google.com/file/d/1QyUDWeOTyYEdkg7quRy2uOL960lPZOp1/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_drive_2_scraped_kamen-rider-saber-trio-of-deep-sin_ep1",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1E2FfEYBYmGOVz7K6SRf4FD5KgTEBDriw/preview",
+          "directUrl": "https://drive.google.com/file/d/1E2FfEYBYmGOVz7K6SRf4FD5KgTEBDriw/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
       ]
@@ -9430,15 +9399,23 @@
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
       "thumbnail": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1NT8xHyJkyeLcfnOUntNXyIZ41k-1oa3K/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1QECMpwephQ1zCehB2TyOpwdrp4wL2oc7/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_real_scraped_kamen-rider-beyond-generations_ep1",
-          "name": "Server 1 (Direct Embed HD)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDQ5fQ.09c6bcb50029ed9d18ccb7bfc5d0b31e536f98e436dabb8f76ba11d3df507de3",
-          "directUrl": null,
-          "type": "embed",
+          "id": "srv_real_drive_1_scraped_kamen-rider-beyond-generations_ep1",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1NT8xHyJkyeLcfnOUntNXyIZ41k-1oa3K/preview",
+          "directUrl": "https://drive.google.com/file/d/1NT8xHyJkyeLcfnOUntNXyIZ41k-1oa3K/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_drive_2_scraped_kamen-rider-beyond-generations_ep1",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1QECMpwephQ1zCehB2TyOpwdrp4wL2oc7/preview",
+          "directUrl": "https://drive.google.com/file/d/1QECMpwephQ1zCehB2TyOpwdrp4wL2oc7/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
       ]
@@ -9458,15 +9435,23 @@
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
       "thumbnail": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1sMeAWgyANb1gIB7Eju3e_uh0y_hD-uE7/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1pVlN8oCfMTd2_FezYZBdV9lbcE1UsqE2/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_real_scraped_kamen-rider-revice-battle-familia_ep1",
-          "name": "Server 1 (Direct Embed HD)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDY5fQ.cd9d656a9d7c3a3f970a1b0f890351c7693be56e7cf873129a2d9ffae7c173bb",
-          "directUrl": null,
-          "type": "embed",
+          "id": "srv_real_drive_1_scraped_kamen-rider-revice-battle-familia_ep1",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1sMeAWgyANb1gIB7Eju3e_uh0y_hD-uE7/preview",
+          "directUrl": "https://drive.google.com/file/d/1sMeAWgyANb1gIB7Eju3e_uh0y_hD-uE7/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_drive_2_scraped_kamen-rider-revice-battle-familia_ep1",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1pVlN8oCfMTd2_FezYZBdV9lbcE1UsqE2/preview",
+          "directUrl": "https://drive.google.com/file/d/1pVlN8oCfMTd2_FezYZBdV9lbcE1UsqE2/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
       ]
@@ -9486,15 +9471,23 @@
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
       "thumbnail": "https://image.tmdb.org/t/p/original/kiXsuX5qAFUxHvf9BM7MPadFq62.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1JOeC0r1vEy9znRPwOv3Z2d18JfbTXIfm/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/11ZA99hqAAP5BUnYuCDgOl6aMx6O1edQ0/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_real_scraped_kamen-rider-geats-x-revice-movie-battle-royale_ep1",
-          "name": "Server 1 (Direct Embed HD)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDM3fQ.39df54d4de65e651f5d619bd78d42c090b2b568ce138fd885815f3d1c7e3bd3b",
-          "directUrl": null,
-          "type": "embed",
+          "id": "srv_real_drive_1_scraped_kamen-rider-geats-x-revice-movie-battle-royale_ep1",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1JOeC0r1vEy9znRPwOv3Z2d18JfbTXIfm/preview",
+          "directUrl": "https://drive.google.com/file/d/1JOeC0r1vEy9znRPwOv3Z2d18JfbTXIfm/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_drive_2_scraped_kamen-rider-geats-x-revice-movie-battle-royale_ep1",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/11ZA99hqAAP5BUnYuCDgOl6aMx6O1edQ0/preview",
+          "directUrl": "https://drive.google.com/file/d/11ZA99hqAAP5BUnYuCDgOl6aMx6O1edQ0/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
       ]
@@ -9682,15 +9675,23 @@
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
       "thumbnail": "https://image.tmdb.org/t/p/original/kiXsuX5qAFUxHvf9BM7MPadFq62.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xzrcTsdDjHsHsCKNApn7FeJvkLsSFRSg/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1dW6dJjh5Aq1h577KzfkZt_uKp1dBOiXW/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_real_scraped_kamen-rider-the-winter-movie-gotchard-geats_ep1",
-          "name": "Server 1 (Direct Embed HD)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDgzfQ.f30a0ff486f543e2af1c12d60b6795b420a60da3f78fe1559c7ceaf3ea48cbfd",
-          "directUrl": null,
-          "type": "embed",
+          "id": "srv_real_drive_1_scraped_kamen-rider-the-winter-movie-gotchard-geats_ep1",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1xzrcTsdDjHsHsCKNApn7FeJvkLsSFRSg/preview",
+          "directUrl": "https://drive.google.com/file/d/1xzrcTsdDjHsHsCKNApn7FeJvkLsSFRSg/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_drive_2_scraped_kamen-rider-the-winter-movie-gotchard-geats_ep1",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1dW6dJjh5Aq1h577KzfkZt_uKp1dBOiXW/preview",
+          "directUrl": "https://drive.google.com/file/d/1dW6dJjh5Aq1h577KzfkZt_uKp1dBOiXW/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
       ]
@@ -9710,15 +9711,23 @@
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
       "thumbnail": "https://image.tmdb.org/t/p/original/mXnF4R6U8y1cWJg6J45eB8k1HhT.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1yDfXupLN2R0nTswNGkVegLe07N-B_3cc/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1ndUuUrWmVZuV14xK8xHBKL7Xqh0B7fnB/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_real_scraped_kamen-rider-gotchard-the-future-daybreak_ep1",
-          "name": "Server 1 (Direct Embed HD)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDg1fQ.ad967b60744ec9c102e1cab056ce271119b3149f6a680ea77bed1b9cf25afd6c",
-          "directUrl": null,
-          "type": "embed",
+          "id": "srv_real_drive_1_scraped_kamen-rider-gotchard-the-future-daybreak_ep1",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1yDfXupLN2R0nTswNGkVegLe07N-B_3cc/preview",
+          "directUrl": "https://drive.google.com/file/d/1yDfXupLN2R0nTswNGkVegLe07N-B_3cc/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_drive_2_scraped_kamen-rider-gotchard-the-future-daybreak_ep1",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1ndUuUrWmVZuV14xK8xHBKL7Xqh0B7fnB/preview",
+          "directUrl": "https://drive.google.com/file/d/1ndUuUrWmVZuV14xK8xHBKL7Xqh0B7fnB/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
       ]
@@ -10350,15 +10359,23 @@
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
       "thumbnail": "https://image.tmdb.org/t/p/original/euSDSrIyUhWbac1tzmg9d3KtmSE.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1baqaI5rn_lKbMcYZpBZ8thfCbb5CxKxS/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1UvDEMkiEhh6KIXyPLjZNFjzOPLMvxr4B/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_real_scraped_ohsama-sentai-king-ohger-adventure-heaven_ep1",
-          "name": "Server 1 (Direct Embed HD)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6MTM4Mn0.ed2003992f723bdd098ef0c3bc1f4e07e81adf9087a8458ab1ea3db27ae22cdd",
-          "directUrl": null,
-          "type": "embed",
+          "id": "srv_real_drive_1_scraped_ohsama-sentai-king-ohger-adventure-heaven_ep1",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1baqaI5rn_lKbMcYZpBZ8thfCbb5CxKxS/preview",
+          "directUrl": "https://drive.google.com/file/d/1baqaI5rn_lKbMcYZpBZ8thfCbb5CxKxS/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_drive_2_scraped_ohsama-sentai-king-ohger-adventure-heaven_ep1",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1UvDEMkiEhh6KIXyPLjZNFjzOPLMvxr4B/preview",
+          "directUrl": "https://drive.google.com/file/d/1UvDEMkiEhh6KIXyPLjZNFjzOPLMvxr4B/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
       ]
@@ -10378,15 +10395,23 @@
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
       "thumbnail": "https://image.tmdb.org/t/p/original/euSDSrIyUhWbac1tzmg9d3KtmSE.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/12A74yvPjq_-7ME-MXg7DmPjvEo6wHd62/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1x-vhlFVpeyXkQQjQtZMoBB5TrL3UMr5G/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_real_scraped_king-ohger-vs-donbrothers_ep1",
-          "name": "Server 1 (Direct Embed HD)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NzA2fQ.0396efd3f11825fe08965395a3c36851d9398cb53b0a18cab55d9a496b1c86a6",
-          "directUrl": null,
-          "type": "embed",
+          "id": "srv_real_drive_1_scraped_king-ohger-vs-donbrothers_ep1",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/12A74yvPjq_-7ME-MXg7DmPjvEo6wHd62/preview",
+          "directUrl": "https://drive.google.com/file/d/12A74yvPjq_-7ME-MXg7DmPjvEo6wHd62/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_drive_2_scraped_king-ohger-vs-donbrothers_ep1",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1x-vhlFVpeyXkQQjQtZMoBB5TrL3UMr5G/preview",
+          "directUrl": "https://drive.google.com/file/d/1x-vhlFVpeyXkQQjQtZMoBB5TrL3UMr5G/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
       ]
@@ -10814,15 +10839,23 @@
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
       "thumbnail": "/posters/backdrop_ultraman_arc.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1RiVJp2i4W6mk3gJBLYtSSYOqGFTjJ9S-/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1qbjqkP6dXoD3id6XwldAHJ0ly1nYihTT/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_real_scraped_ultraman-trigger-episode-z_ep1",
-          "name": "Server 1 (Direct Embed HD)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NzM3fQ.45f44b4c66eadf06fb34cdef8e110d3c1662406a75d7e09a6dcff88c8f71d658",
-          "directUrl": null,
-          "type": "embed",
+          "id": "srv_real_drive_1_scraped_ultraman-trigger-episode-z_ep1",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1RiVJp2i4W6mk3gJBLYtSSYOqGFTjJ9S-/preview",
+          "directUrl": "https://drive.google.com/file/d/1RiVJp2i4W6mk3gJBLYtSSYOqGFTjJ9S-/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_drive_2_scraped_ultraman-trigger-episode-z_ep1",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1qbjqkP6dXoD3id6XwldAHJ0ly1nYihTT/preview",
+          "directUrl": "https://drive.google.com/file/d/1qbjqkP6dXoD3id6XwldAHJ0ly1nYihTT/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
       ]
@@ -11046,15 +11079,23 @@
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
       "thumbnail": "/posters/backdrop_ultraman_arc.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1kyuchmBDdtNJwAo-qLb0ByjTKPHwYsd5/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1nsZHWTGhv5XKD1xWNfj3OPCtRJnVq5Mh/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_real_scraped_ultraman-blazar-the-movie-tokyo-kaiju-showdown_ep1",
-          "name": "Server 1 (Direct Embed HD)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NzMzfQ.96d58ca26c85c69fee2476cb5b9b581268f9c7cb9a7c00133408051a80796192",
-          "directUrl": null,
-          "type": "embed",
+          "id": "srv_real_drive_1_scraped_ultraman-blazar-the-movie-tokyo-kaiju-showdown_ep1",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1kyuchmBDdtNJwAo-qLb0ByjTKPHwYsd5/preview",
+          "directUrl": "https://drive.google.com/file/d/1kyuchmBDdtNJwAo-qLb0ByjTKPHwYsd5/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_drive_2_scraped_ultraman-blazar-the-movie-tokyo-kaiju-showdown_ep1",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1nsZHWTGhv5XKD1xWNfj3OPCtRJnVq5Mh/preview",
+          "directUrl": "https://drive.google.com/file/d/1nsZHWTGhv5XKD1xWNfj3OPCtRJnVq5Mh/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
       ]
@@ -11074,15 +11115,23 @@
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
       "thumbnail": "/posters/backdrop_ultraman_arc.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1clDL6J5vp7UR_Qj6SnObraIuDSO8vTps/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1JdObPEt4jFipiWHu_bi5oOy-IHdlW1xA/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_real_scraped_ultraman-arc-the-movie-clash-of-light-and-evil_ep1",
-          "name": "Server 1 (Direct Embed HD)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NzMxfQ.e42b9f3d4f9d1b27aac28cefe21635284477340f4a922cd68e33d1184cf90f29",
-          "directUrl": null,
-          "type": "embed",
+          "id": "srv_real_drive_1_scraped_ultraman-arc-the-movie-clash-of-light-and-evil_ep1",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1clDL6J5vp7UR_Qj6SnObraIuDSO8vTps/preview",
+          "directUrl": "https://drive.google.com/file/d/1clDL6J5vp7UR_Qj6SnObraIuDSO8vTps/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_drive_2_scraped_ultraman-arc-the-movie-clash-of-light-and-evil_ep1",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1JdObPEt4jFipiWHu_bi5oOy-IHdlW1xA/preview",
+          "directUrl": "https://drive.google.com/file/d/1JdObPEt4jFipiWHu_bi5oOy-IHdlW1xA/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
       ]
@@ -17850,21 +17899,30 @@
       "thumbnail": "/posters/poster_kamen-rider-ryuki-episode-final.jpg",
       "posterUrl": "/posters/poster_kamen-rider-ryuki-episode-final.jpg",
       "fallbackPoster": "/posters/poster_kamen-rider-ryuki-episode-final.jpg",
-      "driveDownloadUrl1": null,
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1NgGFlw1hl2IoffcS4fU_6hQ2xgL6AtXf/view?usp=sharing",
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki-episode-final",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryuki-episode-final",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-episode-final",
       "scrapedAt": "2026-10-21T05:37:36.886Z",
       "servers": [
         {
-          "id": "srv_real_scraped_prod_kamen-rider-ryuki-episode-final_movie",
-          "name": "Server 1 (Direct Embed HD)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NTYwfQ.bb890e2bbea82d975306e4fa4dab35aabc21f5bb7bbb15c3bde7fc7f4dd4c20b",
-          "directUrl": null,
-          "type": "embed",
+          "id": "srv_real_drive_1_scraped_prod_kamen-rider-ryuki-episode-final_movie",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1NgGFlw1hl2IoffcS4fU_6hQ2xgL6AtXf/preview",
+          "directUrl": "https://drive.google.com/file/d/1NgGFlw1hl2IoffcS4fU_6hQ2xgL6AtXf/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_drive_2_scraped_prod_kamen-rider-ryuki-episode-final_movie",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1CUWNM_NrM16Jrpe-sMoTiXkoF8wbSDfV/preview",
+          "directUrl": "https://drive.google.com/file/d/1CUWNM_NrM16Jrpe-sMoTiXkoF8wbSDfV/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
-      ]
+      ],
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1CUWNM_NrM16Jrpe-sMoTiXkoF8wbSDfV/view?usp=sharing"
     },
     {
       "id": "scraped_prod_kamen-rider-ryuki-13-riders_movie",
@@ -17883,21 +17941,30 @@
       "thumbnail": "/posters/poster_kamen-rider-ryuki-13-riders.jpg",
       "posterUrl": "/posters/poster_kamen-rider-ryuki-13-riders.jpg",
       "fallbackPoster": "/posters/poster_kamen-rider-ryuki-13-riders.jpg",
-      "driveDownloadUrl1": null,
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1sCmvzvgBj6byqJ0TrkXSEDArhOKKMJ_3/view?usp=sharing",
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ryuki-13-riders",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ryuki-13-riders",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ryuki-13-riders",
       "scrapedAt": "2026-10-21T05:37:36.886Z",
       "servers": [
         {
-          "id": "srv_real_scraped_prod_kamen-rider-ryuki-13-riders_movie",
-          "name": "Server 1 (Direct Embed HD)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjA3fQ.a171b2da9fef59acfca279af460b4ecee28cb1d5baac896dd285a9ea9e57c2e7",
-          "directUrl": null,
-          "type": "embed",
+          "id": "srv_real_drive_1_scraped_prod_kamen-rider-ryuki-13-riders_movie",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1sCmvzvgBj6byqJ0TrkXSEDArhOKKMJ_3/preview",
+          "directUrl": "https://drive.google.com/file/d/1sCmvzvgBj6byqJ0TrkXSEDArhOKKMJ_3/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_drive_2_scraped_prod_kamen-rider-ryuki-13-riders_movie",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1VuxGWZK9w2kSHl_-U6E5lbTTSXZODQCH/preview",
+          "directUrl": "https://drive.google.com/file/d/1VuxGWZK9w2kSHl_-U6E5lbTTSXZODQCH/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
-      ]
+      ],
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1VuxGWZK9w2kSHl_-U6E5lbTTSXZODQCH/view?usp=sharing"
     },
     {
       "id": "scraped_prod_kamen-rider-den-o-im-born_movie",
@@ -17949,21 +18016,30 @@
       "thumbnail": "/posters/poster_kamen-rider-den-o-kiva-climax-deka.jpg",
       "posterUrl": "/posters/poster_kamen-rider-den-o-kiva-climax-deka.jpg",
       "fallbackPoster": "/posters/poster_kamen-rider-den-o-kiva-climax-deka.jpg",
-      "driveDownloadUrl1": null,
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1VlCikk1rorU77lezkhe6ZdKCTqPaoZeS/view?usp=sharing",
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-den-o-kiva-climax-deka",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-den-o-kiva-climax-deka",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-den-o-kiva-climax-deka",
       "scrapedAt": "2026-10-21T05:37:36.886Z",
       "servers": [
         {
-          "id": "srv_real_scraped_prod_kamen-rider-den-o-kiva-climax-deka_movie",
-          "name": "Server 1 (Direct Embed HD)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjYxfQ.9e012ef33a0eeb3a2742f30f29b56535ecd974c1127d42e18a79e084268901c0",
-          "directUrl": null,
-          "type": "embed",
+          "id": "srv_real_drive_1_scraped_prod_kamen-rider-den-o-kiva-climax-deka_movie",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1VlCikk1rorU77lezkhe6ZdKCTqPaoZeS/preview",
+          "directUrl": "https://drive.google.com/file/d/1VlCikk1rorU77lezkhe6ZdKCTqPaoZeS/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_drive_2_scraped_prod_kamen-rider-den-o-kiva-climax-deka_movie",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1yfliC_NKXyRWhSUAAyd9w7XB5RVtBJdP/preview",
+          "directUrl": "https://drive.google.com/file/d/1yfliC_NKXyRWhSUAAyd9w7XB5RVtBJdP/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
-      ]
+      ],
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1yfliC_NKXyRWhSUAAyd9w7XB5RVtBJdP/view?usp=sharing"
     },
     {
       "id": "scraped_prod_saraba-kamen-rider-den-o-final-countdown_movie",
@@ -17982,21 +18058,30 @@
       "thumbnail": "/posters/poster_saraba-kamen-rider-den-o-final-countdown.jpg",
       "posterUrl": "/posters/poster_saraba-kamen-rider-den-o-final-countdown.jpg",
       "fallbackPoster": "/posters/poster_saraba-kamen-rider-den-o-final-countdown.jpg",
-      "driveDownloadUrl1": null,
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1KWkpRLlntPufqqrKDRJidr7d2Kr8cTRM/view?usp=sharing",
       "streamwishUrl": "https://streamwish.to/e/saraba-kamen-rider-den-o-final-countdown",
       "doodstreamUrl": "https://doodstream.com/e/saraba-kamen-rider-den-o-final-countdown",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/saraba-kamen-rider-den-o-final-countdown",
       "scrapedAt": "2026-10-21T05:37:36.886Z",
       "servers": [
         {
-          "id": "srv_real_scraped_prod_saraba-kamen-rider-den-o-final-countdown_movie",
-          "name": "Server 1 (Direct Embed HD)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjQwfQ.54985e8e2f6c12890dac8ae07378b830efa4a1ff1aba2c0b5e818dac595b5ea6",
-          "directUrl": null,
-          "type": "embed",
+          "id": "srv_real_drive_1_scraped_prod_saraba-kamen-rider-den-o-final-countdown_movie",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1KWkpRLlntPufqqrKDRJidr7d2Kr8cTRM/preview",
+          "directUrl": "https://drive.google.com/file/d/1KWkpRLlntPufqqrKDRJidr7d2Kr8cTRM/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_drive_2_scraped_prod_saraba-kamen-rider-den-o-final-countdown_movie",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1JiRcyjh2N4rD5FNvZdD4ghJvAt2rOuYI/preview",
+          "directUrl": "https://drive.google.com/file/d/1JiRcyjh2N4rD5FNvZdD4ghJvAt2rOuYI/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
-      ]
+      ],
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1JiRcyjh2N4rD5FNvZdD4ghJvAt2rOuYI/view?usp=sharing"
     },
     {
       "id": "scraped_prod_cho-kamen-rider-den-o-decade-onigashima_movie",
@@ -18048,21 +18133,30 @@
       "thumbnail": "/posters/poster_kamen-rider-cho-den-o-trilogy-episode-red.jpg",
       "posterUrl": "/posters/poster_kamen-rider-cho-den-o-trilogy-episode-red.jpg",
       "fallbackPoster": "/posters/poster_kamen-rider-cho-den-o-trilogy-episode-red.jpg",
-      "driveDownloadUrl1": null,
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1EBMLE7daELdHZU8q-l5gFcdoSTWTCu8D/view?usp=sharing",
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-cho-den-o-trilogy-episode-red",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-cho-den-o-trilogy-episode-red",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-cho-den-o-trilogy-episode-red",
       "scrapedAt": "2026-10-21T05:37:36.886Z",
       "servers": [
         {
-          "id": "srv_real_scraped_prod_kamen-rider-cho-den-o-trilogy-episode-red_movie",
-          "name": "Server 1 (Direct Embed HD)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjMwfQ.7d51a8a8c52a9af35bfa0feb5fbcee85d4496b8ec13250a1e3e41ac8307d494a",
-          "directUrl": null,
-          "type": "embed",
+          "id": "srv_real_drive_1_scraped_prod_kamen-rider-cho-den-o-trilogy-episode-red_movie",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1EBMLE7daELdHZU8q-l5gFcdoSTWTCu8D/preview",
+          "directUrl": "https://drive.google.com/file/d/1EBMLE7daELdHZU8q-l5gFcdoSTWTCu8D/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_drive_2_scraped_prod_kamen-rider-cho-den-o-trilogy-episode-red_movie",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/18_VwObIf_82EmY_3lKKP8I9DK27ZEFJx/preview",
+          "directUrl": "https://drive.google.com/file/d/18_VwObIf_82EmY_3lKKP8I9DK27ZEFJx/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
-      ]
+      ],
+      "driveDownloadUrl2": "https://drive.google.com/file/d/18_VwObIf_82EmY_3lKKP8I9DK27ZEFJx/view?usp=sharing"
     },
     {
       "id": "scraped_prod_kamen-rider-cho-den-o-trilogy-episode-blue_movie",
@@ -18081,21 +18175,30 @@
       "thumbnail": "/posters/poster_kamen-rider-cho-den-o-trilogy-episode-blue.jpg",
       "posterUrl": "/posters/poster_kamen-rider-cho-den-o-trilogy-episode-blue.jpg",
       "fallbackPoster": "/posters/poster_kamen-rider-cho-den-o-trilogy-episode-blue.jpg",
-      "driveDownloadUrl1": null,
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1aDQ5tDx36OBskAL5dxww8kD5O-n5_bxe/view?usp=sharing",
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-cho-den-o-trilogy-episode-blue",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-cho-den-o-trilogy-episode-blue",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-cho-den-o-trilogy-episode-blue",
       "scrapedAt": "2026-10-21T05:37:36.886Z",
       "servers": [
         {
-          "id": "srv_real_scraped_prod_kamen-rider-cho-den-o-trilogy-episode-blue_movie",
-          "name": "Server 1 (Direct Embed HD)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjI1fQ.4c68c5e0f3ed6fc641a53c3461a91c2ffc733746753beba9326fcc3198cca67d",
-          "directUrl": null,
-          "type": "embed",
+          "id": "srv_real_drive_1_scraped_prod_kamen-rider-cho-den-o-trilogy-episode-blue_movie",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1aDQ5tDx36OBskAL5dxww8kD5O-n5_bxe/preview",
+          "directUrl": "https://drive.google.com/file/d/1aDQ5tDx36OBskAL5dxww8kD5O-n5_bxe/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_drive_2_scraped_prod_kamen-rider-cho-den-o-trilogy-episode-blue_movie",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1v77nXtVfmaByHLtFLz_d5L4ph7wt_VbJ/preview",
+          "directUrl": "https://drive.google.com/file/d/1v77nXtVfmaByHLtFLz_d5L4ph7wt_VbJ/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
-      ]
+      ],
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1v77nXtVfmaByHLtFLz_d5L4ph7wt_VbJ/view?usp=sharing"
     },
     {
       "id": "scraped_prod_kamen-rider-cho-den-o-trilogy-episode-yellow_movie",
@@ -18114,21 +18217,30 @@
       "thumbnail": "/posters/poster_kamen-rider-cho-den-o-trilogy-episode-yellow.jpg",
       "posterUrl": "/posters/poster_kamen-rider-cho-den-o-trilogy-episode-yellow.jpg",
       "fallbackPoster": "/posters/poster_kamen-rider-cho-den-o-trilogy-episode-yellow.jpg",
-      "driveDownloadUrl1": null,
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1phZzrY1dcEgP7Jvt1uUyGQVoVfwG8SZH/view?usp=sharing",
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-cho-den-o-trilogy-episode-yellow",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-cho-den-o-trilogy-episode-yellow",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-cho-den-o-trilogy-episode-yellow",
       "scrapedAt": "2026-10-21T05:37:36.886Z",
       "servers": [
         {
-          "id": "srv_real_scraped_prod_kamen-rider-cho-den-o-trilogy-episode-yellow_movie",
-          "name": "Server 1 (Direct Embed HD)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjUxfQ.aa296b601cd04f0af390d324f808028f3f74be21f6c390877c3912ba8a91c459",
-          "directUrl": null,
-          "type": "embed",
+          "id": "srv_real_drive_1_scraped_prod_kamen-rider-cho-den-o-trilogy-episode-yellow_movie",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1phZzrY1dcEgP7Jvt1uUyGQVoVfwG8SZH/preview",
+          "directUrl": "https://drive.google.com/file/d/1phZzrY1dcEgP7Jvt1uUyGQVoVfwG8SZH/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_drive_2_scraped_prod_kamen-rider-cho-den-o-trilogy-episode-yellow_movie",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/11-0pXklPHH6v96dwjtIZTBfJq5H7bWyX/preview",
+          "directUrl": "https://drive.google.com/file/d/11-0pXklPHH6v96dwjtIZTBfJq5H7bWyX/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
-      ]
+      ],
+      "driveDownloadUrl2": "https://drive.google.com/file/d/11-0pXklPHH6v96dwjtIZTBfJq5H7bWyX/view?usp=sharing"
     },
     {
       "id": "scraped_prod_kamen-rider-ooo-w-featuring-skull-movie-war-core_movie",
@@ -18147,21 +18259,30 @@
       "thumbnail": "/posters/poster_kamen-rider-ooo-w-featuring-skull-movie-war-core.jpg",
       "posterUrl": "/posters/poster_kamen-rider-ooo-w-featuring-skull-movie-war-core.jpg",
       "fallbackPoster": "/posters/poster_kamen-rider-ooo-w-featuring-skull-movie-war-core.jpg",
-      "driveDownloadUrl1": null,
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1I_LvhRewAFEfvYtJ9oMqqN1XHL1FSnuD/view?usp=sharing",
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo-w-featuring-skull-movie-war-core",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ooo-w-featuring-skull-movie-war-core",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-w-featuring-skull-movie-war-core",
       "scrapedAt": "2026-10-21T05:37:36.886Z",
       "servers": [
         {
-          "id": "srv_real_scraped_prod_kamen-rider-ooo-w-featuring-skull-movie-war-core_movie",
-          "name": "Server 1 (Direct Embed HD)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6Njc1fQ.e344a123ea16b75bc43d0eb874f5ffe057cd6fdc2ba916dd3f58d5f34604cea8",
-          "directUrl": null,
-          "type": "embed",
+          "id": "srv_real_drive_1_scraped_prod_kamen-rider-ooo-w-featuring-skull-movie-war-core_movie",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1I_LvhRewAFEfvYtJ9oMqqN1XHL1FSnuD/preview",
+          "directUrl": "https://drive.google.com/file/d/1I_LvhRewAFEfvYtJ9oMqqN1XHL1FSnuD/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_drive_2_scraped_prod_kamen-rider-ooo-w-featuring-skull-movie-war-core_movie",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1dtJUkVsdQ9_uI3iLxikn7RtVmjYswLwO/preview",
+          "directUrl": "https://drive.google.com/file/d/1dtJUkVsdQ9_uI3iLxikn7RtVmjYswLwO/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
-      ]
+      ],
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1dtJUkVsdQ9_uI3iLxikn7RtVmjYswLwO/view?usp=sharing"
     },
     {
       "id": "scraped_prod_kamen-rider-ooo-wonderful-the-shogun-and-21-core-medals_movie",
@@ -18180,18 +18301,18 @@
       "thumbnail": "/posters/poster_kamen-rider-ooo-wonderful-the-shogun-and-21-core-medals.jpg",
       "posterUrl": "/posters/poster_kamen-rider-ooo-wonderful-the-shogun-and-21-core-medals.jpg",
       "fallbackPoster": "/posters/poster_kamen-rider-ooo-wonderful-the-shogun-and-21-core-medals.jpg",
-      "driveDownloadUrl1": null,
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1pZs5pXLKkV3FbHAGhd8KhPpHMdQA2Tzc/view?usp=sharing",
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo-wonderful-the-shogun-and-21-core-medals",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ooo-wonderful-the-shogun-and-21-core-medals",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-wonderful-the-shogun-and-21-core-medals",
       "scrapedAt": "2026-10-21T05:37:36.886Z",
       "servers": [
         {
-          "id": "srv_real_scraped_prod_kamen-rider-ooo-wonderful-the-shogun-and-21-core-medals_movie",
-          "name": "Server 1 (Direct Embed HD)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NTkxfQ.ca6c7acca75338ddd1a19106ab7d5f2aa506ab927d3672d9fc33975cde2250d3",
-          "directUrl": null,
-          "type": "embed",
+          "id": "srv_real_drive_1_scraped_prod_kamen-rider-ooo-wonderful-the-shogun-and-21-core-medals_movie",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1pZs5pXLKkV3FbHAGhd8KhPpHMdQA2Tzc/preview",
+          "directUrl": "https://drive.google.com/file/d/1pZs5pXLKkV3FbHAGhd8KhPpHMdQA2Tzc/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
       ]
@@ -18213,21 +18334,30 @@
       "thumbnail": "/posters/poster_kamen-rider-fourze-ooo-movie-war-mega-max.jpg",
       "posterUrl": "/posters/poster_kamen-rider-fourze-ooo-movie-war-mega-max.jpg",
       "fallbackPoster": "/posters/poster_kamen-rider-fourze-ooo-movie-war-mega-max.jpg",
-      "driveDownloadUrl1": null,
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1Bwdl777u6lNkTTiLpiYf-TyVxX4ia2LP/view?usp=sharing",
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-fourze-ooo-movie-war-mega-max",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-fourze-ooo-movie-war-mega-max",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-fourze-ooo-movie-war-mega-max",
       "scrapedAt": "2026-10-21T05:37:36.886Z",
       "servers": [
         {
-          "id": "srv_real_scraped_prod_kamen-rider-fourze-ooo-movie-war-mega-max_movie",
-          "name": "Server 1 (Direct Embed HD)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjAzfQ.09dd85b5aff6e3d89d0fd2cc66adad5efff54bf090a8193068f0b6beed62d519",
-          "directUrl": null,
-          "type": "embed",
+          "id": "srv_real_drive_1_scraped_prod_kamen-rider-fourze-ooo-movie-war-mega-max_movie",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1Bwdl777u6lNkTTiLpiYf-TyVxX4ia2LP/preview",
+          "directUrl": "https://drive.google.com/file/d/1Bwdl777u6lNkTTiLpiYf-TyVxX4ia2LP/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_drive_2_scraped_prod_kamen-rider-fourze-ooo-movie-war-mega-max_movie",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1ugZ8Bbtvm5X7L2hqw7C0YobbvTsXbXxq/preview",
+          "directUrl": "https://drive.google.com/file/d/1ugZ8Bbtvm5X7L2hqw7C0YobbvTsXbXxq/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
-      ]
+      ],
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1ugZ8Bbtvm5X7L2hqw7C0YobbvTsXbXxq/view?usp=sharing"
     },
     {
       "id": "scraped_prod_kamen-rider-ooo-10th-core-medal-of-resurrection_movie",
@@ -18246,21 +18376,30 @@
       "thumbnail": "/posters/poster_kamen-rider-ooo-10th-core-medal-of-resurrection.jpg",
       "posterUrl": "/posters/poster_kamen-rider-ooo-10th-core-medal-of-resurrection.jpg",
       "fallbackPoster": "/posters/poster_kamen-rider-ooo-10th-core-medal-of-resurrection.jpg",
-      "driveDownloadUrl1": null,
+      "driveDownloadUrl1": "https://drive.google.com/file/d/16a5m4RYCQw_hR8YYwiiyDOpTuqOsOasB/view?usp=sharing",
       "streamwishUrl": "https://streamwish.to/e/kamen-rider-ooo-10th-core-medal-of-resurrection",
       "doodstreamUrl": "https://doodstream.com/e/kamen-rider-ooo-10th-core-medal-of-resurrection",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kamen-rider-ooo-10th-core-medal-of-resurrection",
       "scrapedAt": "2026-10-21T05:37:36.886Z",
       "servers": [
         {
-          "id": "srv_real_scraped_prod_kamen-rider-ooo-10th-core-medal-of-resurrection_movie",
-          "name": "Server 1 (Direct Embed HD)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NDE1fQ.351b726136ae867d0d63234cbc6594d116e3c797319da90dece6d64ee2edd1d4",
-          "directUrl": null,
-          "type": "embed",
+          "id": "srv_real_drive_1_scraped_prod_kamen-rider-ooo-10th-core-medal-of-resurrection_movie",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/16a5m4RYCQw_hR8YYwiiyDOpTuqOsOasB/preview",
+          "directUrl": "https://drive.google.com/file/d/16a5m4RYCQw_hR8YYwiiyDOpTuqOsOasB/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_drive_2_scraped_prod_kamen-rider-ooo-10th-core-medal-of-resurrection_movie",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/17-snafOAgGyizrA1i_ABG0XBexfYZUB-/preview",
+          "directUrl": "https://drive.google.com/file/d/17-snafOAgGyizrA1i_ABG0XBexfYZUB-/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
-      ]
+      ],
+      "driveDownloadUrl2": "https://drive.google.com/file/d/17-snafOAgGyizrA1i_ABG0XBexfYZUB-/view?usp=sharing"
     },
     {
       "id": "scraped_prod_gokaiger-goseiger-super-sentai-199-hero-great-battle_movie",
@@ -18279,21 +18418,30 @@
       "thumbnail": "/posters/poster_gokaiger-goseiger-super-sentai-199-hero-great-battle.jpg",
       "posterUrl": "/posters/poster_gokaiger-goseiger-super-sentai-199-hero-great-battle.jpg",
       "fallbackPoster": "/posters/poster_gokaiger-goseiger-super-sentai-199-hero-great-battle.jpg",
-      "driveDownloadUrl1": null,
+      "driveDownloadUrl1": "https://drive.google.com/file/d/10jf4f-gUslLgZy8-b6xv7oxUOTJyHtrz/view?usp=sharing",
       "streamwishUrl": "https://streamwish.to/e/gokaiger-goseiger-super-sentai-199-hero-great-battle",
       "doodstreamUrl": "https://doodstream.com/e/gokaiger-goseiger-super-sentai-199-hero-great-battle",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/gokaiger-goseiger-super-sentai-199-hero-great-battle",
       "scrapedAt": "2026-10-21T05:37:36.886Z",
       "servers": [
         {
-          "id": "srv_real_scraped_prod_gokaiger-goseiger-super-sentai-199-hero-great-battle_movie",
-          "name": "Server 1 (Direct Embed HD)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6MTMyNH0.1671c6c4d12481b957ead96aa329645a9de2fcbb3b2892b08e0d2ffe3a7f6228",
-          "directUrl": null,
-          "type": "embed",
+          "id": "srv_real_drive_1_scraped_prod_gokaiger-goseiger-super-sentai-199-hero-great-battle_movie",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/10jf4f-gUslLgZy8-b6xv7oxUOTJyHtrz/preview",
+          "directUrl": "https://drive.google.com/file/d/10jf4f-gUslLgZy8-b6xv7oxUOTJyHtrz/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_drive_2_scraped_prod_gokaiger-goseiger-super-sentai-199-hero-great-battle_movie",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1Z5UUJOjNUvMVbRygUUI5UNRC43e3SGfp/preview",
+          "directUrl": "https://drive.google.com/file/d/1Z5UUJOjNUvMVbRygUUI5UNRC43e3SGfp/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
-      ]
+      ],
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1Z5UUJOjNUvMVbRygUUI5UNRC43e3SGfp/view?usp=sharing"
     },
     {
       "id": "scraped_prod_kaizoku-sentai-gokaiger-the-flying-ghost-ship_movie",
@@ -18312,21 +18460,30 @@
       "thumbnail": "/posters/poster_kaizoku-sentai-gokaiger-the-flying-ghost-ship.jpg",
       "posterUrl": "/posters/poster_kaizoku-sentai-gokaiger-the-flying-ghost-ship.jpg",
       "fallbackPoster": "/posters/poster_kaizoku-sentai-gokaiger-the-flying-ghost-ship.jpg",
-      "driveDownloadUrl1": null,
+      "driveDownloadUrl1": "https://drive.google.com/file/d/10GX0ifF803RguMDTnNEM-mwtjz4Z9eF2/view?usp=sharing",
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger-the-flying-ghost-ship",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger-the-flying-ghost-ship",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-the-flying-ghost-ship",
       "scrapedAt": "2026-10-21T05:37:36.886Z",
       "servers": [
         {
-          "id": "srv_real_scraped_prod_kaizoku-sentai-gokaiger-the-flying-ghost-ship_movie",
-          "name": "Server 1 (Direct Embed HD)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6MTMyM30.ffa3820349c89b89b0410380e0b16f878d6a26e9e3e491ff9be0295fe5798b45",
-          "directUrl": null,
-          "type": "embed",
+          "id": "srv_real_drive_1_scraped_prod_kaizoku-sentai-gokaiger-the-flying-ghost-ship_movie",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/10GX0ifF803RguMDTnNEM-mwtjz4Z9eF2/preview",
+          "directUrl": "https://drive.google.com/file/d/10GX0ifF803RguMDTnNEM-mwtjz4Z9eF2/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_drive_2_scraped_prod_kaizoku-sentai-gokaiger-the-flying-ghost-ship_movie",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1YvlEW2ZW5mPmMYIIjK3zNswiNGQu9zPu/preview",
+          "directUrl": "https://drive.google.com/file/d/1YvlEW2ZW5mPmMYIIjK3zNswiNGQu9zPu/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
-      ]
+      ],
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1YvlEW2ZW5mPmMYIIjK3zNswiNGQu9zPu/view?usp=sharing"
     },
     {
       "id": "scraped_prod_kaizoku-sentai-gokaiger-vs-space-sheriff-gavan_movie",
@@ -18345,21 +18502,30 @@
       "thumbnail": "/posters/poster_kaizoku-sentai-gokaiger-vs-space-sheriff-gavan.jpg",
       "posterUrl": "/posters/poster_kaizoku-sentai-gokaiger-vs-space-sheriff-gavan.jpg",
       "fallbackPoster": "/posters/poster_kaizoku-sentai-gokaiger-vs-space-sheriff-gavan.jpg",
-      "driveDownloadUrl1": null,
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1xy5ZSUWI4xeRmmiJmmewpnwzdwO_DjfD/view?usp=sharing",
       "streamwishUrl": "https://streamwish.to/e/kaizoku-sentai-gokaiger-vs-space-sheriff-gavan",
       "doodstreamUrl": "https://doodstream.com/e/kaizoku-sentai-gokaiger-vs-space-sheriff-gavan",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/kaizoku-sentai-gokaiger-vs-space-sheriff-gavan",
       "scrapedAt": "2026-10-21T05:37:36.886Z",
       "servers": [
         {
-          "id": "srv_real_scraped_prod_kaizoku-sentai-gokaiger-vs-space-sheriff-gavan_movie",
-          "name": "Server 1 (Direct Embed HD)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6ODAyfQ.9720dbcb7d4d5e77598edd776e4766e1d948aa7b016f8cde85403868cde0b2b8",
-          "directUrl": null,
-          "type": "embed",
+          "id": "srv_real_drive_1_scraped_prod_kaizoku-sentai-gokaiger-vs-space-sheriff-gavan_movie",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1xy5ZSUWI4xeRmmiJmmewpnwzdwO_DjfD/preview",
+          "directUrl": "https://drive.google.com/file/d/1xy5ZSUWI4xeRmmiJmmewpnwzdwO_DjfD/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_drive_2_scraped_prod_kaizoku-sentai-gokaiger-vs-space-sheriff-gavan_movie",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1pReIyqQgmxIk48bMAt_Vzy5rxs8tU38q/preview",
+          "directUrl": "https://drive.google.com/file/d/1pReIyqQgmxIk48bMAt_Vzy5rxs8tU38q/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
-      ]
+      ],
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1pReIyqQgmxIk48bMAt_Vzy5rxs8tU38q/view?usp=sharing"
     },
     {
       "id": "scraped_prod_kamen-rider-x-super-sentai-super-hero-taisen_movie",
@@ -18411,21 +18577,30 @@
       "thumbnail": "/posters/poster_tokumei-sentai-go-busters-vs-kaizoku-sentai-gokaiger.jpg",
       "posterUrl": "/posters/poster_tokumei-sentai-go-busters-vs-kaizoku-sentai-gokaiger.jpg",
       "fallbackPoster": "/posters/poster_tokumei-sentai-go-busters-vs-kaizoku-sentai-gokaiger.jpg",
-      "driveDownloadUrl1": null,
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1bL-whR6aX3vKUJdM29tTqG1JGVccT3nV/view?usp=sharing",
       "streamwishUrl": "https://streamwish.to/e/tokumei-sentai-go-busters-vs-kaizoku-sentai-gokaiger",
       "doodstreamUrl": "https://doodstream.com/e/tokumei-sentai-go-busters-vs-kaizoku-sentai-gokaiger",
       "bithlsUrl": "https://player.tokusatsuindo.com/embed/tokumei-sentai-go-busters-vs-kaizoku-sentai-gokaiger",
       "scrapedAt": "2026-10-21T05:37:36.886Z",
       "servers": [
         {
-          "id": "srv_real_scraped_prod_tokumei-sentai-go-busters-vs-kaizoku-sentai-gokaiger_movie",
-          "name": "Server 1 (Direct Embed HD)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6MTMzM30.200f4ce7ebdcd48181543f245cd85c1182da65f7e5c2b4d70d7be05da8926381",
-          "directUrl": null,
-          "type": "embed",
+          "id": "srv_real_drive_1_scraped_prod_tokumei-sentai-go-busters-vs-kaizoku-sentai-gokaiger_movie",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1bL-whR6aX3vKUJdM29tTqG1JGVccT3nV/preview",
+          "directUrl": "https://drive.google.com/file/d/1bL-whR6aX3vKUJdM29tTqG1JGVccT3nV/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_drive_2_scraped_prod_tokumei-sentai-go-busters-vs-kaizoku-sentai-gokaiger_movie",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1J6vuFdXoldXNzI2XRJnzWUUGgzBxxAZd/preview",
+          "directUrl": "https://drive.google.com/file/d/1J6vuFdXoldXNzI2XRJnzWUUGgzBxxAZd/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
-      ]
+      ],
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1J6vuFdXoldXNzI2XRJnzWUUGgzBxxAZd/view?usp=sharing"
     },
     {
       "id": "scraped_kamen-rider-gavv_ep18",
@@ -25595,14 +25770,24 @@
       "sourceUrl": "https://www.tokusatsuindo.com/shin-ultraman-2022-sub-indonesia/",
       "servers": [
         {
-          "id": "srv_real_scraped_prod_shin-ultraman_movie",
-          "name": "Server 1 (Direct Embed HD)",
-          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6Nzc1fQ.57727c4563a61faaa1dab63911f395d675422b8c3e4d092e4311b5bcbbd8ea3b",
-          "directUrl": null,
-          "type": "embed",
+          "id": "srv_real_drive_1_scraped_prod_shin-ultraman_movie",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1ESq7mwdm9eisy6_OKfSHBy-cHD8Kh-PG/preview",
+          "directUrl": "https://drive.google.com/file/d/1ESq7mwdm9eisy6_OKfSHBy-cHD8Kh-PG/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_drive_2_scraped_prod_shin-ultraman_movie",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/16DoKmYdpezIFJXwaiWOHGr4f9WIFlFmF/preview",
+          "directUrl": "https://drive.google.com/file/d/16DoKmYdpezIFJXwaiWOHGr4f9WIFlFmF/view?usp=sharing",
+          "type": "gdrive",
           "status": "online"
         }
-      ]
+      ],
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1ESq7mwdm9eisy6_OKfSHBy-cHD8Kh-PG/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/16DoKmYdpezIFJXwaiWOHGr4f9WIFlFmF/view?usp=sharing"
     }
   ]
 }

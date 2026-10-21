@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tokuflix-v1.1.2';
+const CACHE_NAME = 'tokuflix-v1.1.3';
 const STATIC_ASSETS = [
   '/',
   '/index.html',

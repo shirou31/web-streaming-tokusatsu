@@ -1054,30 +1054,44 @@ export const getStreamPayload = async (episodeId, { watch_order = null } = {}) =
   let sources = DB.video_sources.filter((vs) => vs.episode_id === ep.id && vs.is_active);
 
   // 1. Cek apakah ada data episode asli dari scraper fansub TokusatsuIndo / Sawidago
+  let matchedScraped = null;
   try {
     const allScraped = scraperService.getScrapedEpisodes();
-    const matchedScraped = allScraped.find((se) => isScrapedEpisodeMatch(se, prod, ep.episode_number));
+    matchedScraped = allScraped.find((se) => isScrapedEpisodeMatch(se, prod, ep.episode_number));
 
     if (matchedScraped && matchedScraped.servers && matchedScraped.servers.length > 0) {
+      const QUALITY_TIERS = [
+        { quality: '1440p', label: '1440p (2K Ultra QHD)', bitrate_kbps: 8000 },
+        { quality: '1080p', label: '1080p (Full HD 60FPS)', bitrate_kbps: 5000 },
+        { quality: '720p', label: '720p (HD Jernih)', bitrate_kbps: 2500 },
+        { quality: '480p', label: '480p (SD Hemat Data)', bitrate_kbps: 1200 },
+        { quality: '360p', label: '360p (Data Saver)', bitrate_kbps: 700 }
+      ];
+
+      const scrapedSources = [];
       matchedScraped.servers.forEach((srv, sIdx) => {
-        sources.unshift({
-          id: `scraped-srv-${ep.id}-${sIdx}`,
-          episode_id: ep.id,
-          server_name: srv.name || `Server ${sIdx + 1} (Direct Embed HD)`,
-          source_type: 'iframe',
-          quality: '1080p',
-          label: '1080p (Full HD)',
-          origin_url: srv.embedUrl || srv.directUrl,
-          mime_type: null,
-          bitrate_kbps: 5000,
-          audio_language: 'ja',
-          has_hardsub: true,
-          hardsub_language: 'id',
-          is_protected: false,
-          priority: 1 + sIdx,
-          is_active: true
+        QUALITY_TIERS.forEach((qt) => {
+          scrapedSources.push({
+            id: `scraped-srv-${ep.id}-${sIdx}-${qt.quality}`,
+            episode_id: ep.id,
+            server_name: srv.name || `Server ${sIdx + 1} (Direct HD / 1440p)`,
+            source_type: srv.type || 'iframe',
+            quality: qt.quality,
+            label: qt.label,
+            origin_url: srv.embedUrl || srv.directUrl,
+            mime_type: null,
+            bitrate_kbps: qt.bitrate_kbps,
+            audio_language: 'ja',
+            has_hardsub: true,
+            hardsub_language: 'id',
+            is_protected: false,
+            priority: 1 + sIdx,
+            is_active: true
+          });
         });
       });
+      // Prioritaskan server scraper aktif di posisi utama
+      sources = [...scrapedSources, ...sources];
     }
   } catch (err) {
     console.warn('[apiService] Error checking scraped episode servers:', err);
@@ -1090,10 +1104,8 @@ export const getStreamPayload = async (episodeId, { watch_order = null } = {}) =
       u.includes('preview_reiwa_toku') ||
       u.includes('_tokuflix_') ||
       u.includes('18U4M_preview') ||
-      u.includes('doodstream.com/e/kamen-rider-') ||
-      u.includes('streamwish.com/e/kamen-rider-') ||
-      u.includes('doodstream.com/e/geats') ||
-      u.includes('doodstream.com/e/gavv')
+      u.includes('doodstream.com') ||
+      u.includes('streamwish.com')
     ) {
       return false;
     }
@@ -1348,6 +1360,10 @@ export const getStreamPayload = async (episodeId, { watch_order = null } = {}) =
       duration_seconds: epHist.duration_seconds,
       is_completed: epHist.is_completed,
       last_watched_at: epHist.last_watched_at
+    } : null,
+    scraped_metadata: matchedScraped ? {
+      drive_download_1: matchedScraped.driveDownloadUrl1 || matchedScraped.servers?.[0]?.directUrl || null,
+      drive_download_2: matchedScraped.driveDownloadUrl2 || matchedScraped.servers?.[1]?.directUrl || null
     } : null
   });
 };

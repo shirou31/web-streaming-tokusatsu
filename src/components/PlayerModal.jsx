@@ -592,16 +592,16 @@ export default function PlayerModal({
                     Secara default, pemutar web Google Drive preview menampilkan pratinjau di 360p karena kompresi bawaan Google. Tokuflix menyediakan mode <strong>1440p (2K QHD)</strong> dan <strong>1080p FHD</strong> dengan direct bypass link berkecepatan tinggi di bawah ini:
                   </p>
                 </div>
-                {streamData.scraped_metadata?.drive_download_1 && (
+                {(streamData.scraped_metadata?.drive_download_1 || currentSource?.direct_url || (currentSource?.url && currentSource.url.includes('drive.google.com'))) && (
                   <a
-                    href={streamData.scraped_metadata.drive_download_1}
+                    href={streamData.scraped_metadata?.drive_download_1 || currentSource?.direct_url || currentSource?.url?.replace('/preview', '/view?usp=sharing')}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn-bypass-qhd"
-                    title="Buka Video Resolusi 1440p Penuh di Tab Baru"
+                    title="Buka Video Resolusi 1440p (2K Ultra QHD) Penuh di Tab Baru"
                   >
                     <ExternalLink size={14} />
-                    <span>Buka 1440p Penuh</span>
+                    <span>Buka 1440p (2K QHD) Penuh</span>
                   </a>
                 )}
               </div>
