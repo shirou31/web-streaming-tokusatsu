@@ -842,19 +842,21 @@ export default function Navbar({
           display: flex;
           align-items: center;
           gap: 6px;
-          height: 40px;
+          height: 38px;
           padding: 0 16px;
-          border-radius: var(--radius-full);
-          background: linear-gradient(135deg, #E50914 0%, #7A050B 100%);
+          border-radius: 4px;
+          background: var(--accent-red, #E50914);
           color: #FFFFFF;
-          border: 0;
+          border: 1px solid rgba(255, 255, 255, 0.15);
           font-size: 14px;
           font-weight: 700;
           cursor: pointer;
           transition: all var(--transition-fast);
+          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
         }
         .user-login-btn:hover {
-          box-shadow: 0 0 16px rgba(229, 9, 20, 0.5);
+          background: var(--accent-red-hover, #F6121D);
+          box-shadow: 0 0 14px rgba(229, 9, 20, 0.6);
           transform: translateY(-1px);
         }
 
@@ -994,13 +996,17 @@ export default function Navbar({
           align-items: center;
           gap: 6px;
           padding: 8px 14px;
-          background: var(--accent-red);
+          background: var(--accent-red, #E50914);
           color: #FFFFFF;
-          border: 0;
-          border-radius: var(--radius-full);
+          border: 1px solid rgba(255, 255, 255, 0.15);
+          border-radius: 4px;
           font-size: 13px;
           font-weight: 700;
           cursor: pointer;
+          transition: all var(--transition-fast);
+        }
+        .mobile-login-btn:hover {
+          background: var(--accent-red-hover, #F6121D);
         }
 
         .mobile-section-label {
