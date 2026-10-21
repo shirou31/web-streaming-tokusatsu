@@ -20,7 +20,7 @@ export const resolveSeriesPoster = (ep) => {
 
   // 1. Kamen Rider My-Th (Reiwa - Visual rilis resmi My-Th)
   if (prodId.includes('myth') || title.includes('my-th') || title.includes('myth')) {
-    return 'https://www.tokusatsuindo.com/wp-content/uploads/2026/10/myte.png';
+    return '/posters/poster_kamen_rider_myth.png';
   }
 
   // 2. Kamen Rider Gavv (Visual resmi Shoma & Gavv Gummy Form)
