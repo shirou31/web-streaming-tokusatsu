@@ -1059,7 +1059,7 @@ export const getStreamPayload = async (episodeId, { watch_order = null } = {}) =
     const allScraped = scraperService.getScrapedEpisodes();
     matchedScraped = allScraped.find((se) => isScrapedEpisodeMatch(se, prod, ep.episode_number));
 
-    if (matchedScraped && matchedScraped.servers && matchedScraped.servers.length > 0) {
+    if (matchedScraped) {
       const QUALITY_TIERS = [
         { quality: '1440p', label: '1440p (2K Ultra QHD)', bitrate_kbps: 8000 },
         { quality: '1080p', label: '1080p (Full HD 60FPS)', bitrate_kbps: 5000 },
@@ -1068,30 +1068,56 @@ export const getStreamPayload = async (episodeId, { watch_order = null } = {}) =
         { quality: '360p', label: '360p (Data Saver)', bitrate_kbps: 700 }
       ];
 
-      const scrapedSources = [];
-      matchedScraped.servers.forEach((srv, sIdx) => {
-        QUALITY_TIERS.forEach((qt) => {
-          scrapedSources.push({
-            id: `scraped-srv-${ep.id}-${sIdx}-${qt.quality}`,
-            episode_id: ep.id,
-            server_name: srv.name || `Server ${sIdx + 1} (Direct HD / 1440p)`,
-            source_type: srv.type || 'iframe',
-            quality: qt.quality,
-            label: qt.label,
-            origin_url: srv.embedUrl || srv.directUrl,
-            mime_type: null,
-            bitrate_kbps: qt.bitrate_kbps,
-            audio_language: 'ja',
-            has_hardsub: true,
-            hardsub_language: 'id',
-            is_protected: false,
-            priority: 1 + sIdx,
-            is_active: true
+      // Auto-synthesize Google Drive servers if missing from matchedScraped.servers
+      let serversToUse = [...(matchedScraped.servers || [])];
+      const hasDriveInServers = serversToUse.some((s) => (s.embedUrl || s.directUrl || '').includes('drive.google.com'));
+      if (!hasDriveInServers) {
+        const id1 = (matchedScraped.driveDownloadUrl1 || '').match(/\/file\/d\/([a-zA-Z0-9_-]+)/)?.[1];
+        const id2 = (matchedScraped.driveDownloadUrl2 || '').match(/\/file\/d\/([a-zA-Z0-9_-]+)/)?.[1];
+        if (id1) {
+          serversToUse.unshift({
+            name: 'Server 1 (Google Drive Direct HD / 1440p)',
+            embedUrl: `https://drive.google.com/file/d/${id1}/preview`,
+            directUrl: `https://drive.google.com/file/d/${id1}/view?usp=sharing`,
+            type: 'gdrive'
+          });
+        }
+        if (id2 && id2 !== id1) {
+          serversToUse.push({
+            name: 'Server 2 (Mirror Direct HD / 1440p)',
+            embedUrl: `https://drive.google.com/file/d/${id2}/preview`,
+            directUrl: `https://drive.google.com/file/d/${id2}/view?usp=sharing`,
+            type: 'gdrive'
+          });
+        }
+      }
+
+      if (serversToUse.length > 0) {
+        const scrapedSources = [];
+        serversToUse.forEach((srv, sIdx) => {
+          QUALITY_TIERS.forEach((qt) => {
+            scrapedSources.push({
+              id: `scraped-srv-${ep.id}-${sIdx}-${qt.quality}`,
+              episode_id: ep.id,
+              server_name: srv.name || `Server ${sIdx + 1} (Direct HD / 1440p)`,
+              source_type: srv.type || 'iframe',
+              quality: qt.quality,
+              label: qt.label,
+              origin_url: srv.embedUrl || srv.directUrl,
+              mime_type: null,
+              bitrate_kbps: qt.bitrate_kbps,
+              audio_language: 'ja',
+              has_hardsub: true,
+              hardsub_language: 'id',
+              is_protected: false,
+              priority: 1 + sIdx,
+              is_active: true
+            });
           });
         });
-      });
-      // Prioritaskan server scraper aktif di posisi utama
-      sources = [...scrapedSources, ...sources];
+        // Prioritaskan server scraper aktif di posisi utama
+        sources = [...scrapedSources, ...sources];
+      }
     }
   } catch (err) {
     console.warn('[apiService] Error checking scraped episode servers:', err);
@@ -1113,24 +1139,33 @@ export const getStreamPayload = async (episodeId, { watch_order = null } = {}) =
   });
 
   if (sources.length === 0) {
-    // Generate fallback sources if none explicitly seeded
-    const fallbackTrailer = prod.trailer_url || "https://www.youtube-nocookie.com/embed/XQxZqjZ3a-Y?vq=hd1080";
-    sources.push({
-      id: `gen-src-demo-${ep.id}`,
-      episode_id: ep.id,
-      server_name: "Official Stream Player (1440p / HD)",
-      source_type: "iframe",
-      quality: "1440p",
-      label: "1440p (2K Ultra QHD)",
-      origin_url: fallbackTrailer,
-      mime_type: null,
-      bitrate_kbps: 8000,
-      audio_language: "ja",
-      has_hardsub: false,
-      hardsub_language: null,
-      is_protected: false,
-      priority: 1,
-      is_active: true
+    // Generate resilient fallback sources across all 5 quality tiers (eliminates dead YouTube embeds & Error 153)
+    const fallbackStream = "https://drive.google.com/file/d/1ZawtRzBvTNufMEWid4xcyOevN7r7z74o/preview";
+    const FALLBACK_TIERS = [
+      { quality: '1440p', label: '1440p (2K Ultra QHD)', bitrate_kbps: 8000 },
+      { quality: '1080p', label: '1080p (Full HD 60FPS)', bitrate_kbps: 5000 },
+      { quality: '720p', label: '720p (HD Jernih)', bitrate_kbps: 2500 },
+      { quality: '480p', label: '480p (SD Hemat Data)', bitrate_kbps: 1200 },
+      { quality: '360p', label: '360p (Data Saver)', bitrate_kbps: 700 }
+    ];
+    FALLBACK_TIERS.forEach((qt) => {
+      sources.push({
+        id: `gen-src-demo-${ep.id}-${qt.quality}`,
+        episode_id: ep.id,
+        server_name: "Server 1 (Google Drive Direct HD / 1440p)",
+        source_type: "gdrive",
+        quality: qt.quality,
+        label: qt.label,
+        origin_url: fallbackStream,
+        mime_type: null,
+        bitrate_kbps: qt.bitrate_kbps,
+        audio_language: "ja",
+        has_hardsub: true,
+        hardsub_language: "id",
+        is_protected: false,
+        priority: 1,
+        is_active: true
+      });
     });
   }
 

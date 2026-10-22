@@ -7487,6 +7487,38 @@ export const DB = {
   ],
   "video_sources": [
     {
+      "id": "vs_arc_ep1_drive_1",
+      "episode_id": "0192a3f0-2222-7000-8000-000000000401",
+      "server_name": "Server 1 (Google Drive Direct HD / 1440p)",
+      "source_type": "gdrive",
+      "quality": "1440p",
+      "origin_url": "https://drive.google.com/file/d/1ZawtRzBvTNufMEWid4xcyOevN7r7z74o/preview",
+      "mime_type": "video/mp4",
+      "bitrate_kbps": 8000,
+      "audio_language": "ja",
+      "has_hardsub": true,
+      "hardsub_language": "id",
+      "is_protected": false,
+      "priority": 1,
+      "is_active": true
+    },
+    {
+      "id": "vs_arc_ep1_drive_2",
+      "episode_id": "0192a3f0-2222-7000-8000-000000000401",
+      "server_name": "Server 2 (Mirror Direct HD / 1440p)",
+      "source_type": "gdrive",
+      "quality": "1440p",
+      "origin_url": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/preview",
+      "mime_type": "video/mp4",
+      "bitrate_kbps": 8000,
+      "audio_language": "ja",
+      "has_hardsub": true,
+      "hardsub_language": "id",
+      "is_protected": false,
+      "priority": 2,
+      "is_active": true
+    },
+    {
       "id": "0192a3f0-4444-7000-8000-000000000701",
       "episode_id": "0192a3f0-2222-7000-8000-000000000607",
       "server_name": "Server 1 (Direct Embed)",
