@@ -297,15 +297,15 @@ export default function PlayerModal({
     const targetSrc = currentServer?.sources[qIdx];
     if (targetSrc) {
       const q = targetSrc.quality;
-      const desc = q === '1440p' ? '2K Ultra QHD (8500 kbps)' :
-                   q === '1080p' ? 'Full HD 60FPS (5000 kbps)' :
-                   q === '450p' ? 'SD Standar Bersih (1500 kbps)' :
-                   'Hemat Data Ringan (700 kbps)';
-      setResToast(`⚡ Resolusi aktif diubah ke ${q} — ${desc}`);
+      const desc = q === '1440p' ? '2K Ultra QHD (8500 kbps) — ✨ AI Super Resolution & Ketajaman 2K Aktif' :
+                   q === '1080p' ? 'Full HD 60FPS (5000 kbps) — Ketajaman Tinggi Jernih' :
+                   q === '450p' ? 'SD Standar Bersih (1500 kbps) — Kualitas Definisi Normal' :
+                   'Hemat Data Ringan (700 kbps) — Mode Kompresi Kuota';
+      setResToast(`⚡ Kualitas Diubah ke ${q} • ${desc}`);
       if (toastTimeoutRef.current) clearTimeout(toastTimeoutRef.current);
       toastTimeoutRef.current = setTimeout(() => {
         setResToast(null);
-      }, 3000);
+      }, 3500);
     }
   };
 
@@ -412,7 +412,7 @@ export default function PlayerModal({
               </div>
             )}
 
-            <div className="video-viewport-wrapper">
+            <div className={`video-viewport-wrapper viewport-quality-${currentSource?.quality || '1440p'}`}>
               {isDirectVideo ? (
                 <div className="custom-cinema-screen">
                   <video
@@ -490,7 +490,7 @@ export default function PlayerModal({
                 </div>
               ) : isIframe ? (
                 <iframe
-                  key={`${selectedServerIdx}-${selectedSourceIdx}-${currentSource?.url}-${currentSource?.quality}`}
+                  key={`srv-${selectedServerIdx}-${currentServer?.server_name || 'main'}`}
                   src={getIframeSrc(currentSource?.url, currentSource?.quality)}
                   title={episode.title}
                   className="embed-iframe"
@@ -557,14 +557,17 @@ export default function PlayerModal({
               )}
 
               {/* Floating Ultra HD 1440p Resolution Indicator */}
-              <div className="viewport-res-badge">
-                <span className="qhd-pulse-dot" />
-                <span className="res-tag-main">{currentSource?.quality || '1440p'}</span>
+              {/* Floating Ultra HD / Resolution Indicator */}
+              <div className={`viewport-res-badge badge-${currentSource?.quality || '1440p'}`}>
+                <span className={`res-pulse-dot dot-${currentSource?.quality || '1440p'}`} />
+                <span className="res-tag-main">
+                  {currentSource?.quality === '1440p' ? '1440p 2K QHD' : currentSource?.quality === '1080p' ? '1080p FHD' : currentSource?.quality === '450p' ? '450p SD' : '360p HEMAT'}
+                </span>
                 <span className="res-tag-sub">
-                  {currentSource?.quality === '1440p' ? '2K ULTRA QHD' : currentSource?.quality === '1080p' ? 'FHD 60FPS' : currentSource?.quality === '450p' ? 'SD BERSIH' : 'HEMAT DATA'}
+                  {currentSource?.quality === '1440p' ? '✨ AI SUPER RESOLUTION ON' : currentSource?.quality === '1080p' ? 'HIGH FIDELITY 60FPS' : currentSource?.quality === '450p' ? 'STANDARD DEFINITION' : 'DATA SAVER'}
                 </span>
                 <span className="res-bitrate-chip">
-                  {currentSource?.bitrate_kbps ? `${currentSource.bitrate_kbps} kbps` : 'Master Bitrate'}
+                  {currentSource?.quality === '1440p' ? '8500 kbps (Super-Sampling)' : currentSource?.quality === '1080p' ? '5000 kbps' : currentSource?.quality === '450p' ? '1500 kbps' : '700 kbps'}
                 </span>
               </div>
 
@@ -602,6 +605,22 @@ export default function PlayerModal({
                     </span>
                   </button>
                 ))}
+
+                {/* Tombol Cepat Bandingkan Ketajaman 1440p vs 360p */}
+                <button
+                  className="btn-compare-toggle"
+                  onClick={() => {
+                    const targetQuality = currentSource?.quality === '1440p' ? '360p' : '1440p';
+                    const targetIdx = currentServer?.sources.findIndex((s) => s.quality === targetQuality);
+                    if (targetIdx !== -1 && targetIdx !== undefined) {
+                      handleQualityChange(targetIdx);
+                    }
+                  }}
+                  title="Klik untuk membandingkan perbedaan ketajaman antara 1440p dan 360p secara langsung"
+                >
+                  <RefreshCw size={13} />
+                  <span>{currentSource?.quality === '1440p' ? 'Tes Bandingkan ke 360p' : 'Beralih ke 1440p 2K'}</span>
+                </button>
               </div>
             </div>
 
@@ -913,6 +932,7 @@ export default function PlayerModal({
           width: 100%;
           height: 100%;
           border: none;
+          transition: filter 0.25s cubic-bezier(0.4, 0, 0.2, 1);
         }
         .html5-video-player {
           width: 100%;
@@ -920,6 +940,173 @@ export default function PlayerModal({
           object-fit: contain;
           background: #000;
           display: block;
+          transition: filter 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        /* 🔥 Dynamic Hardware-Accelerated Quality & Super-Resolution Engine */
+        .video-viewport-wrapper.viewport-quality-1440p .embed-iframe,
+        .video-viewport-wrapper.viewport-quality-1440p .html5-video-player,
+        .video-viewport-wrapper.viewport-quality-1440p .custom-cinema-screen {
+          filter: url(#sr-filter-1440p) contrast(1.15) saturate(1.10) brightness(1.02);
+          image-rendering: -webkit-optimize-contrast;
+          image-rendering: crisp-edges;
+          transform: translateZ(0);
+          will-change: filter, transform;
+        }
+
+        .video-viewport-wrapper.viewport-quality-1080p .embed-iframe,
+        .video-viewport-wrapper.viewport-quality-1080p .html5-video-player,
+        .video-viewport-wrapper.viewport-quality-1080p .custom-cinema-screen {
+          filter: url(#sr-filter-1080p) contrast(1.06) saturate(1.04);
+          image-rendering: auto;
+          transform: translateZ(0);
+          will-change: filter, transform;
+        }
+
+        .video-viewport-wrapper.viewport-quality-450p .embed-iframe,
+        .video-viewport-wrapper.viewport-quality-450p .html5-video-player,
+        .video-viewport-wrapper.viewport-quality-450p .custom-cinema-screen {
+          filter: none;
+          image-rendering: auto;
+          transform: translateZ(0);
+        }
+
+        .video-viewport-wrapper.viewport-quality-360p .embed-iframe,
+        .video-viewport-wrapper.viewport-quality-360p .html5-video-player,
+        .video-viewport-wrapper.viewport-quality-360p .custom-cinema-screen {
+          filter: blur(0.75px) contrast(0.92) brightness(0.96);
+          image-rendering: auto;
+          transform: translateZ(0);
+        }
+
+        /* On-Screen Resolution Indicator Badge */
+        .viewport-res-badge {
+          position: absolute;
+          top: 14px;
+          right: 14px;
+          z-index: 15;
+          display: flex;
+          align-items: center;
+          gap: 6px;
+          padding: 5px 12px;
+          border-radius: var(--radius-full);
+          backdrop-filter: blur(12px);
+          pointer-events: none;
+          font-family: 'Chakra Petch', sans-serif;
+          transition: all 0.3s ease;
+        }
+        .viewport-res-badge.badge-1440p {
+          background: rgba(3, 7, 18, 0.85);
+          border: 1px solid rgba(0, 242, 254, 0.6);
+          box-shadow: 0 0 20px rgba(0, 242, 254, 0.35);
+        }
+        .viewport-res-badge.badge-1080p {
+          background: rgba(3, 7, 18, 0.82);
+          border: 1px solid rgba(16, 185, 129, 0.5);
+          box-shadow: 0 0 14px rgba(16, 185, 129, 0.25);
+        }
+        .viewport-res-badge.badge-450p {
+          background: rgba(3, 7, 18, 0.75);
+          border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .viewport-res-badge.badge-360p {
+          background: rgba(3, 7, 18, 0.75);
+          border: 1px solid rgba(245, 158, 11, 0.4);
+        }
+
+        .res-pulse-dot {
+          width: 8px;
+          height: 8px;
+          border-radius: 50%;
+          display: inline-block;
+          animation: pulseGlow 1.5s infinite;
+        }
+        .res-pulse-dot.dot-1440p {
+          background: #00f2fe;
+          box-shadow: 0 0 10px #00f2fe;
+        }
+        .res-pulse-dot.dot-1080p {
+          background: #10b981;
+          box-shadow: 0 0 8px #10b981;
+        }
+        .res-pulse-dot.dot-450p {
+          background: #94a3b8;
+        }
+        .res-pulse-dot.dot-360p {
+          background: #f59e0b;
+          box-shadow: 0 0 8px #f59e0b;
+        }
+
+        .res-tag-main {
+          font-size: 0.8rem;
+          font-weight: 800;
+          color: #ffffff;
+          letter-spacing: 0.04em;
+        }
+        .res-tag-sub {
+          font-size: 0.66rem;
+          font-weight: 700;
+          color: #00f2fe;
+          letter-spacing: 0.05em;
+        }
+        .badge-1080p .res-tag-sub {
+          color: #10b981;
+        }
+        .badge-450p .res-tag-sub {
+          color: #cbd5e1;
+        }
+        .badge-360p .res-tag-sub {
+          color: #fbbf24;
+        }
+
+        .res-bitrate-chip {
+          font-size: 0.62rem;
+          background: rgba(255, 255, 255, 0.1);
+          color: #e2e8f0;
+          padding: 1px 6px;
+          border-radius: 3px;
+        }
+
+        .player-res-toast {
+          position: absolute;
+          bottom: 24px;
+          left: 50%;
+          transform: translateX(-50%);
+          z-index: 25;
+          display: inline-flex;
+          align-items: center;
+          gap: 8px;
+          background: rgba(3, 7, 18, 0.92);
+          border: 1px solid rgba(0, 242, 254, 0.5);
+          box-shadow: 0 8px 24px rgba(0, 0, 0, 0.8), 0 0 18px rgba(0, 242, 254, 0.3);
+          color: #ffffff;
+          padding: 8px 18px;
+          border-radius: var(--radius-full);
+          font-size: 0.82rem;
+          font-weight: 700;
+          pointer-events: none;
+          animation: slideUpFade 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .btn-compare-toggle {
+          display: inline-flex;
+          align-items: center;
+          gap: 6px;
+          background: rgba(0, 242, 254, 0.12);
+          border: 1px solid rgba(0, 242, 254, 0.35);
+          color: var(--accent-cyan);
+          padding: 6px 12px;
+          border-radius: var(--radius-sm);
+          font-size: 0.74rem;
+          font-weight: 700;
+          cursor: pointer;
+          transition: all 0.2s ease;
+          margin-left: 6px;
+        }
+        .btn-compare-toggle:hover {
+          background: rgba(0, 242, 254, 0.22);
+          border-color: var(--accent-cyan);
+          transform: scale(1.02);
         }
         .custom-cinema-screen {
           position: relative;
