@@ -451,8 +451,18 @@ export default function App() {
       return;
     }
 
-    setPlayerEpisodeId('0192a3f0-2222-7000-8000-000000000001');
-    setPlayerWatchOrderSlug(watchOrderSlug);
+    if (production?.slug) {
+      setPlayerEpisodeId(production.slug);
+      setPlayerWatchOrderSlug(watchOrderSlug);
+      return;
+    }
+
+    // Dynamic resolution avoiding hardcoded IDs
+    const anyEp = DB.episodes.find((e) => e.is_published);
+    if (anyEp) {
+      setPlayerEpisodeId(anyEp.id);
+      setPlayerWatchOrderSlug(watchOrderSlug);
+    }
   };
 
   // 1. "Lanjutkan Menonton" (100% Real User Watch History - Zero Dummy Fallback)
@@ -1118,9 +1128,13 @@ export default function App() {
           history={history.map((h) => ({
             seriesTitle: h.production?.title || 'Serial Tokusatsu',
             episodeTitle: h.episode?.title || 'Episode',
-            posterUrl: h.production?.poster_url,
+            posterUrl: h.production?.poster_url || h.poster_url,
             episodeNumber: h.episode?.episode_number || 1,
-            watchedAt: h.last_watched_at
+            watchedAt: h.last_watched_at,
+            episodeId: h.episode?.id || h.episode_id,
+            productionId: h.production?.id || h.production_id,
+            production: h.production,
+            episode: h.episode
           }))}
           onSelectSeries={(series) => {
             setWatchlistModalOpen(false);
@@ -1132,6 +1146,10 @@ export default function App() {
           }}
           onRemoveBookmark={(id) => {
             deleteUserBookmark(id);
+            refreshUserData();
+          }}
+          onDeleteHistoryItem={async (epId) => {
+            await deleteUserHistory(epId);
             refreshUserData();
           }}
           onClearHistory={async () => {

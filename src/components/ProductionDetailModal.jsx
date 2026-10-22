@@ -282,7 +282,12 @@ export default function ProductionDetailModal({
                       className="btn-primary mini-btn"
                       onClick={() => {
                         onClose();
-                        onPlayEpisode(rel.production, { epNumber: 1, title: rel.production.title });
+                        onPlayEpisode(
+                          rel.production, 
+                          rel.production.playable_episode_id 
+                            ? { id: rel.production.playable_episode_id, title: rel.production.title } 
+                            : null
+                        );
                       }}
                     >
                       <Play size={14} fill="#ffffff" />

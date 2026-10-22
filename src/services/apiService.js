@@ -1432,7 +1432,18 @@ export const getStreamPayload = async (episodeId, { watch_order = null } = {}) =
         title: nextTvEp.title,
         thumbnail_url: nextTvEp.thumbnail_url,
         reason: "next_tv_episode"
-      } : null
+      } : null,
+      next_episode: nextChronological || (nextTvEp ? {
+        episode_id: nextTvEp.id,
+        production_id: prod.id,
+        production_slug: prod.slug,
+        production_type: prod.type,
+        episode_number: nextTvEp.episode_number,
+        kind: nextTvEp.kind,
+        title: nextTvEp.title,
+        thumbnail_url: nextTvEp.thumbnail_url,
+        reason: "next_tv_episode"
+      } : null)
     },
     resume: epHist ? {
       progress_seconds: epHist.progress_seconds,

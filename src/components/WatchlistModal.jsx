@@ -16,6 +16,7 @@ export default function WatchlistModal({
   onSelectSeries, 
   onPlayEpisode, 
   onRemoveBookmark, 
+  onDeleteHistoryItem,
   onClearHistory, 
   onClose 
 }) {
@@ -142,6 +143,31 @@ export default function WatchlistModal({
                             })}
                           </span>
                         </div>
+                      </div>
+                      <div className="item-actions">
+                        <button 
+                          className="btn-primary mini-btn"
+                          onClick={() => {
+                            onClose();
+                            onPlayEpisode && onPlayEpisode(
+                              item.production || { id: item.productionId, title: item.seriesTitle }, 
+                              item.episode || { id: item.episodeId, title: item.episodeTitle, episode_number: item.episodeNumber }
+                            );
+                          }}
+                          title="Lanjutkan Menonton"
+                        >
+                          <Play size={14} fill="#ffffff" />
+                          <span>Lanjutkan</span>
+                        </button>
+                        {onDeleteHistoryItem && (
+                          <button 
+                            className="remove-icon-btn"
+                            onClick={() => onDeleteHistoryItem(item.episodeId || item.id)}
+                            title="Hapus dari riwayat"
+                          >
+                            <Trash2 size={16} />
+                          </button>
+                        )}
                       </div>
                     </div>
                   ))}
