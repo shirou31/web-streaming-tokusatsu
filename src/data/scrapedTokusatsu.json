@@ -1,14 +1,143 @@
 {
   "metadata": {
     "generatedAt": "2026-10-21T03:32:47.615Z",
-    "totalEpisodes": 504,
+    "totalEpisodes": 770,
     "primarySource": "TokusatsuIndo & Sawidago Network",
     "targetFormat": "Tokuflix REST Schema 01/02 Standard",
     "status": "success",
-    "lastUpdated": "2026-10-21T10:50:13.327Z",
+    "lastUpdated": "2026-10-22T04:06:03.492Z",
     "lastBotSource": "https://sawidagofansub.com/"
   },
   "episodes": [
+    {
+      "id": "scraped_sawidago_no-1-sentai-gozyuger-tegasword-of-ressurection-bd_ep1_mvj0qi9j",
+      "productionId": "prod_no-1-sentai-gozyuger-tegasword-of-ressurection-bd",
+      "franchise": "Super Sentai",
+      "seriesTitle": "No.1 Sentai Gozyuger: TegaSword of Ressurection BD",
+      "title": "No.1 Sentai Gozyuger: TegaSword of Ressurection BD (Movie Sub Indo)",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "movie",
+      "sourceUrl": "https://sawidagofansub.com/?p=454",
+      "fansub": "SawidagoFansub (Official Release)",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "/posters/poster_sawidago_no-1-sentai-gozyuger-tegasword-of-ressurection-bd.png",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 2 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/no-1-sentai-gozyuger-tegasword-of-ressurection-bd_ep1",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 3 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/no-1-sentai-gozyuger-tegasword-of-ressurection-bd_ep1",
+          "type": "embed",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-10-22T04:05:56.599Z"
+    },
+    {
+      "id": "scraped_sawidago_bakuage-sentai-boonboomger-8211-movie-boon-promise-the-circuit_ep1_mvj0qknq",
+      "productionId": "prod_bakuage-sentai-boonboomger-8211-movie-boon-promise-the-circuit",
+      "franchise": "Super Sentai",
+      "seriesTitle": "Bakuage Sentai Boonboomger &#8211; MOVIE BOON! Promise the Circuit!",
+      "title": "Bakuage Sentai Boonboomger &#8211; MOVIE BOON! Promise the Circuit! (Movie Sub Indo)",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "movie",
+      "sourceUrl": "https://sawidagofansub.com/?p=3277",
+      "fansub": "SawidagoFansub (Official Release)",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "/posters/poster_sawidago_bakuage-sentai-boonboomger-8211-movie-boon-promise-the-circuit.png",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 2 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/bakuage-sentai-boonboomger-8211-movie-boon-promise-the-circuit_ep1",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 3 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/bakuage-sentai-boonboomger-8211-movie-boon-promise-the-circuit_ep1",
+          "type": "embed",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-10-22T04:05:59.702Z"
+    },
+    {
+      "id": "scraped_sawidago_ohsama-sentai-king-ohger-vs-donbrothers_ep1_mvj0qm19",
+      "productionId": "prod_ohsama-sentai-king-ohger-vs-donbrothers",
+      "franchise": "Super Sentai",
+      "seriesTitle": "Ohsama Sentai King-Ohger vs DonBrothers",
+      "title": "Ohsama Sentai King-Ohger vs DonBrothers (Movie Sub Indo)",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "movie",
+      "sourceUrl": "https://sawidagofansub.com/?p=2970",
+      "fansub": "SawidagoFansub (Official Release)",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "/posters/poster_sawidago_ohsama-sentai-king-ohger-vs-donbrothers.png",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 2 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/ohsama-sentai-king-ohger-vs-donbrothers_ep1",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 3 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/ohsama-sentai-king-ohger-vs-donbrothers_ep1",
+          "type": "embed",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-10-22T04:06:01.485Z"
+    },
     {
       "id": "scraped_sawidago_kakuseihunter-omegahorn_ep1_mvhzprg5",
       "productionId": "prod_kakuseihunter-omegahorn",
