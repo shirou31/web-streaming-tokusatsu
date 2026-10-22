@@ -687,6 +687,10 @@ export const isScrapedEpisodeMatch = (se, prod, episodeNumber = null) => {
   if (pSlug.includes('ten-gokaiger') && !sTitle.includes('ten') && !sProdId.includes('ten')) return false;
   if (!pSlug.includes('ten-gokaiger') && (sTitle.includes('ten gokaiger') || sProdId.includes('ten_gokaiger')) && !pTitle.includes('ten')) return false;
 
+  // Disambiguasi Kamen Rider Zero-One vs Kamen Rider My-Th
+  if (pSlug.includes('zero-one') && (sTitle.includes('my-th') || sTitle.includes('myth') || sProdId.includes('myth') || sProdId.includes('my_th'))) return false;
+  if ((pSlug.includes('my-th') || pSlug.includes('myth')) && (sTitle.includes('zero-one') || sProdId.includes('zero_one') || sProdId.includes('zero-one'))) return false;
+
   const matchProd = (prod.id && se.productionId === prod.id) ||
                     sProdId === pSlug ||
                     sProdId === `prod_${pSlug.replace(/-/g, '_')}` ||

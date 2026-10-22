@@ -8378,14 +8378,14 @@
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
       "thumbnail": "https://image.tmdb.org/t/p/w500/kiXsuX5qAFUxHvf9BM7MPadFq62.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/14hhHLCKVPyBRu4SQP0gdZeh6DEWlZuU6/view?usp=sharing",
+      "driveDownloadUrl2": null,
       "servers": [
         {
-          "id": "srv_real_drive_2_scraped_kamen-rider-geats_ep1",
-          "name": "Server 1 (Mirror Direct HD / 1440p)",
-          "embedUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/preview",
-          "directUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+          "id": "srv_real_1_scraped_kamen-rider-geats_ep1",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/14hhHLCKVPyBRu4SQP0gdZeh6DEWlZuU6/preview",
+          "directUrl": "https://drive.google.com/file/d/14hhHLCKVPyBRu4SQP0gdZeh6DEWlZuU6/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         }
@@ -8558,10 +8558,10 @@
       "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_real_drive_2_scraped_kamen-rider-gavv_ep2",
-          "name": "Server 1 (Mirror Direct HD / 1440p)",
-          "embedUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/preview",
-          "directUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+          "id": "srv_real_gavv_2",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/18hto9fu5oUfIcZjdTuoVV-7hlOdOruYz/preview",
+          "directUrl": "https://drive.google.com/file/d/18hto9fu5oUfIcZjdTuoVV-7hlOdOruYz/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         }
@@ -8932,15 +8932,23 @@
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
-      "thumbnail": "https://image.tmdb.org/t/p/original/mXnF4R6U8y1cWJg6J45eB8k1HhT.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "thumbnail": "/posters/poster_kamen-rider-zero-one.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1m8KbosDORM5Zovygs8NFbc40O5a-bQCz/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1kdfFWFMd5aEfDeB1B8SjvwDB3JxwmmR4/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_real_drive_2_scraped_kamen-rider-zero-one_ep1",
-          "name": "Server 1 (Mirror Direct HD / 1440p)",
-          "embedUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/preview",
-          "directUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+          "id": "srv_real_1_scraped_kamen-rider-zero-one_ep1",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1m8KbosDORM5Zovygs8NFbc40O5a-bQCz/preview",
+          "directUrl": "https://drive.google.com/file/d/1m8KbosDORM5Zovygs8NFbc40O5a-bQCz/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_2_scraped_kamen-rider-zero-one_ep1",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1kdfFWFMd5aEfDeB1B8SjvwDB3JxwmmR4/preview",
+          "directUrl": "https://drive.google.com/file/d/1kdfFWFMd5aEfDeB1B8SjvwDB3JxwmmR4/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         }
@@ -8960,15 +8968,23 @@
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
-      "thumbnail": "https://image.tmdb.org/t/p/original/mXnF4R6U8y1cWJg6J45eB8k1HhT.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "thumbnail": "/posters/poster_kamen-rider-zero-one.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1m8KbosDORM5Zovygs8NFbc40O5a-bQCz/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1Nu4Bt2lGBuECmYn5loIxpR34kfReR6rC/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_real_drive_2_scraped_kamen-rider-zero-one_ep2",
-          "name": "Server 1 (Mirror Direct HD / 1440p)",
-          "embedUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/preview",
-          "directUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+          "id": "srv_real_1_scraped_kamen-rider-zero-one_ep2",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1m8KbosDORM5Zovygs8NFbc40O5a-bQCz/preview",
+          "directUrl": "https://drive.google.com/file/d/1m8KbosDORM5Zovygs8NFbc40O5a-bQCz/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_2_scraped_kamen-rider-zero-one_ep2",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1Nu4Bt2lGBuECmYn5loIxpR34kfReR6rC/preview",
+          "directUrl": "https://drive.google.com/file/d/1Nu4Bt2lGBuECmYn5loIxpR34kfReR6rC/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         }
@@ -8988,15 +9004,23 @@
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
-      "thumbnail": "https://image.tmdb.org/t/p/original/mXnF4R6U8y1cWJg6J45eB8k1HhT.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "thumbnail": "/posters/poster_kamen-rider-zero-one.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1139u03EwjzQd5xmfxs8E-Shj_4oSHGpA/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1Cb4M2-X-W6Z8sdwZC7VENVWSXwlstlSQ/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_real_drive_2_scraped_kamen-rider-zero-one_ep3",
-          "name": "Server 1 (Mirror Direct HD / 1440p)",
-          "embedUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/preview",
-          "directUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+          "id": "srv_real_1_scraped_kamen-rider-zero-one_ep3",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1139u03EwjzQd5xmfxs8E-Shj_4oSHGpA/preview",
+          "directUrl": "https://drive.google.com/file/d/1139u03EwjzQd5xmfxs8E-Shj_4oSHGpA/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_2_scraped_kamen-rider-zero-one_ep3",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1Cb4M2-X-W6Z8sdwZC7VENVWSXwlstlSQ/preview",
+          "directUrl": "https://drive.google.com/file/d/1Cb4M2-X-W6Z8sdwZC7VENVWSXwlstlSQ/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         }
@@ -9016,15 +9040,23 @@
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
-      "thumbnail": "https://image.tmdb.org/t/p/original/mXnF4R6U8y1cWJg6J45eB8k1HhT.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "thumbnail": "/posters/poster_kamen-rider-zero-one.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1GmjEyC0QXvlkEsnk2-0-MuWyWoYsV1EQ/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1MGFHiH4moOUFy1LP8MoSQ_KobIDMX0KI/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_real_drive_2_scraped_kamen-rider-zero-one_ep4",
-          "name": "Server 1 (Mirror Direct HD / 1440p)",
-          "embedUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/preview",
-          "directUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+          "id": "srv_real_1_scraped_kamen-rider-zero-one_ep4",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1GmjEyC0QXvlkEsnk2-0-MuWyWoYsV1EQ/preview",
+          "directUrl": "https://drive.google.com/file/d/1GmjEyC0QXvlkEsnk2-0-MuWyWoYsV1EQ/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_2_scraped_kamen-rider-zero-one_ep4",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1MGFHiH4moOUFy1LP8MoSQ_KobIDMX0KI/preview",
+          "directUrl": "https://drive.google.com/file/d/1MGFHiH4moOUFy1LP8MoSQ_KobIDMX0KI/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         }
@@ -9044,15 +9076,23 @@
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
-      "thumbnail": "https://image.tmdb.org/t/p/original/mXnF4R6U8y1cWJg6J45eB8k1HhT.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "thumbnail": "/posters/poster_kamen-rider-zero-one.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1_fZDjTDvcBe9-mSVfVAH6KDfIxn3DFsr/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1jDlHWBwMtKZzmgMQLrjr37d6-3TnMgE2/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_real_drive_2_scraped_kamen-rider-zero-one_ep5",
-          "name": "Server 1 (Mirror Direct HD / 1440p)",
-          "embedUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/preview",
-          "directUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+          "id": "srv_real_1_scraped_kamen-rider-zero-one_ep5",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1_fZDjTDvcBe9-mSVfVAH6KDfIxn3DFsr/preview",
+          "directUrl": "https://drive.google.com/file/d/1_fZDjTDvcBe9-mSVfVAH6KDfIxn3DFsr/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_2_scraped_kamen-rider-zero-one_ep5",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1jDlHWBwMtKZzmgMQLrjr37d6-3TnMgE2/preview",
+          "directUrl": "https://drive.google.com/file/d/1jDlHWBwMtKZzmgMQLrjr37d6-3TnMgE2/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         }
@@ -9072,15 +9112,23 @@
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
-      "thumbnail": "https://image.tmdb.org/t/p/original/mXnF4R6U8y1cWJg6J45eB8k1HhT.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "thumbnail": "/posters/poster_kamen-rider-zero-one.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1hgbT7L8x2v3n5HcXV9AOaw-GBp80pkZL/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1KfuoMs2xuHvhQ7iOq4YKWWI-h349r1O-/view?usp=sharing",
       "servers": [
         {
-          "id": "srv_real_drive_2_scraped_kamen-rider-zero-one_ep6",
-          "name": "Server 1 (Mirror Direct HD / 1440p)",
-          "embedUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/preview",
-          "directUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+          "id": "srv_real_1_scraped_kamen-rider-zero-one_ep6",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1hgbT7L8x2v3n5HcXV9AOaw-GBp80pkZL/preview",
+          "directUrl": "https://drive.google.com/file/d/1hgbT7L8x2v3n5HcXV9AOaw-GBp80pkZL/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_real_2_scraped_kamen-rider-zero-one_ep6",
+          "name": "Server 2 (Mirror Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1KfuoMs2xuHvhQ7iOq4YKWWI-h349r1O-/preview",
+          "directUrl": "https://drive.google.com/file/d/1KfuoMs2xuHvhQ7iOq4YKWWI-h349r1O-/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         }
@@ -9208,15 +9256,15 @@
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
-      "thumbnail": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "thumbnail": "/posters/poster_kamen-rider-saber.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1KqKzrSgkQacAZ-XiuFSY1MKqRK4_wtz6/view?usp=sharing",
+      "driveDownloadUrl2": null,
       "servers": [
         {
-          "id": "srv_real_drive_2_scraped_kamen-rider-saber_ep1",
-          "name": "Server 1 (Mirror Direct HD / 1440p)",
-          "embedUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/preview",
-          "directUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+          "id": "srv_real_1_scraped_kamen-rider-saber_ep1",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1KqKzrSgkQacAZ-XiuFSY1MKqRK4_wtz6/preview",
+          "directUrl": "https://drive.google.com/file/d/1KqKzrSgkQacAZ-XiuFSY1MKqRK4_wtz6/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         }
@@ -9236,15 +9284,15 @@
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
-      "thumbnail": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "thumbnail": "/posters/poster_kamen-rider-saber.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1V4DhxZFixTewt7o9dX7TLB9Kkwo2SFUE/view?usp=sharing",
+      "driveDownloadUrl2": null,
       "servers": [
         {
-          "id": "srv_real_drive_2_scraped_kamen-rider-saber_ep2",
-          "name": "Server 1 (Mirror Direct HD / 1440p)",
-          "embedUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/preview",
-          "directUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+          "id": "srv_real_1_scraped_kamen-rider-saber_ep2",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1V4DhxZFixTewt7o9dX7TLB9Kkwo2SFUE/preview",
+          "directUrl": "https://drive.google.com/file/d/1V4DhxZFixTewt7o9dX7TLB9Kkwo2SFUE/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         }
@@ -9264,15 +9312,15 @@
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
-      "thumbnail": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "thumbnail": "/posters/poster_kamen-rider-saber.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1tRA9fjsIQdO7xdxWhat6e5KVwQUhDMHW/view?usp=sharing",
+      "driveDownloadUrl2": null,
       "servers": [
         {
-          "id": "srv_real_drive_2_scraped_kamen-rider-saber_ep3",
-          "name": "Server 1 (Mirror Direct HD / 1440p)",
-          "embedUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/preview",
-          "directUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+          "id": "srv_real_1_scraped_kamen-rider-saber_ep3",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1tRA9fjsIQdO7xdxWhat6e5KVwQUhDMHW/preview",
+          "directUrl": "https://drive.google.com/file/d/1tRA9fjsIQdO7xdxWhat6e5KVwQUhDMHW/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         }
@@ -9292,15 +9340,15 @@
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
-      "thumbnail": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "thumbnail": "/posters/poster_kamen-rider-saber.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1wGgrLJBdK24l2zJycCZlFY74nP8WvoJs/view?usp=sharing",
+      "driveDownloadUrl2": null,
       "servers": [
         {
-          "id": "srv_real_drive_2_scraped_kamen-rider-saber_ep4",
-          "name": "Server 1 (Mirror Direct HD / 1440p)",
-          "embedUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/preview",
-          "directUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+          "id": "srv_real_1_scraped_kamen-rider-saber_ep4",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1wGgrLJBdK24l2zJycCZlFY74nP8WvoJs/preview",
+          "directUrl": "https://drive.google.com/file/d/1wGgrLJBdK24l2zJycCZlFY74nP8WvoJs/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         }
@@ -9320,15 +9368,15 @@
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
-      "thumbnail": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "thumbnail": "/posters/poster_kamen-rider-saber.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/107BMgGmu-45QNJKbhepG0s49JOHUjcvw/view?usp=sharing",
+      "driveDownloadUrl2": null,
       "servers": [
         {
-          "id": "srv_real_drive_2_scraped_kamen-rider-saber_ep5",
-          "name": "Server 1 (Mirror Direct HD / 1440p)",
-          "embedUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/preview",
-          "directUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+          "id": "srv_real_1_scraped_kamen-rider-saber_ep5",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/107BMgGmu-45QNJKbhepG0s49JOHUjcvw/preview",
+          "directUrl": "https://drive.google.com/file/d/107BMgGmu-45QNJKbhepG0s49JOHUjcvw/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         }
@@ -9348,15 +9396,15 @@
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
-      "thumbnail": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "thumbnail": "/posters/poster_kamen-rider-saber.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/15uwLrxQ4g3JbGiZ0b8jnvypNF2jIzgnd/view?usp=sharing",
+      "driveDownloadUrl2": null,
       "servers": [
         {
-          "id": "srv_real_drive_2_scraped_kamen-rider-saber_ep6",
-          "name": "Server 1 (Mirror Direct HD / 1440p)",
-          "embedUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/preview",
-          "directUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+          "id": "srv_real_1_scraped_kamen-rider-saber_ep6",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/15uwLrxQ4g3JbGiZ0b8jnvypNF2jIzgnd/preview",
+          "directUrl": "https://drive.google.com/file/d/15uwLrxQ4g3JbGiZ0b8jnvypNF2jIzgnd/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         }
@@ -9476,15 +9524,15 @@
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
-      "thumbnail": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "thumbnail": "/posters/poster_kamen-rider-revice.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1hBZOdEyKNERN9v4AA00DHn312TqorwZS/view?usp=sharing",
+      "driveDownloadUrl2": null,
       "servers": [
         {
-          "id": "srv_real_drive_2_scraped_kamen-rider-revice_ep1",
-          "name": "Server 1 (Mirror Direct HD / 1440p)",
-          "embedUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/preview",
-          "directUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+          "id": "srv_real_1_scraped_kamen-rider-revice_ep1",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1hBZOdEyKNERN9v4AA00DHn312TqorwZS/preview",
+          "directUrl": "https://drive.google.com/file/d/1hBZOdEyKNERN9v4AA00DHn312TqorwZS/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         }
@@ -9504,15 +9552,15 @@
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
-      "thumbnail": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "thumbnail": "/posters/poster_kamen-rider-revice.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/17NcMT68hde0eZW3wX7FZsXGUI9ddE0-B/view?usp=sharing",
+      "driveDownloadUrl2": null,
       "servers": [
         {
-          "id": "srv_real_drive_2_scraped_kamen-rider-revice_ep2",
-          "name": "Server 1 (Mirror Direct HD / 1440p)",
-          "embedUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/preview",
-          "directUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+          "id": "srv_real_1_scraped_kamen-rider-revice_ep2",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/17NcMT68hde0eZW3wX7FZsXGUI9ddE0-B/preview",
+          "directUrl": "https://drive.google.com/file/d/17NcMT68hde0eZW3wX7FZsXGUI9ddE0-B/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         }
@@ -9532,15 +9580,15 @@
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
-      "thumbnail": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "thumbnail": "/posters/poster_kamen-rider-revice.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1wiFvm6ZllZrq8lBVTg3Z0AC88aFRrgxY/view?usp=sharing",
+      "driveDownloadUrl2": null,
       "servers": [
         {
-          "id": "srv_real_drive_2_scraped_kamen-rider-revice_ep3",
-          "name": "Server 1 (Mirror Direct HD / 1440p)",
-          "embedUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/preview",
-          "directUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+          "id": "srv_real_1_scraped_kamen-rider-revice_ep3",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1wiFvm6ZllZrq8lBVTg3Z0AC88aFRrgxY/preview",
+          "directUrl": "https://drive.google.com/file/d/1wiFvm6ZllZrq8lBVTg3Z0AC88aFRrgxY/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         }
@@ -9560,15 +9608,15 @@
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
-      "thumbnail": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "thumbnail": "/posters/poster_kamen-rider-revice.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1qW3jirdqcEFzMcnaFd9TnRG-N4gMTVq7/view?usp=sharing",
+      "driveDownloadUrl2": null,
       "servers": [
         {
-          "id": "srv_real_drive_2_scraped_kamen-rider-revice_ep4",
-          "name": "Server 1 (Mirror Direct HD / 1440p)",
-          "embedUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/preview",
-          "directUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+          "id": "srv_real_1_scraped_kamen-rider-revice_ep4",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1qW3jirdqcEFzMcnaFd9TnRG-N4gMTVq7/preview",
+          "directUrl": "https://drive.google.com/file/d/1qW3jirdqcEFzMcnaFd9TnRG-N4gMTVq7/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         }
@@ -9588,15 +9636,15 @@
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
-      "thumbnail": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "thumbnail": "/posters/poster_kamen-rider-revice.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1bxRwcMXNqYLIiznwxVAgiNN40q7sn84P/view?usp=sharing",
+      "driveDownloadUrl2": null,
       "servers": [
         {
-          "id": "srv_real_drive_2_scraped_kamen-rider-revice_ep5",
-          "name": "Server 1 (Mirror Direct HD / 1440p)",
-          "embedUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/preview",
-          "directUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+          "id": "srv_real_1_scraped_kamen-rider-revice_ep5",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1bxRwcMXNqYLIiznwxVAgiNN40q7sn84P/preview",
+          "directUrl": "https://drive.google.com/file/d/1bxRwcMXNqYLIiznwxVAgiNN40q7sn84P/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         }
@@ -9616,15 +9664,15 @@
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
-      "thumbnail": "https://image.tmdb.org/t/p/original/vR2X0L4J0y5K0z4A9Q1x3X5b7J5.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "thumbnail": "/posters/poster_kamen-rider-revice.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1jsR180L4ZJ1_F7kCI5KFUy2PNJ0MOvfJ/view?usp=sharing",
+      "driveDownloadUrl2": null,
       "servers": [
         {
-          "id": "srv_real_drive_2_scraped_kamen-rider-revice_ep6",
-          "name": "Server 1 (Mirror Direct HD / 1440p)",
-          "embedUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/preview",
-          "directUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+          "id": "srv_real_1_scraped_kamen-rider-revice_ep6",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1jsR180L4ZJ1_F7kCI5KFUy2PNJ0MOvfJ/preview",
+          "directUrl": "https://drive.google.com/file/d/1jsR180L4ZJ1_F7kCI5KFUy2PNJ0MOvfJ/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         }
@@ -9752,15 +9800,15 @@
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
-      "thumbnail": "https://image.tmdb.org/t/p/original/mXnF4R6U8y1cWJg6J45eB8k1HhT.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "thumbnail": "/posters/poster_kamen-rider-gotchard.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1VBaGs7b63kBw5J4pR-ca40ZRkICb_ko9/view?usp=sharing",
+      "driveDownloadUrl2": null,
       "servers": [
         {
-          "id": "srv_real_drive_2_scraped_kamen-rider-gotchard_ep1",
-          "name": "Server 1 (Mirror Direct HD / 1440p)",
-          "embedUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/preview",
-          "directUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+          "id": "srv_real_1_scraped_kamen-rider-gotchard_ep1",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1VBaGs7b63kBw5J4pR-ca40ZRkICb_ko9/preview",
+          "directUrl": "https://drive.google.com/file/d/1VBaGs7b63kBw5J4pR-ca40ZRkICb_ko9/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         }
@@ -9780,15 +9828,15 @@
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
-      "thumbnail": "https://image.tmdb.org/t/p/original/mXnF4R6U8y1cWJg6J45eB8k1HhT.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "thumbnail": "/posters/poster_kamen-rider-gotchard.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1EELtk14g34EGQfqHi3Ziq2WRHu3bOy7q/view?usp=sharing",
+      "driveDownloadUrl2": null,
       "servers": [
         {
-          "id": "srv_real_drive_2_scraped_kamen-rider-gotchard_ep2",
-          "name": "Server 1 (Mirror Direct HD / 1440p)",
-          "embedUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/preview",
-          "directUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+          "id": "srv_real_1_scraped_kamen-rider-gotchard_ep2",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1EELtk14g34EGQfqHi3Ziq2WRHu3bOy7q/preview",
+          "directUrl": "https://drive.google.com/file/d/1EELtk14g34EGQfqHi3Ziq2WRHu3bOy7q/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         }
@@ -9808,15 +9856,15 @@
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
-      "thumbnail": "https://image.tmdb.org/t/p/original/mXnF4R6U8y1cWJg6J45eB8k1HhT.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "thumbnail": "/posters/poster_kamen-rider-gotchard.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1QPLv0YL_Nh2bHYVV4esr4-UkSC4yMJJ7/view?usp=sharing",
+      "driveDownloadUrl2": null,
       "servers": [
         {
-          "id": "srv_real_drive_2_scraped_kamen-rider-gotchard_ep3",
-          "name": "Server 1 (Mirror Direct HD / 1440p)",
-          "embedUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/preview",
-          "directUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+          "id": "srv_real_1_scraped_kamen-rider-gotchard_ep3",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1QPLv0YL_Nh2bHYVV4esr4-UkSC4yMJJ7/preview",
+          "directUrl": "https://drive.google.com/file/d/1QPLv0YL_Nh2bHYVV4esr4-UkSC4yMJJ7/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         }
@@ -9836,15 +9884,15 @@
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
-      "thumbnail": "https://image.tmdb.org/t/p/original/mXnF4R6U8y1cWJg6J45eB8k1HhT.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "thumbnail": "/posters/poster_kamen-rider-gotchard.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1BZrVRVQIeZdCGR2yL9J27i8Kqaj89lZO/view?usp=sharing",
+      "driveDownloadUrl2": null,
       "servers": [
         {
-          "id": "srv_real_drive_2_scraped_kamen-rider-gotchard_ep4",
-          "name": "Server 1 (Mirror Direct HD / 1440p)",
-          "embedUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/preview",
-          "directUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+          "id": "srv_real_1_scraped_kamen-rider-gotchard_ep4",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1BZrVRVQIeZdCGR2yL9J27i8Kqaj89lZO/preview",
+          "directUrl": "https://drive.google.com/file/d/1BZrVRVQIeZdCGR2yL9J27i8Kqaj89lZO/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         }
@@ -9864,15 +9912,15 @@
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
-      "thumbnail": "https://image.tmdb.org/t/p/original/mXnF4R6U8y1cWJg6J45eB8k1HhT.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "thumbnail": "/posters/poster_kamen-rider-gotchard.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1Iz4PWAh5y0EZ-uPhxi2JlfRRm13Z8ckj/view?usp=sharing",
+      "driveDownloadUrl2": null,
       "servers": [
         {
-          "id": "srv_real_drive_2_scraped_kamen-rider-gotchard_ep5",
-          "name": "Server 1 (Mirror Direct HD / 1440p)",
-          "embedUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/preview",
-          "directUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+          "id": "srv_real_1_scraped_kamen-rider-gotchard_ep5",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1Iz4PWAh5y0EZ-uPhxi2JlfRRm13Z8ckj/preview",
+          "directUrl": "https://drive.google.com/file/d/1Iz4PWAh5y0EZ-uPhxi2JlfRRm13Z8ckj/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         }
@@ -9892,15 +9940,15 @@
       "fansub": "TokusatsuIndo / Sorot Indo",
       "language": "Indonesian (Sub Indo)",
       "quality": "1080p FHD / 2K QHD",
-      "thumbnail": "https://image.tmdb.org/t/p/original/mXnF4R6U8y1cWJg6J45eB8k1HhT.jpg",
-      "driveDownloadUrl1": null,
-      "driveDownloadUrl2": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+      "thumbnail": "/posters/poster_kamen-rider-gotchard.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1d8eJODQKkeh6o66kXOQUIuJh340t0xfu/view?usp=sharing",
+      "driveDownloadUrl2": null,
       "servers": [
         {
-          "id": "srv_real_drive_2_scraped_kamen-rider-gotchard_ep6",
-          "name": "Server 1 (Mirror Direct HD / 1440p)",
-          "embedUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/preview",
-          "directUrl": "https://drive.google.com/file/d/1NDB246gu80NzaJawft4TSjZ8o7V_iY4x/view?usp=sharing",
+          "id": "srv_real_1_scraped_kamen-rider-gotchard_ep6",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1d8eJODQKkeh6o66kXOQUIuJh340t0xfu/preview",
+          "directUrl": "https://drive.google.com/file/d/1d8eJODQKkeh6o66kXOQUIuJh340t0xfu/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         }
@@ -11358,14 +11406,15 @@
       "scrapedAt": "2026-10-21T05:37:36.883Z",
       "servers": [
         {
-          "id": "srv_real_kamen-rider-ryuki_1",
+          "id": "srv_real_1_scraped_prod_kr_ryuki_ep1",
           "name": "Server 1 (Google Drive Direct HD / 1440p)",
           "embedUrl": "https://drive.google.com/file/d/1IKayg2x89yhUYHLxJjs1yJ5hq13pgNNP/preview",
           "directUrl": "https://drive.google.com/file/d/1IKayg2x89yhUYHLxJjs1yJ5hq13pgNNP/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         }
-      ]
+      ],
+      "driveDownloadUrl2": null
     },
     {
       "id": "scraped_prod_kr_ryuki_ep2",
@@ -13008,14 +13057,15 @@
       "scrapedAt": "2026-10-21T05:37:36.884Z",
       "servers": [
         {
-          "id": "srv_real_kamen-rider-den-o_1",
+          "id": "srv_real_1_scraped_prod_kr_den_o_ep1",
           "name": "Server 1 (Google Drive Direct HD / 1440p)",
           "embedUrl": "https://drive.google.com/file/d/1--YwUOd0BdAmzBoVbg9BU7N2Em4H58Su/preview",
           "directUrl": "https://drive.google.com/file/d/1--YwUOd0BdAmzBoVbg9BU7N2Em4H58Su/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         }
-      ]
+      ],
+      "driveDownloadUrl2": null
     },
     {
       "id": "scraped_prod_kr_den_o_ep2",
@@ -14625,14 +14675,15 @@
       "scrapedAt": "2026-10-21T05:37:36.884Z",
       "servers": [
         {
-          "id": "srv_real_kamen-rider-ooo_1",
+          "id": "srv_real_1_scraped_prod_kr_ooo_ep1",
           "name": "Server 1 (Google Drive Direct HD / 1440p)",
           "embedUrl": "https://drive.google.com/file/d/13Ytpt9kX1Tv7BAs_qYWKnnJfYQd9ybN1/preview",
           "directUrl": "https://drive.google.com/file/d/13Ytpt9kX1Tv7BAs_qYWKnnJfYQd9ybN1/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
         }
-      ]
+      ],
+      "driveDownloadUrl2": null
     },
     {
       "id": "scraped_prod_kr_ooo_ep2",
@@ -16209,22 +16260,15 @@
       "scrapedAt": "2026-10-21T05:37:36.885Z",
       "servers": [
         {
-          "id": "srv_real_tokusatsuindo_gokaiger_1",
+          "id": "srv_real_1_scraped_prod_ss_gokaiger_ep1",
           "name": "Server 1 (Google Drive Direct HD / 1440p)",
           "embedUrl": "https://drive.google.com/file/d/1Bf3xSrHmZ0YTQYsYVGgppzVkIjGC63mn/preview",
           "directUrl": "https://drive.google.com/file/d/1Bf3xSrHmZ0YTQYsYVGgppzVkIjGC63mn/view?usp=sharing",
           "type": "gdrive",
           "status": "online"
-        },
-        {
-          "id": "srv_real_gdrive_gokaiger_1",
-          "name": "Server 2 (Google Drive Preview)",
-          "embedUrl": "https://drive.google.com/file/d/1Bf3xSrHmZ0YTQYsYVGgppzVkIjGC63mn/preview",
-          "directUrl": "https://drive.google.com/file/d/1Bf3xSrHmZ0YTQYsYVGgppzVkIjGC63mn/view?usp=sharing",
-          "type": "gdrive",
-          "status": "online"
         }
-      ]
+      ],
+      "driveDownloadUrl2": null
     },
     {
       "id": "scraped_prod_ss_gokaiger_ep2",

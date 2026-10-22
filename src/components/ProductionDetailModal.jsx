@@ -70,6 +70,12 @@ export default function ProductionDetailModal({
             src={production.backdrop_url || production.poster_url} 
             alt={production.title}
             className="prod-backdrop-img"
+            onError={(e) => {
+              const fallback = production.poster_url || '/favicon.png';
+              if (e.currentTarget.src !== fallback) {
+                e.currentTarget.src = fallback;
+              }
+            }}
           />
           <div className="prod-header-overlay" />
           
@@ -176,9 +182,16 @@ export default function ProductionDetailModal({
                 >
                   <div className="ep-card-thumb-wrap">
                     <img 
-                      src={ep.thumbnail_url || production.backdrop_url} 
+                      src={ep.thumbnail_url || production.backdrop_url || production.poster_url} 
                       alt={ep.title} 
                       className="ep-card-thumb"
+                      loading="lazy"
+                      onError={(e) => {
+                        const fallback = production.backdrop_url || production.poster_url || '/favicon.png';
+                        if (e.currentTarget.src !== fallback) {
+                          e.currentTarget.src = fallback;
+                        }
+                      }}
                     />
                     <div className="ep-play-overlay">
                       <Play size={20} fill="#ffffff" />
@@ -273,6 +286,12 @@ export default function ProductionDetailModal({
                     src={rel.production.poster_url} 
                     alt={rel.production.title} 
                     className="related-poster"
+                    loading="lazy"
+                    onError={(e) => {
+                      if (e.currentTarget.src !== '/favicon.png') {
+                        e.currentTarget.src = '/favicon.png';
+                      }
+                    }}
                   />
                   <div className="related-details">
                     <span className="badge badge-purple">{rel.relation.toUpperCase()}</span>
