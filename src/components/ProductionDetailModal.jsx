@@ -99,11 +99,11 @@ export default function ProductionDetailModal({
                 className="btn-primary"
                 onClick={() => {
                   onClose();
-                  onPlayEpisode(production, episodes[0]);
+                  onPlayEpisode(production, episodes[0] || null);
                 }}
               >
                 <Play size={18} fill="#ffffff" />
-                <span>Nonton Episode 1</span>
+                <span>{production.type === 'movie' ? 'Putar Film Sekarang' : 'Nonton Episode 1'}</span>
               </button>
 
               <button 
@@ -123,8 +123,8 @@ export default function ProductionDetailModal({
             className={`prod-tab-btn ${activeTab === 'episodes' ? 'active' : ''}`}
             onClick={() => setActiveTab('episodes')}
           >
-            <Tv size={16} />
-            <span>Daftar Episode TV ({episodes.length})</span>
+            {production.type === 'movie' ? <Film size={16} /> : <Tv size={16} />}
+            <span>{production.type === 'movie' ? 'Tonton Film' : 'Daftar Episode TV'} ({episodes.length})</span>
           </button>
 
           {watch_order && (
@@ -188,7 +188,7 @@ export default function ProductionDetailModal({
                     </span>
                   </div>
                   <div className="ep-card-meta">
-                    <span className="ep-card-number">Episode {ep.episode_number}</span>
+                    <span className="ep-card-number">{production.type === 'movie' || ep.kind === 'feature' ? 'Movie Feature' : `Episode ${ep.episode_number}`}</span>
                     <h4 className="ep-card-title">{ep.title}</h4>
                     {ep.title_native && <p className="ep-card-jp">{ep.title_native}</p>}
                   </div>

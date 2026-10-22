@@ -134,7 +134,7 @@ export default function HeroBanner({
             <button 
               type="button" 
               className="btn btn-w hero-play-btn"
-              onClick={() => onPlayEpisode && onPlayEpisode(current.rawProduction || current, { id: '0192a3f0-2222-7000-8000-000000000001' })}
+              onClick={() => onPlayEpisode && onPlayEpisode(current.rawProduction || current, current.episode || null)}
             >
               <Play size={20} fill="currentColor" />
               <span>Putar</span>

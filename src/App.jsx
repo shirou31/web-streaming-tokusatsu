@@ -402,9 +402,9 @@ export default function App() {
       return;
     }
 
-    // Cari episode pertama produksi ini di DB
+    // 1. Cari episode pertama produksi ini di DB kanonikal
     if (production?.id) {
-      const matchEp = DB.episodes.find((e) => e.production_id === production.id && e.is_published);
+      const matchEp = DB.episodes.find((e) => (e.production_id === production.id || e.id === production.id) && e.is_published);
       if (matchEp) {
         setPlayerEpisodeId(matchEp.id);
         setPlayerWatchOrderSlug(watchOrderSlug);
@@ -412,18 +412,43 @@ export default function App() {
       }
     }
 
-    // Cari episode scraper yang cocok
+    // 2. Cari berdasarkan production slug atau title di DB kanonikal & Scraper
     if (production?.slug || production?.title) {
-      const liveList = scraperService.getLiveFeed() || [];
-      const matchScraped = liveList.find((e) => 
-        (production.slug && e.productionId?.includes(production.slug)) || 
-        (production.title && e.seriesTitle?.toLowerCase().includes(production.title.toLowerCase()))
+      const pSlug = (production.slug || '').toLowerCase();
+      const pTitle = (production.title || '').toLowerCase();
+
+      // Cek di DB kanonikal
+      const canonProd = DB.productions.find(
+        (p) => (p.slug && p.slug === pSlug) || 
+               (p.title && p.title.toLowerCase() === pTitle) ||
+               (p.slug && pSlug.includes(p.slug))
+      );
+      if (canonProd) {
+        const ep = DB.episodes.find((e) => e.production_id === canonProd.id && e.is_published);
+        if (ep) {
+          setPlayerEpisodeId(ep.id);
+          setPlayerWatchOrderSlug(watchOrderSlug);
+          return;
+        }
+      }
+
+      // Cek di seluruh database scraper
+      const allScraped = scraperService.getScrapedEpisodes() || [];
+      const matchScraped = allScraped.find((e) => 
+        (pSlug && e.productionId?.toLowerCase().includes(pSlug)) || 
+        (pTitle && (e.seriesTitle?.toLowerCase().includes(pTitle) || e.title?.toLowerCase().includes(pTitle)))
       );
       if (matchScraped) {
         setPlayerEpisodeId(matchScraped.id);
         setPlayerWatchOrderSlug(watchOrderSlug);
         return;
       }
+    }
+
+    if (production?.id) {
+      setPlayerEpisodeId(production.id);
+      setPlayerWatchOrderSlug(watchOrderSlug);
+      return;
     }
 
     setPlayerEpisodeId('0192a3f0-2222-7000-8000-000000000001');
@@ -1103,7 +1128,7 @@ export default function App() {
           }}
           onPlayEpisode={(series, ep) => {
             setWatchlistModalOpen(false);
-            handlePlayEpisodeFromProduction(series, ep || { id: '0192a3f0-2222-7000-8000-000000000001' });
+            handlePlayEpisodeFromProduction(series, ep || null);
           }}
           onRemoveBookmark={(id) => {
             deleteUserBookmark(id);

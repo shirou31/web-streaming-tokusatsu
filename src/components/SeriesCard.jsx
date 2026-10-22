@@ -68,7 +68,7 @@ export default function SeriesCard({
             className="sorot-play-circle"
             onClick={(e) => {
               e.stopPropagation();
-              onPlayEpisode && onPlayEpisode(series.rawProduction || series, series.episodes?.[0] || { id: '0192a3f0-2222-7000-8000-000000000001' });
+              onPlayEpisode && onPlayEpisode(series.rawProduction || series, series.episodes?.[0] || null);
             }}
             title="Putar Sekarang"
           >

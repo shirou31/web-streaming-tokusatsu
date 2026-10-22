@@ -783,12 +783,12 @@ export default function PlayerModal({
               </button>
 
               {/* Next Episode Button with Chronological Watch Order Awareness! */}
-              {navigation.next_episode_chronological && (
+              {(navigation.next_episode_chronological || navigation.next_episode) && (
                 <button
                   className="btn-primary"
-                  onClick={() => handleNavigate(navigation.next_episode_chronological.episode_id)}
+                  onClick={() => handleNavigate((navigation.next_episode_chronological || navigation.next_episode).episode_id)}
                 >
-                  {navigation.next_episode_chronological.reason === 'watch_order_segment_boundary' ? (
+                  {navigation.next_episode_chronological?.reason === 'watch_order_segment_boundary' ? (
                     <>
                       <Sparkles size={16} />
                       <span>Lanjut Kronologis: {navigation.next_episode_chronological.title}</span>
