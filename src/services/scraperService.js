@@ -217,12 +217,12 @@ export const scraperService = {
           {
             id: `${srv.id}_1440p`,
             quality: '1440p',
-            label: '1440p (2K QHD Ultra)',
+            label: '1440p (2K Ultra QHD)',
             source_type: srv.type || 'iframe',
             mime_type: 'video/mp4',
             url: cleanUrl,
             direct_url: srv.directUrl ? `${srv.directUrl}&res=1440p` : cleanUrl,
-            bitrate_kbps: 8000,
+            bitrate_kbps: 8500,
             audio_language: 'ja',
             has_hardsub: true,
             hardsub_language: 'id'
@@ -241,27 +241,14 @@ export const scraperService = {
             hardsub_language: 'id'
           },
           {
-            id: `${srv.id}_720p`,
-            quality: '720p',
-            label: '720p (HD Jernih)',
+            id: `${srv.id}_450p`,
+            quality: '450p',
+            label: '450p (SD Standar Bersih)',
             source_type: srv.type || 'iframe',
             mime_type: 'video/mp4',
             url: cleanUrl,
-            direct_url: srv.directUrl ? `${srv.directUrl}&res=720p` : cleanUrl,
-            bitrate_kbps: 2800,
-            audio_language: 'ja',
-            has_hardsub: true,
-            hardsub_language: 'id'
-          },
-          {
-            id: `${srv.id}_480p`,
-            quality: '480p',
-            label: '480p (Hemat Kuota)',
-            source_type: srv.type || 'iframe',
-            mime_type: 'video/mp4',
-            url: cleanUrl,
-            direct_url: srv.directUrl ? `${srv.directUrl}&res=480p` : cleanUrl,
-            bitrate_kbps: 1200,
+            direct_url: srv.directUrl ? `${srv.directUrl}&res=450p` : cleanUrl,
+            bitrate_kbps: 1500,
             audio_language: 'ja',
             has_hardsub: true,
             hardsub_language: 'id'
@@ -269,7 +256,7 @@ export const scraperService = {
           {
             id: `${srv.id}_360p`,
             quality: '360p',
-            label: '360p (Standar Mobile)',
+            label: '360p (Hemat Data Ringan)',
             source_type: srv.type || 'iframe',
             mime_type: 'video/mp4',
             url: cleanUrl,
@@ -319,7 +306,7 @@ export const scraperService = {
       },
       video_sources: {
         servers,
-        all_qualities: ['1440p', '1080p', '720p', '480p', '360p']
+        all_qualities: ['1440p', '1080p', '450p', '360p']
       },
       subtitle_tracks: [
         {

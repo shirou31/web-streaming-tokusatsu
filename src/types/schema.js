@@ -41,6 +41,7 @@ export const VIDEO_SOURCE_TYPE = {
 
 export const VIDEO_QUALITY = {
   Q360P: '360p',
+  Q450P: '450p',
   Q480P: '480p',
   Q720P: '720p',
   Q1080P: '1080p',

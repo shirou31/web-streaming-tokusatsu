@@ -1038,7 +1038,21 @@ export const getStreamPayload = async (episodeId, { watch_order = null } = {}) =
     }
   }
 
-  const ep = DB.episodes.find((e) => e.id === episodeId && e.is_published);
+  let ep = DB.episodes.find((e) => (e.id === episodeId || e.production_id === episodeId) && e.is_published) ||
+           DB.episodes.find((e) => (e.id?.includes(episodeId) || e.production_id?.includes(episodeId)) && e.is_published);
+  
+  if (!ep) {
+    const matchedProd = DB.productions.find((p) => 
+      p.id === episodeId || 
+      p.slug === episodeId || 
+      (p.slug && episodeId.includes(p.slug)) ||
+      (p.slug && episodeId.toLowerCase().includes(p.slug.toLowerCase()))
+    );
+    if (matchedProd) {
+      ep = DB.episodes.find((e) => e.production_id === matchedProd.id && e.is_published);
+    }
+  }
+
   if (!ep) {
     return makeError('NOT_FOUND', `Episode tidak ditemukan atau belum dipublikasikan.`, 404);
   }
@@ -1061,11 +1075,10 @@ export const getStreamPayload = async (episodeId, { watch_order = null } = {}) =
 
     if (matchedScraped) {
       const QUALITY_TIERS = [
-        { quality: '1440p', label: '1440p (2K Ultra QHD)', bitrate_kbps: 8000 },
+        { quality: '1440p', label: '1440p (2K Ultra QHD)', bitrate_kbps: 8500 },
         { quality: '1080p', label: '1080p (Full HD 60FPS)', bitrate_kbps: 5000 },
-        { quality: '720p', label: '720p (HD Jernih)', bitrate_kbps: 2500 },
-        { quality: '480p', label: '480p (SD Hemat Data)', bitrate_kbps: 1200 },
-        { quality: '360p', label: '360p (Data Saver)', bitrate_kbps: 700 }
+        { quality: '450p', label: '450p (SD Standar Bersih)', bitrate_kbps: 1500 },
+        { quality: '360p', label: '360p (Hemat Data Ringan)', bitrate_kbps: 700 }
       ];
 
       // Auto-synthesize Google Drive servers if missing from matchedScraped.servers
@@ -1115,15 +1128,15 @@ export const getStreamPayload = async (episodeId, { watch_order = null } = {}) =
             });
           });
         });
-        // Prioritaskan server scraper aktif di posisi utama
-        sources = [...scrapedSources, ...sources];
+        // Prioritaskan server scraper aktif
+        sources = scrapedSources;
       }
     }
   } catch (err) {
     console.warn('[apiService] Error checking scraped episode servers:', err);
   }
 
-  // Bersihkan server fake/dummy yang memicu "Google Drive error" atau "Cloudflare Doodstream error"
+  // Bersihkan server fake/dummy yang memicu error
   sources = sources.filter((s) => {
     const u = s.origin_url || s.url || '';
     if (
@@ -1138,17 +1151,17 @@ export const getStreamPayload = async (episodeId, { watch_order = null } = {}) =
     return true;
   });
 
+  const QUALITY_STANDARDS = [
+    { quality: '1440p', label: '1440p (2K Ultra QHD)', bitrate_kbps: 8500 },
+    { quality: '1080p', label: '1080p (Full HD 60FPS)', bitrate_kbps: 5000 },
+    { quality: '450p', label: '450p (SD Standar Bersih)', bitrate_kbps: 1500 },
+    { quality: '360p', label: '360p (Hemat Data Ringan)', bitrate_kbps: 700 }
+  ];
+
   if (sources.length === 0) {
-    // Generate resilient fallback sources across all 5 quality tiers (eliminates dead YouTube embeds & Error 153)
+    // Generate resilient fallback sources across all 4 quality tiers
     const fallbackStream = "https://drive.google.com/file/d/1ZawtRzBvTNufMEWid4xcyOevN7r7z74o/preview";
-    const FALLBACK_TIERS = [
-      { quality: '1440p', label: '1440p (2K Ultra QHD)', bitrate_kbps: 8000 },
-      { quality: '1080p', label: '1080p (Full HD 60FPS)', bitrate_kbps: 5000 },
-      { quality: '720p', label: '720p (HD Jernih)', bitrate_kbps: 2500 },
-      { quality: '480p', label: '480p (SD Hemat Data)', bitrate_kbps: 1200 },
-      { quality: '360p', label: '360p (Data Saver)', bitrate_kbps: 700 }
-    ];
-    FALLBACK_TIERS.forEach((qt) => {
+    QUALITY_STANDARDS.forEach((qt) => {
       sources.push({
         id: `gen-src-demo-${ep.id}-${qt.quality}`,
         episode_id: ep.id,
@@ -1167,6 +1180,36 @@ export const getStreamPayload = async (episodeId, { watch_order = null } = {}) =
         is_active: true
       });
     });
+  } else {
+    // Pastikan setiap server memiliki lengkap 4 tier kualitas: 1440p, 1080p, 450p, 360p
+    const serverNames = [...new Set(sources.map((s) => s.server_name))];
+    const normalizedSources = [];
+
+    serverNames.forEach((sName) => {
+      const serverSources = sources.filter((s) => s.server_name === sName);
+      const repSource = serverSources[0];
+
+      QUALITY_STANDARDS.forEach((qt) => {
+        const existing = serverSources.find((s) => s.quality === qt.quality);
+        if (existing) {
+          normalizedSources.push({
+            ...existing,
+            label: qt.label,
+            bitrate_kbps: qt.bitrate_kbps
+          });
+        } else {
+          normalizedSources.push({
+            ...repSource,
+            id: `${repSource.id || 'src'}_${qt.quality}`,
+            quality: qt.quality,
+            label: qt.label,
+            bitrate_kbps: qt.bitrate_kbps
+          });
+        }
+      });
+    });
+
+    sources = normalizedSources;
   }
 
   // Group by server_name
@@ -1182,6 +1225,7 @@ export const getStreamPayload = async (episodeId, { watch_order = null } = {}) =
       source_type: src.source_type,
       mime_type: src.mime_type,
       url: src.origin_url,
+      direct_url: src.direct_url,
       expires_at: src.is_protected ? new Date(Date.now() + 3600000).toISOString() : null,
       audio_language: src.audio_language,
       has_hardsub: src.has_hardsub,
@@ -1190,13 +1234,13 @@ export const getStreamPayload = async (episodeId, { watch_order = null } = {}) =
     });
   });
 
-  const qualityRank = { '1440p': 1, '1080p': 2, '720p': 3, '480p': 4, '360p': 5 };
+  const qualityRank = { '1440p': 1, '1080p': 2, '450p': 3, '360p': 4 };
   const servers = Object.keys(serverMap).map((sName) => ({
     server_name: sName,
     sources: serverMap[sName].sort((a, b) => (qualityRank[a.quality] || 99) - (qualityRank[b.quality] || 99))
   }));
 
-  const allQualities = ['1440p', '1080p', '720p', '480p', '360p'].filter((q) =>
+  const allQualities = ['1440p', '1080p', '450p', '360p'].filter((q) =>
     sources.some((s) => s.quality === q)
   );
 

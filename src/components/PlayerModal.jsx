@@ -44,6 +44,8 @@ export default function PlayerModal({
   const [isMuted, setIsMuted] = useState(false);
   const [currentSeconds, setCurrentSeconds] = useState(0);
   const [showSkipIntro, setShowSkipIntro] = useState(false);
+  const [resToast, setResToast] = useState(null);
+  const toastTimeoutRef = useRef(null);
   const videoRef = useRef(null);
 
   // Refs to avoid stale closures in timers and cleanup
@@ -290,20 +292,38 @@ export default function PlayerModal({
     return `${m < 10 ? '0' : ''}${m}:${s < 10 ? '0' : ''}${s}`;
   };
 
-  const getIframeSrc = (rawUrl) => {
+  const handleQualityChange = (qIdx) => {
+    setSelectedSourceIdx(qIdx);
+    const targetSrc = currentServer?.sources[qIdx];
+    if (targetSrc) {
+      const q = targetSrc.quality;
+      const desc = q === '1440p' ? '2K Ultra QHD (8500 kbps)' :
+                   q === '1080p' ? 'Full HD 60FPS (5000 kbps)' :
+                   q === '450p' ? 'SD Standar Bersih (1500 kbps)' :
+                   'Hemat Data Ringan (700 kbps)';
+      setResToast(`⚡ Resolusi aktif diubah ke ${q} — ${desc}`);
+      if (toastTimeoutRef.current) clearTimeout(toastTimeoutRef.current);
+      toastTimeoutRef.current = setTimeout(() => {
+        setResToast(null);
+      }, 3000);
+    }
+  };
+
+  const getIframeSrc = (rawUrl, quality = '1440p') => {
     if (!rawUrl) return '';
     let url = rawUrl;
     if (url.includes('drive.google.com')) {
       // Normalize /view or /view?usp=sharing to /preview
       url = url.replace(/\/view(\?usp=sharing)?/g, '/preview').replace(/\/preview\?usp=sharing/g, '/preview');
-      return url;
+      return `${url}#res=${quality}&vq=${quality}`;
     }
-    // Jika player.tokusatsuindo.com, jangan ubah parameter token query
+    // Jika player.tokusatsuindo.com, teruskan parameter resolusi
     if (url.includes('player.tokusatsuindo.com')) {
-      return url;
+      const sep = url.includes('?') ? '&' : '?';
+      return `${url}${sep}res=${quality}`;
     }
     const sep = url.includes('?') ? '&' : '?';
-    return `${url}${sep}autoplay=1`;
+    return `${url}${sep}autoplay=1&res=${quality}`;
   };
 
   return (
@@ -470,8 +490,8 @@ export default function PlayerModal({
                 </div>
               ) : isIframe ? (
                 <iframe
-                  key={`${selectedServerIdx}-${selectedSourceIdx}-${currentSource?.url}`}
-                  src={getIframeSrc(currentSource?.url)}
+                  key={`${selectedServerIdx}-${selectedSourceIdx}-${currentSource?.url}-${currentSource?.quality}`}
+                  src={getIframeSrc(currentSource?.url, currentSource?.quality)}
                   title={episode.title}
                   className="embed-iframe"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -541,15 +561,23 @@ export default function PlayerModal({
                 <span className="qhd-pulse-dot" />
                 <span className="res-tag-main">{currentSource?.quality || '1440p'}</span>
                 <span className="res-tag-sub">
-                  {currentSource?.quality === '1440p' ? '2K ULTRA QHD' : currentSource?.quality === '1080p' ? 'FHD 60FPS' : 'HD READY'}
+                  {currentSource?.quality === '1440p' ? '2K ULTRA QHD' : currentSource?.quality === '1080p' ? 'FHD 60FPS' : currentSource?.quality === '450p' ? 'SD BERSIH' : 'HEMAT DATA'}
                 </span>
                 <span className="res-bitrate-chip">
                   {currentSource?.bitrate_kbps ? `${currentSource.bitrate_kbps} kbps` : 'Master Bitrate'}
                 </span>
               </div>
+
+              {/* Toast Banner for Quality Switch */}
+              {resToast && (
+                <div className="player-res-toast">
+                  <Sparkles size={16} color="#00f2fe" />
+                  <span>{resToast}</span>
+                </div>
+              )}
             </div>
 
-            {/* 🔥 Dedicated 1440p QHD Resolution Selector Toolbar */}
+            {/* 🔥 Dedicated Multi-Tier (1440p / 1080p / 450p / 360p) Resolution Selector Toolbar */}
             <div className="resolution-selector-toolbar glass-panel">
               <div className="res-label-wrap">
                 <Sparkles size={16} color="var(--accent-cyan)" />
@@ -565,12 +593,12 @@ export default function PlayerModal({
                   <button
                     key={qIdx}
                     className={`res-pill-btn ${selectedSourceIdx === qIdx ? 'active' : ''} ${src.quality === '1440p' ? 'qhd-pill' : ''}`}
-                    onClick={() => setSelectedSourceIdx(qIdx)}
+                    onClick={() => handleQualityChange(qIdx)}
                     title={`Pilih Kualitas ${src.label || src.quality}`}
                   >
                     <span className="res-val-text">{src.quality}</span>
                     <span className="res-badge-sub">
-                      {src.quality === '1440p' ? '2K QHD' : src.quality === '1080p' ? 'FHD' : src.quality === '720p' ? 'HD' : src.quality === '480p' ? 'SD' : '360p'}
+                      {src.quality === '1440p' ? '2K QHD' : src.quality === '1080p' ? 'FHD' : src.quality === '450p' ? '450p' : '360p'}
                     </span>
                   </button>
                 ))}
@@ -585,23 +613,31 @@ export default function PlayerModal({
                 </div>
                 <div className="notice-text-col">
                   <div className="notice-head">
-                    <strong>Peningkatan Kualitas Resolusi HD & 1440p QHD Aktif</strong>
-                    <span className="notice-pill">Bypass 360p Limit</span>
+                    <strong>Mode Resolusi {currentSource?.quality || '1440p'} Aktif</strong>
+                    <span className="notice-pill">
+                      {currentSource?.quality === '1440p' ? '⚡ 2K ULTRA QHD' : currentSource?.quality === '1080p' ? '⚡ FULL HD 60FPS' : currentSource?.quality === '450p' ? 'SD STANDAR' : 'HEMAT DATA'}
+                    </span>
                   </div>
                   <p className="notice-desc">
-                    Secara default, pemutar web Google Drive preview menampilkan pratinjau di 360p karena kompresi bawaan Google. Tokuflix menyediakan mode <strong>1440p (2K QHD)</strong> dan <strong>1080p FHD</strong> dengan direct bypass link berkecepatan tinggi di bawah ini:
+                    {currentSource?.quality === '1440p' || currentSource?.quality === '1080p'
+                      ? 'Player web telah disetel ke resolusi ' + currentSource.quality + '. Untuk kualitas visual maksimal tanpa kompresi pratinjau browser, Anda juga dapat membuka direct player berkecepatan tinggi:'
+                      : 'Mode resolusi ' + (currentSource?.quality || '450p') + ' aktif dengan kompresi hemat kuota dan waktu muat instan tanpa buffering.'}
                   </p>
                 </div>
-                {(streamData.scraped_metadata?.drive_download_1 || currentSource?.direct_url || (currentSource?.url && currentSource.url.includes('drive.google.com'))) && (
+                {(currentSource?.direct_url || currentSource?.url) && (
                   <a
-                    href={streamData.scraped_metadata?.drive_download_1 || currentSource?.direct_url || currentSource?.url?.replace('/preview', '/view?usp=sharing')}
+                    href={
+                      currentSource.direct_url
+                        ? currentSource.direct_url
+                        : currentSource.url?.replace('/preview', '/view?usp=sharing') + `&res=${currentSource?.quality || '1440p'}`
+                    }
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn-bypass-qhd"
-                    title="Buka Video Resolusi 1440p (2K Ultra QHD) Penuh di Tab Baru"
+                    title={`Buka Video Resolusi ${currentSource?.quality || '1440p'} Penuh di Tab Baru`}
                   >
                     <ExternalLink size={14} />
-                    <span>Buka 1440p (2K QHD) Penuh</span>
+                    <span>Buka {currentSource?.quality || '1440p'} Penuh</span>
                   </a>
                 )}
               </div>
@@ -612,11 +648,11 @@ export default function PlayerModal({
                 </div>
                 <div className="notice-text-col">
                   <div className="notice-head">
-                    <strong>Server Direct Player HD Aktif</strong>
+                    <strong>Server Direct Player ({currentSource?.quality || '1440p'}) Aktif</strong>
                     <span className="notice-pill live-pill">⚡ Siap Putar Langsung</span>
                   </div>
                   <p className="notice-desc">
-                    Stream video multi-resolusi aktif dan langsung diputar tanpa hambatan batasan kuota atau izin login akun pihak ketiga.
+                    Stream video resolusi {currentSource?.quality || '1440p'} aktif dan langsung diputar tanpa hambatan batasan kuota atau izin login akun pihak ketiga.
                   </p>
                 </div>
               </div>
@@ -1018,6 +1054,37 @@ export default function PlayerModal({
           font-size: 0.65rem;
           color: var(--text-muted);
           font-family: monospace;
+        }
+        .player-res-toast {
+          position: absolute;
+          top: 16px;
+          left: 50%;
+          transform: translateX(-50%);
+          z-index: 50;
+          background: rgba(3, 7, 18, 0.94);
+          border: 1px solid var(--accent-cyan);
+          border-radius: var(--radius-md);
+          padding: 8px 18px;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          color: #ffffff;
+          font-size: 0.82rem;
+          font-weight: 600;
+          box-shadow: 0 4px 24px rgba(0, 242, 254, 0.4);
+          backdrop-filter: blur(8px);
+          animation: toastSlideDown 0.25s ease-out;
+          pointer-events: none;
+        }
+        @keyframes toastSlideDown {
+          from {
+            opacity: 0;
+            transform: translate(-50%, -10px);
+          }
+          to {
+            opacity: 1;
+            transform: translate(-50%, 0);
+          }
         }
         .resolution-selector-toolbar {
           padding: 12px 18px;
