@@ -595,6 +595,7 @@ export default function PlayerModal({
                 {currentServer?.sources.map((src, qIdx) => (
                   <button
                     key={qIdx}
+                    id={`res-btn-${src.quality}`}
                     className={`res-pill-btn ${selectedSourceIdx === qIdx ? 'active' : ''} ${src.quality === '1440p' ? 'qhd-pill' : ''}`}
                     onClick={() => handleQualityChange(qIdx)}
                     title={`Pilih Kualitas ${src.label || src.quality}`}
@@ -608,6 +609,7 @@ export default function PlayerModal({
 
                 {/* Tombol Cepat Bandingkan Ketajaman 1440p vs 360p */}
                 <button
+                  id="btn-compare-res"
                   className="btn-compare-toggle"
                   onClick={() => {
                     const targetQuality = currentSource?.quality === '1440p' ? '360p' : '1440p';
