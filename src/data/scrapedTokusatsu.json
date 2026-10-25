@@ -1,14 +1,57 @@
 {
   "metadata": {
     "generatedAt": "2026-10-21T03:32:47.615Z",
-    "totalEpisodes": 770,
+    "totalEpisodes": 771,
     "primarySource": "TokusatsuIndo & Sawidago Network",
     "targetFormat": "Tokuflix REST Schema 01/02 Standard",
     "status": "success",
-    "lastUpdated": "2026-10-22T04:06:03.492Z",
+    "lastUpdated": "2026-10-25T04:03:03.141Z",
     "lastBotSource": "https://sawidagofansub.com/"
   },
   "episodes": [
+    {
+      "id": "scraped_sawidago_kamen-rider-my-th_ep8_mvnaxpzr",
+      "productionId": "prod_kamen-rider-my-th",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider My-Th",
+      "title": "Kamen Rider My-Th Episode 8: Tikus Terpojok Akan Menggigit Kucing Sub Indo",
+      "episodeNumber": 8,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://sawidagofansub.com/?p=3863",
+      "fansub": "SawidagoFansub (Official Release)",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "/posters/poster_kamen_rider_myth.png",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 2 (HLS Ultra Fast 1440p)",
+          "embedUrl": "https://doodstream.com/e/kamen-rider-my-th_ep8",
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 3 (StreamWish Mirror)",
+          "embedUrl": "https://streamwish.com/e/kamen-rider-my-th_ep8",
+          "type": "embed",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-10-25T04:02:34.071Z"
+    },
     {
       "id": "scraped_sawidago_no-1-sentai-gozyuger-tegasword-of-ressurection-bd_ep1_mvj0qi9j",
       "productionId": "prod_no-1-sentai-gozyuger-tegasword-of-ressurection-bd",
