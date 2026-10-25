@@ -1,14 +1,140 @@
 {
   "metadata": {
     "generatedAt": "2026-10-21T03:32:47.615Z",
-    "totalEpisodes": 771,
+    "totalEpisodes": 773,
     "primarySource": "TokusatsuIndo & Sawidago Network",
     "targetFormat": "Tokuflix REST Schema 01/02 Standard",
     "status": "success",
-    "lastUpdated": "2026-10-25T04:03:03.141Z",
+    "lastUpdated": "2026-10-25T11:03:30.278Z",
     "lastBotSource": "https://sawidagofansub.com/"
   },
   "episodes": [
+    {
+      "id": "scraped_prod_kakusei_hunter_omegahorn_ep14_mvnpz1ai",
+      "productionId": "prod_kakusei_hunter_omegahorn",
+      "franchise": "Metal Hero & Others",
+      "seriesTitle": "Kakusei Hunter Omegahorn",
+      "title": "Kakusei Hunter Omegahorn Episode 14 Sub Indo",
+      "episodeNumber": 14,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kakusei-hunter-omegahorn-episode-14-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/16mUjtTBwgEj9gKzB3K2BQk2bB85vlh6Y/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1QTzH2L0P4A037jEJm0uB1XHWuMcZpCDr/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjYyN30.d15181104cc4ebc581b881de55ac4454becdd40c5c83c68daca96b6bf9181e33",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (Direct Embed)",
+          "embedUrl": "https://gdplayer.to/x/?VTJCYjNNYlVKSlphMHRrckE5MGQvdXAvSU9xR0xxL1ptWUY3ZVhwaXQybmdhUjhRcUtmcHJXRk5ncHM5SkdhUWhtWG1KUDJUVHhTdWVicnhPOWpJZVZNWHdSWlBHKzcvelpTTFFhSDJ0VlRVR2N3N2VhRmovWFlrQ2FRaHRVTHFmQkhndk5BUTRZY1VvMVRQNHZ0WVN3PT0,",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/16mUjtTBwgEj9gKzB3K2BQk2bB85vlh6Y/view?usp=sharing",
+          "directUrl": "https://drive.google.com/file/d/16mUjtTBwgEj9gKzB3K2BQk2bB85vlh6Y/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_4",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1QTzH2L0P4A037jEJm0uB1XHWuMcZpCDr/view?usp=sharing",
+          "directUrl": "https://drive.google.com/file/d/1QTzH2L0P4A037jEJm0uB1XHWuMcZpCDr/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-10-25T11:03:29.610Z"
+    },
+    {
+      "id": "scraped_prod_kamen_rider_my_th_ep8_mvnpz1t1",
+      "productionId": "prod_kamen_rider_my_th",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider My-Th",
+      "title": "Kamen Rider My-Th Episode 8 Sub Indo",
+      "episodeNumber": 8,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-my-th-episode-8-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "/posters/poster_kamen_rider_myth.png",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1l6pMSfEmDbFnISCYYfsfAKSY1Oluc-5f/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1zy5GmURjmO5sMIG-3OpDu3tzLsc3ArTH/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjYyNn0.ee5137163a9f196173792349f7486a4bbef56f0a37d90e5956d701b2f86e2ab6",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server 2 (Direct Embed)",
+          "embedUrl": "https://gdplayer.to/x/?V09XNTFCaUtWeFh1V29VNlo3ZHdjN3ByOXBpSTZuQWU1eE8zdTdzMlZqc1NHL3BYOWZkRkxBWmJCUzhOV1RYajEvNFlxQU5RMXZJRGxWSndnL2pseXdvc25nek5ZSk1hMGJ1YzA0U0pqMW1DZHBFbmVWLzEzNXBXYnlhV2lHT0QwUGVRMjBmV3hNWUxrY0NYWGpZSHNnPT0,",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1l6pMSfEmDbFnISCYYfsfAKSY1Oluc-5f/view?usp=sharing",
+          "directUrl": "https://drive.google.com/file/d/1l6pMSfEmDbFnISCYYfsfAKSY1Oluc-5f/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_4",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1zy5GmURjmO5sMIG-3OpDu3tzLsc3ArTH/view?usp=sharing",
+          "directUrl": "https://drive.google.com/file/d/1zy5GmURjmO5sMIG-3OpDu3tzLsc3ArTH/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-10-25T11:03:30.277Z"
+    },
     {
       "id": "scraped_sawidago_kamen-rider-my-th_ep8_mvnaxpzr",
       "productionId": "prod_kamen-rider-my-th",
