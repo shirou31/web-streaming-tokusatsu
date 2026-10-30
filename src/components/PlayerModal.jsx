@@ -184,6 +184,20 @@ export default function PlayerModal({
     }
   };
 
+  const handleSeekRelative = (deltaSeconds) => {
+    const totalDuration = streamData?.episode?.duration_seconds || 1440;
+    const nextTime = Math.max(0, Math.min(totalDuration, (currentSecondsRef.current || 0) + deltaSeconds));
+    setCurrentSeconds(nextTime);
+    currentSecondsRef.current = nextTime;
+    if (videoRef.current) {
+      if (typeof videoRef.current.fastSeek === 'function') {
+        videoRef.current.fastSeek(nextTime);
+      } else {
+        videoRef.current.currentTime = nextTime;
+      }
+    }
+  };
+
   const handleScrub = (pct) => {
     const totalDuration = streamData?.episode?.duration_seconds || 1440;
     const targetSec = Math.floor(pct * totalDuration);
@@ -220,6 +234,9 @@ export default function PlayerModal({
   };
 
   const handleClose = () => {
+    if (videoRef.current) {
+      try { videoRef.current.pause(); } catch {}
+    }
     saveProgress(currentSecondsRef.current, false);
     onClose();
   };
@@ -237,6 +254,41 @@ export default function PlayerModal({
     }
     setIsMuted(!isMuted);
   };
+
+
+  // Keyboard navigation & playback shortcuts (Space, Arrows, F, M, Esc)
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement?.tagName)) return;
+
+      if (e.key === 'Escape') {
+        e.preventDefault();
+        if (document.fullscreenElement) {
+          document.exitFullscreen?.().catch(() => {});
+        } else {
+          handleClose();
+        }
+      } else if (e.key === ' ' || e.key === 'k' || e.key === 'K') {
+        e.preventDefault();
+        togglePlay();
+      } else if (e.key === 'ArrowLeft' || e.key === 'j' || e.key === 'J') {
+        e.preventDefault();
+        handleSeekRelative(-10);
+      } else if (e.key === 'ArrowRight' || e.key === 'l' || e.key === 'L') {
+        e.preventDefault();
+        handleSeekRelative(10);
+      } else if (e.key === 'f' || e.key === 'F') {
+        e.preventDefault();
+        toggleFullscreen();
+      } else if (e.key === 'm' || e.key === 'M') {
+        e.preventDefault();
+        toggleMute();
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, []);
 
   const toggleFullscreen = () => {
     const elem = document.querySelector('.video-viewport-wrapper');

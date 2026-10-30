@@ -110,7 +110,12 @@ const getStoredHistory = () => {
 };
 
 const setStoredHistory = (history) => {
-  localStorage.setItem(STORAGE_KEYS.HISTORY, JSON.stringify(history));
+  try {
+    const capped = Array.isArray(history) ? history.slice(0, 100) : [];
+    localStorage.setItem(STORAGE_KEYS.HISTORY, JSON.stringify(capped));
+  } catch (err) {
+    console.warn('[apiService] Gagal menyimpan watch history:', err);
+  }
 };
 
 const getStoredBookmarks = () => {
@@ -122,7 +127,11 @@ const getStoredBookmarks = () => {
 };
 
 const setStoredBookmarks = (bookmarks) => {
-  localStorage.setItem(STORAGE_KEYS.BOOKMARKS, JSON.stringify(bookmarks));
+  try {
+    localStorage.setItem(STORAGE_KEYS.BOOKMARKS, JSON.stringify(bookmarks));
+  } catch (err) {
+    console.warn('[apiService] Gagal menyimpan bookmarks:', err);
+  }
 };
 
 // Helper: Format Production Card (1.7.1)

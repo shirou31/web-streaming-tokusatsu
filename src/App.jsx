@@ -766,6 +766,7 @@ export default function App() {
                       loading="lazy"
                       style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                       onError={(e) => {
+                        e.currentTarget.onerror = null;
                         e.currentTarget.src = 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg';
                       }}
                     />
@@ -894,7 +895,8 @@ export default function App() {
                     loading="lazy"
                     style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                     onError={(e) => {
-                      e.currentTarget.src = 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg';
+                      e.currentTarget.onerror = null;
+                        e.currentTarget.src = 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg';
                     }}
                   />
                   <div style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, background: 'linear-gradient(0deg, rgba(0,0,0,.85), rgba(0,0,0,0) 58%)' }} />
@@ -963,7 +965,8 @@ export default function App() {
                     loading="lazy"
                     style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                     onError={(e) => {
-                      e.currentTarget.src = 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg';
+                      e.currentTarget.onerror = null;
+                        e.currentTarget.src = 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg';
                     }}
                   />
                   <div style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, background: 'linear-gradient(0deg, rgba(0,0,0,.85), rgba(0,0,0,0) 58%)' }} />
@@ -1055,7 +1058,8 @@ export default function App() {
                     loading="lazy"
                     style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                     onError={(e) => {
-                      e.currentTarget.src = 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg';
+                      e.currentTarget.onerror = null;
+                        e.currentTarget.src = 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg';
                     }}
                   />
                   <div style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, background: 'linear-gradient(0deg, rgba(0,0,0,.85), rgba(0,0,0,0) 58%)' }} />
