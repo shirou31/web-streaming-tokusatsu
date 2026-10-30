@@ -1,14 +1,51 @@
 {
   "metadata": {
     "generatedAt": "2026-10-21T03:32:47.615Z",
-    "totalEpisodes": 760,
+    "totalEpisodes": 761,
     "primarySource": "TokusatsuIndo & Sawidago Network",
     "targetFormat": "Tokuflix REST Schema 01/02 Standard",
     "status": "success",
-    "lastUpdated": "2026-10-30T01:39:53.993Z",
+    "lastUpdated": "2026-10-30T17:53:20.977Z",
     "lastBotSource": "https://sawidagofansub.com/"
   },
   "episodes": [
+    {
+      "id": "scraped_sawidago_no-1-sentai-gozyuger-8211-polar-beginning_ep1_mvv9t0q3",
+      "productionId": "prod_no-1-sentai-gozyuger-8211-polar-beginning",
+      "franchise": "Super Sentai",
+      "seriesTitle": "No. 1 Sentai Gozyuger &#8211; Polar Beginning",
+      "title": "No. 1 Sentai Gozyuger &#8211; Polar Beginning Episode 1 Sub Indo",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://sawidagofansub.com/?p=577",
+      "fansub": "SawidagoFansub (Official Release)",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "/posters/poster_sawidago_no-1-sentai-gozyuger-8211-polar-beginning.png",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1ZawtRzBvTNufMEWid4xcyOevN7r7z74o/preview",
+          "directUrl": "https://drive.google.com/file/d/1ZawtRzBvTNufMEWid4xcyOevN7r7z74o/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-10-30T17:53:04.491Z"
+    },
     {
       "id": "scraped_prod_kakusei_hunter_omegahorn_ep14_mvub1ibt",
       "productionId": "prod_kakusei_hunter_omegahorn",
