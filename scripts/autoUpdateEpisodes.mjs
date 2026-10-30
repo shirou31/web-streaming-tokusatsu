@@ -191,8 +191,11 @@ function parseEpisodeInfo(rawTitle) {
     .replace(/^_+|_+$/g, '');
   const productionId = `prod_${prodSlug}`;
 
+  // Standardize clean title format
+  const cleanTitle = isMovie ? `${clean} Sub Indo` : `${seriesTitle} Episode ${episodeNumber} Sub Indo`;
+
   return {
-    cleanTitle: `${clean} Sub Indo`,
+    cleanTitle,
     seriesTitle: seriesTitle || 'Tokusatsu Series',
     episodeNumber,
     contentType,
@@ -303,11 +306,22 @@ export async function runAutoUpdate() {
 
   console.log(`\n🔍 Total kandidat rilis unik yang ditemukan: ${discoveredItems.length}`);
 
-  // Filter items that are actually new
+  // Filter items that are actually new (cek link, judul, serta seri & nomor episode agar anti duplikasi)
   const newReleases = discoveredItems.filter(item => {
     const cleanUrl = item.link.toLowerCase().replace(/\/+$/, '');
     const cleanTitle = `${item.title} Sub Indo`.toLowerCase();
-    return !existingUrls.has(cleanUrl) && !existingTitles.has(cleanTitle);
+    if (existingUrls.has(cleanUrl) || existingTitles.has(cleanTitle)) {
+      return false;
+    }
+    const parsed = parseEpisodeInfo(item.title);
+    const alreadyInDb = existingEpisodes.some(e => {
+      const s1 = (e.seriesTitle || e.title || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+      const s2 = (parsed.seriesTitle || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+      const sameSeries = s1.includes(s2) || s2.includes(s1);
+      const sameEp = Number(e.episodeNumber) === Number(parsed.episodeNumber);
+      return (sameSeries && sameEp);
+    });
+    return !alreadyInDb;
   });
 
   if (newReleases.length === 0) {

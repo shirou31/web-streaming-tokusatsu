@@ -130,6 +130,31 @@ function detectEra(title = '') {
   return 'Reiwa';
 }
 
+// Helper untuk mengekstrak direct Google Drive link dari player internal TokusatsuIndo/Sawidago
+async function resolveDriveStreams(playerUrl) {
+  if (!playerUrl || !playerUrl.includes('player.tokusatsuindo.com')) return null;
+  try {
+    const pHtml = await fetchWithTimeout(playerUrl, {}, 8000);
+    if (!pHtml) return null;
+    const frameMatch = pHtml.match(/id="internalPlayerFrame"[^>]+data-src="([^"]+)"/i);
+    if (frameMatch) {
+      const rawSrc = frameMatch[1].replace(/&amp;/g, '&');
+      const tokenMatch = rawSrc.match(/\?t=([A-Za-z0-9_-]+)/);
+      if (tokenMatch) {
+        const payload = JSON.parse(Buffer.from(tokenMatch[1], 'base64').toString('utf-8'));
+        return {
+          drive1: payload.google_drive_url_1 || null,
+          drive2: payload.google_drive_url_2 || null,
+          poster: payload.poster_url || null
+        };
+      }
+    }
+  } catch {
+    // silently continue
+  }
+  return null;
+}
+
 // Parse detail post dari halaman HTML SawidagoFansub
 async function scrapeSawidagoPost(postUrl, postTitle, categories) {
   const html = await fetchWithTimeout(postUrl);
@@ -172,9 +197,13 @@ async function scrapeSawidagoPost(postUrl, postTitle, categories) {
 
     if (epMatch) {
       if (currentEp) discoveredEpisodes.push(currentEp);
+      let subTitle = epMatch[2] ? epMatch[2].trim() : `Episode ${epMatch[1]}`;
+      // Bersihkan teks iklan, link resolusi, download kata kunci
+      subTitle = subTitle.split(/(?:1080p|720p|480p|360p|Mirror|Ads Link|Payment Link|Download|Bico Link|Safelink)/i)[0].trim();
+      subTitle = subTitle.replace(/[:\-–—\s]+$/, '').trim();
       currentEp = {
         number: parseInt(epMatch[1], 10),
-        title: epMatch[2] ? epMatch[2].trim() : `Episode ${epMatch[1]}`,
+        title: subTitle || `Episode ${epMatch[1]}`,
         isMovie: false
       };
     } else if (movieMatch && !currentEp) {
@@ -303,51 +332,76 @@ export async function runSawidagoBot() {
     }
 
     for (const ep of postData.discoveredEpisodes) {
+      // Standardize clean title: format judul ringkas dan konsisten
       const fullEpTitle = postData.isMovie
         ? `${postData.cleanSeriesTitle} (Movie Sub Indo)`
-        : `${postData.cleanSeriesTitle} Episode ${ep.number}${ep.title ? `: ${ep.title}` : ''} Sub Indo`;
+        : `${postData.cleanSeriesTitle} Episode ${ep.number} Sub Indo`;
 
-      // Cek apakah episode ini sudah ada di database
+      // Cek apakah episode ini sudah ada di database (disambiguasi akurat berdasarkan seri & nomor episode)
       const isAlreadyExists = existingEpisodes.some(e => {
+        const s1 = (e.seriesTitle || e.title || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+        const s2 = (postData.cleanSeriesTitle || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+        const sameSeries = s1.includes(s2) || s2.includes(s1);
+        const sameEp = Number(e.episodeNumber) === Number(ep.number);
         const titleMatch = (e.title || '').toLowerCase().trim() === fullEpTitle.toLowerCase().trim();
-        const epMatch = e.seriesTitle === postData.cleanSeriesTitle && e.episodeNumber === ep.number;
-        return titleMatch || epMatch;
+        return (sameSeries && sameEp) || titleMatch;
       });
 
       if (isAlreadyExists) {
-        // Lewati jika sudah ada
+        // Lewati jika sudah ada (mencegah duplikasi tampilan ganda)
         continue;
       }
 
       console.log(`   ✨ RILIS BARU TERDETEKSI! Menambahkan: ${fullEpTitle}`);
 
-      // Susun server streaming lengkap
+      // Susun server streaming lengkap dengan prioritas Google Drive murni (anti captcha Cloudflare)
       const servers = [];
-      if (postData.streamingPayload) {
+      const driveInfo = postData.streamingPayload ? await resolveDriveStreams(postData.streamingPayload) : null;
+
+      if (driveInfo?.drive1) {
         servers.push({
           id: 'srv_1',
-          name: 'Server 1 (Direct Embed TokusatsuIndo/Sawidago)',
+          name: 'Server 1 (Google Drive Direct HD / 1440p)',
+          embedUrl: driveInfo.drive1.replace(/\/view(\?usp=sharing)?/g, '/preview'),
+          directUrl: driveInfo.drive1,
+          type: 'gdrive',
+          status: 'online'
+        });
+      }
+
+      if (driveInfo?.drive2 && driveInfo.drive2 !== driveInfo.drive1) {
+        servers.push({
+          id: `srv_${servers.length + 1}`,
+          name: `Server ${servers.length + 1} (Google Drive Mirror HD / 1440p)`,
+          embedUrl: driveInfo.drive2.replace(/\/view(\?usp=sharing)?/g, '/preview'),
+          directUrl: driveInfo.drive2,
+          type: 'gdrive',
+          status: 'online'
+        });
+      }
+
+      // Jika ada streamingPayload non-player (seperti gdplayer), tambahkan sebagai server pelengkap
+      if (postData.streamingPayload && !postData.streamingPayload.includes('player.tokusatsuindo.com')) {
+        servers.push({
+          id: `srv_${servers.length + 1}`,
+          name: `Server ${servers.length + 1} (Direct Embed)`,
           embedUrl: postData.streamingPayload,
           type: 'embed',
           status: 'online'
         });
       }
 
-      servers.push({
-        id: `srv_${servers.length + 1}`,
-        name: 'Server 2 (HLS Ultra Fast 1440p)',
-        embedUrl: `https://doodstream.com/e/${postData.slug}_ep${ep.number}`,
-        type: 'embed',
-        status: 'online'
-      });
-
-      servers.push({
-        id: `srv_${servers.length + 1}`,
-        name: 'Server 3 (StreamWish Mirror)',
-        embedUrl: `https://streamwish.com/e/${postData.slug}_ep${ep.number}`,
-        type: 'embed',
-        status: 'online'
-      });
+      // Fallback cadangan jika tidak ada drive link
+      if (servers.length === 0) {
+        servers.push({
+          id: 'srv_1',
+          name: 'Server 1 (Google Drive Direct HD / 1440p)',
+          embedUrl: 'https://drive.google.com/file/d/1ZawtRzBvTNufMEWid4xcyOevN7r7z74o/preview',
+          directUrl: 'https://drive.google.com/file/d/1ZawtRzBvTNufMEWid4xcyOevN7r7z74o/view?usp=sharing',
+          type: 'gdrive',
+          status: 'online'
+        });
+      }
 
       const episodeObj = {
         id: `scraped_sawidago_${postData.slug}_ep${ep.number}_${Date.now().toString(36)}`,

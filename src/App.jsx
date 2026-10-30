@@ -519,13 +519,33 @@ export default function App() {
   // 3. "Baru Rilis" (100% Real Scraped & Ongoing Tokusatsu Episodes)
   const freshReleases = useMemo(() => {
     if (scrapedReleases.length > 0) {
-      return scrapedReleases.slice(0, 10).map((ep, idx) => {
+      // Deduplikasi ketat berdasarkan serial & nomor episode agar hanya 1 tampilan per episode
+      const seen = new Set();
+      const uniqueList = [];
+      for (const ep of scrapedReleases) {
+        const sTitle = (ep.seriesTitle || ep.title || '').toLowerCase()
+          .replace(/sub\s*indo.*$/i, '')
+          .replace(/episode\s*\d+.*$/i, '')
+          .replace(/[^a-z0-9]/g, '');
+        const epNum = ep.episodeNumber || 1;
+        const isMovie = ep.contentType === 'movie';
+        const key = isMovie ? `${sTitle}_movie_${(ep.title || '').toLowerCase().replace(/[^a-z0-9]/g, '')}` : `${sTitle}_ep_${epNum}`;
+        if (!seen.has(key)) {
+          seen.add(key);
+          uniqueList.push(ep);
+        }
+      }
+
+      return uniqueList.slice(0, 10).map((ep, idx) => {
         const isMyth = (ep.seriesTitle || '').toLowerCase().includes('my-th');
         const isGavv = (ep.seriesTitle || '').toLowerCase().includes('gavv');
         const badge = isMyth || isGavv ? 'EPISODE BARU' : (ep.contentType === 'movie' ? 'MOVIE BARU' : 'BARU');
+        const cleanTitle = isMyth 
+          ? `Kamen Rider My-Th Episode ${ep.episodeNumber || 1} Sub Indo`
+          : ep.title;
         return {
           id: ep.id || `fresh-${idx}`,
-          title: ep.title,
+          title: cleanTitle,
           seriesTitle: ep.seriesTitle || ep.title,
           badge,
           sub: `${ep.franchise || 'Tokusatsu'} · ${ep.quality || '1440p QHD'}`,
