@@ -1,14 +1,564 @@
 {
   "metadata": {
     "generatedAt": "2026-10-21T03:32:47.615Z",
-    "totalEpisodes": 761,
+    "totalEpisodes": 771,
     "primarySource": "TokusatsuIndo & Sawidago Network",
     "targetFormat": "Tokuflix REST Schema 01/02 Standard",
     "status": "success",
-    "lastUpdated": "2026-10-30T17:53:20.977Z",
+    "lastUpdated": "2026-11-03T06:01:32.795Z",
     "lastBotSource": "https://sawidagofansub.com/"
   },
   "episodes": [
+    {
+      "id": "scraped_prod_choukou_senshi_changerion_ep30_mw0a58mw",
+      "productionId": "prod_choukou_senshi_changerion",
+      "franchise": "Metal Hero & Others",
+      "seriesTitle": "Choukou Senshi Changerion",
+      "title": "Choukou Senshi Changerion Episode 30 Sub Indo",
+      "episodeNumber": 30,
+      "seasonNumber": 1,
+      "era": "Heisei",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/choukou-senshi-changerion-episode-30-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1TwnMRkf85NfIBp9b0XXxbNzvuguNTp2e/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1j33BpHpOQDe-RFIfnSQQLEWf1n8qjCfl/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjYzN30.96694290a72e73a4a2d6e541e8f790e7fd0e8ac9e8f3e45210f78dc2509b05a1",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1TwnMRkf85NfIBp9b0XXxbNzvuguNTp2e/view?usp=sharing",
+          "directUrl": "https://drive.google.com/file/d/1TwnMRkf85NfIBp9b0XXxbNzvuguNTp2e/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1j33BpHpOQDe-RFIfnSQQLEWf1n8qjCfl/view?usp=sharing",
+          "directUrl": "https://drive.google.com/file/d/1j33BpHpOQDe-RFIfnSQQLEWf1n8qjCfl/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-11-03T06:01:25.496Z"
+    },
+    {
+      "id": "scraped_prod_choukou_senshi_changerion_ep29_mw0a599a",
+      "productionId": "prod_choukou_senshi_changerion",
+      "franchise": "Metal Hero & Others",
+      "seriesTitle": "Choukou Senshi Changerion",
+      "title": "Choukou Senshi Changerion Episode 29 Sub Indo",
+      "episodeNumber": 29,
+      "seasonNumber": 1,
+      "era": "Heisei",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/choukou-senshi-changerion-episode-29-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1IZff9Q1W0-IB30-P1QddgJB-nI14lRdl/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1CdZXt7VxUG6QbmFtVeRAlV_RWoawLSxD/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjYzNn0.af02914395ab21d8ef4df79c5a6b6c9c1885767a1453385d1a0968ba6847790a",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1IZff9Q1W0-IB30-P1QddgJB-nI14lRdl/view?usp=sharing",
+          "directUrl": "https://drive.google.com/file/d/1IZff9Q1W0-IB30-P1QddgJB-nI14lRdl/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1CdZXt7VxUG6QbmFtVeRAlV_RWoawLSxD/view?usp=sharing",
+          "directUrl": "https://drive.google.com/file/d/1CdZXt7VxUG6QbmFtVeRAlV_RWoawLSxD/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-11-03T06:01:26.302Z"
+    },
+    {
+      "id": "scraped_prod_choukou_senshi_changerion_ep28_mw0a59wi",
+      "productionId": "prod_choukou_senshi_changerion",
+      "franchise": "Metal Hero & Others",
+      "seriesTitle": "Choukou Senshi Changerion",
+      "title": "Choukou Senshi Changerion Episode 28 Sub Indo",
+      "episodeNumber": 28,
+      "seasonNumber": 1,
+      "era": "Heisei",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/choukou-senshi-changerion-episode-28-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1dQ2aBTCJlB6W31pSKUDqx-vASNXD2nPx/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1w6ylX2E26TRbfv4Aeh10KpaoYO12T8nF/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjYzNX0.48e481bec5f58137bdf591c2bfaa2a6e2697c88fae8f4b2f60e7c8c07a4adec9",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1dQ2aBTCJlB6W31pSKUDqx-vASNXD2nPx/view?usp=sharing",
+          "directUrl": "https://drive.google.com/file/d/1dQ2aBTCJlB6W31pSKUDqx-vASNXD2nPx/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1w6ylX2E26TRbfv4Aeh10KpaoYO12T8nF/view?usp=sharing",
+          "directUrl": "https://drive.google.com/file/d/1w6ylX2E26TRbfv4Aeh10KpaoYO12T8nF/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-11-03T06:01:27.138Z"
+    },
+    {
+      "id": "scraped_prod_choukou_senshi_changerion_ep27_mw0a5aok",
+      "productionId": "prod_choukou_senshi_changerion",
+      "franchise": "Metal Hero & Others",
+      "seriesTitle": "Choukou Senshi Changerion",
+      "title": "Choukou Senshi Changerion Episode 27 Sub Indo",
+      "episodeNumber": 27,
+      "seasonNumber": 1,
+      "era": "Heisei",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/choukou-senshi-changerion-episode-27-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1sdPSnEFC7XNZo_u8Uj-Y79JuAIQdAf8g/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1bernrGjZnnxKpjJxckjW6rdmwGV5HVbt/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjYzNH0.ac3a0a2f137965b928aa541255878b3e30fc50f179dc329aea73fad25700f7be",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1sdPSnEFC7XNZo_u8Uj-Y79JuAIQdAf8g/view?usp=sharing",
+          "directUrl": "https://drive.google.com/file/d/1sdPSnEFC7XNZo_u8Uj-Y79JuAIQdAf8g/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1bernrGjZnnxKpjJxckjW6rdmwGV5HVbt/view?usp=sharing",
+          "directUrl": "https://drive.google.com/file/d/1bernrGjZnnxKpjJxckjW6rdmwGV5HVbt/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-11-03T06:01:28.148Z"
+    },
+    {
+      "id": "scraped_prod_choukou_senshi_changerion_ep26_mw0a5b71",
+      "productionId": "prod_choukou_senshi_changerion",
+      "franchise": "Metal Hero & Others",
+      "seriesTitle": "Choukou Senshi Changerion",
+      "title": "Choukou Senshi Changerion Episode 26 Sub Indo",
+      "episodeNumber": 26,
+      "seasonNumber": 1,
+      "era": "Heisei",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/choukou-senshi-changerion-episode-26-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/16eJatvq-3iYDGZPnc2R7PfCM2CVkPuUe/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1qWNHuR7zgOsyumh-dcDtcMF5JGv6PvbM/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjYzM30.b4dd6a455f166f0dd668ab1f2a4efafdfd34a0a80e8788603219ec8d8112c4c9",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/16eJatvq-3iYDGZPnc2R7PfCM2CVkPuUe/view?usp=sharing",
+          "directUrl": "https://drive.google.com/file/d/16eJatvq-3iYDGZPnc2R7PfCM2CVkPuUe/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1qWNHuR7zgOsyumh-dcDtcMF5JGv6PvbM/view?usp=sharing",
+          "directUrl": "https://drive.google.com/file/d/1qWNHuR7zgOsyumh-dcDtcMF5JGv6PvbM/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-11-03T06:01:28.813Z"
+    },
+    {
+      "id": "scraped_prod_choukou_senshi_changerion_ep25_mw0a5bxb",
+      "productionId": "prod_choukou_senshi_changerion",
+      "franchise": "Metal Hero & Others",
+      "seriesTitle": "Choukou Senshi Changerion",
+      "title": "Choukou Senshi Changerion Episode 25 Sub Indo",
+      "episodeNumber": 25,
+      "seasonNumber": 1,
+      "era": "Heisei",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/choukou-senshi-changerion-episode-25-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1Ax889lAIb2kLFJlAneFYQWY76CtucSld/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1cYY94jTVAXoOAMKAYT94dv1e_l-jwq1B/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjYzMn0.6d6d3fd150ff5965d35134d5b95a22ee872f6bf4122a0ca00b817670d2747629",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1Ax889lAIb2kLFJlAneFYQWY76CtucSld/view?usp=sharing",
+          "directUrl": "https://drive.google.com/file/d/1Ax889lAIb2kLFJlAneFYQWY76CtucSld/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1cYY94jTVAXoOAMKAYT94dv1e_l-jwq1B/view?usp=sharing",
+          "directUrl": "https://drive.google.com/file/d/1cYY94jTVAXoOAMKAYT94dv1e_l-jwq1B/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-11-03T06:01:29.759Z"
+    },
+    {
+      "id": "scraped_prod_choukou_senshi_changerion_ep24_mw0a5chx",
+      "productionId": "prod_choukou_senshi_changerion",
+      "franchise": "Metal Hero & Others",
+      "seriesTitle": "Choukou Senshi Changerion",
+      "title": "Choukou Senshi Changerion Episode 24 Sub Indo",
+      "episodeNumber": 24,
+      "seasonNumber": 1,
+      "era": "Heisei",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/choukou-senshi-changerion-episode-24-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1qfDNcRBLuXtrK8tNknGFtfT_rOp9mPYb/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/18qguCNW3HTuYxVaMP1ic3j45k6K1CSrc/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjYzMX0.5ed4b0580c412c442f809be9ed979d21277138a2450f4ae17927bbe03e61f94e",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1qfDNcRBLuXtrK8tNknGFtfT_rOp9mPYb/view?usp=sharing",
+          "directUrl": "https://drive.google.com/file/d/1qfDNcRBLuXtrK8tNknGFtfT_rOp9mPYb/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/18qguCNW3HTuYxVaMP1ic3j45k6K1CSrc/view?usp=sharing",
+          "directUrl": "https://drive.google.com/file/d/18qguCNW3HTuYxVaMP1ic3j45k6K1CSrc/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-11-03T06:01:30.501Z"
+    },
+    {
+      "id": "scraped_prod_choukou_senshi_changerion_ep23_mw0a5d5f",
+      "productionId": "prod_choukou_senshi_changerion",
+      "franchise": "Metal Hero & Others",
+      "seriesTitle": "Choukou Senshi Changerion",
+      "title": "Choukou Senshi Changerion Episode 23 Sub Indo",
+      "episodeNumber": 23,
+      "seasonNumber": 1,
+      "era": "Heisei",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/choukou-senshi-changerion-episode-23-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1-gERriZT1IT0CBnCI_YrSl8GhUgG77OF/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1hRow8D-vH9ROEnnz7eVVLfMaQ5ANj9N2/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjYzMH0.797185b551ce030f70330e3ec8a6f2555e1bdcf5b436b952baaca25296da233d",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1-gERriZT1IT0CBnCI_YrSl8GhUgG77OF/view?usp=sharing",
+          "directUrl": "https://drive.google.com/file/d/1-gERriZT1IT0CBnCI_YrSl8GhUgG77OF/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1hRow8D-vH9ROEnnz7eVVLfMaQ5ANj9N2/view?usp=sharing",
+          "directUrl": "https://drive.google.com/file/d/1hRow8D-vH9ROEnnz7eVVLfMaQ5ANj9N2/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-11-03T06:01:31.347Z"
+    },
+    {
+      "id": "scraped_prod_choukou_senshi_changerion_ep22_mw0a5dpb",
+      "productionId": "prod_choukou_senshi_changerion",
+      "franchise": "Metal Hero & Others",
+      "seriesTitle": "Choukou Senshi Changerion",
+      "title": "Choukou Senshi Changerion Episode 22 Sub Indo",
+      "episodeNumber": 22,
+      "seasonNumber": 1,
+      "era": "Heisei",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/choukou-senshi-changerion-episode-22-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1cxGMYsL0ofbUbrcygUe1fof4ga9QaZhc/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/190imGcbMBN1DjOMmTW4QURzv6hIkhxGs/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjYyOX0.27e50843511b9e7e0bf53f386290a8fafc8a314458845cd76bb9e0c1757c0359",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1cxGMYsL0ofbUbrcygUe1fof4ga9QaZhc/view?usp=sharing",
+          "directUrl": "https://drive.google.com/file/d/1cxGMYsL0ofbUbrcygUe1fof4ga9QaZhc/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/190imGcbMBN1DjOMmTW4QURzv6hIkhxGs/view?usp=sharing",
+          "directUrl": "https://drive.google.com/file/d/190imGcbMBN1DjOMmTW4QURzv6hIkhxGs/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-11-03T06:01:32.063Z"
+    },
+    {
+      "id": "scraped_prod_choukou_senshi_changerion_ep21_mw0a5e9n",
+      "productionId": "prod_choukou_senshi_changerion",
+      "franchise": "Metal Hero & Others",
+      "seriesTitle": "Choukou Senshi Changerion",
+      "title": "Choukou Senshi Changerion Episode 21 Sub Indo",
+      "episodeNumber": 21,
+      "seasonNumber": 1,
+      "era": "Heisei",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/choukou-senshi-changerion-episode-21-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1ZDfRkhS_mGE8d1fLGWqE7fmp0bsSLTVj/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1_AOlna_xxVZ__pRZduXZGnAmlx8ek_fJ/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjYyOH0.36ca9758ada4e5d00e5bf8666ab678e1a202d3bff71bc72552dd7d327cbbfcc7",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1ZDfRkhS_mGE8d1fLGWqE7fmp0bsSLTVj/view?usp=sharing",
+          "directUrl": "https://drive.google.com/file/d/1ZDfRkhS_mGE8d1fLGWqE7fmp0bsSLTVj/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1_AOlna_xxVZ__pRZduXZGnAmlx8ek_fJ/view?usp=sharing",
+          "directUrl": "https://drive.google.com/file/d/1_AOlna_xxVZ__pRZduXZGnAmlx8ek_fJ/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-11-03T06:01:32.795Z"
+    },
     {
       "id": "scraped_sawidago_no-1-sentai-gozyuger-8211-polar-beginning_ep1_mvv9t0q3",
       "productionId": "prod_no-1-sentai-gozyuger-8211-polar-beginning",
