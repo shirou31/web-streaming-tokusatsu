@@ -1,14 +1,69 @@
 {
   "metadata": {
     "generatedAt": "2026-10-21T03:32:47.615Z",
-    "totalEpisodes": 773,
+    "totalEpisodes": 774,
     "primarySource": "TokusatsuIndo & Sawidago Network",
     "targetFormat": "Tokuflix REST Schema 01/02 Standard",
     "status": "success",
-    "lastUpdated": "2026-11-08T13:02:45.385Z",
+    "lastUpdated": "2026-11-10T16:55:01.908Z",
     "lastBotSource": "https://sawidagofansub.com/"
   },
   "episodes": [
+    {
+      "id": "scraped_prod_kamen_rider_kabuto_20th_inheritor_of_heaven_ep1_mwaxkqvn",
+      "productionId": "prod_kamen_rider_kabuto_20th_inheritor_of_heaven",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider Kabuto 20th: Inheritor of Heaven",
+      "title": "Kamen Rider Kabuto 20th: Inheritor of Heaven Episode 1 Sub Indo",
+      "episodeNumber": 1,
+      "seasonNumber": 1,
+      "era": "Heisei",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kamen-rider-kabuto-20th-inheritor-of-heaven-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/12Y9b-hHuN9lBY8pISBvD5QrkCzWfO57W/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1cSKB-7SsvJlyTo8MjnXQzukwQXFnyf1z/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NjY0MH0.ed875e75a1465c5ac3c39054a59e09499da448569dc3294006e6de32667fa3d2",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/12Y9b-hHuN9lBY8pISBvD5QrkCzWfO57W/view?usp=sharing",
+          "directUrl": "https://drive.google.com/file/d/12Y9b-hHuN9lBY8pISBvD5QrkCzWfO57W/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1cSKB-7SsvJlyTo8MjnXQzukwQXFnyf1z/view?usp=sharing",
+          "directUrl": "https://drive.google.com/file/d/1cSKB-7SsvJlyTo8MjnXQzukwQXFnyf1z/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-11-10T16:55:01.907Z"
+    },
     {
       "id": "scraped_prod_kakusei_hunter_omegahorn_ep15_mw7uec21",
       "productionId": "prod_kakusei_hunter_omegahorn",
