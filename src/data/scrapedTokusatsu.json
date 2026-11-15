@@ -1,14 +1,106 @@
 {
   "metadata": {
     "generatedAt": "2026-10-21T03:32:47.615Z",
-    "totalEpisodes": 774,
+    "totalEpisodes": 776,
     "primarySource": "TokusatsuIndo & Sawidago Network",
     "targetFormat": "Tokuflix REST Schema 01/02 Standard",
     "status": "success",
-    "lastUpdated": "2026-11-10T16:55:01.908Z",
+    "lastUpdated": "2026-11-15T10:36:02.801Z",
     "lastBotSource": "https://sawidagofansub.com/"
   },
   "episodes": [
+    {
+      "id": "scraped_prod_kakusei_hunter_omegahorn_ep16_mwhp8mlt",
+      "productionId": "prod_kakusei_hunter_omegahorn",
+      "franchise": "Metal Hero & Others",
+      "seriesTitle": "Kakusei Hunter Omegahorn",
+      "title": "Kakusei Hunter Omegahorn Episode 16 Sub Indo",
+      "episodeNumber": 16,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/kakusei-hunter-omegahorn-episode-16-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1dmJ9teak5_3qvOrqgTzOSRdKST79qiov/view?usp=sharing",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/10uETsXaY1jDvKOe0g-Zm_SqILrFCO6ol/view?usp=sharing",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NzY2N30.2f63e45495f076622f56b3907d713ade2579f3db00dfcd4a0f86099ea22a7a50",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1dmJ9teak5_3qvOrqgTzOSRdKST79qiov/view?usp=sharing",
+          "directUrl": "https://drive.google.com/file/d/1dmJ9teak5_3qvOrqgTzOSRdKST79qiov/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/10uETsXaY1jDvKOe0g-Zm_SqILrFCO6ol/view?usp=sharing",
+          "directUrl": "https://drive.google.com/file/d/10uETsXaY1jDvKOe0g-Zm_SqILrFCO6ol/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-11-15T10:36:02.801Z"
+    },
+    {
+      "id": "scraped_sawidago_kamen-rider-my-th_ep10_mwhp7960",
+      "productionId": "prod_kamen-rider-my-th",
+      "franchise": "Kamen Rider",
+      "seriesTitle": "Kamen Rider My-Th",
+      "title": "Kamen Rider My-Th Episode 10 Sub Indo",
+      "episodeNumber": 10,
+      "seasonNumber": 1,
+      "era": "Reiwa",
+      "contentType": "tv_series",
+      "sourceUrl": "https://sawidagofansub.com/?p=3863",
+      "fansub": "SawidagoFansub (Official Release)",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "/posters/poster_kamen_rider_myth.png",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Google Drive Direct HD / 1440p)",
+          "embedUrl": "https://drive.google.com/file/d/1ZawtRzBvTNufMEWid4xcyOevN7r7z74o/preview",
+          "directUrl": "https://drive.google.com/file/d/1ZawtRzBvTNufMEWid4xcyOevN7r7z74o/view?usp=sharing",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-11-15T10:34:58.728Z"
+    },
     {
       "id": "scraped_prod_kamen_rider_kabuto_20th_inheritor_of_heaven_ep1_mwaxkqvn",
       "productionId": "prod_kamen_rider_kabuto_20th_inheritor_of_heaven",
