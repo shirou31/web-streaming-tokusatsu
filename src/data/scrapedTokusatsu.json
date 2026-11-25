@@ -1,14 +1,564 @@
 {
   "metadata": {
     "generatedAt": "2026-10-21T03:32:47.615Z",
-    "totalEpisodes": 787,
+    "totalEpisodes": 797,
     "primarySource": "TokusatsuIndo & Sawidago Network",
     "targetFormat": "Tokuflix REST Schema 01/02 Standard",
     "status": "success",
-    "lastUpdated": "2026-11-22T19:16:56.149Z",
+    "lastUpdated": "2026-11-25T07:52:36.803Z",
     "lastBotSource": "https://sawidagofansub.com/"
   },
   "episodes": [
+    {
+      "id": "scraped_prod_tokusou_robo_janperson_ep50_mwvtstkf",
+      "productionId": "prod_tokusou_robo_janperson",
+      "franchise": "Metal Hero & Others",
+      "seriesTitle": "Tokusou Robo Janperson",
+      "title": "Tokusou Robo Janperson Episode 50 Sub Indo",
+      "episodeNumber": 50,
+      "seasonNumber": 1,
+      "era": "Heisei",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/tokusou-robo-janperson-episode-50-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1LkklE-M2LT3PwUughvsrv385qKPv-Ri9/view?usp=drivesdk",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1oeAUB5jiPm64r2PE2dOMd35bm4aflUNC/view?usp=drivesdk",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NzM4NX0.1c4756665da4c1298b4c7edcd406795247c21c0859ee4f1079e33edfca273703",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1LkklE-M2LT3PwUughvsrv385qKPv-Ri9/preview",
+          "directUrl": "https://drive.google.com/file/d/1LkklE-M2LT3PwUughvsrv385qKPv-Ri9/view?usp=drivesdk",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1oeAUB5jiPm64r2PE2dOMd35bm4aflUNC/preview",
+          "directUrl": "https://drive.google.com/file/d/1oeAUB5jiPm64r2PE2dOMd35bm4aflUNC/view?usp=drivesdk",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-11-25T07:52:29.871Z"
+    },
+    {
+      "id": "scraped_prod_tokusou_robo_janperson_ep49_mwvtsu2x",
+      "productionId": "prod_tokusou_robo_janperson",
+      "franchise": "Metal Hero & Others",
+      "seriesTitle": "Tokusou Robo Janperson",
+      "title": "Tokusou Robo Janperson Episode 49 Sub Indo",
+      "episodeNumber": 49,
+      "seasonNumber": 1,
+      "era": "Heisei",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/tokusou-robo-janperson-episode-49-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1SiabIBbeWaIffaTNhtptZC78D3NddHXO/view?usp=drivesdk",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1qyRies2QgYC-5NgqZ81of25S2nQaPkXl/view?usp=drivesdk",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NzM4NH0.698d25653e1635e6e3e0aef4711c8dbc592da90f371290fb8d1d231284c19254",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1SiabIBbeWaIffaTNhtptZC78D3NddHXO/preview",
+          "directUrl": "https://drive.google.com/file/d/1SiabIBbeWaIffaTNhtptZC78D3NddHXO/view?usp=drivesdk",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1qyRies2QgYC-5NgqZ81of25S2nQaPkXl/preview",
+          "directUrl": "https://drive.google.com/file/d/1qyRies2QgYC-5NgqZ81of25S2nQaPkXl/view?usp=drivesdk",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-11-25T07:52:30.538Z"
+    },
+    {
+      "id": "scraped_prod_tokusou_robo_janperson_ep48_mwvtsuus",
+      "productionId": "prod_tokusou_robo_janperson",
+      "franchise": "Metal Hero & Others",
+      "seriesTitle": "Tokusou Robo Janperson",
+      "title": "Tokusou Robo Janperson Episode 48 Sub Indo",
+      "episodeNumber": 48,
+      "seasonNumber": 1,
+      "era": "Heisei",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/tokusou-robo-janperson-episode-48-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1ql8ExjzkJnC8wKcHcJv1u2OCcxfJzvhx/view?usp=drivesdk",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1Tw9VXH1xxW_DyuMBUlQlP9yKHrKHpa3W/view?usp=drivesdk",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NzM4M30.5b1e4193edbb797c07b98415ceb2520ef8af6e478b10036759d62869934feffb",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1ql8ExjzkJnC8wKcHcJv1u2OCcxfJzvhx/preview",
+          "directUrl": "https://drive.google.com/file/d/1ql8ExjzkJnC8wKcHcJv1u2OCcxfJzvhx/view?usp=drivesdk",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1Tw9VXH1xxW_DyuMBUlQlP9yKHrKHpa3W/preview",
+          "directUrl": "https://drive.google.com/file/d/1Tw9VXH1xxW_DyuMBUlQlP9yKHrKHpa3W/view?usp=drivesdk",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-11-25T07:52:31.540Z"
+    },
+    {
+      "id": "scraped_prod_tokusou_robo_janperson_ep47_mwvtsvdl",
+      "productionId": "prod_tokusou_robo_janperson",
+      "franchise": "Metal Hero & Others",
+      "seriesTitle": "Tokusou Robo Janperson",
+      "title": "Tokusou Robo Janperson Episode 47 Sub Indo",
+      "episodeNumber": 47,
+      "seasonNumber": 1,
+      "era": "Heisei",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/tokusou-robo-janperson-episode-47-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/12wFQo8wK0x4lduXBL_FvMbTgunzPDEqo/view?usp=drivesdk",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1lm-TZIjzKhIevmmPIDZh3Co013ES1pht/view?usp=drivesdk",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NzM4Mn0.b9b83a18cf47059ad8372f45381dda9672882b55f8c3c072e62c577492cef5b2",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/12wFQo8wK0x4lduXBL_FvMbTgunzPDEqo/preview",
+          "directUrl": "https://drive.google.com/file/d/12wFQo8wK0x4lduXBL_FvMbTgunzPDEqo/view?usp=drivesdk",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1lm-TZIjzKhIevmmPIDZh3Co013ES1pht/preview",
+          "directUrl": "https://drive.google.com/file/d/1lm-TZIjzKhIevmmPIDZh3Co013ES1pht/view?usp=drivesdk",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-11-25T07:52:32.217Z"
+    },
+    {
+      "id": "scraped_prod_tokusou_robo_janperson_ep46_mwvtsvy5",
+      "productionId": "prod_tokusou_robo_janperson",
+      "franchise": "Metal Hero & Others",
+      "seriesTitle": "Tokusou Robo Janperson",
+      "title": "Tokusou Robo Janperson Episode 46 Sub Indo",
+      "episodeNumber": 46,
+      "seasonNumber": 1,
+      "era": "Heisei",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/tokusou-robo-janperson-episode-46-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1GWR1WmJKXcvFGwbfX2rRac4WTXUeJ7i7/view?usp=drivesdk",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1p_2g4uvh6tmVGOy7ORzoJ0aQUINGH0pv/view?usp=drivesdk",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NzM4MX0.9f1f4e497bad43257eacdebd794a9e92ba9a65dd8ca58eb1a57f16ae8210ff87",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1GWR1WmJKXcvFGwbfX2rRac4WTXUeJ7i7/preview",
+          "directUrl": "https://drive.google.com/file/d/1GWR1WmJKXcvFGwbfX2rRac4WTXUeJ7i7/view?usp=drivesdk",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1p_2g4uvh6tmVGOy7ORzoJ0aQUINGH0pv/preview",
+          "directUrl": "https://drive.google.com/file/d/1p_2g4uvh6tmVGOy7ORzoJ0aQUINGH0pv/view?usp=drivesdk",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-11-25T07:52:32.957Z"
+    },
+    {
+      "id": "scraped_prod_tokusou_robo_janperson_ep45_mwvtswiq",
+      "productionId": "prod_tokusou_robo_janperson",
+      "franchise": "Metal Hero & Others",
+      "seriesTitle": "Tokusou Robo Janperson",
+      "title": "Tokusou Robo Janperson Episode 45 Sub Indo",
+      "episodeNumber": 45,
+      "seasonNumber": 1,
+      "era": "Heisei",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/tokusou-robo-janperson-episode-45-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/161coQ-jt5F4TfCjWoS5SBAMKLAyZNalO/view?usp=drivesdk",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/14bKH7G6yXpAtMe8lO3OK2vQfCfNCg40L/view?usp=drivesdk",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NzM4MH0.a74680502930c7099a631598fa478087e7a82d94ad6d746ef2e3499183519c81",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/161coQ-jt5F4TfCjWoS5SBAMKLAyZNalO/preview",
+          "directUrl": "https://drive.google.com/file/d/161coQ-jt5F4TfCjWoS5SBAMKLAyZNalO/view?usp=drivesdk",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/14bKH7G6yXpAtMe8lO3OK2vQfCfNCg40L/preview",
+          "directUrl": "https://drive.google.com/file/d/14bKH7G6yXpAtMe8lO3OK2vQfCfNCg40L/view?usp=drivesdk",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-11-25T07:52:33.698Z"
+    },
+    {
+      "id": "scraped_prod_tokusou_robo_janperson_ep44_mwvtsx1i",
+      "productionId": "prod_tokusou_robo_janperson",
+      "franchise": "Metal Hero & Others",
+      "seriesTitle": "Tokusou Robo Janperson",
+      "title": "Tokusou Robo Janperson Episode 44 Sub Indo",
+      "episodeNumber": 44,
+      "seasonNumber": 1,
+      "era": "Heisei",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/tokusou-robo-janperson-episode-44-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1ZqJp3k9j1o8mA2bcZEPGtLhD26fB2ZMV/view?usp=drivesdk",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1Ko0i4ze8E9wL7cBQH-X7sArNKXo_Femn/view?usp=drivesdk",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NzM3OX0.e2901c313e3d335a894a52dd05908e8e0e5daeb0a3c9f982b8afc7dd9459dee5",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1ZqJp3k9j1o8mA2bcZEPGtLhD26fB2ZMV/preview",
+          "directUrl": "https://drive.google.com/file/d/1ZqJp3k9j1o8mA2bcZEPGtLhD26fB2ZMV/view?usp=drivesdk",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1Ko0i4ze8E9wL7cBQH-X7sArNKXo_Femn/preview",
+          "directUrl": "https://drive.google.com/file/d/1Ko0i4ze8E9wL7cBQH-X7sArNKXo_Femn/view?usp=drivesdk",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-11-25T07:52:34.374Z"
+    },
+    {
+      "id": "scraped_prod_tokusou_robo_janperson_ep43_mwvtsxnf",
+      "productionId": "prod_tokusou_robo_janperson",
+      "franchise": "Metal Hero & Others",
+      "seriesTitle": "Tokusou Robo Janperson",
+      "title": "Tokusou Robo Janperson Episode 43 Sub Indo",
+      "episodeNumber": 43,
+      "seasonNumber": 1,
+      "era": "Heisei",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/tokusou-robo-janperson-episode-43-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1Ovo4x8C2tfr4CET2mv4s-chXy6ZmsKBT/view?usp=drivesdk",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1vMvtoaQMbsOs6k8LJg0vmCZOv3jQ9f-z/view?usp=drivesdk",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NzM3OH0.f9de4874219aabbdfaec4f149ab1c975ff7a068e8c2452feb4cd2e2f8b80185b",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1Ovo4x8C2tfr4CET2mv4s-chXy6ZmsKBT/preview",
+          "directUrl": "https://drive.google.com/file/d/1Ovo4x8C2tfr4CET2mv4s-chXy6ZmsKBT/view?usp=drivesdk",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1vMvtoaQMbsOs6k8LJg0vmCZOv3jQ9f-z/preview",
+          "directUrl": "https://drive.google.com/file/d/1vMvtoaQMbsOs6k8LJg0vmCZOv3jQ9f-z/view?usp=drivesdk",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-11-25T07:52:35.163Z"
+    },
+    {
+      "id": "scraped_prod_tokusou_robo_janperson_ep42_mwvtsyd0",
+      "productionId": "prod_tokusou_robo_janperson",
+      "franchise": "Metal Hero & Others",
+      "seriesTitle": "Tokusou Robo Janperson",
+      "title": "Tokusou Robo Janperson Episode 42 Sub Indo",
+      "episodeNumber": 42,
+      "seasonNumber": 1,
+      "era": "Heisei",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/tokusou-robo-janperson-episode-42-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/1bjXRVpCLsM0SP6wocy-3t2j9gO3y8N5P/view?usp=drivesdk",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1hxCOCVkHBY-IIoOTDIOcc9CywJ7BpVv1/view?usp=drivesdk",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NzM3N30.4b8f815b595c50f1e264917681b07b99ac02395888aaf23c977c04b16271b021",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/1bjXRVpCLsM0SP6wocy-3t2j9gO3y8N5P/preview",
+          "directUrl": "https://drive.google.com/file/d/1bjXRVpCLsM0SP6wocy-3t2j9gO3y8N5P/view?usp=drivesdk",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1hxCOCVkHBY-IIoOTDIOcc9CywJ7BpVv1/preview",
+          "directUrl": "https://drive.google.com/file/d/1hxCOCVkHBY-IIoOTDIOcc9CywJ7BpVv1/view?usp=drivesdk",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-11-25T07:52:36.084Z"
+    },
+    {
+      "id": "scraped_prod_tokusou_robo_janperson_ep41_mwvtsywz",
+      "productionId": "prod_tokusou_robo_janperson",
+      "franchise": "Metal Hero & Others",
+      "seriesTitle": "Tokusou Robo Janperson",
+      "title": "Tokusou Robo Janperson Episode 41 Sub Indo",
+      "episodeNumber": 41,
+      "seasonNumber": 1,
+      "era": "Heisei",
+      "contentType": "tv_series",
+      "sourceUrl": "https://www.tokusatsuindo.com/tokusou-robo-janperson-episode-41-sub-indonesia/",
+      "fansub": "TokusatsuIndo / Sawidago Network",
+      "language": "Indonesian (Sub Indo)",
+      "quality": "1440p QHD / 1080p FHD",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg",
+      "driveDownloadUrl1": "https://drive.google.com/file/d/11LKifylkMMotO_in0-yGo-evMaAmKAl7/view?usp=drivesdk",
+      "driveDownloadUrl2": "https://drive.google.com/file/d/1bFqSH8gf1ppoKtLLaQ0DNjZosV9DBDEK/view?usp=drivesdk",
+      "servers": [
+        {
+          "id": "srv_1",
+          "name": "Server 1 (Direct Embed)",
+          "embedUrl": "https://player.tokusatsuindo.com/x/?t=eyJ2aWRlb19pZCI6NzM3Nn0.3c0eecb93333cdd58b776d26b26b487a43ef7bfc10412df5f9faf1a23ab6efeb",
+          "directUrl": null,
+          "type": "embed",
+          "status": "online"
+        },
+        {
+          "id": "srv_2",
+          "name": "Server Google Drive 1 (Fast HD)",
+          "embedUrl": "https://drive.google.com/file/d/11LKifylkMMotO_in0-yGo-evMaAmKAl7/preview",
+          "directUrl": "https://drive.google.com/file/d/11LKifylkMMotO_in0-yGo-evMaAmKAl7/view?usp=drivesdk",
+          "type": "gdrive",
+          "status": "online"
+        },
+        {
+          "id": "srv_3",
+          "name": "Server Google Drive 2 (Mirror HD)",
+          "embedUrl": "https://drive.google.com/file/d/1bFqSH8gf1ppoKtLLaQ0DNjZosV9DBDEK/preview",
+          "directUrl": "https://drive.google.com/file/d/1bFqSH8gf1ppoKtLLaQ0DNjZosV9DBDEK/view?usp=drivesdk",
+          "type": "gdrive",
+          "status": "online"
+        }
+      ],
+      "skipMarkers": {
+        "skipIntro": {
+          "start": 90,
+          "end": 180
+        },
+        "skipOutro": {
+          "start": 1350,
+          "end": 1440
+        }
+      },
+      "scrapedAt": "2026-11-25T07:52:36.803Z"
+    },
     {
       "id": "scraped_prod_kakusei_hunter_omegahorn_ep17_mws7xgid",
       "productionId": "prod_kakusei_hunter_omegahorn",
